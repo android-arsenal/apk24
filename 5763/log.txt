@@ -1,0 +1,114 @@
+2018-09-10 16:26:20,918 INFO  DownloadService - Downloading "https://github.com/CityVibes/RxAnnotations/archive/master.zip", attempt 3
+2018-09-10 16:27:21,738 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-10 16:27:22,863 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-10 16:27:22,864 INFO  DownloadService - Downloading "https://github.com/CityVibes/RxAnnotations/archive/master.zip", attempt 3
+2018-09-10 16:28:24,622 DEBUG FullProcessService - Repository https://github.com/CityVibes/RxAnnotations available: true
+2018-09-10 16:28:24,622 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-10 16:28:24,623 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/CityVibes/RxAnnotations, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src]
+2018-09-10 16:28:26,444 INFO  SysUtils - 
+2018-09-10 16:28:26,456 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/.git": true
+2018-09-10 16:28:26,461 INFO  FullProcessService - Size of directory with sources: 269 KB
+2018-09-10 16:28:26,461 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src]
+2018-09-10 16:28:26,488 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/.git/
+
+2018-09-10 16:28:26,492 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/gradlew
+2018-09-10 16:28:26,498 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/rxannotations/build.gradle
+2018-09-10 16:28:26,502 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/rxannotations/build.gradle
+2018-09-10 16:28:26,502 INFO  ProjectBuildService - Remote scripts: none
+2018-09-10 16:28:26,502 INFO  ProjectFixService - Fixing project...
+2018-09-10 16:28:26,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/example/local.properties
+2018-09-10 16:28:26,512 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/example/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-10 16:28:26,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/local.properties
+2018-09-10 16:28:26,514 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
+2018-09-10 16:28:26,514 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
+2018-09-10 16:28:26,515 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-10 16:28:26,515 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/rxannotations/local.properties
+2018-09-10 16:28:26,516 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/rxannotations/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-10 16:28:26,516 INFO  ProjectFixService - Project was maybe fixed
+2018-09-10 16:28:26,516 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-10 16:28:26,516 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-10 16:28:33,704 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-09-10 16:28:33,704 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-10 16:28:33,704 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-10 16:28:57,020 INFO  SysUtils - Configuration on demand is an incubating feature.
+:example:preBuild UP-TO-DATE
+:example:preDebugBuild
+:example:compileDebugAidl
+:example:compileDebugRenderscript
+:example:checkDebugManifest
+:example:generateDebugBuildConfig
+:example:prepareLintJar
+:example:generateDebugResValues
+:example:generateDebugResources
+:example:mergeDebugResources
+:example:createDebugCompatibleScreenManifests
+:example:processDebugManifest
+:example:splitsDiscoveryTaskDebug
+:example:processDebugResources
+:example:generateDebugSources
+:rxannotations:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:rxannotations:processResources
+:rxannotations:classes
+:rxannotations:jar
+:example:javaPreCompileDebug
+:example:compileDebugJavaWithJavac
+:example:compileDebugNdk NO-SOURCE
+:example:compileDebugSources
+:example:mergeDebugShaders
+:example:compileDebugShaders
+:example:generateDebugAssets
+:example:mergeDebugAssets
+:example:transformClassesWithDexBuilderForDebug
+:example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:example:transformDexArchiveWithDexMergerForDebug
+:example:mergeDebugJniLibFolders
+:example:transformNativeLibsWithMergeJniLibsForDebug
+:example:transformNativeLibsWithStripDebugSymbolForDebug
+:example:processDebugJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForDebug
+:example:validateSigningDebug
+:example:packageDebug
+:example:assembleDebug
+:example:preReleaseBuild
+:example:compileReleaseAidl
+:example:compileReleaseRenderscript
+:example:checkReleaseManifest
+:example:generateReleaseBuildConfig
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:example:mergeReleaseResources
+:example:createReleaseCompatibleScreenManifests
+:example:processReleaseManifest
+:example:splitsDiscoveryTaskRelease
+:example:processReleaseResources
+:example:generateReleaseSources
+:example:javaPreCompileRelease
+:example:compileReleaseJavaWithJavac
+:example:compileReleaseNdk NO-SOURCE
+:example:compileReleaseSources
+:example:lintVitalRelease
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:example:mergeReleaseAssets
+:example:transformClassesWithPreDexForRelease
+:example:transformDexWithDexForRelease
+:example:mergeReleaseJniLibFolders
+:example:transformNativeLibsWithMergeJniLibsForRelease
+:example:transformNativeLibsWithStripDebugSymbolForRelease
+:example:processReleaseJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 22s
+53 actionable tasks: 53 executed
+
+2018-09-10 16:28:57,076 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536571580915-0/src/example/build/outputs/apk/release/example-release-unsigned.apk

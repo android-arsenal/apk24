@@ -1,0 +1,374 @@
+2018-11-03 20:43:33,478 INFO  DownloadService - Downloading "https://github.com/Madrapps/Pikolo/archive/master.zip", attempt 3
+2018-11-03 20:43:38,170 INFO  DownloadService - Downloaded https://github.com/Madrapps/Pikolo/archive/master.zip, attempt 3
+2018-11-03 20:43:38,170 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/master.zip": 3 MB
+2018-11-03 20:43:38,170 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-03 20:43:38,172 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/master.zip: true
+2018-11-03 20:43:38,173 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src'.
+2018-11-03 20:43:38,217 INFO  FullProcessService - Size of directory with sources: 3 MB
+2018-11-03 20:43:38,217 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src]
+2018-11-03 20:43:38,236 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/.git/
+
+2018-11-03 20:43:38,239 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/gradlew
+2018-11-03 20:43:38,242 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/pikolo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/build.gradle
+2018-11-03 20:43:38,245 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/pikolo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/settings.gradle
+2018-11-03 20:43:38,246 INFO  ProjectBuildService - Remote scripts: none
+2018-11-03 20:43:38,246 INFO  ProjectFixService - Fixing project...
+2018-11-03 20:43:38,253 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/pikolo/local.properties
+2018-11-03 20:43:38,255 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/pikolo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-03 20:43:38,255 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/pikolo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-03 20:43:38,256 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/local.properties
+2018-11-03 20:43:38,258 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-03 20:43:38,259 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-03 20:43:38,260 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/local.properties
+2018-11-03 20:43:38,261 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2018-11-03 20:43:38,261 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2018-11-03 20:43:38,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-03 20:43:38,264 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-03 20:43:38,264 INFO  ProjectFixService - Project was maybe fixed
+2018-11-03 20:43:38,265 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-03 20:43:38,265 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/pikolo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-03 20:43:50,808 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-11-03 20:43:50,809 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-03 20:43:50,809 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/pikolo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-03 20:44:21,424 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :pikolo:preBuild UP-TO-DATE
+> Task :pikolo:preDebugBuild UP-TO-DATE
+> Task :pikolo:compileDebugAidl NO-SOURCE
+> Task :pikolo:compileDebugRenderscript
+> Task :pikolo:checkDebugManifest
+> Task :pikolo:generateDebugBuildConfig
+> Task :pikolo:generateDebugResValues
+> Task :pikolo:generateDebugResources
+> Task :pikolo:packageDebugResources
+> Task :pikolo:processDebugManifest
+> Task :pikolo:generateDebugRFile
+> Task :pikolo:compileDebugKotlin
+> Task :pikolo:prepareLintJar
+> Task :pikolo:generateDebugSources
+> Task :pikolo:javaPreCompileDebug
+> Task :pikolo:compileDebugJavaWithJavac
+> Task :pikolo:extractDebugAnnotations
+> Task :pikolo:mergeDebugConsumerProguardFiles
+> Task :pikolo:mergeDebugShaders
+> Task :pikolo:compileDebugShaders
+> Task :pikolo:generateDebugAssets
+> Task :pikolo:packageDebugAssets
+> Task :pikolo:packageDebugRenderscript NO-SOURCE
+> Task :pikolo:processDebugJavaRes NO-SOURCE
+> Task :pikolo:transformResourcesWithMergeJavaResForDebug
+> Task :pikolo:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :pikolo:compileDebugNdk NO-SOURCE
+> Task :pikolo:mergeDebugJniLibFolders
+> Task :pikolo:transformNativeLibsWithMergeJniLibsForDebug
+> Task :pikolo:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :pikolo:transformNativeLibsWithSyncJniLibsForDebug
+> Task :pikolo:bundleDebugAar
+> Task :pikolo:compileDebugSources
+> Task :pikolo:assembleDebug
+> Task :pikolo:preReleaseBuild UP-TO-DATE
+> Task :pikolo:compileReleaseAidl NO-SOURCE
+> Task :pikolo:compileReleaseRenderscript
+> Task :pikolo:checkReleaseManifest
+> Task :pikolo:generateReleaseBuildConfig
+> Task :pikolo:generateReleaseResValues
+> Task :pikolo:generateReleaseResources
+> Task :pikolo:packageReleaseResources
+> Task :pikolo:processReleaseManifest
+> Task :pikolo:generateReleaseRFile
+> Task :pikolo:compileReleaseKotlin
+> Task :pikolo:generateReleaseSources
+> Task :pikolo:javaPreCompileRelease
+> Task :pikolo:compileReleaseJavaWithJavac
+> Task :pikolo:extractReleaseAnnotations
+> Task :pikolo:mergeReleaseConsumerProguardFiles
+> Task :pikolo:mergeReleaseShaders
+> Task :pikolo:compileReleaseShaders
+> Task :pikolo:generateReleaseAssets
+> Task :pikolo:packageReleaseAssets
+> Task :pikolo:packageReleaseRenderscript NO-SOURCE
+> Task :pikolo:processReleaseJavaRes NO-SOURCE
+> Task :pikolo:transformResourcesWithMergeJavaResForRelease
+> Task :pikolo:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :pikolo:compileReleaseNdk NO-SOURCE
+> Task :pikolo:mergeReleaseJniLibFolders
+> Task :pikolo:transformNativeLibsWithMergeJniLibsForRelease
+> Task :pikolo:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :pikolo:transformNativeLibsWithSyncJniLibsForRelease
+> Task :pikolo:bundleReleaseAar
+> Task :pikolo:compileReleaseSources
+> Task :pikolo:mergeReleaseResources
+> Task :pikolo:verifyReleaseResources
+> Task :pikolo:assembleRelease
+> Task :pikolo:javadoc NO-SOURCE
+> Task :pikolo:javadocJar
+> Task :pikolo:sourcesJar
+> Task :pikolo:assemble
+> Task :pikolo:build
+
+BUILD SUCCESSFUL in 29s
+49 actionable tasks: 49 executed
+
+2018-11-03 20:44:21,483 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-03 20:44:21,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-03 20:44:27,437 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-11-03 20:44:27,438 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-03 20:44:27,438 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-03 20:45:01,779 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :pikolo:preBuild UP-TO-DATE
+> Task :pikolo:preDebugBuild UP-TO-DATE
+> Task :pikolo:compileDebugAidl NO-SOURCE
+> Task :pikolo:compileDebugRenderscript UP-TO-DATE
+> Task :pikolo:checkDebugManifest UP-TO-DATE
+> Task :pikolo:generateDebugBuildConfig UP-TO-DATE
+> Task :pikolo:generateDebugResValues UP-TO-DATE
+> Task :pikolo:generateDebugResources UP-TO-DATE
+> Task :pikolo:packageDebugResources UP-TO-DATE
+> Task :pikolo:processDebugManifest UP-TO-DATE
+> Task :pikolo:generateDebugRFile UP-TO-DATE
+> Task :pikolo:compileDebugKotlin UP-TO-DATE
+> Task :pikolo:prepareLintJar UP-TO-DATE
+> Task :pikolo:generateDebugSources UP-TO-DATE
+> Task :pikolo:javaPreCompileDebug UP-TO-DATE
+> Task :pikolo:compileDebugJavaWithJavac UP-TO-DATE
+> Task :pikolo:processDebugJavaRes NO-SOURCE
+> Task :pikolo:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :sample:checkDebugClasspath
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :pikolo:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:splitsDiscoveryTaskDebug
+> Task :sample:processDebugResources
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :pikolo:mergeDebugShaders UP-TO-DATE
+> Task :pikolo:compileDebugShaders UP-TO-DATE
+> Task :pikolo:generateDebugAssets UP-TO-DATE
+> Task :pikolo:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :pikolo:compileDebugNdk NO-SOURCE
+> Task :pikolo:mergeDebugJniLibFolders UP-TO-DATE
+> Task :pikolo:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :pikolo:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :pikolo:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:checkDebugLibraries
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :pikolo:preReleaseBuild UP-TO-DATE
+> Task :pikolo:compileReleaseAidl NO-SOURCE
+> Task :pikolo:compileReleaseRenderscript UP-TO-DATE
+> Task :pikolo:checkReleaseManifest UP-TO-DATE
+> Task :pikolo:generateReleaseBuildConfig UP-TO-DATE
+> Task :pikolo:generateReleaseResValues UP-TO-DATE
+> Task :pikolo:generateReleaseResources UP-TO-DATE
+> Task :pikolo:packageReleaseResources UP-TO-DATE
+> Task :pikolo:processReleaseManifest UP-TO-DATE
+> Task :pikolo:generateReleaseRFile UP-TO-DATE
+> Task :pikolo:compileReleaseKotlin UP-TO-DATE
+> Task :pikolo:generateReleaseSources UP-TO-DATE
+> Task :pikolo:javaPreCompileRelease UP-TO-DATE
+> Task :pikolo:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :pikolo:processReleaseJavaRes NO-SOURCE
+> Task :pikolo:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sample:checkReleaseClasspath
+> Task :sample:extractProguardFiles
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :pikolo:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:splitsDiscoveryTaskRelease
+> Task :sample:processReleaseResources
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/1e5425650a2b7b7743f493adee22227e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :pikolo:mergeReleaseShaders UP-TO-DATE
+> Task :pikolo:compileReleaseShaders UP-TO-DATE
+> Task :pikolo:generateReleaseAssets UP-TO-DATE
+> Task :pikolo:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :pikolo:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :sample:checkReleaseLibraries
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/66b31b0bb8367e68b5570a0282eed521/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/63fab81a6bf5b6a4f1fe362161a2b8cd/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7054a569611ada1120841eefb06a6c13/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/fbdbc68b4c9c5cd65c3830f3290e7f05/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/eff40c8c58ed86a82ccbf6d4fa1268fa/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/6420cec03942be79abd05c9f414bc8a0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/60acff55a8df2ed308dfc5ab3da7eabe/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1c3f9966b4b89cab05b99700ebf99dfd/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/38ef4718090e91a982b1c82f7434d188/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a2f831a8510717961c70af9a946a6de2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c79fde0896d413afdfee1cf671d9c79a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/6fa293b489e9deda296aa3467275a737/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/0a25acc75bd0a729a1c6ae30dbe37388/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/32b363cf4bbaebd397e907ff03a8e15c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e262042f4b99458f6ca811a6cba41e27/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7767f89e813cbf2a0f2539d2ba59bccc/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f935845fc7fff19674e60b1405278a68/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6187e011d6c77b141fc491153a3c765f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/20c2e3af7f14b811bf8df3f264f20cc3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/95d099be795af89520ccbec30fdd12bd/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/af6805ec2aa6e599be1ab94974fe9209/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/718d1a8b4de136352795152937f2be62/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/eb2a6553e67e33480adb3bd388131d53/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/84ef95f66276eac5e3cce2d227ada084/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9484690f155cd5acc4fa0d14d139d2cb/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/88dd3b3145749b8c2010cf78bd412bad/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/f13b3675f48ddf2e295e51155d1ff83f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.71/4ce93f539e2133f172f1167291a911f83400a5d0/kotlin-stdlib-jdk7-1.2.71.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.71/ba18ca1aa0e40eb6f1865b324af2f4cbb691c1ec/kotlin-stdlib-common-1.2.71.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/pikolo/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
+Initializing...
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk8.JDK8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
+Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
+Note: the configuration keeps the entry point 'com.madrapps.pikolo.HSLColorPicker { void setColorSelectionListener(com.madrapps.pikolo.listeners.OnColorSelectionListener); }', but not the descriptor class 'com.madrapps.pikolo.listeners.OnColorSelectionListener'
+Note: the configuration keeps the entry point 'com.madrapps.pikolo.HSLColorPicker { HSLColorPicker(android.content.Context,android.util.AttributeSet,int,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
+Note: there were 2 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 4 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4803
+  Final number of library classes:    1264
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/build/outputs/mapping/release/usage.txt]...
+
+> Task :sample:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+
+Removing unused program classes and class elements...
+  Original number of program classes: 2102
+  Final number of program classes:    695
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/66b31b0bb8367e68b5570a0282eed521/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/63fab81a6bf5b6a4f1fe362161a2b8cd/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7054a569611ada1120841eefb06a6c13/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/fbdbc68b4c9c5cd65c3830f3290e7f05/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/eff40c8c58ed86a82ccbf6d4fa1268fa/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/6420cec03942be79abd05c9f414bc8a0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/60acff55a8df2ed308dfc5ab3da7eabe/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/1c3f9966b4b89cab05b99700ebf99dfd/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/38ef4718090e91a982b1c82f7434d188/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a2f831a8510717961c70af9a946a6de2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/c79fde0896d413afdfee1cf671d9c79a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/6fa293b489e9deda296aa3467275a737/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/0a25acc75bd0a729a1c6ae30dbe37388/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/32b363cf4bbaebd397e907ff03a8e15c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/e262042f4b99458f6ca811a6cba41e27/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7767f89e813cbf2a0f2539d2ba59bccc/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/f935845fc7fff19674e60b1405278a68/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6187e011d6c77b141fc491153a3c765f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/20c2e3af7f14b811bf8df3f264f20cc3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/95d099be795af89520ccbec30fdd12bd/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/af6805ec2aa6e599be1ab94974fe9209/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/718d1a8b4de136352795152937f2be62/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/eb2a6553e67e33480adb3bd388131d53/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/84ef95f66276eac5e3cce2d227ada084/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9484690f155cd5acc4fa0d14d139d2cb/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/88dd3b3145749b8c2010cf78bd412bad/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/f13b3675f48ddf2e295e51155d1ff83f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.71/4ce93f539e2133f172f1167291a911f83400a5d0/kotlin-stdlib-jdk7-1.2.71.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.71/ba18ca1aa0e40eb6f1865b324af2f4cbb691c1ec/kotlin-stdlib-common-1.2.71.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/pikolo/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :pikolo:compileReleaseNdk NO-SOURCE
+> Task :pikolo:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :pikolo:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :pikolo:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :pikolo:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+BUILD SUCCESSFUL in 33s
+94 actionable tasks: 60 executed, 34 up-to-date
+
+2018-11-03 20:45:01,895 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541252613473-0/src/Pikolo-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

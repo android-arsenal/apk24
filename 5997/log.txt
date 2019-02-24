@@ -1,0 +1,14 @@
+2018-09-02 22:34:11,329 INFO  DownloadService - Downloading "https://github.com/shubhamcalritus/socialLogin/archive/master.zip", attempt 3
+2018-09-02 22:35:12,136 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-02 22:35:13,056 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-02 22:35:13,056 INFO  DownloadService - Downloading "https://github.com/shubhamcalritus/socialLogin/archive/master.zip", attempt 3
+2018-09-02 22:36:14,703 DEBUG FullProcessService - Repository https://github.com/shubhamcalritus/socialLogin available: true
+2018-09-02 22:36:14,703 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-02 22:36:14,703 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/shubhamcalritus/socialLogin, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535902451327-0/src]
+2018-09-02 22:36:25,085 INFO  SysUtils - 
+2018-09-02 22:36:25,101 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535902451327-0/src/.git": true
+2018-09-02 22:36:25,110 INFO  FullProcessService - Size of directory with sources: 58 MB
+2018-09-02 22:36:25,110 ERROR FullProcessService - Source directory should be less than 50 MB
+2018-09-02 22:36:25,110 ERROR FullProcessService - Project will not be processed
+2018-09-02 22:36:25,110 ERROR FullProcessService - Project build has not produced APK file
+2018-09-02 22:36:25,117 ERROR FullProcessService - Could not find generated or existed APK file

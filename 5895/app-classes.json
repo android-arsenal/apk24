@@ -1,0 +1,5 @@
+{
+  "org.xelevra.prefdata.annotations" : [ "Belongs", "Encapsulate", "Exportable", "Exporter", "GenerateRemove", "Keyword", "PrefData", "Prefixed", "Use" ],
+  "org.xelevra.prefdata.provider" : [ "BuildConfig", "ExportedFieldsCursor", "PossibleValuesCursor", "PreferencesContentProvider", "R", "R$string" ],
+  "org.xelevra.prefdatatest" : [ "BuildConfig", "MainActivity", "MainActivity$1", "PrefTest", "R", "R$attr", "R$color", "R$dimen", "R$id", "R$layout", "R$mipmap", "R$string", "Test", "TestProvider" ]
+}

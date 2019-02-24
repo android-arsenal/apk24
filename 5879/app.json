@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "me.angrybyte.sillyandroid.demo",
+    "label" : "Silly Android",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.4.0",
+    "versionCode" : 140,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_NETWORK_STATE", "android.permission.ACCESS_WIFI_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1325,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"140\" android:versionName=\"1.4.0\" package=\"me.angrybyte.sillyandroid.demo\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"Silly Android\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"false\" android:roundIcon=\"res/mipmap-mdpi-v4/ic_launcher.png\">\n\t\t<activity android:label=\"Silly Android\" android:name=\"me.angrybyte.sillyandroid.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1264123,
+  "crc32" : 3273199688,
+  "sha256" : "2736165e6417ac859127d62226c5d15f11a88f5feeae3b0947b2d82dc22df909",
+  "buildTime" : 1536341249000
+}

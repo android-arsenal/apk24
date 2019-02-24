@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.franmontiel.localehandler.sample",
+    "label" : "LocaleChanger Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1765,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "en", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.franmontiel.localehandler.sample\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0d0004\" android:label=\"LocaleChanger Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.franmontiel.localechanger.sample.SampleApplication\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-mdpi-v4/ic_launcher_round.png\">\n\t\t<activity android:name=\"com.franmontiel.localechanger.sample.SampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"LocaleChanger Sample\" android:name=\"com.franmontiel.localechanger.sample.SampleFragmentContainerActivity\" android:parentActivityName=\"com.franmontiel.localechanger.sample.SampleActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1393594,
+  "crc32" : 1763428500,
+  "sha256" : "4b19151894c06625b6d759b41e80a360ba2df59172202f9960b86c2b742f601b",
+  "buildTime" : 1536572711000
+}

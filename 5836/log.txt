@@ -1,0 +1,158 @@
+2018-09-08 23:57:09,597 INFO  DownloadService - Downloading "https://github.com/ome450901/SimpleRatingBar/archive/master.zip", attempt 3
+2018-09-08 23:57:10,307 INFO  DownloadService - Downloaded https://github.com/ome450901/SimpleRatingBar/archive/master.zip, attempt 3
+2018-09-08 23:57:10,307 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/master.zip": 699 KB
+2018-09-08 23:57:10,307 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-08 23:57:10,312 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/master.zip: true
+2018-09-08 23:57:10,313 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src'.
+2018-09-08 23:57:10,340 INFO  FullProcessService - Size of directory with sources: 842 KB
+2018-09-08 23:57:10,340 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src]
+2018-09-08 23:57:10,356 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/.git/
+
+2018-09-08 23:57:10,360 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/gradlew
+2018-09-08 23:57:10,363 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/build.gradle
+2018-09-08 23:57:10,366 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/settings.gradle
+2018-09-08 23:57:10,366 INFO  ProjectBuildService - Remote scripts: none
+2018-09-08 23:57:10,366 INFO  ProjectFixService - Fixing project...
+2018-09-08 23:57:10,375 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/example/local.properties
+2018-09-08 23:57:10,376 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/example/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-09-08 23:57:10,376 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/library/local.properties
+2018-09-08 23:57:10,377 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/library/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-09-08 23:57:10,378 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/local.properties
+2018-09-08 23:57:10,378 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-09-08 23:57:10,378 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-09-08 23:57:10,379 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-09-08 23:57:10,379 INFO  ProjectFixService - Project was maybe fixed
+2018-09-08 23:57:10,379 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-08 23:57:10,379 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-08 23:57:16,657 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-08 23:57:16,657 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-08 23:57:16,658 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-08 23:57:40,885 INFO  SysUtils - Configuration on demand is an incubating feature.
+:example:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:example:preDebugBuild
+:library:compileDebugAidl
+:example:compileDebugAidl
+:library:packageDebugRenderscript NO-SOURCE
+:example:compileDebugRenderscript
+:example:checkDebugManifest
+:example:generateDebugBuildConfig
+:example:prepareLintJar
+:example:mainApkListPersistenceDebug
+:example:generateDebugResValues
+:example:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:example:mergeDebugResources
+:example:createDebugCompatibleScreenManifests
+:example:processDebugManifest
+:example:splitsDiscoveryTaskDebug
+:library:platformAttrExtractor
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:javaPreCompileDebug
+:library:processDebugJavaRes NO-SOURCE
+:example:compileDebugNdk NO-SOURCE
+:example:mergeDebugShaders
+:example:compileDebugShaders
+:example:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:packageDebugAssets
+:example:mergeDebugAssets
+:example:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:example:processDebugJavaRes NO-SOURCE
+:example:validateSigningDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:example:preReleaseBuild
+:library:compileReleaseAidl
+:example:compileReleaseAidl
+:library:packageReleaseRenderscript NO-SOURCE
+:example:compileReleaseRenderscript
+:example:checkReleaseManifest
+:example:generateReleaseBuildConfig
+:example:mainApkListPersistenceRelease
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:example:mergeReleaseResources
+:example:createReleaseCompatibleScreenManifests
+:example:processReleaseManifest
+:example:splitsDiscoveryTaskRelease
+:library:generateReleaseBuildConfig
+:library:javaPreCompileRelease
+:library:processReleaseJavaRes NO-SOURCE
+:example:compileReleaseNdk NO-SOURCE
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:example:mergeReleaseAssets
+:example:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:example:processReleaseJavaRes NO-SOURCE
+:library:generateDebugRFile
+:example:processDebugResources
+:example:generateDebugSources
+:library:generateDebugSources
+:library:compileDebugJavaWithJavac
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:example:javaPreCompileDebug
+:example:compileDebugJavaWithJavac
+:example:compileDebugSources
+:example:transformClassesWithDexBuilderForDebug
+:example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:example:transformDexArchiveWithDexMergerForDebug
+:example:transformNativeLibsWithMergeJniLibsForDebug
+:example:transformNativeLibsWithStripDebugSymbolForDebug
+:example:transformResourcesWithMergeJavaResForDebug
+:example:packageDebug
+:example:assembleDebug
+:library:generateReleaseRFile
+:example:processReleaseResources
+:example:generateReleaseSources
+:library:generateReleaseSources
+:library:compileReleaseJavaWithJavac
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:example:javaPreCompileRelease
+:example:compileReleaseJavaWithJavac
+:example:compileReleaseSources
+:example:lintVitalRelease
+:example:transformClassesWithDexBuilderForRelease
+:example:transformDexArchiveWithExternalLibsDexMergerForRelease
+:example:transformDexArchiveWithDexMergerForRelease
+:example:transformNativeLibsWithMergeJniLibsForRelease
+:example:transformNativeLibsWithStripDebugSymbolForRelease
+:example:transformResourcesWithMergeJavaResForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL in 23s
+91 actionable tasks: 91 executed
+
+2018-09-08 23:57:40,965 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425829589-0/src/SimpleRatingBar-master/example/build/outputs/apk/release/example-release-unsigned.apk

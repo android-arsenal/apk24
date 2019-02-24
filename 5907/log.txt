@@ -1,0 +1,257 @@
+2018-09-05 23:03:57,841 INFO  DownloadService - Downloading "https://github.com/nipun-birla/BoxLoaderView/archive/master.zip", attempt 3
+2018-09-05 23:04:00,099 INFO  DownloadService - Downloaded https://github.com/nipun-birla/BoxLoaderView/archive/master.zip, attempt 3
+2018-09-05 23:04:00,099 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/master.zip": 484 KB
+2018-09-05 23:04:00,100 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-05 23:04:00,105 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/master.zip: true
+2018-09-05 23:04:00,105 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src'.
+2018-09-05 23:04:00,128 INFO  FullProcessService - Size of directory with sources: 522 KB
+2018-09-05 23:04:00,128 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src]
+2018-09-05 23:04:00,144 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/.git/
+
+2018-09-05 23:04:00,147 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/gradlew
+2018-09-05 23:04:00,150 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/boxloader2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/sampleproject/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/build.gradle
+2018-09-05 23:04:00,153 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/boxloader2/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/boxloader2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/sampleproject/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/settings.gradle
+2018-09-05 23:04:00,154 INFO  ProjectBuildService - Remote scripts: none
+2018-09-05 23:04:00,154 INFO  ProjectFixService - Fixing project...
+2018-09-05 23:04:00,162 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/boxloader2/local.properties
+2018-09-05 23:04:00,163 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/boxloader2/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-05 23:04:00,163 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/sampleproject/local.properties
+2018-09-05 23:04:00,163 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/sampleproject/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-05 23:04:00,164 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/local.properties
+2018-09-05 23:04:00,164 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-09-05 23:04:00,164 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-09-05 23:04:00,166 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-05 23:04:00,166 INFO  ProjectFixService - Project was maybe fixed
+2018-09-05 23:04:00,166 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-05 23:04:00,166 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/boxloader2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-05 23:04:11,722 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-09-05 23:04:11,722 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-05 23:04:11,722 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/boxloader2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-05 23:04:25,177 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:boxloader2:androidSourcesJar
+:boxloader2:preBuild UP-TO-DATE
+:boxloader2:preDebugBuild UP-TO-DATE
+:boxloader2:checkDebugManifest
+:boxloader2:preDebugAndroidTestBuild UP-TO-DATE
+:boxloader2:preDebugUnitTestBuild UP-TO-DATE
+:boxloader2:preReleaseBuild UP-TO-DATE
+:boxloader2:preReleaseUnitTestBuild UP-TO-DATE
+:boxloader2:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:boxloader2:prepareComAndroidSupportAppcompatV72531Library
+:boxloader2:prepareComAndroidSupportCardviewV72531Library
+:boxloader2:prepareComAndroidSupportSupportCompat2531Library
+:boxloader2:prepareComAndroidSupportSupportCoreUi2531Library
+:boxloader2:prepareComAndroidSupportSupportCoreUtils2531Library
+:boxloader2:prepareComAndroidSupportSupportFragment2531Library
+:boxloader2:prepareComAndroidSupportSupportMediaCompat2531Library
+:boxloader2:prepareComAndroidSupportSupportV42531Library
+:boxloader2:prepareComAndroidSupportSupportVectorDrawable2531Library
+:boxloader2:prepareDebugDependencies
+:boxloader2:compileDebugAidl
+:boxloader2:compileDebugNdk UP-TO-DATE
+:boxloader2:compileLint
+:boxloader2:copyDebugLint UP-TO-DATE
+:boxloader2:compileDebugRenderscript
+:boxloader2:generateDebugBuildConfig
+:boxloader2:generateDebugResValues
+:boxloader2:generateDebugResources
+:boxloader2:mergeDebugResources
+:boxloader2:processDebugManifest
+:boxloader2:processDebugResources
+:boxloader2:generateDebugSources
+:boxloader2:incrementalDebugJavaCompilationSafeguard
+:boxloader2:compileDebugJavaWithJavac
+:boxloader2:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:boxloader2:extractDebugAnnotations
+:boxloader2:mergeDebugShaders
+:boxloader2:compileDebugShaders
+:boxloader2:generateDebugAssets
+:boxloader2:mergeDebugAssets
+:boxloader2:mergeDebugProguardFiles
+:boxloader2:packageDebugRenderscript UP-TO-DATE
+:boxloader2:packageDebugResources
+:boxloader2:processDebugJavaRes UP-TO-DATE
+:boxloader2:transformResourcesWithMergeJavaResForDebug
+:boxloader2:transformClassesAndResourcesWithSyncLibJarsForDebug
+:boxloader2:mergeDebugJniLibFolders
+:boxloader2:transformNative_libsWithMergeJniLibsForDebug
+:boxloader2:transformNative_libsWithSyncJniLibsForDebug
+:boxloader2:bundleDebug
+:boxloader2:compileDebugSources
+:boxloader2:assembleDebug
+:boxloader2:checkReleaseManifest
+:boxloader2:prepareReleaseDependencies
+:boxloader2:compileReleaseAidl
+:boxloader2:compileReleaseNdk UP-TO-DATE
+:boxloader2:copyReleaseLint UP-TO-DATE
+:boxloader2:compileReleaseRenderscript
+:boxloader2:generateReleaseBuildConfig
+:boxloader2:generateReleaseResValues
+:boxloader2:generateReleaseResources
+:boxloader2:mergeReleaseResources
+:boxloader2:processReleaseManifest
+:boxloader2:processReleaseResources
+:boxloader2:generateReleaseSources
+:boxloader2:incrementalReleaseJavaCompilationSafeguard
+:boxloader2:compileReleaseJavaWithJavac
+:boxloader2:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:boxloader2:extractReleaseAnnotations
+:boxloader2:mergeReleaseShaders
+:boxloader2:compileReleaseShaders
+:boxloader2:generateReleaseAssets
+:boxloader2:mergeReleaseAssets
+:boxloader2:mergeReleaseProguardFiles
+:boxloader2:packageReleaseRenderscript UP-TO-DATE
+:boxloader2:packageReleaseResources
+:boxloader2:processReleaseJavaRes UP-TO-DATE
+:boxloader2:transformResourcesWithMergeJavaResForRelease
+:boxloader2:transformClassesAndResourcesWithSyncLibJarsForRelease
+:boxloader2:mergeReleaseJniLibFolders
+:boxloader2:transformNative_libsWithMergeJniLibsForRelease
+:boxloader2:transformNative_libsWithSyncJniLibsForRelease
+:boxloader2:bundleRelease
+:boxloader2:compileReleaseSources
+:boxloader2:assembleRelease
+:boxloader2:signArchives SKIPPED
+:boxloader2:assemble
+:boxloader2:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.852 secs
+
+2018-09-05 23:04:25,248 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-05 23:04:25,249 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/sampleproject/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-05 23:04:33,335 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-09-05 23:04:33,336 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-05 23:04:33,336 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/sampleproject/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-05 23:04:52,729 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:boxloader2:preBuild UP-TO-DATE
+:boxloader2:preReleaseBuild UP-TO-DATE
+:boxloader2:checkReleaseManifest
+:boxloader2:preDebugAndroidTestBuild UP-TO-DATE
+:boxloader2:preDebugBuild UP-TO-DATE
+:boxloader2:preDebugUnitTestBuild UP-TO-DATE
+:boxloader2:preReleaseUnitTestBuild UP-TO-DATE
+:boxloader2:prepareComAndroidSupportAnimatedVectorDrawable2531Library UP-TO-DATE
+:boxloader2:prepareComAndroidSupportAppcompatV72531Library UP-TO-DATE
+:boxloader2:prepareComAndroidSupportCardviewV72531Library UP-TO-DATE
+:boxloader2:prepareComAndroidSupportSupportCompat2531Library UP-TO-DATE
+:boxloader2:prepareComAndroidSupportSupportCoreUi2531Library UP-TO-DATE
+:boxloader2:prepareComAndroidSupportSupportCoreUtils2531Library UP-TO-DATE
+:boxloader2:prepareComAndroidSupportSupportFragment2531Library UP-TO-DATE
+:boxloader2:prepareComAndroidSupportSupportMediaCompat2531Library UP-TO-DATE
+:boxloader2:prepareComAndroidSupportSupportV42531Library UP-TO-DATE
+:boxloader2:prepareComAndroidSupportSupportVectorDrawable2531Library UP-TO-DATE
+:boxloader2:prepareReleaseDependencies
+:boxloader2:compileReleaseAidl UP-TO-DATE
+:boxloader2:compileReleaseNdk UP-TO-DATE
+:boxloader2:compileLint UP-TO-DATE
+:boxloader2:copyReleaseLint UP-TO-DATE
+:boxloader2:compileReleaseRenderscript UP-TO-DATE
+:boxloader2:generateReleaseBuildConfig UP-TO-DATE
+:boxloader2:generateReleaseResValues UP-TO-DATE
+:boxloader2:generateReleaseResources UP-TO-DATE
+:boxloader2:mergeReleaseResources UP-TO-DATE
+:boxloader2:processReleaseManifest UP-TO-DATE
+:boxloader2:processReleaseResources UP-TO-DATE
+:boxloader2:generateReleaseSources UP-TO-DATE
+:boxloader2:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:boxloader2:compileReleaseJavaWithJavac UP-TO-DATE
+:boxloader2:extractReleaseAnnotations UP-TO-DATE
+:boxloader2:mergeReleaseShaders UP-TO-DATE
+:boxloader2:compileReleaseShaders UP-TO-DATE
+:boxloader2:generateReleaseAssets UP-TO-DATE
+:boxloader2:mergeReleaseAssets UP-TO-DATE
+:boxloader2:mergeReleaseProguardFiles UP-TO-DATE
+:boxloader2:packageReleaseRenderscript UP-TO-DATE
+:boxloader2:packageReleaseResources UP-TO-DATE
+:boxloader2:processReleaseJavaRes UP-TO-DATE
+:boxloader2:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:boxloader2:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:boxloader2:mergeReleaseJniLibFolders UP-TO-DATE
+:boxloader2:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:boxloader2:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:boxloader2:bundleRelease UP-TO-DATE
+:sampleproject:preBuild UP-TO-DATE
+:sampleproject:preDebugBuild UP-TO-DATE
+:sampleproject:checkDebugManifest
+:sampleproject:preReleaseBuild UP-TO-DATE
+:sampleproject:prepareBoxLoaderViewMasterBoxloader2UnspecifiedLibrary
+:sampleproject:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:sampleproject:prepareComAndroidSupportAppcompatV72531Library
+:sampleproject:prepareComAndroidSupportCardviewV72531Library
+:sampleproject:prepareComAndroidSupportSupportCompat2531Library
+:sampleproject:prepareComAndroidSupportSupportCoreUi2531Library
+:sampleproject:prepareComAndroidSupportSupportCoreUtils2531Library
+:sampleproject:prepareComAndroidSupportSupportFragment2531Library
+:sampleproject:prepareComAndroidSupportSupportMediaCompat2531Library
+:sampleproject:prepareComAndroidSupportSupportV42531Library
+:sampleproject:prepareComAndroidSupportSupportVectorDrawable2531Library
+:sampleproject:prepareDebugDependencies
+:sampleproject:compileDebugAidl
+:sampleproject:compileDebugRenderscript
+:sampleproject:generateDebugBuildConfig
+:sampleproject:generateDebugResValues
+:sampleproject:generateDebugResources
+:sampleproject:mergeDebugResources
+:sampleproject:processDebugManifest
+:sampleproject:processDebugResources
+:sampleproject:generateDebugSources
+:sampleproject:incrementalDebugJavaCompilationSafeguard
+:sampleproject:compileDebugJavaWithJavac
+:sampleproject:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sampleproject:compileDebugNdk UP-TO-DATE
+:sampleproject:compileDebugSources
+:sampleproject:mergeDebugShaders
+:sampleproject:compileDebugShaders
+:sampleproject:generateDebugAssets
+:sampleproject:mergeDebugAssets
+:sampleproject:transformClassesWithDexForDebug
+:sampleproject:mergeDebugJniLibFolders
+:sampleproject:transformNative_libsWithMergeJniLibsForDebug
+:sampleproject:transformNative_libsWithStripDebugSymbolForDebug
+:sampleproject:processDebugJavaRes UP-TO-DATE
+:sampleproject:transformResourcesWithMergeJavaResForDebug
+:sampleproject:validateSigningDebug
+:sampleproject:packageDebug
+:sampleproject:assembleDebug
+:sampleproject:checkReleaseManifest
+:sampleproject:prepareReleaseDependencies
+:sampleproject:compileReleaseAidl
+:sampleproject:compileReleaseRenderscript
+:sampleproject:generateReleaseBuildConfig
+:sampleproject:generateReleaseResValues
+:sampleproject:generateReleaseResources
+:sampleproject:mergeReleaseResources
+:sampleproject:processReleaseManifest
+:sampleproject:processReleaseResources
+:sampleproject:generateReleaseSources
+:sampleproject:incrementalReleaseJavaCompilationSafeguard
+:sampleproject:compileReleaseJavaWithJavac
+:sampleproject:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sampleproject:compileReleaseNdk UP-TO-DATE
+:sampleproject:compileReleaseSources
+:sampleproject:lintVitalRelease
+:sampleproject:mergeReleaseShaders
+:sampleproject:compileReleaseShaders
+:sampleproject:generateReleaseAssets
+:sampleproject:mergeReleaseAssets
+:sampleproject:transformClassesWithDexForRelease
+:sampleproject:mergeReleaseJniLibFolders
+:sampleproject:transformNative_libsWithMergeJniLibsForRelease
+:sampleproject:transformNative_libsWithStripDebugSymbolForRelease
+:sampleproject:processReleaseJavaRes UP-TO-DATE
+:sampleproject:transformResourcesWithMergeJavaResForRelease
+:sampleproject:packageRelease
+:sampleproject:assembleRelease
+:sampleproject:assemble
+:sampleproject:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.742 secs
+
+2018-09-05 23:04:52,861 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163437833-0/src/BoxLoaderView-master/sampleproject/build/outputs/apk/sampleproject-debug.apk

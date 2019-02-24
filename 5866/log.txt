@@ -1,0 +1,200 @@
+2018-09-08 01:28:31,839 INFO  DownloadService - Downloading "https://github.com/ahmed-adel-said/Twitter_Client/archive/master.zip", attempt 3
+2018-09-08 01:29:32,727 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-08 01:29:33,630 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-08 01:29:33,630 INFO  DownloadService - Downloading "https://github.com/ahmed-adel-said/Twitter_Client/archive/master.zip", attempt 3
+2018-09-08 01:30:35,480 DEBUG FullProcessService - Repository https://github.com/ahmed-adel-said/Twitter_Client available: true
+2018-09-08 01:30:35,480 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-08 01:30:35,481 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ahmed-adel-said/Twitter_Client, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src]
+2018-09-08 01:30:38,833 INFO  SysUtils - 
+2018-09-08 01:30:38,843 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/.git": true
+2018-09-08 01:30:38,852 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-09-08 01:30:38,852 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src]
+2018-09-08 01:30:38,869 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/.git/
+
+2018-09-08 01:30:38,875 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/gradlew
+2018-09-08 01:30:38,881 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/build.gradle
+2018-09-08 01:30:38,887 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/settings.gradle
+2018-09-08 01:30:38,887 INFO  ProjectBuildService - Remote scripts: none
+2018-09-08 01:30:38,887 INFO  ProjectFixService - Fixing project...
+2018-09-08 01:30:38,900 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/app/local.properties
+2018-09-08 01:30:38,900 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-09-08 01:30:38,901 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/local.properties
+2018-09-08 01:30:38,901 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-09-08 01:30:38,901 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-09-08 01:30:38,902 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-09-08 01:30:38,902 INFO  ProjectFixService - Project was maybe fixed
+2018-09-08 01:30:38,902 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-08 01:30:38,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-08 01:31:59,463 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-09-08 01:31:59,465 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-08 01:31:59,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-08 01:32:50,959 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidDatabindingAdapters11Library
+:app:prepareComAndroidDatabindingLibrary11Library
+:app:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:app:prepareComAndroidSupportAppcompatV72340Library
+:app:prepareComAndroidSupportCardviewV72340Library
+:app:prepareComAndroidSupportDesign2340Library
+:app:prepareComAndroidSupportRecyclerviewV72340Library
+:app:prepareComAndroidSupportSupportV42340Library
+:app:prepareComAndroidSupportSupportVectorDrawable2340Library
+:app:prepareComCrashlyticsSdkAndroidAnswersShim003Library
+:app:prepareComDigitsSdkAndroidDigits1110Library
+:app:prepareComGetkeepsafeRelinkerRelinker121Library
+:app:prepareComTwitterSdkAndroidTweetComposer105Library
+:app:prepareComTwitterSdkAndroidTweetUi1110Library
+:app:prepareComTwitterSdkAndroidTwitter1140Library
+:app:prepareComTwitterSdkAndroidTwitterCore170Library
+:app:prepareIoFabricSdkAndroidFabric1312Library
+:app:prepareIoReactivexRxandroid121Library
+:app:prepareIoRealmRealmAndroidLibrary101Library
+:app:prepareDebugDependencies
+:app:compileDebugRenderscript
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:processDebugManifest
+:app:fabricGenerateResourcesDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:dataBindingProcessLayoutsDebug
+:app:compileDebugAidl
+:app:generateDebugBuildConfig
+:app:processDebugResources
+:app:generateDebugSources
+:app:dataBindingExportBuildInfoDebug
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavacNote: Version 5.5.0 of Realm is now available: http://static.realm.io/downloads/java/latest
+Note: Processing class UserTweets
+Note: Processing class User
+Note: Processing class Followers
+Note: Processing class Tweets
+Note: Creating DefaultRealmModule
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:prePackageMarkerForDebug
+:app:transformClassesWithRealmTransformerForDebug
+:app:transformClassesWithRealmOptionalAPITransformerForDebug
+:app:transformClassesWithDexForDebug
+Result compacted from 6781.4KiB to 5347.8KiB to save 1433.5KiB
+Merged dex #1 (4770 defs/5035.6KiB)
+Merged dex #2 (208 defs/362.8KiB)
+Result is 4978 defs/5347.8KiB. Took 0.6s
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseRenderscript
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:processReleaseManifest
+:app:fabricGenerateResourcesRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:dataBindingProcessLayoutsRelease
+:app:compileReleaseAidl
+:app:generateReleaseBuildConfig
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:dataBindingExportBuildInfoRelease
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavacNote: Version 5.5.0 of Realm is now available: http://static.realm.io/downloads/java/latest
+Note: Processing class UserTweets
+Note: Processing class User
+Note: Processing class Followers
+Note: Processing class Tweets
+Note: Creating DefaultRealmModule
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/app/src/main/res/values/strings.xml:30: Error: "change_language_body_arabic" is not translated in "ar" (Arabic) [MissingTranslation]
+    <string name="change_language_body_arabic">Are You Sure To Change Language To Arabic</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/app/src/main/res/values/strings.xml:41: Error: "title_activity_followers_info" is not translated in "ar" (Arabic) [MissingTranslation]
+    <string name="title_activity_followers_info">FollowersInfoActivity</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "MissingTranslation":
+   If an application has more than one locale, then all the strings declared
+   in one language should also be translated in all other languages.
+
+   If the string should not be translated, you can add the attribute
+   translatable="false" on the <string> element, or you can define all your
+   non-translatable strings in a resource file called donottranslate.xml. Or,
+   you can ignore the issue with a tools:ignore="MissingTranslation"
+   attribute.
+
+   By default this detector allows regions of a language to just provide a
+   subset of the strings and fall back to the standard language strings. You
+   can require all regions to provide a full translation by setting the
+   environment variable ANDROID_LINT_COMPLETE_REGIONS.
+
+   You can tell lint (and other tools) which language is the default language
+   in your res/values/ folder by specifying tools:locale="languageCode" for
+   the root <resources> element in your resource file. (The tools prefix
+   refers to the namespace declaration http://schemas.android.com/tools.)
+
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/app/src/main/res/values-ar/strings.xml:30: Error: "change_language_body_english" is translated here but not found in default locale [ExtraTranslation]
+    <string name="change_language_body_english">هل آنت متآكيد من تغير اللغة للآنجليزية ؟</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ExtraTranslation":
+   If a string appears in a specific language translation file, but there is
+   no corresponding string in the default locale, then this string is probably
+   unused. (It's technically possible that your application is only intended
+   to run in a specific locale, but it's still a good idea to provide a
+   fallback.).
+
+   Note that these strings can lead to crashes if the string is looked up on
+   any locale not providing a translation, so it's important to clean them
+   up.
+
+3 errors, 0 warnings
+
+:app:prePackageMarkerForRelease
+:app:transformClassesWithRealmTransformerForRelease
+:app:transformClassesWithRealmOptionalAPITransformerForRelease
+:app:transformClassesWithDexForRelease
+Result compacted from 6781.3KiB to 5347.8KiB to save 1433.5KiB
+Merged dex #1 (4770 defs/5035.6KiB)
+Merged dex #2 (208 defs/362.7KiB)
+Result is 4978 defs/5347.8KiB. Took 0.4s
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 50.764 secs
+
+2018-09-08 01:32:51,277 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344911831-0/src/app/build/outputs/apk/app-debug.apk

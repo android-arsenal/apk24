@@ -1,0 +1,161 @@
+2018-11-16 20:09:08,523 INFO  DownloadService - Downloading "https://github.com/JessYanCoding/ProgressManager/archive/master.zip", attempt 3
+2018-11-16 20:09:12,039 INFO  DownloadService - Downloaded https://github.com/JessYanCoding/ProgressManager/archive/master.zip, attempt 3
+2018-11-16 20:09:12,040 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/master.zip": 2 MB
+2018-11-16 20:09:12,040 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-16 20:09:12,046 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/master.zip: true
+2018-11-16 20:09:12,046 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src'.
+2018-11-16 20:09:12,099 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-11-16 20:09:12,099 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src]
+2018-11-16 20:09:12,117 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/.git/
+
+2018-11-16 20:09:12,121 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/gradlew
+2018-11-16 20:09:12,124 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/progress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/build.gradle
+2018-11-16 20:09:12,127 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/progress/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/progress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/settings.gradle
+2018-11-16 20:09:12,128 INFO  ProjectBuildService - Remote scripts: none
+2018-11-16 20:09:12,128 INFO  ProjectFixService - Fixing project...
+2018-11-16 20:09:12,135 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/app/local.properties
+2018-11-16 20:09:12,137 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-16 20:09:12,137 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/progress/local.properties
+2018-11-16 20:09:12,139 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/progress/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-16 20:09:12,140 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/local.properties
+2018-11-16 20:09:12,140 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-11-16 20:09:12,140 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-11-16 20:09:12,141 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-11-16 20:09:12,141 INFO  ProjectFixService - Project was maybe fixed
+2018-11-16 20:09:12,141 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-16 20:09:12,141 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-16 20:09:18,212 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-16 20:09:18,212 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-16 20:09:18,212 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-16 20:09:43,951 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:progress:preBuild UP-TO-DATE
+:progress:preDebugBuild UP-TO-DATE
+:progress:checkDebugManifest
+:progress:processDebugManifest
+:app:preDebugBuild
+:progress:compileDebugAidl
+:app:compileDebugAidl
+:progress:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:progress:compileDebugRenderscript
+:progress:generateDebugResValues
+:progress:generateDebugResources
+:progress:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:progress:platformAttrExtractor
+:progress:generateDebugBuildConfig
+:progress:prepareLintJar
+:progress:javaPreCompileDebug
+:progress:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:progress:mergeDebugShaders
+:progress:compileDebugShaders
+:progress:generateDebugAssets
+:progress:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:progress:compileDebugNdk NO-SOURCE
+:progress:mergeDebugJniLibFolders
+:progress:transformNativeLibsWithMergeJniLibsForDebug
+:progress:transformNativeLibsWithStripDebugSymbolForDebug
+:progress:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:progress:preReleaseBuild UP-TO-DATE
+:progress:checkReleaseManifest
+:progress:processReleaseManifest
+:app:preReleaseBuild
+:progress:compileReleaseAidl
+:app:compileReleaseAidl
+:progress:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:progress:compileReleaseRenderscript
+:progress:generateReleaseResValues
+:progress:generateReleaseResources
+:progress:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:progress:generateReleaseBuildConfig
+:progress:javaPreCompileRelease
+:progress:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:progress:mergeReleaseShaders
+:progress:compileReleaseShaders
+:progress:generateReleaseAssets
+:progress:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:progress:compileReleaseNdk NO-SOURCE
+:progress:mergeReleaseJniLibFolders
+:progress:transformNativeLibsWithMergeJniLibsForRelease
+:progress:transformNativeLibsWithStripDebugSymbolForRelease
+:progress:transformNativeLibsWithIntermediateJniLibsForRelease
+:progress:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:progress:generateDebugSources
+:progress:compileDebugJavaWithJavac
+:progress:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/github/bumptech/glide/compiler/4.6.1/compiler-4.6.1.jar
+:app:compileDebugJavaWithJavacNote: [1] Wrote GeneratedAppGlideModule with: [com.bumptech.glide.integration.okhttp3.OkHttpLibraryGlideModule]
+
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:progress:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:progress:generateReleaseSources
+:progress:compileReleaseJavaWithJavac
+:progress:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: [1] Wrote GeneratedAppGlideModule with: [com.bumptech.glide.integration.okhttp3.OkHttpLibraryGlideModule]
+
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 25s
+91 actionable tasks: 91 executed
+
+2018-11-16 20:09:44,019 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542373748515-0/src/ProgressManager-master/app/build/outputs/apk/debug/app-debug.apk

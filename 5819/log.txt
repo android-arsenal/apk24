@@ -1,0 +1,149 @@
+2018-09-09 00:15:29,765 INFO  DownloadService - Downloading "https://github.com/poldz123/ShapeRipple/archive/master.zip", attempt 3
+2018-09-09 00:15:30,806 INFO  DownloadService - Downloaded https://github.com/poldz123/ShapeRipple/archive/master.zip, attempt 3
+2018-09-09 00:15:30,806 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/master.zip": 345 KB
+2018-09-09 00:15:30,806 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-09 00:15:30,811 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/master.zip: true
+2018-09-09 00:15:30,812 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src'.
+2018-09-09 00:15:30,845 INFO  FullProcessService - Size of directory with sources: 426 KB
+2018-09-09 00:15:30,846 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src]
+2018-09-09 00:15:30,865 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/.git/
+
+2018-09-09 00:15:30,869 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/gradlew
+2018-09-09 00:15:30,873 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/ShapeRippleExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/ShapeRippleLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/build.gradle
+2018-09-09 00:15:30,876 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/ShapeRippleLibrary/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/ShapeRippleLibrary/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/ShapeRippleLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/ShapeRippleExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/settings.gradle
+2018-09-09 00:15:30,877 INFO  ProjectBuildService - Remote scripts: none
+2018-09-09 00:15:30,877 INFO  ProjectFixService - Fixing project...
+2018-09-09 00:15:30,887 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/ShapeRippleExample/local.properties
+2018-09-09 00:15:30,888 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/ShapeRippleExample/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-09 00:15:30,888 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/ShapeRippleLibrary/local.properties
+2018-09-09 00:15:30,888 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/ShapeRippleLibrary/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-09 00:15:30,889 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/local.properties
+2018-09-09 00:15:30,889 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-09 00:15:30,889 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-09 00:15:30,893 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-09 00:15:30,894 INFO  ProjectFixService - Project was maybe fixed
+2018-09-09 00:15:30,894 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-09 00:15:30,894 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/ShapeRippleExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-09 00:15:39,426 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-09 00:15:39,426 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-09 00:15:39,426 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/ShapeRippleExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-09 00:16:01,902 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:ShapeRippleExample:preBuild UP-TO-DATE
+:ShapeRippleExample:preDebugBuild UP-TO-DATE
+:ShapeRippleExample:checkDebugManifest
+:ShapeRippleExample:preReleaseBuild UP-TO-DATE
+:ShapeRippleExample:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:ShapeRippleExample:prepareComAndroidSupportAppcompatV72531Library
+:ShapeRippleExample:prepareComAndroidSupportDesign2531Library
+:ShapeRippleExample:prepareComAndroidSupportRecyclerviewV72531Library
+:ShapeRippleExample:prepareComAndroidSupportSupportCompat2531Library
+:ShapeRippleExample:prepareComAndroidSupportSupportCoreUi2531Library
+:ShapeRippleExample:prepareComAndroidSupportSupportCoreUtils2531Library
+:ShapeRippleExample:prepareComAndroidSupportSupportFragment2531Library
+:ShapeRippleExample:prepareComAndroidSupportSupportMediaCompat2531Library
+:ShapeRippleExample:prepareComAndroidSupportSupportV42531Library
+:ShapeRippleExample:prepareComAndroidSupportSupportVectorDrawable2531Library
+:ShapeRippleExample:prepareComAndroidSupportTransition2531Library
+:ShapeRippleExample:prepareOrgAdwLibraryDiscreteSeekbar101Library
+:ShapeRippleLibrary:preBuild UP-TO-DATE
+:ShapeRippleLibrary:preReleaseBuild UP-TO-DATE
+:ShapeRippleLibrary:checkReleaseManifest
+:ShapeRippleLibrary:prepareReleaseDependencies
+:ShapeRippleLibrary:compileReleaseAidl
+:ShapeRippleLibrary:compileReleaseNdk UP-TO-DATE
+:ShapeRippleLibrary:compileLint
+:ShapeRippleLibrary:copyReleaseLint UP-TO-DATE
+:ShapeRippleLibrary:mergeReleaseShaders
+:ShapeRippleLibrary:compileReleaseShaders
+:ShapeRippleLibrary:generateReleaseAssets
+:ShapeRippleLibrary:mergeReleaseAssets
+:ShapeRippleLibrary:mergeReleaseProguardFiles
+:ShapeRippleLibrary:packageReleaseRenderscript UP-TO-DATE
+:ShapeRippleLibrary:compileReleaseRenderscript
+:ShapeRippleLibrary:generateReleaseResValues
+:ShapeRippleLibrary:generateReleaseResources
+:ShapeRippleLibrary:packageReleaseResources
+:ShapeRippleLibrary:processReleaseManifest
+:ShapeRippleLibrary:generateReleaseBuildConfig
+:ShapeRippleLibrary:processReleaseResources
+:ShapeRippleLibrary:generateReleaseSources
+:ShapeRippleLibrary:incrementalReleaseJavaCompilationSafeguard
+:ShapeRippleLibrary:javaPreCompileRelease
+:ShapeRippleLibrary:compileReleaseJavaWithJavac
+:ShapeRippleLibrary:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ShapeRippleLibrary:processReleaseJavaRes UP-TO-DATE
+:ShapeRippleLibrary:transformResourcesWithMergeJavaResForRelease
+:ShapeRippleLibrary:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ShapeRippleLibrary:mergeReleaseJniLibFolders
+:ShapeRippleLibrary:transformNativeLibsWithMergeJniLibsForRelease
+:ShapeRippleLibrary:transformNativeLibsWithStripDebugSymbolForRelease
+:ShapeRippleLibrary:transformNativeLibsWithSyncJniLibsForRelease
+:ShapeRippleLibrary:bundleRelease
+:ShapeRippleExample:prepareDebugDependencies
+:ShapeRippleExample:compileDebugAidl
+:ShapeRippleExample:compileDebugRenderscript
+:ShapeRippleExample:generateDebugBuildConfig
+:ShapeRippleExample:generateDebugResValues
+:ShapeRippleExample:generateDebugResources
+:ShapeRippleExample:mergeDebugResources
+:ShapeRippleExample:processDebugManifest
+:ShapeRippleExample:processDebugResources
+:ShapeRippleExample:generateDebugSources
+:ShapeRippleExample:incrementalDebugJavaCompilationSafeguard
+:ShapeRippleExample:javaPreCompileDebug
+:ShapeRippleExample:compileDebugJavaWithJavac
+:ShapeRippleExample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ShapeRippleExample:compileDebugNdk UP-TO-DATE
+:ShapeRippleExample:compileDebugSources
+:ShapeRippleExample:mergeDebugShaders
+:ShapeRippleExample:compileDebugShaders
+:ShapeRippleExample:generateDebugAssets
+:ShapeRippleExample:mergeDebugAssets
+:ShapeRippleExample:transformClassesWithDexForDebug
+:ShapeRippleExample:mergeDebugJniLibFolders
+:ShapeRippleExample:transformNativeLibsWithMergeJniLibsForDebug
+:ShapeRippleExample:transformNativeLibsWithStripDebugSymbolForDebug
+:ShapeRippleExample:processDebugJavaRes UP-TO-DATE
+:ShapeRippleExample:transformResourcesWithMergeJavaResForDebug
+:ShapeRippleExample:validateSigningDebug
+:ShapeRippleExample:packageDebug
+:ShapeRippleExample:assembleDebug
+:ShapeRippleExample:checkReleaseManifest
+:ShapeRippleExample:prepareReleaseDependencies
+:ShapeRippleExample:compileReleaseAidl
+:ShapeRippleExample:compileReleaseRenderscript
+:ShapeRippleExample:generateReleaseBuildConfig
+:ShapeRippleExample:generateReleaseResValues
+:ShapeRippleExample:generateReleaseResources
+:ShapeRippleExample:mergeReleaseResources
+:ShapeRippleExample:processReleaseManifest
+:ShapeRippleExample:processReleaseResources
+:ShapeRippleExample:generateReleaseSources
+:ShapeRippleExample:incrementalReleaseJavaCompilationSafeguard
+:ShapeRippleExample:javaPreCompileRelease
+:ShapeRippleExample:compileReleaseJavaWithJavac
+:ShapeRippleExample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ShapeRippleExample:compileReleaseNdk UP-TO-DATE
+:ShapeRippleExample:compileReleaseSources
+:ShapeRippleExample:lintVitalRelease
+:ShapeRippleExample:mergeReleaseShaders
+:ShapeRippleExample:compileReleaseShaders
+:ShapeRippleExample:generateReleaseAssets
+:ShapeRippleExample:mergeReleaseAssets
+:ShapeRippleExample:transformClassesWithDexForRelease
+:ShapeRippleExample:mergeReleaseJniLibFolders
+:ShapeRippleExample:transformNativeLibsWithMergeJniLibsForRelease
+:ShapeRippleExample:transformNativeLibsWithStripDebugSymbolForRelease
+:ShapeRippleExample:processReleaseJavaRes UP-TO-DATE
+:ShapeRippleExample:transformResourcesWithMergeJavaResForRelease
+:ShapeRippleExample:packageRelease
+:ShapeRippleExample:assembleRelease
+:ShapeRippleExample:assemble
+:ShapeRippleExample:build
+
+BUILD SUCCESSFUL
+
+Total time: 21.744 secs
+
+2018-09-09 00:16:01,996 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426929757-0/src/ShapeRipple-master/ShapeRippleExample/build/outputs/apk/ShapeRippleExample-debug.apk

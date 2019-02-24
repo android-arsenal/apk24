@@ -1,0 +1,20 @@
+2018-09-10 22:48:30,794 INFO  DownloadService - Downloading "https://github.com/dimorinny/show-case-card-view/archive/master.zip", attempt 3
+2018-09-10 22:49:31,717 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-10 22:49:32,961 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-10 22:49:32,961 INFO  DownloadService - Downloading "https://github.com/dimorinny/show-case-card-view/archive/master.zip", attempt 3
+2018-09-10 22:50:34,646 DEBUG FullProcessService - Repository https://github.com/dimorinny/show-case-card-view available: true
+2018-09-10 22:50:34,646 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-10 22:50:34,646 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/dimorinny/show-case-card-view, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536594510786-0/src]
+2018-09-10 22:50:42,146 INFO  SysUtils - 
+2018-09-10 22:50:42,154 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536594510786-0/src/.git": true
+2018-09-10 22:50:42,157 INFO  FullProcessService - Size of directory with sources: 3 MB
+2018-09-10 22:50:42,157 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536594510786-0/src]
+2018-09-10 22:50:42,174 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536594510786-0/src/.git/
+
+2018-09-10 22:50:42,177 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536594510786-0/src/gradlew
+2018-09-10 22:50:42,180 INFO  ProjectBuildService - Build script(s): none
+2018-09-10 22:50:42,182 INFO  ProjectBuildService - All script(s): none
+2018-09-10 22:50:42,182 INFO  ProjectBuildService - Remote scripts: none
+2018-09-10 22:50:42,182 ERROR FullProcessService - Project is not correct Gradle project
+2018-09-10 22:50:42,182 ERROR FullProcessService - Project build has not produced APK file
+2018-09-10 22:50:42,185 ERROR FullProcessService - Could not find generated or existed APK file

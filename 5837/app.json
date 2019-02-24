@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "lib.folderpicker.demo",
+    "label" : "Folder Picker Demo",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.4",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAB50lEQVR42u3ZyUrDQBgH8GpxQc8mbqCCHlxQ0CIeFBRxSaLiRRB8BEEEX8CjVx9A8KRQ8KZim+JSrSJtouLRg+LBpU0mxV3TZhwFH+CrYr7A/OF/DfMLmclk4vPx8PDwoAoNNhdebNYXQUqDPj+KwSfDwloqLGRy6OnlTm2x6wA2EIeV5lIjLC5iANBf1EmGyiQvA2gqJNzeRwTRu4DviuuU+vI8DPjuY0oVHn7dsJA0QsK4G4C/7IrHAWWrHMABKABqRdaMNmfMaIv9r421xy1dnvlpWpcDOQHMw06bXYC6XQa4hQPU8qylDWUxAFhPwQBjr9FGMnhWaQ4MIMfdH0gAdkofq4QBIlXs7ksOBgDRpS3wKmTut2K5+5ScSFNgAIn34QBo8sPd2WApCGBs17wjmrzL4BeZGetAA0jrw/1AgJi1EgNYnv9rGpzwgwDGbsMbmsmrSwvgvRA56sICcMiZ0gIDqBW2pQ1nkExeDbwbNaNNr2hWH02ZBQPIcQ8WgP10PibCAJHqr2ffwbF0KhvgYxXzoO0Fz+qjTILPRkm8HwsgfZMYLQEBjO26ZzxbB2UJfDJnHgbwAE5GesEA9tloIQFcUTqfDwfossqacbkfRJOnc//FdCEVudpERwH/0cfDw+OdfAKJ1B5F94xUkQAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 1289,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"2.4\" package=\"lib.folderpicker.demo\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"Folder Picker Demo\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"lib.folderpicker.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"lib.folderpicker.FolderPicker\" android:screenOrientation=\"portrait\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1389502,
+  "crc32" : 130484089,
+  "sha256" : "b11504e3aedb2fe8056369071125b8d2e01f511f0a3ac6c94de84224429b3d96",
+  "buildTime" : 1536425808000
+}

@@ -1,0 +1,245 @@
+2018-12-29 13:46:17,647 INFO  DownloadService - Downloading "https://github.com/MasayukiSuda/ExoPlayerFilter/archive/master.zip", attempt 3
+2018-12-29 13:47:05,738 INFO  DownloadService - Downloaded https://github.com/MasayukiSuda/ExoPlayerFilter/archive/master.zip, attempt 3
+2018-12-29 13:47:05,738 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/master.zip": 30 MB
+2018-12-29 13:47:05,738 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-29 13:47:05,746 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/master.zip: true
+2018-12-29 13:47:05,746 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src'.
+2018-12-29 13:47:05,933 INFO  FullProcessService - Size of directory with sources: 30 MB
+2018-12-29 13:47:05,933 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src]
+2018-12-29 13:47:05,951 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/.git/
+
+2018-12-29 13:47:05,955 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/gradlew
+2018-12-29 13:47:05,958 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/epf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/build.gradle
+2018-12-29 13:47:05,961 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/epf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/settings.gradle
+2018-12-29 13:47:05,962 INFO  ProjectBuildService - Remote scripts: none
+2018-12-29 13:47:05,962 INFO  ProjectFixService - Fixing project...
+2018-12-29 13:47:05,971 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/epf/local.properties
+2018-12-29 13:47:05,973 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/epf/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-29 13:47:05,973 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/epf/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-29 13:47:05,975 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/sample/local.properties
+2018-12-29 13:47:05,977 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-29 13:47:05,977 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-29 13:47:05,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/local.properties
+2018-12-29 13:47:05,979 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-29 13:47:05,980 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-29 13:47:05,982 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-29 13:47:05,982 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-29 13:47:05,983 INFO  ProjectFixService - Project was maybe fixed
+2018-12-29 13:47:05,983 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-29 13:47:05,983 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/epf/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-29 13:47:13,050 INFO  ProjectTaskService - Detected possible tasks: 77
+2018-12-29 13:47:13,050 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-29 13:47:13,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/epf/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-29 13:47:29,185 INFO  SysUtils - Configuration on demand is an incubating feature.
+:epf:preBuild UP-TO-DATE
+:epf:preDebugBuild UP-TO-DATE
+:epf:compileDebugAidl NO-SOURCE
+:epf:compileDebugRenderscript
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-core/2.8.4/exoplayer-core-2.8.4.pom
+Download https://jcenter.bintray.com/com/google/android/exoplayer/exoplayer-core/2.8.4/exoplayer-core-2.8.4.aar
+:epf:checkDebugManifest
+:epf:generateDebugBuildConfig
+:epf:generateDebugResValues
+:epf:generateDebugResources
+:epf:packageDebugResources
+:epf:processDebugManifest
+:epf:generateDebugRFile
+:epf:prepareLintJar
+:epf:generateDebugSources
+:epf:javaPreCompileDebug
+:epf:compileDebugJavaWithJavac
+:epf:extractDebugAnnotations
+:epf:mergeDebugConsumerProguardFiles
+:epf:mergeDebugShaders
+:epf:compileDebugShaders
+:epf:generateDebugAssets
+:epf:packageDebugAssets
+:epf:packageDebugRenderscript NO-SOURCE
+:epf:processDebugJavaRes NO-SOURCE
+:epf:transformResourcesWithMergeJavaResForDebug
+:epf:transformClassesAndResourcesWithSyncLibJarsForDebug
+:epf:compileDebugNdk NO-SOURCE
+:epf:mergeDebugJniLibFolders
+:epf:transformNativeLibsWithMergeJniLibsForDebug
+:epf:transformNativeLibsWithStripDebugSymbolForDebug
+:epf:transformNativeLibsWithSyncJniLibsForDebug
+:epf:bundleDebugAar
+:epf:compileDebugSources
+:epf:assembleDebug
+:epf:preReleaseBuild UP-TO-DATE
+:epf:compileReleaseAidl NO-SOURCE
+:epf:compileReleaseRenderscript
+:epf:checkReleaseManifest
+:epf:generateReleaseBuildConfig
+:epf:generateReleaseResValues
+:epf:generateReleaseResources
+:epf:packageReleaseResources
+:epf:processReleaseManifest
+:epf:generateReleaseRFile
+:epf:generateReleaseSources
+:epf:javaPreCompileRelease
+:epf:compileReleaseJavaWithJavac
+:epf:extractReleaseAnnotations
+:epf:mergeReleaseConsumerProguardFiles
+:epf:mergeReleaseShaders
+:epf:compileReleaseShaders
+:epf:generateReleaseAssets
+:epf:packageReleaseAssets
+:epf:packageReleaseRenderscript NO-SOURCE
+:epf:processReleaseJavaRes NO-SOURCE
+:epf:transformResourcesWithMergeJavaResForRelease
+:epf:transformClassesAndResourcesWithSyncLibJarsForRelease
+:epf:compileReleaseNdk NO-SOURCE
+:epf:mergeReleaseJniLibFolders
+:epf:transformNativeLibsWithMergeJniLibsForRelease
+:epf:transformNativeLibsWithStripDebugSymbolForRelease
+:epf:transformNativeLibsWithSyncJniLibsForRelease
+:epf:bundleReleaseAar
+:epf:compileReleaseSources
+:epf:mergeReleaseResources
+:epf:verifyReleaseResources
+:epf:assembleRelease
+:epf:assemble
+:epf:build
+
+BUILD SUCCESSFUL in 15s
+45 actionable tasks: 45 executed
+
+2018-12-29 13:47:29,241 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-29 13:47:29,242 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-29 13:47:35,562 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-29 13:47:35,562 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-29 13:47:35,563 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-29 13:48:05,661 INFO  SysUtils - Configuration on demand is an incubating feature.
+:epf:preBuild UP-TO-DATE
+:epf:preDebugBuild UP-TO-DATE
+:epf:compileDebugAidl NO-SOURCE
+:epf:compileDebugRenderscript UP-TO-DATE
+:epf:checkDebugManifest UP-TO-DATE
+:epf:generateDebugBuildConfig UP-TO-DATE
+:epf:generateDebugResValues UP-TO-DATE
+:epf:generateDebugResources UP-TO-DATE
+:epf:packageDebugResources UP-TO-DATE
+:epf:processDebugManifest UP-TO-DATE
+:epf:generateDebugRFile UP-TO-DATE
+:epf:prepareLintJar UP-TO-DATE
+:epf:generateDebugSources UP-TO-DATE
+:epf:javaPreCompileDebug UP-TO-DATE
+:epf:compileDebugJavaWithJavac UP-TO-DATE
+:epf:processDebugJavaRes NO-SOURCE
+:epf:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl NO-SOURCE
+:epf:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:epf:mergeDebugShaders UP-TO-DATE
+:epf:compileDebugShaders UP-TO-DATE
+:epf:generateDebugAssets UP-TO-DATE
+:epf:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:epf:compileDebugNdk NO-SOURCE
+:epf:mergeDebugJniLibFolders UP-TO-DATE
+:epf:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:epf:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:epf:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:epf:preReleaseBuild UP-TO-DATE
+:epf:compileReleaseAidl NO-SOURCE
+:epf:compileReleaseRenderscript UP-TO-DATE
+:epf:checkReleaseManifest UP-TO-DATE
+:epf:generateReleaseBuildConfig UP-TO-DATE
+:epf:generateReleaseResValues UP-TO-DATE
+:epf:generateReleaseResources UP-TO-DATE
+:epf:packageReleaseResources UP-TO-DATE
+:epf:processReleaseManifest UP-TO-DATE
+:epf:generateReleaseRFile UP-TO-DATE
+:epf:generateReleaseSources UP-TO-DATE
+:epf:javaPreCompileRelease UP-TO-DATE
+:epf:compileReleaseJavaWithJavac UP-TO-DATE
+:epf:processReleaseJavaRes NO-SOURCE
+:epf:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:checkReleaseClasspath
+:sample:preReleaseBuild
+:sample:compileReleaseAidl NO-SOURCE
+:epf:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/1988f8b2fb0d2a6043069b651665b7dd/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:epf:mergeReleaseShaders UP-TO-DATE
+:epf:compileReleaseShaders UP-TO-DATE
+:epf:generateReleaseAssets UP-TO-DATE
+:epf:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:epf:compileReleaseNdk NO-SOURCE
+:epf:mergeReleaseJniLibFolders UP-TO-DATE
+:epf:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:epf:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:epf:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 29s
+90 actionable tasks: 59 executed, 31 up-to-date
+
+2018-12-29 13:48:05,789 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546065977643-0/src/ExoPlayerFilter-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

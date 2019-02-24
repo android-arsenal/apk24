@@ -1,0 +1,141 @@
+2018-09-05 23:07:50,240 INFO  DownloadService - Downloading "https://github.com/uziassantosferreira/RSS-Reader/archive/master.zip", attempt 3
+2018-09-05 23:07:56,849 INFO  DownloadService - Downloaded https://github.com/uziassantosferreira/RSS-Reader/archive/master.zip, attempt 3
+2018-09-05 23:07:56,849 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/master.zip": 10 MB
+2018-09-05 23:07:56,849 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-05 23:07:56,856 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/master.zip: true
+2018-09-05 23:07:56,856 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src'.
+2018-09-05 23:07:56,972 INFO  FullProcessService - Size of directory with sources: 10 MB
+2018-09-05 23:07:56,973 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src]
+2018-09-05 23:07:56,993 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/.git/
+
+2018-09-05 23:07:56,999 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/gradlew
+2018-09-05 23:07:57,005 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/rssreader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/build.gradle
+2018-09-05 23:07:57,010 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/rssreader/build.gradle
+2018-09-05 23:07:57,011 INFO  ProjectBuildService - Remote scripts: none
+2018-09-05 23:07:57,011 INFO  ProjectFixService - Fixing project...
+2018-09-05 23:07:57,023 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/rssreader/local.properties
+2018-09-05 23:07:57,024 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/rssreader/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-05 23:07:57,024 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/rssreader/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=28,targetSdkVersion=28]
+2018-09-05 23:07:57,025 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/local.properties
+2018-09-05 23:07:57,026 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.5-all.zip
+2018-09-05 23:07:57,026 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.5-bin.zip)
+2018-09-05 23:07:57,027 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-05 23:07:57,027 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=28,targetSdkVersion=28]
+2018-09-05 23:07:57,027 INFO  ProjectFixService - Project was maybe fixed
+2018-09-05 23:07:57,027 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-05 23:07:57,027 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/rssreader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-05 23:12:25,637 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-05 23:12:25,639 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-05 23:12:25,639 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/rssreader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-05 23:13:27,850 INFO  SysUtils - Configuration on demand is an incubating feature.
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+:rssreader:preBuild UP-TO-DATE
+:rssreader:preDebugBuild UP-TO-DATE
+:rssreader:checkDebugManifest
+:rssreader:preReleaseBuild UP-TO-DATE
+:rssreader:prepareComAndroidSupportAnimatedVectorDrawable2540Library
+:rssreader:prepareComAndroidSupportAppcompatV72540Library
+:rssreader:prepareComAndroidSupportCardviewV72540Library
+:rssreader:prepareComAndroidSupportCustomtabs2540Library
+:rssreader:prepareComAndroidSupportDesign2540Library
+:rssreader:prepareComAndroidSupportRecyclerviewV72540Library
+:rssreader:prepareComAndroidSupportSupportCompat2540Library
+:rssreader:prepareComAndroidSupportSupportCoreUi2540Library
+:rssreader:prepareComAndroidSupportSupportCoreUtils2540Library
+:rssreader:prepareComAndroidSupportSupportFragment2540Library
+:rssreader:prepareComAndroidSupportSupportMediaCompat2540Library
+:rssreader:prepareComAndroidSupportSupportV42540Library
+:rssreader:prepareComAndroidSupportSupportVectorDrawable2540Library
+:rssreader:prepareComAndroidSupportTransition2540Library
+:rssreader:prepareComGithubFaruktoptasRetrofitRssConverterFactory002Library
+:rssreader:prepareComRogerCatloadinglibraryCatloadinglibrary103Library
+:rssreader:prepareIoReactivexRxjava2Rxandroid201Library
+:rssreader:prepareIoRequeryRequeryAndroid132Library
+:rssreader:prepareDebugDependencies
+:rssreader:compileDebugAidl
+:rssreader:compileDebugRenderscript
+:rssreader:generateDebugBuildConfig
+:rssreader:generateDebugResValues
+:rssreader:generateDebugResources
+:rssreader:mergeDebugResources
+:rssreader:processDebugManifest
+:rssreader:processDebugResources
+:rssreader:generateDebugSources
+:rssreader:incrementalDebugJavaCompilationSafeguard
+:rssreader:javaPreCompileDebug
+:rssreader:kaptDebugKotlin
+w: warning: The following options were not recognized by any processor: '[kapt.kotlin.generated]'
+w: 
+
+:rssreader:compileDebugKotlin
+Using kotlin incremental compilation
+:rssreader:compileDebugJavaWithJavac
+:rssreader:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:rssreader:copyDebugKotlinClasses
+:rssreader:compileDebugNdk NO-SOURCE
+:rssreader:compileDebugSources
+:rssreader:mergeDebugShaders
+:rssreader:compileDebugShaders
+:rssreader:generateDebugAssets
+:rssreader:mergeDebugAssets
+:rssreader:transformClassesWithDexForDebug
+:rssreader:mergeDebugJniLibFolders
+:rssreader:transformNativeLibsWithMergeJniLibsForDebug
+:rssreader:transformNativeLibsWithStripDebugSymbolForDebug
+:rssreader:processDebugJavaRes NO-SOURCE
+:rssreader:transformResourcesWithMergeJavaResForDebug
+:rssreader:validateSigningDebug
+:rssreader:packageDebug
+:rssreader:assembleDebug
+:rssreader:checkReleaseManifest
+:rssreader:prepareReleaseDependencies
+:rssreader:compileReleaseAidl
+:rssreader:compileReleaseRenderscript
+:rssreader:generateReleaseBuildConfig
+:rssreader:generateReleaseResValues
+:rssreader:generateReleaseResources
+:rssreader:mergeReleaseResources
+:rssreader:processReleaseManifest
+:rssreader:processReleaseResources
+:rssreader:generateReleaseSources
+:rssreader:incrementalReleaseJavaCompilationSafeguard
+:rssreader:javaPreCompileRelease
+:rssreader:kaptReleaseKotlin
+w: warning: The following options were not recognized by any processor: '[kapt.kotlin.generated]'
+w: 
+
+:rssreader:compileReleaseKotlin
+Using kotlin incremental compilation
+:rssreader:compileReleaseJavaWithJavac
+:rssreader:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:rssreader:copyReleaseKotlinClasses
+:rssreader:compileReleaseNdk NO-SOURCE
+:rssreader:compileReleaseSources
+:rssreader:lintVitalRelease
+:rssreader:mergeReleaseShaders
+:rssreader:compileReleaseShaders
+:rssreader:generateReleaseAssets
+:rssreader:mergeReleaseAssets
+:rssreader:transformClassesWithDexForRelease
+:rssreader:mergeReleaseJniLibFolders
+:rssreader:transformNativeLibsWithMergeJniLibsForRelease
+:rssreader:transformNativeLibsWithStripDebugSymbolForRelease
+:rssreader:processReleaseJavaRes NO-SOURCE
+:rssreader:transformResourcesWithMergeJavaResForRelease
+:rssreader:packageRelease
+:rssreader:assembleRelease
+:rssreader:assemble
+:rssreader:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 1.424 secs
+
+2018-09-05 23:13:27,954 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536163670237-0/src/RSS-Reader-master/apk/rssreader-debug.apk

@@ -1,0 +1,273 @@
+2018-09-05 23:13:51,820 INFO  DownloadService - Downloading "https://github.com/Madrapps/AsyncQuery/archive/master.zip", attempt 3
+2018-09-05 23:13:52,347 INFO  DownloadService - Downloaded https://github.com/Madrapps/AsyncQuery/archive/master.zip, attempt 3
+2018-09-05 23:13:52,347 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/master.zip": 105 KB
+2018-09-05 23:13:52,347 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-05 23:13:52,348 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/master.zip: true
+2018-09-05 23:13:52,348 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src'.
+2018-09-05 23:13:52,363 INFO  FullProcessService - Size of directory with sources: 135 KB
+2018-09-05 23:13:52,363 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src]
+2018-09-05 23:13:52,380 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/.git/
+
+2018-09-05 23:13:52,382 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/gradlew
+2018-09-05 23:13:52,385 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/asyncquery/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/build.gradle
+2018-09-05 23:13:52,388 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/asyncquery/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/settings.gradle
+2018-09-05 23:13:52,388 INFO  ProjectBuildService - Remote scripts: none
+2018-09-05 23:13:52,388 INFO  ProjectFixService - Fixing project...
+2018-09-05 23:13:52,393 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/asyncquery/local.properties
+2018-09-05 23:13:52,394 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/asyncquery/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-05 23:13:52,394 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/sample/local.properties
+2018-09-05 23:13:52,394 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-05 23:13:52,394 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/local.properties
+2018-09-05 23:13:52,395 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-05 23:13:52,395 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-05 23:13:52,396 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-05 23:13:52,396 INFO  ProjectFixService - Project was maybe fixed
+2018-09-05 23:13:52,396 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-05 23:13:52,396 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/asyncquery/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-05 23:14:01,202 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-09-05 23:14:01,202 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-05 23:14:01,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/asyncquery/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-05 23:14:15,365 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:asyncquery:preBuild UP-TO-DATE
+:asyncquery:preDebugBuild UP-TO-DATE
+:asyncquery:checkDebugManifest
+:asyncquery:preDebugAndroidTestBuild UP-TO-DATE
+:asyncquery:preDebugUnitTestBuild UP-TO-DATE
+:asyncquery:preReleaseBuild UP-TO-DATE
+:asyncquery:preReleaseUnitTestBuild UP-TO-DATE
+:asyncquery:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:asyncquery:prepareComAndroidSupportAppcompatV72531Library
+:asyncquery:prepareComAndroidSupportSupportCompat2531Library
+:asyncquery:prepareComAndroidSupportSupportCoreUi2531Library
+:asyncquery:prepareComAndroidSupportSupportCoreUtils2531Library
+:asyncquery:prepareComAndroidSupportSupportFragment2531Library
+:asyncquery:prepareComAndroidSupportSupportMediaCompat2531Library
+:asyncquery:prepareComAndroidSupportSupportV42531Library
+:asyncquery:prepareComAndroidSupportSupportVectorDrawable2531Library
+:asyncquery:prepareDebugDependencies
+:asyncquery:compileDebugAidl
+:asyncquery:compileDebugNdk UP-TO-DATE
+:asyncquery:compileLint
+:asyncquery:copyDebugLint UP-TO-DATE
+:asyncquery:compileDebugRenderscript
+:asyncquery:generateDebugBuildConfig
+:asyncquery:generateDebugResValues
+:asyncquery:generateDebugResources
+:asyncquery:mergeDebugResources
+:asyncquery:processDebugManifest
+:asyncquery:processDebugResources
+:asyncquery:generateDebugSources
+:asyncquery:incrementalDebugJavaCompilationSafeguard
+:asyncquery:javaPreCompileDebug
+:asyncquery:compileDebugJavaWithJavac
+:asyncquery:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:asyncquery:extractDebugAnnotations
+:asyncquery:mergeDebugShaders
+:asyncquery:compileDebugShaders
+:asyncquery:generateDebugAssets
+:asyncquery:mergeDebugAssets
+:asyncquery:mergeDebugProguardFiles
+:asyncquery:packageDebugRenderscript UP-TO-DATE
+:asyncquery:packageDebugResources
+:asyncquery:processDebugJavaRes UP-TO-DATE
+:asyncquery:transformResourcesWithMergeJavaResForDebug
+:asyncquery:transformClassesAndResourcesWithSyncLibJarsForDebug
+:asyncquery:mergeDebugJniLibFolders
+:asyncquery:transformNativeLibsWithMergeJniLibsForDebug
+:asyncquery:transformNativeLibsWithStripDebugSymbolForDebug
+:asyncquery:transformNativeLibsWithSyncJniLibsForDebug
+:asyncquery:bundleDebug
+:asyncquery:compileDebugSources
+:asyncquery:assembleDebug
+:asyncquery:checkReleaseManifest
+:asyncquery:prepareReleaseDependencies
+:asyncquery:compileReleaseAidl
+:asyncquery:compileReleaseNdk UP-TO-DATE
+:asyncquery:copyReleaseLint UP-TO-DATE
+:asyncquery:compileReleaseRenderscript
+:asyncquery:generateReleaseBuildConfig
+:asyncquery:generateReleaseResValues
+:asyncquery:generateReleaseResources
+:asyncquery:mergeReleaseResources
+:asyncquery:processReleaseManifest
+:asyncquery:processReleaseResources
+:asyncquery:generateReleaseSources
+:asyncquery:incrementalReleaseJavaCompilationSafeguard
+:asyncquery:javaPreCompileRelease
+:asyncquery:compileReleaseJavaWithJavac
+:asyncquery:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:asyncquery:extractReleaseAnnotations
+:asyncquery:mergeReleaseShaders
+:asyncquery:compileReleaseShaders
+:asyncquery:generateReleaseAssets
+:asyncquery:mergeReleaseAssets
+:asyncquery:mergeReleaseProguardFiles
+:asyncquery:packageReleaseRenderscript UP-TO-DATE
+:asyncquery:packageReleaseResources
+:asyncquery:processReleaseJavaRes UP-TO-DATE
+:asyncquery:transformResourcesWithMergeJavaResForRelease
+:asyncquery:transformClassesAndResourcesWithSyncLibJarsForRelease
+:asyncquery:mergeReleaseJniLibFolders
+:asyncquery:transformNativeLibsWithMergeJniLibsForRelease
+:asyncquery:transformNativeLibsWithStripDebugSymbolForRelease
+:asyncquery:transformNativeLibsWithSyncJniLibsForRelease
+:asyncquery:bundleRelease
+:asyncquery:compileReleaseSources
+:asyncquery:assembleRelease
+:asyncquery:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/asyncquery/src/main/java/com/madrapps/asyncquery/AsyncQueryHandler.java:183: warning: no @param for selection
+    public final void startUpdate(int token, Object cookie, Uri uri,
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/asyncquery/src/main/java/com/madrapps/asyncquery/AsyncQueryHandler.java:183: warning: no @param for selectionArgs
+    public final void startUpdate(int token, Object cookie, Uri uri,
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/asyncquery/src/main/java/com/madrapps/asyncquery/AsyncQueryHandler.java:211: warning: no @param for selectionArgs
+    public final void startDelete(int token, Object cookie, Uri uri,
+                      ^
+
+3 warnings
+:asyncquery:javadocJar
+:asyncquery:sourcesJar
+:asyncquery:assemble
+:asyncquery:build
+
+BUILD SUCCESSFUL
+
+Total time: 13.882 secs
+
+2018-09-05 23:14:15,431 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-05 23:14:15,431 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-05 23:14:24,146 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-05 23:14:24,146 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-05 23:14:24,146 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-05 23:14:42,571 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:asyncquery:preBuild UP-TO-DATE
+:asyncquery:preReleaseBuild UP-TO-DATE
+:asyncquery:checkReleaseManifest
+:asyncquery:preDebugAndroidTestBuild UP-TO-DATE
+:asyncquery:preDebugBuild UP-TO-DATE
+:asyncquery:preDebugUnitTestBuild UP-TO-DATE
+:asyncquery:preReleaseUnitTestBuild UP-TO-DATE
+:asyncquery:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:asyncquery:prepareComAndroidSupportAppcompatV72531Library
+:asyncquery:prepareComAndroidSupportSupportCompat2531Library
+:asyncquery:prepareComAndroidSupportSupportCoreUi2531Library
+:asyncquery:prepareComAndroidSupportSupportCoreUtils2531Library
+:asyncquery:prepareComAndroidSupportSupportFragment2531Library
+:asyncquery:prepareComAndroidSupportSupportMediaCompat2531Library
+:asyncquery:prepareComAndroidSupportSupportV42531Library
+:asyncquery:prepareComAndroidSupportSupportVectorDrawable2531Library
+:asyncquery:prepareReleaseDependencies
+:asyncquery:compileReleaseAidl UP-TO-DATE
+:asyncquery:compileReleaseNdk UP-TO-DATE
+:asyncquery:compileLint UP-TO-DATE
+:asyncquery:copyReleaseLint UP-TO-DATE
+:asyncquery:compileReleaseRenderscript UP-TO-DATE
+:asyncquery:generateReleaseBuildConfig UP-TO-DATE
+:asyncquery:generateReleaseResValues UP-TO-DATE
+:asyncquery:generateReleaseResources UP-TO-DATE
+:asyncquery:mergeReleaseResources UP-TO-DATE
+:asyncquery:processReleaseManifest UP-TO-DATE
+:asyncquery:processReleaseResources UP-TO-DATE
+:asyncquery:generateReleaseSources UP-TO-DATE
+:asyncquery:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:asyncquery:javaPreCompileRelease
+:asyncquery:compileReleaseJavaWithJavac UP-TO-DATE
+:asyncquery:extractReleaseAnnotations UP-TO-DATE
+:asyncquery:mergeReleaseShaders UP-TO-DATE
+:asyncquery:compileReleaseShaders UP-TO-DATE
+:asyncquery:generateReleaseAssets UP-TO-DATE
+:asyncquery:mergeReleaseAssets UP-TO-DATE
+:asyncquery:mergeReleaseProguardFiles UP-TO-DATE
+:asyncquery:packageReleaseRenderscript UP-TO-DATE
+:asyncquery:packageReleaseResources UP-TO-DATE
+:asyncquery:processReleaseJavaRes UP-TO-DATE
+:asyncquery:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:asyncquery:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:asyncquery:mergeReleaseJniLibFolders UP-TO-DATE
+:asyncquery:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:asyncquery:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:asyncquery:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:asyncquery:bundleRelease UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:sample:prepareComAndroidSupportAppcompatV72531Library
+:sample:prepareComAndroidSupportConstraintConstraintLayout102Library
+:sample:prepareComAndroidSupportSupportCompat2531Library
+:sample:prepareComAndroidSupportSupportCoreUi2531Library
+:sample:prepareComAndroidSupportSupportCoreUtils2531Library
+:sample:prepareComAndroidSupportSupportFragment2531Library
+:sample:prepareComAndroidSupportSupportMediaCompat2531Library
+:sample:prepareComAndroidSupportSupportV42531Library
+:sample:prepareComAndroidSupportSupportVectorDrawable2531Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:incrementalDebugJavaCompilationSafeguard
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:incrementalReleaseJavaCompilationSafeguard
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.112 secs
+
+2018-09-05 23:14:42,676 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536164031816-0/src/AsyncQuery-master/sample/build/outputs/apk/sample-debug.apk

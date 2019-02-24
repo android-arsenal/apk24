@@ -1,0 +1,168 @@
+2018-09-05 23:54:17,835 INFO  DownloadService - Downloading "https://github.com/hsllany/HtmlNative/archive/master.zip", attempt 3
+2018-09-05 23:54:46,044 INFO  DownloadService - Downloaded https://github.com/hsllany/HtmlNative/archive/master.zip, attempt 3
+2018-09-05 23:54:46,044 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/master.zip": 46 MB
+2018-09-05 23:54:46,044 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-05 23:54:46,048 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/master.zip: true
+2018-09-05 23:54:46,048 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src'.
+2018-09-05 23:54:46,376 INFO  FullProcessService - Size of directory with sources: 47 MB
+2018-09-05 23:54:46,376 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src]
+2018-09-05 23:54:46,395 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/.git/
+
+2018-09-05 23:54:46,403 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/gradlew
+2018-09-05 23:54:46,412 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/htmlnative-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/htmlnative-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/build.gradle
+2018-09-05 23:54:46,420 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/htmlnative-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/htmlnative-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/settings.gradle
+2018-09-05 23:54:46,421 INFO  ProjectBuildService - Remote scripts: none
+2018-09-05 23:54:46,421 INFO  ProjectFixService - Fixing project...
+2018-09-05 23:54:46,438 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/htmlnative-demo/local.properties
+2018-09-05 23:54:46,439 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/htmlnative-demo/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=23,targetSdkVersion=25]
+2018-09-05 23:54:46,440 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/htmlnative-lib/local.properties
+2018-09-05 23:54:46,440 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/htmlnative-lib/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=23,targetSdkVersion=23]
+2018-09-05 23:54:46,442 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/local.properties
+2018-09-05 23:54:46,442 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-05 23:54:46,443 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-05 23:54:46,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=23,targetSdkVersion=23]
+2018-09-05 23:54:46,444 INFO  ProjectFixService - Project was maybe fixed
+2018-09-05 23:54:46,445 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-05 23:54:46,445 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/htmlnative-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-05 23:54:58,961 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-05 23:54:58,961 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-05 23:54:58,962 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/htmlnative-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-05 23:55:25,096 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:htmlnative-demo:preBuild UP-TO-DATE
+:htmlnative-demo:preDebugBuild UP-TO-DATE
+:htmlnative-demo:checkDebugManifest
+:htmlnative-demo:preReleaseBuild UP-TO-DATE
+:htmlnative-demo:prepareComAndroidSupportAnimatedVectorDrawable2510Library
+:htmlnative-demo:prepareComAndroidSupportAppcompatV72510Library
+:htmlnative-demo:prepareComAndroidSupportSupportCompat2510Library
+:htmlnative-demo:prepareComAndroidSupportSupportCoreUi2510Library
+:htmlnative-demo:prepareComAndroidSupportSupportCoreUtils2510Library
+:htmlnative-demo:prepareComAndroidSupportSupportFragment2510Library
+:htmlnative-demo:prepareComAndroidSupportSupportMediaCompat2510Library
+:htmlnative-demo:prepareComAndroidSupportSupportV42510Library
+:htmlnative-demo:prepareComAndroidSupportSupportVectorDrawable2510Library
+:htmlnative-demo:prepareComAndroidVolleyVolley100Library
+:htmlnative-demo:prepareComGoogleAndroidFlexbox025Library
+:htmlnative-demo:prepareComSquareupLeakcanaryLeakcanaryAndroid15Library
+:htmlnative-lib:preBuild UP-TO-DATE
+:htmlnative-lib:preReleaseBuild UP-TO-DATE
+:htmlnative-lib:checkReleaseManifest
+:htmlnative-lib:preDebugAndroidTestBuild UP-TO-DATE
+:htmlnative-lib:preDebugBuild UP-TO-DATE
+:htmlnative-lib:preDebugUnitTestBuild UP-TO-DATE
+:htmlnative-lib:preReleaseUnitTestBuild UP-TO-DATE
+:htmlnative-lib:prepareComAndroidSupportAnimatedVectorDrawable2510Library
+:htmlnative-lib:prepareComAndroidSupportAppcompatV72510Library
+:htmlnative-lib:prepareComAndroidSupportSupportCompat2510Library
+:htmlnative-lib:prepareComAndroidSupportSupportCoreUi2510Library
+:htmlnative-lib:prepareComAndroidSupportSupportCoreUtils2510Library
+:htmlnative-lib:prepareComAndroidSupportSupportFragment2510Library
+:htmlnative-lib:prepareComAndroidSupportSupportMediaCompat2510Library
+:htmlnative-lib:prepareComAndroidSupportSupportV42510Library
+:htmlnative-lib:prepareComAndroidSupportSupportVectorDrawable2510Library
+:htmlnative-lib:prepareComGoogleAndroidFlexbox025Library
+:htmlnative-lib:prepareReleaseDependencies
+:htmlnative-lib:compileReleaseAidl
+:htmlnative-lib:compileReleaseNdk UP-TO-DATE
+:htmlnative-lib:compileLint
+:htmlnative-lib:copyReleaseLint UP-TO-DATE
+:htmlnative-lib:compileReleaseRenderscript
+:htmlnative-lib:generateReleaseBuildConfig
+:htmlnative-lib:generateReleaseResValues
+:htmlnative-lib:generateReleaseResources
+:htmlnative-lib:mergeReleaseResources
+:htmlnative-lib:processReleaseManifest
+:htmlnative-lib:processReleaseResources
+:htmlnative-lib:generateReleaseSources
+:htmlnative-lib:incrementalReleaseJavaCompilationSafeguard
+:htmlnative-lib:javaPreCompileRelease
+:htmlnative-lib:compileReleaseJavaWithJavac
+:htmlnative-lib:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/htmlnative-lib/src/main/java/com/mozz/htmlnative/css/Styles.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:htmlnative-lib:extractReleaseAnnotations
+:htmlnative-lib:mergeReleaseShaders
+:htmlnative-lib:compileReleaseShaders
+:htmlnative-lib:generateReleaseAssets
+:htmlnative-lib:mergeReleaseAssets
+:htmlnative-lib:mergeReleaseProguardFiles
+:htmlnative-lib:packageReleaseRenderscript UP-TO-DATE
+:htmlnative-lib:packageReleaseResources
+:htmlnative-lib:processReleaseJavaRes UP-TO-DATE
+:htmlnative-lib:transformResourcesWithMergeJavaResForRelease
+:htmlnative-lib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:htmlnative-lib:mergeReleaseJniLibFolders
+:htmlnative-lib:transformNativeLibsWithMergeJniLibsForRelease
+:htmlnative-lib:transformNativeLibsWithStripDebugSymbolForRelease
+:htmlnative-lib:transformNativeLibsWithSyncJniLibsForRelease
+:htmlnative-lib:bundleRelease
+:htmlnative-demo:prepareDebugDependencies
+:htmlnative-demo:compileDebugAidl
+:htmlnative-demo:compileDebugRenderscript
+:htmlnative-demo:generateDebugBuildConfig
+:htmlnative-demo:generateDebugResValues
+:htmlnative-demo:generateDebugResources
+:htmlnative-demo:mergeDebugResources
+:htmlnative-demo:processDebugManifest
+:htmlnative-demo:processDebugResources
+:htmlnative-demo:generateDebugSources
+:htmlnative-demo:incrementalDebugJavaCompilationSafeguard
+:htmlnative-demo:javaPreCompileDebug
+:htmlnative-demo:compileDebugJavaWithJavac
+:htmlnative-demo:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:htmlnative-demo:compileDebugNdk UP-TO-DATE
+:htmlnative-demo:compileDebugSources
+:htmlnative-demo:mergeDebugShaders
+:htmlnative-demo:compileDebugShaders
+:htmlnative-demo:generateDebugAssets
+:htmlnative-demo:mergeDebugAssets
+:htmlnative-demo:transformClassesWithDexForDebug
+:htmlnative-demo:mergeDebugJniLibFolders
+:htmlnative-demo:transformNativeLibsWithMergeJniLibsForDebug
+:htmlnative-demo:transformNativeLibsWithStripDebugSymbolForDebug
+:htmlnative-demo:processDebugJavaRes UP-TO-DATE
+:htmlnative-demo:transformResourcesWithMergeJavaResForDebug
+:htmlnative-demo:validateSigningDebug
+:htmlnative-demo:packageDebug
+:htmlnative-demo:assembleDebug
+:htmlnative-demo:checkReleaseManifest
+:htmlnative-demo:prepareReleaseDependencies
+:htmlnative-demo:compileReleaseAidl
+:htmlnative-demo:compileReleaseRenderscript
+:htmlnative-demo:generateReleaseBuildConfig
+:htmlnative-demo:generateReleaseResValues
+:htmlnative-demo:generateReleaseResources
+:htmlnative-demo:mergeReleaseResources
+:htmlnative-demo:processReleaseManifest
+:htmlnative-demo:processReleaseResources
+:htmlnative-demo:generateReleaseSources
+:htmlnative-demo:incrementalReleaseJavaCompilationSafeguard
+:htmlnative-demo:javaPreCompileRelease
+:htmlnative-demo:compileReleaseJavaWithJavac
+:htmlnative-demo:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:htmlnative-demo:compileReleaseNdk UP-TO-DATE
+:htmlnative-demo:compileReleaseSources
+:htmlnative-demo:lintVitalRelease
+:htmlnative-demo:mergeReleaseShaders
+:htmlnative-demo:compileReleaseShaders
+:htmlnative-demo:generateReleaseAssets
+:htmlnative-demo:mergeReleaseAssets
+:htmlnative-demo:transformClassesWithDexForRelease
+:htmlnative-demo:mergeReleaseJniLibFolders
+:htmlnative-demo:transformNativeLibsWithMergeJniLibsForRelease
+:htmlnative-demo:transformNativeLibsWithStripDebugSymbolForRelease
+:htmlnative-demo:processReleaseJavaRes UP-TO-DATE
+:htmlnative-demo:transformResourcesWithMergeJavaResForRelease
+:htmlnative-demo:packageRelease
+:htmlnative-demo:assembleRelease
+:htmlnative-demo:assemble
+:htmlnative-demo:build
+
+BUILD SUCCESSFUL
+
+Total time: 25.839 secs
+
+2018-09-05 23:55:25,228 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166457827-0/src/HtmlNative-master/HtmlNativeAndroid/htmlnative-demo/build/outputs/apk/htmlnative-demo-release-unsigned.apk

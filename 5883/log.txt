@@ -1,0 +1,217 @@
+2018-09-08 00:25:28,805 INFO  DownloadService - Downloading "https://github.com/BCsl/SimpleConfig/archive/master.zip", attempt 3
+2018-09-08 00:25:30,779 INFO  DownloadService - Downloaded https://github.com/BCsl/SimpleConfig/archive/master.zip, attempt 3
+2018-09-08 00:25:30,780 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/master.zip": 110 KB
+2018-09-08 00:25:30,780 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-08 00:25:30,780 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/master.zip: true
+2018-09-08 00:25:30,780 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src'.
+2018-09-08 00:25:30,796 INFO  FullProcessService - Size of directory with sources: 162 KB
+2018-09-08 00:25:30,796 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src]
+2018-09-08 00:25:30,843 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/.git/
+
+2018-09-08 00:25:30,845 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/gradlew
+2018-09-08 00:25:30,849 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/simpleconfig/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/build.gradle
+2018-09-08 00:25:30,852 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/simpleconfig/build.gradle
+2018-09-08 00:25:30,852 INFO  ProjectBuildService - Remote scripts: none
+2018-09-08 00:25:30,852 INFO  ProjectFixService - Fixing project...
+2018-09-08 00:25:30,859 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/app/local.properties
+2018-09-08 00:25:30,859 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-08 00:25:30,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/simpleconfig/local.properties
+2018-09-08 00:25:30,860 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/simpleconfig/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-08 00:25:30,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/local.properties
+2018-09-08 00:25:30,861 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-08 00:25:30,861 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-08 00:25:30,862 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-08 00:25:30,862 INFO  ProjectFixService - Project was maybe fixed
+2018-09-08 00:25:30,862 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-08 00:25:30,862 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-08 00:25:39,483 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-08 00:25:39,483 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-08 00:25:39,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-08 00:26:03,469 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:extractProguardFiles
+:app:preReleaseBuild
+:app:prepareComAndroidSupportAnimatedVectorDrawable2501Library
+:app:prepareComAndroidSupportAppcompatV72501Library
+:app:prepareComAndroidSupportSupportCompat2501Library
+:app:prepareComAndroidSupportSupportCoreUi2501Library
+:app:prepareComAndroidSupportSupportCoreUtils2501Library
+:app:prepareComAndroidSupportSupportFragment2501Library
+:app:prepareComAndroidSupportSupportMediaCompat2501Library
+:app:prepareComAndroidSupportSupportV42501Library
+:app:prepareComAndroidSupportSupportVectorDrawable2501Library
+:simpleconfig:preBuild UP-TO-DATE
+:simpleconfig:preReleaseBuild UP-TO-DATE
+:simpleconfig:checkReleaseManifest
+:simpleconfig:prepareReleaseDependencies
+:simpleconfig:compileReleaseAidl
+:simpleconfig:compileReleaseNdk UP-TO-DATE
+:simpleconfig:compileLint
+:simpleconfig:copyReleaseLint UP-TO-DATE
+:simpleconfig:compileReleaseRenderscript
+:simpleconfig:generateReleaseBuildConfig
+:simpleconfig:generateReleaseResValues
+:simpleconfig:generateReleaseResources
+:simpleconfig:packageReleaseResources
+:simpleconfig:processReleaseManifest
+:simpleconfig:processReleaseResources
+:simpleconfig:generateReleaseSources
+:simpleconfig:incrementalReleaseJavaCompilationSafeguard
+:simpleconfig:javaPreCompileRelease
+:simpleconfig:compileReleaseJavaWithJavac
+:simpleconfig:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:simpleconfig:extractReleaseAnnotations
+:simpleconfig:mergeReleaseShaders
+:simpleconfig:compileReleaseShaders
+:simpleconfig:generateReleaseAssets
+:simpleconfig:mergeReleaseAssets
+:simpleconfig:mergeReleaseProguardFiles
+:simpleconfig:packageReleaseRenderscript UP-TO-DATE
+:simpleconfig:processReleaseJavaRes UP-TO-DATE
+:simpleconfig:transformResourcesWithMergeJavaResForRelease
+:simpleconfig:transformClassesAndResourcesWithSyncLibJarsForRelease
+:simpleconfig:mergeReleaseJniLibFolders
+:simpleconfig:transformNativeLibsWithMergeJniLibsForRelease
+:simpleconfig:transformNativeLibsWithStripDebugSymbolForRelease
+:simpleconfig:transformNativeLibsWithSyncJniLibsForRelease
+:simpleconfig:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.2
+Reading input...
+Reading program jar [/Users/vbauer/.android/build-cache/8bbab0befb24ea36689f5316d265cd917697fa9b/output/jars/libs/internal_impl-25.0.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/71a28db0ec22a6c61a1ab88349d85c5b794eaeb1/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/7ff156da8297423fcc649df8a4e09fd9411f4f01/output/jars/libs/internal_impl-25.0.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/723b714f8e373189b5a6a9cea4d26b4fa409857a/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/9b0587048146d821b5bbf6eac3f8da276f034806/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/a2ff825b29b241dd39e21e20f0049199dd0ccd24/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/281cf5243103d7bb30d476c989eda01fac223d1d/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/8bbab0befb24ea36689f5316d265cd917697fa9b/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/7ff156da8297423fcc649df8a4e09fd9411f4f01/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/5bc3fa95b9e32ce0a400e0a8eecabde183dec723/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/a2ff825b29b241dd39e21e20f0049199dd0ccd24/output/jars/libs/internal_impl-25.0.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/8e01a39a957d2fc0982145cec5bec020a35e3b2e/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/281cf5243103d7bb30d476c989eda01fac223d1d/output/jars/libs/internal_impl-25.0.1.jar] (filtered)
+Reading program jar [/Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/8e01a39a957d2fc0982145cec5bec020a35e3b2e/output/jars/libs/internal_impl-25.0.1.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/simpleconfig/build/intermediates/bundles/default/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/app/build/intermediates/classes/release] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-25/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-25/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: you're ignoring all warnings!
+Ignoring unused library classes...
+  Original number of library classes: 4237
+  Final number of library classes:    983
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 1661
+  Final number of program classes:    852
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/app/build/outputs/mapping/release/mapping.txt]...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/app/build/intermediates/transforms/proguard/release/jars/3/1f/main.jar]
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/8bbab0befb24ea36689f5316d265cd917697fa9b/output/jars/libs/internal_impl-25.0.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/71a28db0ec22a6c61a1ab88349d85c5b794eaeb1/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/7ff156da8297423fcc649df8a4e09fd9411f4f01/output/jars/libs/internal_impl-25.0.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/723b714f8e373189b5a6a9cea4d26b4fa409857a/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/9b0587048146d821b5bbf6eac3f8da276f034806/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/a2ff825b29b241dd39e21e20f0049199dd0ccd24/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/281cf5243103d7bb30d476c989eda01fac223d1d/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/8bbab0befb24ea36689f5316d265cd917697fa9b/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/7ff156da8297423fcc649df8a4e09fd9411f4f01/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/5bc3fa95b9e32ce0a400e0a8eecabde183dec723/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/a2ff825b29b241dd39e21e20f0049199dd0ccd24/output/jars/libs/internal_impl-25.0.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/8e01a39a957d2fc0982145cec5bec020a35e3b2e/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/281cf5243103d7bb30d476c989eda01fac223d1d/output/jars/libs/internal_impl-25.0.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/8e01a39a957d2fc0982145cec5bec020a35e3b2e/output/jars/libs/internal_impl-25.0.1.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/simpleconfig/build/intermediates/bundles/default/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/app/build/intermediates/classes/release] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/app/build/outputs/mapping/release/dump.txt]...
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 23.575 secs
+
+2018-09-08 00:26:03,529 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341128802-0/src/SimpleConfig-master/app/build/outputs/apk/app-debug.apk

@@ -1,0 +1,364 @@
+2018-09-06 00:01:13,795 INFO  DownloadService - Downloading "https://github.com/philliphsu/NumberPadTimePicker/archive/master.zip", attempt 3
+2018-09-06 00:01:14,524 INFO  DownloadService - Downloaded https://github.com/philliphsu/NumberPadTimePicker/archive/master.zip, attempt 3
+2018-09-06 00:01:14,525 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/master.zip": 553 KB
+2018-09-06 00:01:14,525 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-06 00:01:14,525 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/master.zip: true
+2018-09-06 00:01:14,525 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src'.
+2018-09-06 00:01:14,562 INFO  FullProcessService - Size of directory with sources: 811 KB
+2018-09-06 00:01:14,563 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src]
+2018-09-06 00:01:14,580 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/.git/
+
+2018-09-06 00:01:14,584 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/gradlew
+2018-09-06 00:01:14,588 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/build.gradle
+2018-09-06 00:01:14,593 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/settings.gradle
+2018-09-06 00:01:14,593 INFO  ProjectBuildService - Remote scripts: none
+2018-09-06 00:01:14,593 INFO  ProjectFixService - Fixing project...
+2018-09-06 00:01:14,603 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/library/local.properties
+2018-09-06 00:01:14,604 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/library/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-06 00:01:14,605 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/sample/local.properties
+2018-09-06 00:01:14,606 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/sample/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-06 00:01:14,607 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/local.properties
+2018-09-06 00:01:14,607 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.5-all.zip
+2018-09-06 00:01:14,607 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.5-bin.zip)
+2018-09-06 00:01:14,608 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-06 00:01:14,608 INFO  ProjectFixService - Project was maybe fixed
+2018-09-06 00:01:14,608 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-06 00:01:14,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-06 00:01:26,078 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-06 00:01:26,078 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-06 00:01:26,078 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-06 00:01:42,599 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAnimatedVectorDrawable2600Library
+:library:prepareComAndroidSupportAppcompatV72600Library
+:library:prepareComAndroidSupportDesign2600Library
+:library:prepareComAndroidSupportGridlayoutV72600Library
+:library:prepareComAndroidSupportMultidex101Library
+:library:prepareComAndroidSupportRecyclerviewV72600Library
+:library:prepareComAndroidSupportSupportCompat2600Library
+:library:prepareComAndroidSupportSupportCoreUi2600Library
+:library:prepareComAndroidSupportSupportCoreUtils2600Library
+:library:prepareComAndroidSupportSupportFragment2600Library
+:library:prepareComAndroidSupportSupportMediaCompat2600Library
+:library:prepareComAndroidSupportSupportV42600Library
+:library:prepareComAndroidSupportSupportVectorDrawable2600Library
+:library:prepareComAndroidSupportTransition2600Library
+:library:prepareDebugDependencies
+:library:compileDebugAidl
+:library:compileDebugNdk NO-SOURCE
+:library:compileLint
+:library:copyDebugLint NO-SOURCE
+:library:compileDebugRenderscript
+:library:generateDebugBuildConfig
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:mergeDebugResources
+:library:processDebugManifest
+:library:processDebugResources
+:library:generateDebugSources
+:library:incrementalDebugJavaCompilationSafeguard
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
+:library:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:library:extractDebugAnnotations
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:library:mergeDebugProguardFiles
+:library:packageDebugRenderscript NO-SOURCE
+:library:packageDebugResources
+:library:processDebugJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForDebug
+:library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithSyncJniLibsForDebug
+:library:bundleDebug
+:library:compileDebugSources
+:library:assembleDebug
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk NO-SOURCE
+:library:copyReleaseLint NO-SOURCE
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:library:extractReleaseAnnotations
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript NO-SOURCE
+:library:packageReleaseResources
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleRelease
+:library:compileReleaseSources
+:library:assembleRelease
+:library:assemble
+:library:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.239 secs
+
+2018-09-06 00:01:42,666 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-06 00:01:42,667 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-06 00:02:02,264 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-06 00:02:02,264 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-06 00:02:02,264 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-06 00:02:26,910 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAnimatedVectorDrawable2600Library
+:library:prepareComAndroidSupportAppcompatV72600Library
+:library:prepareComAndroidSupportDesign2600Library
+:library:prepareComAndroidSupportGridlayoutV72600Library
+:library:prepareComAndroidSupportMultidex101Library
+:library:prepareComAndroidSupportRecyclerviewV72600Library
+:library:prepareComAndroidSupportSupportCompat2600Library
+:library:prepareComAndroidSupportSupportCoreUi2600Library
+:library:prepareComAndroidSupportSupportCoreUtils2600Library
+:library:prepareComAndroidSupportSupportFragment2600Library
+:library:prepareComAndroidSupportSupportMediaCompat2600Library
+:library:prepareComAndroidSupportSupportV42600Library
+:library:prepareComAndroidSupportSupportVectorDrawable2600Library
+:library:prepareComAndroidSupportTransition2600Library
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl UP-TO-DATE
+:library:compileReleaseNdk NO-SOURCE
+:library:compileLint UP-TO-DATE
+:library:copyReleaseLint NO-SOURCE
+:library:compileReleaseRenderscript UP-TO-DATE
+:library:generateReleaseBuildConfig UP-TO-DATE
+:library:generateReleaseResValues UP-TO-DATE
+:library:generateReleaseResources UP-TO-DATE
+:library:mergeReleaseResources UP-TO-DATE
+:library:processReleaseManifest UP-TO-DATE
+:library:processReleaseResources UP-TO-DATE
+:library:generateReleaseSources UP-TO-DATE
+:library:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac UP-TO-DATE
+:library:extractReleaseAnnotations UP-TO-DATE
+:library:mergeReleaseShaders UP-TO-DATE
+:library:compileReleaseShaders UP-TO-DATE
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets UP-TO-DATE
+:library:mergeReleaseProguardFiles UP-TO-DATE
+:library:packageReleaseRenderscript NO-SOURCE
+:library:packageReleaseResources UP-TO-DATE
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:library:mergeReleaseJniLibFolders UP-TO-DATE
+:library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:library:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:library:bundleRelease UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:extractProguardFiles
+:sample:preReleaseBuild
+:sample:prepareComAndroidSupportAnimatedVectorDrawable2600Library
+:sample:prepareComAndroidSupportAppcompatV72600Library
+:sample:prepareComAndroidSupportDesign2600Library
+:sample:prepareComAndroidSupportGridlayoutV72600Library
+:sample:prepareComAndroidSupportMultidex101Library
+:sample:prepareComAndroidSupportPreferenceV142600Library
+:sample:prepareComAndroidSupportPreferenceV72600Library
+:sample:prepareComAndroidSupportRecyclerviewV72600Library
+:sample:prepareComAndroidSupportSupportCompat2600Library
+:sample:prepareComAndroidSupportSupportCoreUi2600Library
+:sample:prepareComAndroidSupportSupportCoreUtils2600Library
+:sample:prepareComAndroidSupportSupportFragment2600Library
+:sample:prepareComAndroidSupportSupportMediaCompat2600Library
+:sample:prepareComAndroidSupportSupportV42600Library
+:sample:prepareComAndroidSupportSupportVectorDrawable2600Library
+:sample:prepareComAndroidSupportTransition2600Library
+:sample:prepareComGithubKizitonwoseColorpreferenceCore103Library
+:sample:prepareComGithubKizitonwoseColorpreferenceSupport103Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:incrementalDebugJavaCompilationSafeguard
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:incrementalReleaseJavaCompilationSafeguard
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.2
+Reading input...
+Reading program jar [/Users/vbauer/.android/build-cache/d51e0aa5971aea06c2d7f7fe080edd562c026551/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/5d7bbc7f2f9a8e9b996af581248458898acf6afa/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/bd9f2177ae8425f2ccb1ee90437a1a3550b3675b/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/396cbc89b4e795efaf20fbc5830a71590c7261fd/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/1079d1bccde36ab58f9748291142600f7458edb7/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/304728a5e5ff64fbebada66f2528e07177654a14/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/a78b2b8bc085dcc594da82b07755f06081215db5/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/27838fd3bf09e6c5becd9c0196022d8298fb5686/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/aa3b4675569f591ea2b7f378ab325ac0b9a6f0d5/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/80d1c64c0bd59b3d06ba6f4d744292046561eb15/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/9f2af652e12676f5ca9a35f490c8308ee8d8ebf4/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/dba67ecf479f157318a53a4b1dc83eb0310e48b1/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/2ce7793ca760a7ccc79f892d70be725bcb41c1a1/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/c142b4d9d1b84b5b98118fb5bbd80ac61e7af75a/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/be2d1a63bea8e9c6e4a37e96d404202f1d6c9b20/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/13402e08b67e13594b86b6944dca75b7ebcc2205/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.0/db09a97f4f0db8892c1a0111a4b966f97920d082/support-annotations-26.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/281cb64ab91d1e64d1effebb1978249bfbba3dfa/output/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.android/build-cache/dc521c5b7433ca9938d886fb82692d1e07f163f9/output/jars/classes.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/library/build/intermediates/bundles/default/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/sample/build/intermediates/classes/release] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: the configuration keeps the entry point 'com.philliphsu.numberpadtimepicker.NumberPadTimePicker { void setOkButtonCallbacks(com.philliphsu.numberpadtimepicker.NumberPadTimePicker$OkButtonCallbacks); }', but not the descriptor class 'com.philliphsu.numberpadtimepicker.NumberPadTimePicker$OkButtonCallbacks'
+Note: the configuration keeps the entry point 'com.philliphsu.numberpadtimepicker.NumberPadTimePicker { void setupClickListeners(com.philliphsu.numberpadtimepicker.INumberPadTimePicker$Presenter); }', but not the descriptor class 'com.philliphsu.numberpadtimepicker.INumberPadTimePicker$Presenter'
+Note: there were 2 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Ignoring unused library classes...
+  Original number of library classes: 4590
+  Final number of library classes:    1121
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/sample/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 2386
+  Final number of program classes:    1109
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/sample/build/outputs/mapping/release/mapping.txt]...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/sample/build/intermediates/transforms/proguard/release/jars/3/1f/main.jar]
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/d51e0aa5971aea06c2d7f7fe080edd562c026551/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/5d7bbc7f2f9a8e9b996af581248458898acf6afa/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/bd9f2177ae8425f2ccb1ee90437a1a3550b3675b/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/396cbc89b4e795efaf20fbc5830a71590c7261fd/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/1079d1bccde36ab58f9748291142600f7458edb7/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/304728a5e5ff64fbebada66f2528e07177654a14/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/a78b2b8bc085dcc594da82b07755f06081215db5/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/27838fd3bf09e6c5becd9c0196022d8298fb5686/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/aa3b4675569f591ea2b7f378ab325ac0b9a6f0d5/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/80d1c64c0bd59b3d06ba6f4d744292046561eb15/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/9f2af652e12676f5ca9a35f490c8308ee8d8ebf4/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/dba67ecf479f157318a53a4b1dc83eb0310e48b1/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/2ce7793ca760a7ccc79f892d70be725bcb41c1a1/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/c142b4d9d1b84b5b98118fb5bbd80ac61e7af75a/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/be2d1a63bea8e9c6e4a37e96d404202f1d6c9b20/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/13402e08b67e13594b86b6944dca75b7ebcc2205/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.0/db09a97f4f0db8892c1a0111a4b966f97920d082/support-annotations-26.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/281cb64ab91d1e64d1effebb1978249bfbba3dfa/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.android/build-cache/dc521c5b7433ca9938d886fb82692d1e07f163f9/output/jars/classes.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/library/build/intermediates/bundles/default/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/sample/build/intermediates/classes/release] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/sample/build/outputs/mapping/release/dump.txt]...
+:sample:transformClassesWithDexForRelease
+:sample:transformClassesWithShrinkResForRelease
+Removed unused resources: Binary resource data reduced from 664KB to 640KB: Removed 3%
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 24.22 secs
+
+2018-09-06 00:02:27,039 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166873792-0/src/NumberPadTimePicker-master/sample/build/outputs/apk/sample-debug.apk

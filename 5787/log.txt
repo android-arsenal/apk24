@@ -1,0 +1,176 @@
+2018-09-09 22:50:24,856 INFO  DownloadService - Downloading "https://github.com/iammert/AndroidArchitecture/archive/master.zip", attempt 3
+2018-09-09 22:51:25,880 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-09 22:51:26,941 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-09 22:51:26,942 INFO  DownloadService - Downloading "https://github.com/iammert/AndroidArchitecture/archive/master.zip", attempt 3
+2018-09-09 22:52:28,646 DEBUG FullProcessService - Repository https://github.com/iammert/AndroidArchitecture available: true
+2018-09-09 22:52:28,646 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-09 22:52:28,646 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/iammert/AndroidArchitecture, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src]
+2018-09-09 22:52:31,413 INFO  SysUtils - 
+2018-09-09 22:52:31,424 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/.git": true
+2018-09-09 22:52:31,428 INFO  FullProcessService - Size of directory with sources: 820 KB
+2018-09-09 22:52:31,428 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src]
+2018-09-09 22:52:31,447 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/.git/
+
+2018-09-09 22:52:31,451 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/gradlew
+2018-09-09 22:52:31,455 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/build.gradle
+2018-09-09 22:52:31,458 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/settings.gradle
+2018-09-09 22:52:31,459 INFO  ProjectBuildService - Remote scripts: none
+2018-09-09 22:52:31,459 INFO  ProjectFixService - Fixing project...
+2018-09-09 22:52:31,468 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/app/local.properties
+2018-09-09 22:52:31,469 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-09-09 22:52:31,470 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/local.properties
+2018-09-09 22:52:31,470 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-milestone-1-all.zip
+2018-09-09 22:52:31,471 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
+2018-09-09 22:52:31,472 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-09-09 22:52:31,472 INFO  ProjectFixService - Project was maybe fixed
+2018-09-09 22:52:31,472 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-09 22:52:31,472 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-09 22:52:38,623 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-09 22:52:38,623 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-09 22:52:38,623 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-09 22:53:52,234 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':app' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+Download https://maven.google.com/android/arch/persistence/room/runtime/1.0.0-alpha1/runtime-1.0.0-alpha1.pom
+Download https://maven.google.com/android/arch/lifecycle/extensions/1.0.0-alpha1/extensions-1.0.0-alpha1.pom
+Download https://maven.google.com/android/arch/lifecycle/runtime/1.0.0-alpha1/runtime-1.0.0-alpha1.pom
+Download https://maven.google.com/android/arch/core/core/1.0.0-alpha1/core-1.0.0-alpha1.pom
+Download https://maven.google.com/android/arch/lifecycle/common/1.0.0-alpha1/common-1.0.0-alpha1.pom
+Download https://maven.google.com/android/arch/persistence/room/support-db/1.0.0-alpha1/support-db-1.0.0-alpha1.pom
+Download https://maven.google.com/android/arch/persistence/room/support-db-impl/1.0.0-alpha1/support-db-impl-1.0.0-alpha1.pom
+Download https://maven.google.com/android/arch/persistence/room/common/1.0.0-alpha1/common-1.0.0-alpha1.pom
+Download https://maven.google.com/android/arch/lifecycle/runtime/1.0.0-alpha1/runtime-1.0.0-alpha1.aar
+Download https://maven.google.com/android/arch/core/core/1.0.0-alpha1/core-1.0.0-alpha1.aar
+Download https://maven.google.com/android/arch/persistence/room/runtime/1.0.0-alpha1/runtime-1.0.0-alpha1.aar
+Download https://maven.google.com/android/arch/persistence/room/support-db/1.0.0-alpha1/support-db-1.0.0-alpha1.aar
+Download https://maven.google.com/android/arch/lifecycle/extensions/1.0.0-alpha1/extensions-1.0.0-alpha1.aar
+Download https://maven.google.com/android/arch/persistence/room/support-db-impl/1.0.0-alpha1/support-db-impl-1.0.0-alpha1.aar
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:dataBindingProcessLayoutsDebug
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:dataBindingExportBuildInfoDebug
+Download https://maven.google.com/android/arch/lifecycle/common/1.0.0-alpha1/common-1.0.0-alpha1.jar
+Download https://maven.google.com/android/arch/persistence/room/common/1.0.0-alpha1/common-1.0.0-alpha1.jar
+:app:javaPreCompileDebug
+Download https://maven.google.com/android/arch/persistence/room/compiler/1.0.0-alpha1/compiler-1.0.0-alpha1.pom
+Download https://maven.google.com/android/arch/lifecycle/compiler/1.0.0-alpha1/compiler-1.0.0-alpha1.pom
+Download https://maven.google.com/android/arch/persistence/room/migration/1.0.0-alpha1/migration-1.0.0-alpha1.pom
+Download https://maven.google.com/android/arch/persistence/room/migration/1.0.0-alpha1/migration-1.0.0-alpha1.jar
+Download https://maven.google.com/android/arch/lifecycle/compiler/1.0.0-alpha1/compiler-1.0.0-alpha1.jar
+Download https://maven.google.com/android/arch/persistence/room/compiler/1.0.0-alpha1/compiler-1.0.0-alpha1.jar
+:app:processAnalyticsDebug
+:app:transformDataBindingWithDataBindingMergeArtifactsForDebug
+:app:compileDebugJavaWithJavacwarning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.lifecycle.LifecycleProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.persistence.room.RoomProcessor' less than -source '1.8'
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/app/src/main/java/iammert/com/androidarchitecture/data/local/MovieDatabase.java:13: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class MovieDatabase extends RoomDatabase{
+                ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:extractJava8LangSupportJar
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:buildInfoGeneratorDebug
+:app:compileDebugSources
+:app:assembleDebug
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:dataBindingProcessLayoutsRelease
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:dataBindingExportBuildInfoRelease
+:app:javaPreCompileRelease
+:app:processAnalyticsRelease
+:app:transformDataBindingWithDataBindingMergeArtifactsForRelease
+:app:compileReleaseJavaWithJavacwarning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.lifecycle.LifecycleProcessor' less than -source '1.8'
+warning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.persistence.room.RoomProcessor' less than -source '1.8'
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/app/src/main/java/iammert/com/androidarchitecture/data/local/MovieDatabase.java:13: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class MovieDatabase extends RoomDatabase{
+                ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:buildInfoGeneratorRelease
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://jcenter.bintray.com/com/google/dagger/dagger-android-support/2.11/dagger-android-support-2.11-javadoc.jar
+Download https://jcenter.bintray.com/com/google/dagger/dagger-android-support/2.11/dagger-android-support-2.11-sources.jar
+Download https://maven.google.com/android/arch/lifecycle/extensions/1.0.0-alpha1/extensions-1.0.0-alpha1-sources.jar
+Download https://maven.google.com/android/arch/lifecycle/runtime/1.0.0-alpha1/runtime-1.0.0-alpha1-sources.jar
+Download https://maven.google.com/android/arch/persistence/room/runtime/1.0.0-alpha1/runtime-1.0.0-alpha1-sources.jar
+Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-gson/2.1.0/converter-gson-2.1.0-javadoc.jar
+Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-gson/2.1.0/converter-gson-2.1.0-sources.jar
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit/2.1.0/retrofit-2.1.0-javadoc.jar
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit/2.1.0/retrofit-2.1.0-sources.jar
+Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp/3.8.0/okhttp-3.8.0-javadoc.jar
+Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp/3.8.0/okhttp-3.8.0-sources.jar
+Download https://jcenter.bintray.com/com/google/dagger/dagger-android/2.11/dagger-android-2.11-javadoc.jar
+Download https://jcenter.bintray.com/com/google/dagger/dagger-android/2.11/dagger-android-2.11-sources.jar
+Download https://jcenter.bintray.com/com/google/dagger/dagger/2.11/dagger-2.11-javadoc.jar
+Download https://jcenter.bintray.com/com/google/dagger/dagger/2.11/dagger-2.11-sources.jar
+Download https://maven.google.com/android/arch/lifecycle/common/1.0.0-alpha1/common-1.0.0-alpha1-sources.jar
+Download https://maven.google.com/android/arch/core/core/1.0.0-alpha1/core-1.0.0-alpha1-sources.jar
+Download https://maven.google.com/android/arch/persistence/room/common/1.0.0-alpha1/common-1.0.0-alpha1-sources.jar
+Download https://maven.google.com/android/arch/persistence/room/support-db-impl/1.0.0-alpha1/support-db-impl-1.0.0-alpha1-sources.jar
+Download https://maven.google.com/android/arch/persistence/room/support-db/1.0.0-alpha1/support-db-1.0.0-alpha1-sources.jar
+Download https://jcenter.bintray.com/com/squareup/okio/okio/1.13.0/okio-1.13.0-javadoc.jar
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 12s
+61 actionable tasks: 61 executed
+
+2018-09-09 22:53:52,323 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536508224848-0/src/app/build/outputs/apk/debug/app-debug.apk

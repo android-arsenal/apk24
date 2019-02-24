@@ -1,0 +1,150 @@
+2018-09-05 23:55:37,114 INFO  DownloadService - Downloading "https://github.com/xelevra/prefdata/archive/master.zip", attempt 3
+2018-09-05 23:55:38,088 INFO  DownloadService - Downloaded https://github.com/xelevra/prefdata/archive/master.zip, attempt 3
+2018-09-05 23:55:38,089 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/master.zip": 166 KB
+2018-09-05 23:55:38,089 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-05 23:55:38,089 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/master.zip: true
+2018-09-05 23:55:38,089 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src'.
+2018-09-05 23:55:38,118 INFO  FullProcessService - Size of directory with sources: 204 KB
+2018-09-05 23:55:38,118 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src]
+2018-09-05 23:55:38,134 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/.git/
+
+2018-09-05 23:55:38,139 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/gradlew
+2018-09-05 23:55:38,143 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/browser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/provider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/processor/build.gradle
+2018-09-05 23:55:38,147 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/provider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/browser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/settings.gradle
+2018-09-05 23:55:38,148 INFO  ProjectBuildService - Remote scripts: none
+2018-09-05 23:55:38,148 INFO  ProjectFixService - Fixing project...
+2018-09-05 23:55:38,158 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/app/local.properties
+2018-09-05 23:55:38,159 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-05 23:55:38,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/browser/local.properties
+2018-09-05 23:55:38,160 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/browser/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-05 23:55:38,161 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/provider/local.properties
+2018-09-05 23:55:38,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/provider/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-05 23:55:38,162 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/local.properties
+2018-09-05 23:55:38,162 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-05 23:55:38,163 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-05 23:55:38,164 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-05 23:55:38,164 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/annotations/local.properties
+2018-09-05 23:55:38,165 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/annotations/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-05 23:55:38,166 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/processor/local.properties
+2018-09-05 23:55:38,167 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/processor/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-05 23:55:38,167 INFO  ProjectFixService - Project was maybe fixed
+2018-09-05 23:55:38,167 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-05 23:55:38,167 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-05 23:55:45,115 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-05 23:55:45,115 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-05 23:55:45,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-05 23:55:56,183 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:annotations:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:annotations:processResources UP-TO-DATE
+:annotations:classes
+:annotations:jar
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:provider:preBuild UP-TO-DATE
+:provider:preReleaseBuild UP-TO-DATE
+:provider:checkReleaseManifest
+:provider:prepareReleaseDependencies
+:provider:compileReleaseAidl
+:provider:compileReleaseNdk UP-TO-DATE
+:provider:compileLint
+:provider:copyReleaseLint UP-TO-DATE
+:provider:mergeReleaseShaders
+:provider:compileReleaseShaders
+:provider:generateReleaseAssets
+:provider:mergeReleaseAssets
+:provider:mergeReleaseProguardFiles
+:provider:packageReleaseRenderscript UP-TO-DATE
+:provider:compileReleaseRenderscript
+:provider:generateReleaseResValues
+:provider:generateReleaseResources
+:provider:packageReleaseResources
+:provider:processReleaseManifest
+:provider:generateReleaseBuildConfig
+:provider:processReleaseResources
+:provider:generateReleaseSources
+:provider:incrementalReleaseJavaCompilationSafeguard
+:provider:javaPreCompileRelease
+:provider:compileReleaseJavaWithJavac
+:provider:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:provider:processReleaseJavaRes UP-TO-DATE
+:provider:transformResourcesWithMergeJavaResForRelease
+:provider:transformClassesAndResourcesWithSyncLibJarsForRelease
+:provider:mergeReleaseJniLibFolders
+:provider:transformNativeLibsWithMergeJniLibsForRelease
+:provider:transformNativeLibsWithStripDebugSymbolForRelease
+:provider:transformNativeLibsWithSyncJniLibsForRelease
+:provider:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:processor:compileJava
+:processor:processResources UP-TO-DATE
+:processor:classes
+:processor:jar
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:preReleaseBuild UP-TO-DATE
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.82 secs
+
+2018-09-05 23:55:56,202 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536166537111-0/src/prefdata-master/app/build/outputs/apk/app-debug.apk

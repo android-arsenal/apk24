@@ -1,0 +1,166 @@
+2018-09-09 00:06:48,135 INFO  DownloadService - Downloading "https://github.com/fujiyuu75/Sequent/archive/master.zip", attempt 3
+2018-09-09 00:06:50,403 INFO  DownloadService - Downloaded https://github.com/fujiyuu75/Sequent/archive/master.zip, attempt 3
+2018-09-09 00:06:50,403 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/master.zip": 202 KB
+2018-09-09 00:06:50,403 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-09 00:06:50,404 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/master.zip: true
+2018-09-09 00:06:50,404 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src'.
+2018-09-09 00:06:50,429 INFO  FullProcessService - Size of directory with sources: 224 KB
+2018-09-09 00:06:50,429 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src]
+2018-09-09 00:06:50,449 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/.git/
+
+2018-09-09 00:06:50,453 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/gradlew
+2018-09-09 00:06:50,457 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/sequent/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/build.gradle
+2018-09-09 00:06:50,464 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/sequent/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/settings.gradle
+2018-09-09 00:06:50,464 INFO  ProjectBuildService - Remote scripts: none
+2018-09-09 00:06:50,464 INFO  ProjectFixService - Fixing project...
+2018-09-09 00:06:50,473 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/sample/local.properties
+2018-09-09 00:06:50,473 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-09 00:06:50,474 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/sequent/local.properties
+2018-09-09 00:06:50,474 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/sequent/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-09 00:06:50,474 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/local.properties
+2018-09-09 00:06:50,475 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-09 00:06:50,475 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-09 00:06:50,476 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-09 00:06:50,476 INFO  ProjectFixService - Project was maybe fixed
+2018-09-09 00:06:50,476 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-09 00:06:50,476 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-09 00:06:58,815 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-09 00:06:58,815 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-09 00:06:58,815 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-09 00:07:41,042 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':sample' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':sample' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':sample' is deprecated. Use 'testImplementation' instead.
+Configuration 'compile' in project ':sequent' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':sequent' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':sequent' is deprecated. Use 'testImplementation' instead.
+WARNING: The specified Android SDK Build Tools version (25.0.2) is ignored, as it is below the minimum supported version (26.0.2) for Android Gradle Plugin 3.0.1.
+Android SDK Build Tools 26.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '25.0.2'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+:sample:preBuild UP-TO-DATE
+:sequent:preBuild UP-TO-DATE
+:sequent:preDebugBuild UP-TO-DATE
+:sequent:checkDebugManifest
+:sequent:processDebugManifest
+:sample:preDebugBuild
+:sequent:compileDebugAidl
+:sample:compileDebugAidl
+:sequent:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sequent:compileDebugRenderscript
+:sequent:generateDebugResValues
+:sequent:generateDebugResources
+:sequent:packageDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sequent:platformAttrExtractor
+:sequent:generateDebugBuildConfig
+:sequent:prepareLintJar
+:sequent:javaPreCompileDebug
+:sequent:processDebugJavaRes NO-SOURCE
+:sample:prepareLintJar
+:sample:compileDebugNdk NO-SOURCE
+:sequent:processDebugResources
+:sample:processDebugResources
+:sequent:generateDebugSources
+:sequent:compileDebugJavaWithJavac
+:sequent:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:compileDebugKotlin
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sequent:mergeDebugShaders
+:sequent:compileDebugShaders
+:sequent:generateDebugAssets
+:sequent:mergeDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:sample:mergeDebugJniLibFolders
+:sequent:compileDebugNdk NO-SOURCE
+:sequent:mergeDebugJniLibFolders
+:sequent:transformNativeLibsWithMergeJniLibsForDebug
+:sequent:transformNativeLibsWithStripDebugSymbolForDebug
+:sequent:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sequent:preReleaseBuild UP-TO-DATE
+:sequent:checkReleaseManifest
+:sequent:processReleaseManifest
+:sample:preReleaseBuild
+:sequent:compileReleaseAidl
+:sample:compileReleaseAidl
+:sequent:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sequent:compileReleaseRenderscript
+:sequent:generateReleaseResValues
+:sequent:generateReleaseResources
+:sequent:packageReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sequent:processReleaseResources
+:sample:processReleaseResources
+:sequent:generateReleaseBuildConfig
+:sequent:generateReleaseSources
+:sequent:javaPreCompileRelease
+:sequent:compileReleaseJavaWithJavac
+:sequent:processReleaseJavaRes NO-SOURCE
+:sequent:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:compileReleaseKotlin
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sequent:mergeReleaseShaders
+:sequent:compileReleaseShaders
+:sequent:generateReleaseAssets
+:sequent:mergeReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithPreDexForRelease
+:sample:transformDexWithDexForRelease
+:sample:mergeReleaseJniLibFolders
+:sequent:compileReleaseNdk NO-SOURCE
+:sequent:mergeReleaseJniLibFolders
+:sequent:transformNativeLibsWithMergeJniLibsForRelease
+:sequent:transformNativeLibsWithStripDebugSymbolForRelease
+:sequent:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 41s
+90 actionable tasks: 90 executed
+
+2018-09-09 00:07:41,126 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426408128-0/src/Sequent-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

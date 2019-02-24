@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "me.yokeyword.sample",
+    "label" : "Fragmentation",
+    "icon" : "res/drawable-hdpi-v4/ic_launcher.png",
+    "versionName" : null,
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-hdpi-v4/ic_launcher.png",
+    "density" : 240,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2437,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "zh", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" package=\"me.yokeyword.sample\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0e0008\" android:label=\"Fragmentation\" android:icon=\"res/drawable-hdpi-v4/ic_launcher.png\" android:name=\"me.yokeyword.sample.App\" android:debuggable=\"true\">\n\t\t<activity android:label=\"Fragmentation\" android:name=\"me.yokeyword.sample.EnterActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"me.yokeyword.sample.demo_flow.MainActivity\" android:launchMode=\"singleTask\" />\n\t\t<activity android:name=\"me.yokeyword.sample.demo_wechat.MainActivity\" />\n\t\t<activity android:name=\"me.yokeyword.sample.demo_zhihu.MainActivity\" android:launchMode=\"singleTask\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e000c\" android:name=\"me.yokeyword.sample.demo_flow.SwipeBackSampleActivity\" />\n\t\t<provider android:name=\"me.yokeyword.eventbusactivityscope.RuntimeTrojanProvider\" android:exported=\"false\" android:multiprocess=\"true\" android:authorities=\"me.yokeyword.sample.eventbus_activity_scope_trojan\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 4756204,
+  "crc32" : 4135414142,
+  "sha256" : "fdac6caeb0122e2b16811e12c72a42081f8ce87aed13b5140a54a6d3f2235812",
+  "buildTime" : 1536162166000
+}

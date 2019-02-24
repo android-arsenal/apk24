@@ -1,0 +1,161 @@
+2018-09-09 00:11:18,490 INFO  DownloadService - Downloading "https://github.com/safetysystemtechnology/progress-image-view-android/archive/master.zip", attempt 3
+2018-09-09 00:11:24,225 INFO  DownloadService - Downloaded https://github.com/safetysystemtechnology/progress-image-view-android/archive/master.zip, attempt 3
+2018-09-09 00:11:24,225 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/master.zip": 17 MB
+2018-09-09 00:11:24,225 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-09 00:11:24,231 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/master.zip: true
+2018-09-09 00:11:24,231 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src'.
+2018-09-09 00:11:24,493 INFO  FullProcessService - Size of directory with sources: 33 MB
+2018-09-09 00:11:24,494 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src]
+2018-09-09 00:11:24,510 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/.git/
+
+2018-09-09 00:11:24,514 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/gradlew
+2018-09-09 00:11:24,517 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/progressimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/build.gradle
+2018-09-09 00:11:24,521 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/progressimageview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/settings.gradle
+2018-09-09 00:11:24,521 INFO  ProjectBuildService - Remote scripts: none
+2018-09-09 00:11:24,521 INFO  ProjectFixService - Fixing project...
+2018-09-09 00:11:24,530 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/app/local.properties
+2018-09-09 00:11:24,531 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-09 00:11:24,531 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/progressimageview/local.properties
+2018-09-09 00:11:24,531 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/progressimageview/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-09 00:11:24,532 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/local.properties
+2018-09-09 00:11:24,532 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-09 00:11:24,532 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-09 00:11:24,533 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-09-09 00:11:24,533 INFO  ProjectFixService - Project was maybe fixed
+2018-09-09 00:11:24,533 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-09 00:11:24,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-09 00:11:31,858 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-09 00:11:31,858 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-09 00:11:31,858 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-09 00:11:49,410 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:progressimageview:preBuild UP-TO-DATE
+:progressimageview:preReleaseBuild UP-TO-DATE
+:progressimageview:checkReleaseManifest
+:progressimageview:preDebugAndroidTestBuild UP-TO-DATE
+:progressimageview:preDebugBuild UP-TO-DATE
+:progressimageview:preDebugUnitTestBuild UP-TO-DATE
+:progressimageview:preReleaseUnitTestBuild UP-TO-DATE
+:progressimageview:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:progressimageview:prepareComAndroidSupportAppcompatV72531Library
+:progressimageview:prepareComAndroidSupportSupportCompat2531Library
+:progressimageview:prepareComAndroidSupportSupportCoreUi2531Library
+:progressimageview:prepareComAndroidSupportSupportCoreUtils2531Library
+:progressimageview:prepareComAndroidSupportSupportFragment2531Library
+:progressimageview:prepareComAndroidSupportSupportMediaCompat2531Library
+:progressimageview:prepareComAndroidSupportSupportV42531Library
+:progressimageview:prepareComAndroidSupportSupportVectorDrawable2531Library
+:progressimageview:prepareReleaseDependencies
+:progressimageview:compileReleaseAidl
+:progressimageview:compileReleaseNdk UP-TO-DATE
+:progressimageview:compileLint
+:progressimageview:copyReleaseLint UP-TO-DATE
+:progressimageview:compileReleaseRenderscript
+:progressimageview:generateReleaseBuildConfig
+:progressimageview:generateReleaseResValues
+:progressimageview:generateReleaseResources
+:progressimageview:mergeReleaseResources
+:progressimageview:processReleaseManifest
+:progressimageview:processReleaseResources
+:progressimageview:generateReleaseSources
+:progressimageview:incrementalReleaseJavaCompilationSafeguard
+:progressimageview:javaPreCompileRelease
+:progressimageview:compileReleaseJavaWithJavac
+:progressimageview:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:progressimageview:extractReleaseAnnotations
+:progressimageview:mergeReleaseShaders
+:progressimageview:compileReleaseShaders
+:progressimageview:generateReleaseAssets
+:progressimageview:mergeReleaseAssets
+:progressimageview:mergeReleaseProguardFiles
+:progressimageview:packageReleaseRenderscript UP-TO-DATE
+:progressimageview:packageReleaseResources
+:progressimageview:processReleaseJavaRes UP-TO-DATE
+:progressimageview:transformResourcesWithMergeJavaResForRelease
+:progressimageview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:progressimageview:mergeReleaseJniLibFolders
+:progressimageview:transformNativeLibsWithMergeJniLibsForRelease
+:progressimageview:transformNativeLibsWithStripDebugSymbolForRelease
+:progressimageview:transformNativeLibsWithSyncJniLibsForRelease
+:progressimageview:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.631 secs
+
+2018-09-09 00:11:49,491 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536426678486-0/src/progress-image-view-android-master/app/build/outputs/apk/app-debug.apk

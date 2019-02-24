@@ -1,0 +1,10 @@
+2017-11-10 20:04:28,433 INFO  DownloadService - Downloading "https://github.com/NewtronLabs/SpecializedLogger/archive/master.zip", attempt 3
+2017-11-10 20:04:29,305 INFO  DownloadService - Downloaded https://github.com/NewtronLabs/SpecializedLogger/archive/master.zip, attempt 3
+2017-11-10 20:04:29,306 INFO  DownloadService - Size of file "/tmp/rdisk/5769/master.zip": 2 KB
+2017-11-10 20:04:29,306 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2017-11-10 20:04:29,306 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/5769/master.zip: false
+2017-11-10 20:04:29,306 INFO  FullProcessService - Archive with sources does not contain any build script
+2017-11-10 20:04:29,306 ERROR FullProcessService - Could not find directory with sources
+2017-11-10 20:04:29,306 ERROR FullProcessService - Project will not be processed
+2017-11-10 20:04:29,306 ERROR FullProcessService - Project build has not produced APK file
+2017-11-10 20:04:29,307 ERROR FullProcessService - Could not find generated or existed APK file

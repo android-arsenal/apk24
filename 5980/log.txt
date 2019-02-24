@@ -1,0 +1,181 @@
+2018-09-02 23:32:16,239 INFO  DownloadService - Downloading "https://github.com/mohanmanu484/Generic-Adapter/archive/master.zip", attempt 3
+2018-09-02 23:32:17,524 INFO  DownloadService - Downloaded https://github.com/mohanmanu484/Generic-Adapter/archive/master.zip, attempt 3
+2018-09-02 23:32:17,524 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/master.zip": 1 MB
+2018-09-02 23:32:17,524 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 23:32:17,530 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/master.zip: true
+2018-09-02 23:32:17,530 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src'.
+2018-09-02 23:32:17,573 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-09-02 23:32:17,573 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src]
+2018-09-02 23:32:17,589 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/.git/
+
+2018-09-02 23:32:17,592 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/gradlew
+2018-09-02 23:32:17,596 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/genericadapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/build.gradle
+2018-09-02 23:32:17,599 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/genericadapter/build.gradle
+2018-09-02 23:32:17,599 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 23:32:17,599 INFO  ProjectFixService - Fixing project...
+2018-09-02 23:32:17,607 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/app/local.properties
+2018-09-02 23:32:17,607 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-02 23:32:17,607 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/genericadapter/local.properties
+2018-09-02 23:32:17,608 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/genericadapter/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-02 23:32:17,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/local.properties
+2018-09-02 23:32:17,609 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-02 23:32:17,609 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-02 23:32:17,609 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-02 23:32:17,610 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 23:32:17,610 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 23:32:17,610 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 23:32:26,393 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-02 23:32:26,394 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-02 23:32:26,394 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-02 23:32:53,327 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidDatabindingAdapters131Library
+:app:prepareComAndroidDatabindingLibrary131Library
+:app:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:app:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:app:prepareComAndroidSupportDesign2600Alpha1Library
+:app:prepareComAndroidSupportRecyclerviewV72600Alpha1Library
+:app:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:app:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:app:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportV42600Alpha1Library
+:app:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:app:prepareComAndroidSupportTransition2600Alpha1Library
+:genericadapter:preBuild UP-TO-DATE
+:genericadapter:preReleaseBuild UP-TO-DATE
+:genericadapter:checkReleaseManifest
+:genericadapter:preDebugAndroidTestBuild UP-TO-DATE
+:genericadapter:preDebugBuild UP-TO-DATE
+:genericadapter:preDebugUnitTestBuild UP-TO-DATE
+:genericadapter:preReleaseUnitTestBuild UP-TO-DATE
+:genericadapter:prepareComAndroidDatabindingAdapters131Library
+:genericadapter:prepareComAndroidDatabindingLibrary131Library
+:genericadapter:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:genericadapter:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:genericadapter:prepareComAndroidSupportDesign2600Alpha1Library
+:genericadapter:prepareComAndroidSupportRecyclerviewV72600Alpha1Library
+:genericadapter:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:genericadapter:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:genericadapter:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:genericadapter:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:genericadapter:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:genericadapter:prepareComAndroidSupportSupportV42600Alpha1Library
+:genericadapter:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:genericadapter:prepareComAndroidSupportTransition2600Alpha1Library
+:genericadapter:prepareReleaseDependencies
+:genericadapter:compileReleaseAidl
+:genericadapter:compileReleaseNdk UP-TO-DATE
+:genericadapter:compileLint
+:genericadapter:copyReleaseLint UP-TO-DATE
+:genericadapter:compileReleaseRenderscript
+:genericadapter:generateReleaseResValues
+:genericadapter:generateReleaseResources
+:genericadapter:mergeReleaseResources
+:genericadapter:dataBindingProcessLayoutsRelease
+:genericadapter:generateReleaseBuildConfig
+:genericadapter:processReleaseManifest
+:genericadapter:processReleaseResources
+:genericadapter:generateReleaseSources
+:genericadapter:dataBindingExportBuildInfoRelease
+:genericadapter:incrementalReleaseJavaCompilationSafeguard
+:genericadapter:javaPreCompileRelease
+:genericadapter:transformClassesAndDataBindingWithDataBindingMergeArtifactsForRelease
+:genericadapter:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:genericadapter:extractReleaseAnnotations
+:genericadapter:mergeReleaseShaders
+:genericadapter:compileReleaseShaders
+:genericadapter:generateReleaseAssets
+:genericadapter:mergeReleaseAssets
+:genericadapter:mergeReleaseProguardFiles
+:genericadapter:packageReleaseRenderscript UP-TO-DATE
+:genericadapter:packageReleaseResources
+:genericadapter:processReleaseJavaRes UP-TO-DATE
+:genericadapter:transformResourcesWithMergeJavaResForRelease
+:genericadapter:transformClassesAndResourcesWithSyncLibJarsForRelease
+:genericadapter:mergeReleaseJniLibFolders
+:genericadapter:transformNativeLibsWithMergeJniLibsForRelease
+:genericadapter:transformNativeLibsWithStripDebugSymbolForRelease
+:genericadapter:transformNativeLibsWithSyncJniLibsForRelease
+:genericadapter:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugRenderscript
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:dataBindingProcessLayoutsDebug
+:app:compileDebugAidl
+:app:generateDebugBuildConfig
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:dataBindingExportBuildInfoDebug
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:transformClassesAndDataBindingWithDataBindingMergeArtifactsForDebug
+:app:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseRenderscript
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:dataBindingProcessLayoutsRelease
+:app:compileReleaseAidl
+:app:generateReleaseBuildConfig
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:dataBindingExportBuildInfoRelease
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:transformClassesAndDataBindingWithDataBindingMergeArtifactsForRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 26.593 secs
+
+2018-09-02 23:32:53,478 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905936235-0/src/Generic-Adapter-master/app/build/outputs/apk/app-debug.apk

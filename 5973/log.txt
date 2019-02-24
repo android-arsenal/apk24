@@ -1,0 +1,161 @@
+2018-09-02 23:37:19,049 INFO  DownloadService - Downloading "https://github.com/cenkgun/ChatBar/archive/master.zip", attempt 3
+2018-09-02 23:37:19,944 INFO  DownloadService - Downloaded https://github.com/cenkgun/ChatBar/archive/master.zip, attempt 3
+2018-09-02 23:37:19,944 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/master.zip": 254 KB
+2018-09-02 23:37:19,944 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 23:37:19,950 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/master.zip: true
+2018-09-02 23:37:19,950 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src'.
+2018-09-02 23:37:19,976 INFO  FullProcessService - Size of directory with sources: 263 KB
+2018-09-02 23:37:19,976 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src]
+2018-09-02 23:37:19,992 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/.git/
+
+2018-09-02 23:37:19,995 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/gradlew
+2018-09-02 23:37:19,999 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/chatbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/build.gradle
+2018-09-02 23:37:20,002 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/chatbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/settings.gradle
+2018-09-02 23:37:20,003 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 23:37:20,003 INFO  ProjectFixService - Fixing project...
+2018-09-02 23:37:20,010 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/app/local.properties
+2018-09-02 23:37:20,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-02 23:37:20,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/chatbar/local.properties
+2018-09-02 23:37:20,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/chatbar/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-02 23:37:20,012 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/local.properties
+2018-09-02 23:37:20,012 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-02 23:37:20,012 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-02 23:37:20,013 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-02 23:37:20,013 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 23:37:20,013 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 23:37:20,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 23:37:26,736 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-02 23:37:26,736 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-02 23:37:26,736 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-02 23:37:43,234 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:app:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:app:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:app:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportV42600Alpha1Library
+:app:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:chatbar:preBuild UP-TO-DATE
+:chatbar:preReleaseBuild UP-TO-DATE
+:chatbar:checkReleaseManifest
+:chatbar:preDebugAndroidTestBuild UP-TO-DATE
+:chatbar:preDebugBuild UP-TO-DATE
+:chatbar:preDebugUnitTestBuild UP-TO-DATE
+:chatbar:preReleaseUnitTestBuild UP-TO-DATE
+:chatbar:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:chatbar:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:chatbar:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:chatbar:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:chatbar:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:chatbar:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:chatbar:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:chatbar:prepareComAndroidSupportSupportV42600Alpha1Library
+:chatbar:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:chatbar:prepareReleaseDependencies
+:chatbar:compileReleaseAidl
+:chatbar:compileReleaseNdk UP-TO-DATE
+:chatbar:compileLint
+:chatbar:copyReleaseLint UP-TO-DATE
+:chatbar:compileReleaseRenderscript
+:chatbar:generateReleaseBuildConfig
+:chatbar:generateReleaseResValues
+:chatbar:generateReleaseResources
+:chatbar:mergeReleaseResources
+:chatbar:processReleaseManifest
+:chatbar:processReleaseResources
+:chatbar:generateReleaseSources
+:chatbar:incrementalReleaseJavaCompilationSafeguard
+:chatbar:javaPreCompileRelease
+:chatbar:compileReleaseJavaWithJavac
+:chatbar:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:chatbar:extractReleaseAnnotations
+:chatbar:mergeReleaseShaders
+:chatbar:compileReleaseShaders
+:chatbar:generateReleaseAssets
+:chatbar:mergeReleaseAssets
+:chatbar:mergeReleaseProguardFiles
+:chatbar:packageReleaseRenderscript UP-TO-DATE
+:chatbar:packageReleaseResources
+:chatbar:processReleaseJavaRes UP-TO-DATE
+:chatbar:transformResourcesWithMergeJavaResForRelease
+:chatbar:transformClassesAndResourcesWithSyncLibJarsForRelease
+:chatbar:mergeReleaseJniLibFolders
+:chatbar:transformNativeLibsWithMergeJniLibsForRelease
+:chatbar:transformNativeLibsWithStripDebugSymbolForRelease
+:chatbar:transformNativeLibsWithSyncJniLibsForRelease
+:chatbar:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.2 secs
+
+2018-09-02 23:37:43,312 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906239041-0/src/ChatBar-master/app/build/outputs/apk/app-debug.apk

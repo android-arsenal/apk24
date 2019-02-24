@@ -1,0 +1,163 @@
+2018-09-08 23:49:07,504 INFO  DownloadService - Downloading "https://github.com/adityagohad/HorizontalPicker/archive/master.zip", attempt 3
+2018-09-08 23:49:09,775 INFO  DownloadService - Downloaded https://github.com/adityagohad/HorizontalPicker/archive/master.zip, attempt 3
+2018-09-08 23:49:09,775 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/master.zip": 185 KB
+2018-09-08 23:49:09,775 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-08 23:49:09,781 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/master.zip: true
+2018-09-08 23:49:09,782 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src'.
+2018-09-08 23:49:09,808 INFO  FullProcessService - Size of directory with sources: 212 KB
+2018-09-08 23:49:09,808 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src]
+2018-09-08 23:49:09,825 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/.git/
+
+2018-09-08 23:49:09,828 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/gradlew
+2018-09-08 23:49:09,832 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/horizontalpickerlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/build.gradle
+2018-09-08 23:49:09,835 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/horizontalpickerlib/build.gradle
+2018-09-08 23:49:09,835 INFO  ProjectBuildService - Remote scripts: none
+2018-09-08 23:49:09,835 INFO  ProjectFixService - Fixing project...
+2018-09-08 23:49:09,843 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/app/local.properties
+2018-09-08 23:49:09,844 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-08 23:49:09,845 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/horizontalpickerlib/local.properties
+2018-09-08 23:49:09,845 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/horizontalpickerlib/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-08 23:49:09,846 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/local.properties
+2018-09-08 23:49:09,846 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-08 23:49:09,847 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-08 23:49:09,848 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-08 23:49:09,848 INFO  ProjectFixService - Project was maybe fixed
+2018-09-08 23:49:09,848 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-08 23:49:09,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-08 23:49:16,823 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-08 23:49:16,823 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-08 23:49:16,824 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-08 23:49:32,982 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportRecyclerviewV72531Library
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:horizontalpickerlib:preBuild UP-TO-DATE
+:horizontalpickerlib:preReleaseBuild UP-TO-DATE
+:horizontalpickerlib:checkReleaseManifest
+:horizontalpickerlib:preDebugAndroidTestBuild UP-TO-DATE
+:horizontalpickerlib:preDebugBuild UP-TO-DATE
+:horizontalpickerlib:preDebugUnitTestBuild UP-TO-DATE
+:horizontalpickerlib:preReleaseUnitTestBuild UP-TO-DATE
+:horizontalpickerlib:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:horizontalpickerlib:prepareComAndroidSupportAppcompatV72531Library
+:horizontalpickerlib:prepareComAndroidSupportRecyclerviewV72531Library
+:horizontalpickerlib:prepareComAndroidSupportSupportCompat2531Library
+:horizontalpickerlib:prepareComAndroidSupportSupportCoreUi2531Library
+:horizontalpickerlib:prepareComAndroidSupportSupportCoreUtils2531Library
+:horizontalpickerlib:prepareComAndroidSupportSupportFragment2531Library
+:horizontalpickerlib:prepareComAndroidSupportSupportMediaCompat2531Library
+:horizontalpickerlib:prepareComAndroidSupportSupportV42531Library
+:horizontalpickerlib:prepareComAndroidSupportSupportVectorDrawable2531Library
+:horizontalpickerlib:prepareReleaseDependencies
+:horizontalpickerlib:compileReleaseAidl
+:horizontalpickerlib:compileReleaseNdk UP-TO-DATE
+:horizontalpickerlib:compileLint
+:horizontalpickerlib:copyReleaseLint UP-TO-DATE
+:horizontalpickerlib:compileReleaseRenderscript
+:horizontalpickerlib:generateReleaseBuildConfig
+:horizontalpickerlib:generateReleaseResValues
+:horizontalpickerlib:generateReleaseResources
+:horizontalpickerlib:mergeReleaseResources
+:horizontalpickerlib:processReleaseManifest
+:horizontalpickerlib:processReleaseResources
+:horizontalpickerlib:generateReleaseSources
+:horizontalpickerlib:incrementalReleaseJavaCompilationSafeguard
+:horizontalpickerlib:javaPreCompileRelease
+:horizontalpickerlib:compileReleaseJavaWithJavac
+:horizontalpickerlib:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:horizontalpickerlib:extractReleaseAnnotations
+:horizontalpickerlib:mergeReleaseShaders
+:horizontalpickerlib:compileReleaseShaders
+:horizontalpickerlib:generateReleaseAssets
+:horizontalpickerlib:mergeReleaseAssets
+:horizontalpickerlib:mergeReleaseProguardFiles
+:horizontalpickerlib:packageReleaseRenderscript UP-TO-DATE
+:horizontalpickerlib:packageReleaseResources
+:horizontalpickerlib:processReleaseJavaRes UP-TO-DATE
+:horizontalpickerlib:transformResourcesWithMergeJavaResForRelease
+:horizontalpickerlib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:horizontalpickerlib:mergeReleaseJniLibFolders
+:horizontalpickerlib:transformNativeLibsWithMergeJniLibsForRelease
+:horizontalpickerlib:transformNativeLibsWithStripDebugSymbolForRelease
+:horizontalpickerlib:transformNativeLibsWithSyncJniLibsForRelease
+:horizontalpickerlib:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 15.892 secs
+
+2018-09-08 23:49:33,067 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425347499-0/src/HorizontalPicker-master/app/build/outputs/apk/app-debug.apk

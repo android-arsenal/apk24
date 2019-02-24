@@ -1,0 +1,180 @@
+2018-09-08 00:26:12,342 INFO  DownloadService - Downloading "https://github.com/milosmns/silly-android/archive/master.zip", attempt 3
+2018-09-08 00:26:13,470 INFO  DownloadService - Downloaded https://github.com/milosmns/silly-android/archive/master.zip, attempt 3
+2018-09-08 00:26:13,470 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/master.zip": 291 KB
+2018-09-08 00:26:13,470 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-08 00:26:13,475 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/master.zip: true
+2018-09-08 00:26:13,476 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src'.
+2018-09-08 00:26:13,507 INFO  FullProcessService - Size of directory with sources: 578 KB
+2018-09-08 00:26:13,507 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src]
+2018-09-08 00:26:13,525 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/.git/
+
+2018-09-08 00:26:13,529 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/gradlew
+2018-09-08 00:26:13,533 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/sillyandroid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/build.gradle
+2018-09-08 00:26:13,537 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/sillyandroid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/settings.gradle
+2018-09-08 00:26:13,537 INFO  ProjectBuildService - Remote scripts: none
+2018-09-08 00:26:13,537 INFO  ProjectFixService - Fixing project...
+2018-09-08 00:26:13,548 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/demo/local.properties
+2018-09-08 00:26:13,552 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-08 00:26:13,552 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-08 00:26:13,554 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/sillyandroid/local.properties
+2018-09-08 00:26:13,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/sillyandroid/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-08 00:26:13,560 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/sillyandroid/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-08 00:26:13,562 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/local.properties
+2018-09-08 00:26:13,563 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-09-08 00:26:13,563 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-09-08 00:26:13,567 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-08 00:26:13,567 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-08 00:26:13,568 INFO  ProjectFixService - Project was maybe fixed
+2018-09-08 00:26:13,568 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-08 00:26:13,568 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-08 00:26:52,104 INFO  ProjectTaskService - Detected possible tasks: 73
+2018-09-08 00:26:52,104 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-08 00:26:52,104 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-08 00:27:29,820 INFO  SysUtils - Configuration on demand is an incubating feature.
+# silly-android-master: 'local.properties' found, loading deployment config from file
+# silly-android-master: Configured Android javadocs
+:demo:preBuild UP-TO-DATE
+:sillyandroid:preBuild UP-TO-DATE
+:sillyandroid:preDebugBuild UP-TO-DATE
+:sillyandroid:checkDebugManifest
+:sillyandroid:processDebugManifest
+:demo:preDebugBuild
+:sillyandroid:compileDebugAidl
+:demo:compileDebugAidl
+:sillyandroid:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:prepareLintJar
+:demo:mainApkListPersistenceDebug
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:sillyandroid:compileDebugRenderscript
+:sillyandroid:generateDebugResValues
+:sillyandroid:generateDebugResources
+:sillyandroid:packageDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:sillyandroid:platformAttrExtractor
+:sillyandroid:generateDebugBuildConfig
+:sillyandroid:prepareLintJar
+:sillyandroid:javaPreCompileDebug
+:sillyandroid:processDebugJavaRes NO-SOURCE
+:demo:compileDebugNdk NO-SOURCE
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:sillyandroid:mergeDebugShaders
+:sillyandroid:compileDebugShaders
+:sillyandroid:generateDebugAssets
+:sillyandroid:packageDebugAssets
+:demo:mergeDebugAssets
+:demo:extractTryWithResourcesSupportJarDebug
+:demo:mergeDebugJniLibFolders
+:sillyandroid:compileDebugNdk NO-SOURCE
+:sillyandroid:mergeDebugJniLibFolders
+:sillyandroid:transformNativeLibsWithMergeJniLibsForDebug
+:sillyandroid:transformNativeLibsWithStripDebugSymbolForDebug
+:sillyandroid:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:processDebugJavaRes NO-SOURCE
+:demo:validateSigningDebug
+:sillyandroid:preReleaseBuild UP-TO-DATE
+:sillyandroid:checkReleaseManifest
+:sillyandroid:processReleaseManifest
+:demo:preReleaseBuild
+:sillyandroid:compileReleaseAidl
+:demo:compileReleaseAidl
+:sillyandroid:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:mainApkListPersistenceRelease
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:sillyandroid:compileReleaseRenderscript
+:sillyandroid:generateReleaseResValues
+:sillyandroid:generateReleaseResources
+:sillyandroid:packageReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:sillyandroid:generateReleaseBuildConfig
+:sillyandroid:javaPreCompileRelease
+:sillyandroid:processReleaseJavaRes NO-SOURCE
+:demo:compileReleaseNdk NO-SOURCE
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:sillyandroid:mergeReleaseShaders
+:sillyandroid:compileReleaseShaders
+:sillyandroid:generateReleaseAssets
+:sillyandroid:packageReleaseAssets
+:demo:mergeReleaseAssets
+:demo:extractTryWithResourcesSupportJarRelease
+:demo:mergeReleaseJniLibFolders
+:sillyandroid:compileReleaseNdk NO-SOURCE
+:sillyandroid:mergeReleaseJniLibFolders
+:sillyandroid:transformNativeLibsWithMergeJniLibsForRelease
+:sillyandroid:transformNativeLibsWithStripDebugSymbolForRelease
+:sillyandroid:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:processReleaseJavaRes NO-SOURCE
+:demo:validateSigningRelease
+:sillyandroid:generateDebugRFile
+:demo:processDebugResources
+:demo:generateDebugSources
+:sillyandroid:generateDebugSources
+:sillyandroid:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/sillyandroid/src/main/java/me/angrybyte/sillyandroid/SillyAndroid.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:sillyandroid:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:javaPreCompileDebug
+:demo:compileDebugJavaWithJavac
+:demo:compileDebugSources
+:demo:transformClassesWithStackFramesFixerForDebug
+:demo:transformClassesWithDesugarForDebug
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:packageDebug
+:demo:assembleDebug
+:sillyandroid:generateReleaseRFile
+:demo:processReleaseResources
+:demo:generateReleaseSources
+:sillyandroid:generateReleaseSources
+:sillyandroid:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/sillyandroid/src/main/java/me/angrybyte/sillyandroid/SillyAndroid.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:sillyandroid:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:javaPreCompileRelease
+:demo:compileReleaseJavaWithJavac
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+Download https://jcenter.bintray.com/org/robolectric/shadows-supportv4/3.8/shadows-supportv4-3.8.pom
+Download https://jcenter.bintray.com/org/robolectric/shadows-supportv4/3.8/shadows-supportv4-3.8.jar
+:demo:transformClassesWithStackFramesFixerForRelease
+:demo:transformClassesWithDesugarForRelease
+:demo:transformClassesWithDexBuilderForRelease
+:demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+:demo:transformDexArchiveWithDexMergerForRelease
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 37s
+98 actionable tasks: 98 executed
+
+2018-09-08 00:27:29,897 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341172339-0/src/silly-android-master/demo/build/outputs/apk/release/demo-release.apk

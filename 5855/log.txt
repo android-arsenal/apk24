@@ -1,0 +1,194 @@
+2018-09-08 02:10:28,719 INFO  DownloadService - Downloading "https://github.com/marcorighini/PullableView/archive/master.zip", attempt 3
+2018-09-08 02:11:29,697 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-08 02:11:31,134 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-08 02:11:31,135 INFO  DownloadService - Downloading "https://github.com/marcorighini/PullableView/archive/master.zip", attempt 3
+2018-09-08 02:12:32,879 DEBUG FullProcessService - Repository https://github.com/marcorighini/PullableView available: true
+2018-09-08 02:12:32,879 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-08 02:12:32,879 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/marcorighini/PullableView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src]
+2018-09-08 02:12:34,966 INFO  SysUtils - 
+2018-09-08 02:12:34,974 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/.git": true
+2018-09-08 02:12:34,977 INFO  FullProcessService - Size of directory with sources: 228 KB
+2018-09-08 02:12:34,977 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src]
+2018-09-08 02:12:34,993 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/.git/
+
+2018-09-08 02:12:34,996 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/gradlew
+2018-09-08 02:12:34,999 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/build.gradle
+2018-09-08 02:12:35,002 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/settings.gradle
+2018-09-08 02:12:35,002 INFO  ProjectBuildService - Remote scripts: none
+2018-09-08 02:12:35,002 INFO  ProjectFixService - Fixing project...
+2018-09-08 02:12:35,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/app/local.properties
+2018-09-08 02:12:35,008 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-08 02:12:35,009 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/lib/local.properties
+2018-09-08 02:12:35,009 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/lib/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-08 02:12:35,009 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/local.properties
+2018-09-08 02:12:35,009 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-milestone-1-all.zip
+2018-09-08 02:12:35,010 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
+2018-09-08 02:12:35,010 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-08 02:12:35,010 INFO  ProjectFixService - Project was maybe fixed
+2018-09-08 02:12:35,010 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-08 02:12:35,010 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-08 02:12:45,111 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-08 02:12:45,111 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-08 02:12:45,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-08 02:13:34,485 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:lib:preBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:checkDebugManifest
+:lib:processDebugManifest
+:app:preDebugBuild
+:lib:compileDebugAidl
+:app:compileDebugAidl
+:lib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:generateDebugResValues
+:app:generateDebugResources
+:lib:compileDebugRenderscript
+:lib:generateDebugResValues
+:lib:generateDebugResources
+:lib:packageDebugResources
+:app:mergeDebugResources
+:app:dataBindingProcessLayoutsDebug
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:lib:mergeDebugResources
+:lib:splitsDiscoveryTaskDebug
+:lib:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:lib:generateDebugBuildConfig
+:lib:compileDebugKotlin
+Using kotlin incremental compilation
+:lib:generateDebugSources
+:lib:javaPreCompileDebug
+:lib:processAnalyticsDebug
+:lib:compileDebugJavaWithJavac
+:lib:processDebugJavaRes NO-SOURCE
+:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:dataBindingExportBuildInfoDebug
+:app:kaptDebugKotlin
+w: warning: The following options were not recognized by any processor: '[kapt.kotlin.generated]'
+w: 
+
+:app:compileDebugKotlin
+Using kotlin incremental compilation
+:app:javaPreCompileDebug
+Download https://maven.google.com/com/android/databinding/compiler/3.0.0-alpha3/compiler-3.0.0-alpha3.pom
+Download https://maven.google.com/com/android/databinding/compiler/3.0.0-alpha3/compiler-3.0.0-alpha3.jar
+:app:processAnalyticsDebug
+:app:transformDataBindingWithDataBindingMergeArtifactsForDebug
+:app:compileDebugJavaWithJavac
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:lib:mergeDebugShaders
+:lib:compileDebugShaders
+:lib:generateDebugAssets
+:lib:mergeDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugJniLibFolders
+:lib:compileDebugNdk NO-SOURCE
+:lib:mergeDebugJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForDebug
+:lib:transformNativeLibsWithStripDebugSymbolForDebug
+:lib:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:buildInfoGeneratorDebug
+:app:compileDebugSources
+:app:assembleDebug
+:lib:preReleaseBuild UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:processReleaseManifest
+:app:preReleaseBuild
+:lib:compileReleaseAidl
+:app:compileReleaseAidl
+:lib:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:lib:compileReleaseRenderscript
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:packageReleaseResources
+:app:mergeReleaseResources
+:app:dataBindingProcessLayoutsRelease
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:lib:mergeReleaseResources
+:lib:splitsDiscoveryTaskRelease
+:lib:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:lib:generateReleaseBuildConfig
+:lib:compileReleaseKotlin
+Using kotlin incremental compilation
+:lib:generateReleaseSources
+:lib:javaPreCompileRelease
+:lib:processAnalyticsRelease
+:lib:compileReleaseJavaWithJavac
+:lib:processReleaseJavaRes NO-SOURCE
+:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:dataBindingExportBuildInfoRelease
+:app:kaptReleaseKotlin
+w: warning: The following options were not recognized by any processor: '[kapt.kotlin.generated]'
+w: 
+
+:app:compileReleaseKotlin
+Using kotlin incremental compilation
+:app:javaPreCompileRelease
+:app:processAnalyticsRelease
+:app:transformDataBindingWithDataBindingMergeArtifactsForRelease
+:app:compileReleaseJavaWithJavac
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:lib:mergeReleaseShaders
+:lib:compileReleaseShaders
+:lib:generateReleaseAssets
+:lib:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseJniLibFolders
+:lib:compileReleaseNdk NO-SOURCE
+:lib:mergeReleaseJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForRelease
+:lib:transformNativeLibsWithStripDebugSymbolForRelease
+:lib:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:buildInfoGeneratorRelease
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://maven.google.com/com/android/databinding/baseLibrary/3.0.0-alpha3/baseLibrary-3.0.0-alpha3-javadoc.jar
+Download https://maven.google.com/com/android/databinding/baseLibrary/3.0.0-alpha3/baseLibrary-3.0.0-alpha3-sources.jar
+Download https://jcenter.bintray.com/com/jakewharton/timber/timber/4.5.1/timber-4.5.1-javadoc.jar
+Download https://jcenter.bintray.com/com/jakewharton/timber/timber/4.5.1/timber-4.5.1-sources.jar
+Couldn't find or register Kotlin UAST plugin:org.jetbrains.uast.kotlin.KotlinUastLanguagePlugin
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 48s
+106 actionable tasks: 106 executed
+
+2018-09-08 02:13:34,580 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347428712-0/src/app/build/outputs/apk/debug/app-debug.apk

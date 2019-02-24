@@ -1,0 +1,177 @@
+2018-09-05 22:54:10,069 INFO  DownloadService - Downloading "https://github.com/sergiocasero/NotifikationManager/archive/master.zip", attempt 3
+2018-09-05 22:54:13,245 INFO  DownloadService - Downloaded https://github.com/sergiocasero/NotifikationManager/archive/master.zip, attempt 3
+2018-09-05 22:54:13,246 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/master.zip": 1 MB
+2018-09-05 22:54:13,246 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-05 22:54:13,246 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/master.zip: true
+2018-09-05 22:54:13,246 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src'.
+2018-09-05 22:54:13,296 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-09-05 22:54:13,296 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src]
+2018-09-05 22:54:13,361 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/.git/
+
+2018-09-05 22:54:13,366 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/gradlew
+2018-09-05 22:54:13,370 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/notifikationmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/build.gradle
+2018-09-05 22:54:13,374 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/notifikationmanager/build.gradle
+2018-09-05 22:54:13,375 INFO  ProjectBuildService - Remote scripts: none
+2018-09-05 22:54:13,375 INFO  ProjectFixService - Fixing project...
+2018-09-05 22:54:13,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/app/local.properties
+2018-09-05 22:54:13,386 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-05 22:54:13,387 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/notifikationmanager/local.properties
+2018-09-05 22:54:13,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/notifikationmanager/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-05 22:54:13,387 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/local.properties
+2018-09-05 22:54:13,388 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-rc-1-all.zip
+2018-09-05 22:54:13,388 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
+2018-09-05 22:54:13,389 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-05 22:54:13,389 INFO  ProjectFixService - Project was maybe fixed
+2018-09-05 22:54:13,389 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-05 22:54:13,389 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-05 22:54:31,184 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-05 22:54:31,184 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-05 22:54:31,184 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-05 22:55:16,383 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':notifikationmanager' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:notifikationmanager:preBuild UP-TO-DATE
+:notifikationmanager:preDebugBuild UP-TO-DATE
+:notifikationmanager:checkDebugManifest
+:notifikationmanager:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.1.2-5/kotlin-stdlib-jre7-1.1.2-5.pom
+:notifikationmanager:compileDebugAidl
+:app:compileDebugAidl
+:notifikationmanager:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:notifikationmanager:compileDebugRenderscript
+:notifikationmanager:generateDebugResValues
+:notifikationmanager:generateDebugResources
+:notifikationmanager:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:notifikationmanager:mergeDebugResources
+:notifikationmanager:splitsDiscoveryTaskDebug
+:notifikationmanager:processDebugResources
+:app:processDebugResourcesW/ResourceType(89777): For resource 0x0101053d, entry index(1341) is beyond type entryCount(1329)
+W/ResourceType(89777): For resource 0x0101053e, entry index(1342) is beyond type entryCount(1329)
+W/ResourceType(89777): For resource 0x0101053b, entry index(1339) is beyond type entryCount(1329)
+W/ResourceType(89777): For resource 0x0101053c, entry index(1340) is beyond type entryCount(1329)
+
+:notifikationmanager:generateDebugBuildConfig
+:notifikationmanager:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.1.2-5/kotlin-stdlib-jre7-1.1.2-5.jar
+Using kotlin incremental compilation
+:notifikationmanager:generateDebugSources
+:notifikationmanager:javaPreCompileDebug
+:notifikationmanager:compileDebugJavaWithJavac
+:notifikationmanager:processDebugJavaRes NO-SOURCE
+:notifikationmanager:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+Using kotlin incremental compilation
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:notifikationmanager:mergeDebugShaders
+:notifikationmanager:compileDebugShaders
+:notifikationmanager:generateDebugAssets
+:notifikationmanager:mergeDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugJniLibFolders
+:notifikationmanager:compileDebugNdk NO-SOURCE
+:notifikationmanager:mergeDebugJniLibFolders
+:notifikationmanager:transformNativeLibsWithMergeJniLibsForDebug
+:notifikationmanager:transformNativeLibsWithStripDebugSymbolForDebug
+:notifikationmanager:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:buildInfoGeneratorDebug
+:app:compileDebugSources
+:app:assembleDebug
+:notifikationmanager:preReleaseBuild UP-TO-DATE
+:notifikationmanager:checkReleaseManifest
+:notifikationmanager:processReleaseManifest
+:app:preReleaseBuild
+:notifikationmanager:compileReleaseAidl
+:app:compileReleaseAidl
+:notifikationmanager:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:notifikationmanager:compileReleaseRenderscript
+:notifikationmanager:generateReleaseResValues
+:notifikationmanager:generateReleaseResources
+:notifikationmanager:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:notifikationmanager:mergeReleaseResources
+:notifikationmanager:splitsDiscoveryTaskRelease
+:notifikationmanager:processReleaseResources
+:app:processReleaseResourcesW/ResourceType(89777): For resource 0x0101053d, entry index(1341) is beyond type entryCount(1329)
+W/ResourceType(89777): For resource 0x0101053e, entry index(1342) is beyond type entryCount(1329)
+W/ResourceType(89777): For resource 0x0101053b, entry index(1339) is beyond type entryCount(1329)
+W/ResourceType(89777): For resource 0x0101053c, entry index(1340) is beyond type entryCount(1329)
+
+:notifikationmanager:generateReleaseBuildConfig
+:notifikationmanager:compileReleaseKotlin
+Using kotlin incremental compilation
+:notifikationmanager:generateReleaseSources
+:notifikationmanager:javaPreCompileRelease
+:notifikationmanager:compileReleaseJavaWithJavac
+:notifikationmanager:processReleaseJavaRes NO-SOURCE
+:notifikationmanager:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+Using kotlin incremental compilation
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:notifikationmanager:mergeReleaseShaders
+:notifikationmanager:compileReleaseShaders
+:notifikationmanager:generateReleaseAssets
+:notifikationmanager:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseJniLibFolders
+:notifikationmanager:compileReleaseNdk NO-SOURCE
+:notifikationmanager:mergeReleaseJniLibFolders
+:notifikationmanager:transformNativeLibsWithMergeJniLibsForRelease
+:notifikationmanager:transformNativeLibsWithStripDebugSymbolForRelease
+:notifikationmanager:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:buildInfoGeneratorRelease
+:app:compileReleaseSources
+:app:lintVitalReleaseCouldn't find or register Kotlin UAST plugin:org.jetbrains.uast.kotlin.KotlinUastLanguagePlugin
+
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 44s
+94 actionable tasks: 94 executed
+
+2018-09-05 22:55:16,494 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162850065-0/src/NotifikationManager-master/app/build/outputs/apk/debug/app-debug.apk

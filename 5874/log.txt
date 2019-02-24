@@ -1,0 +1,267 @@
+2018-09-08 00:30:31,139 INFO  DownloadService - Downloading "https://github.com/thunder413/NetRequest/archive/master.zip", attempt 3
+2018-09-08 00:30:33,470 INFO  DownloadService - Downloaded https://github.com/thunder413/NetRequest/archive/master.zip, attempt 3
+2018-09-08 00:30:33,470 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/master.zip": 256 KB
+2018-09-08 00:30:33,470 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-08 00:30:33,475 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/master.zip: true
+2018-09-08 00:30:33,475 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src'.
+2018-09-08 00:30:33,510 INFO  FullProcessService - Size of directory with sources: 599 KB
+2018-09-08 00:30:33,510 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src]
+2018-09-08 00:30:33,529 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/.git/
+
+2018-09-08 00:30:33,533 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/gradlew
+2018-09-08 00:30:33,538 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/NetRequest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/build.gradle
+2018-09-08 00:30:33,542 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/NetRequest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/settings.gradle
+2018-09-08 00:30:33,542 INFO  ProjectBuildService - Remote scripts: none
+2018-09-08 00:30:33,542 INFO  ProjectFixService - Fixing project...
+2018-09-08 00:30:33,552 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/NetRequest/local.properties
+2018-09-08 00:30:33,552 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/NetRequest/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-08 00:30:33,552 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/app/local.properties
+2018-09-08 00:30:33,553 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-08 00:30:33,553 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/local.properties
+2018-09-08 00:30:33,553 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-08 00:30:33,554 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-08 00:30:33,554 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-08 00:30:33,554 INFO  ProjectFixService - Project was maybe fixed
+2018-09-08 00:30:33,554 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-08 00:30:33,554 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/NetRequest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-08 00:30:40,240 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-08 00:30:40,241 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-08 00:30:40,241 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/NetRequest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-08 00:30:52,257 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:NetRequest:preBuild UP-TO-DATE
+:NetRequest:preDebugBuild UP-TO-DATE
+:NetRequest:checkDebugManifest
+:NetRequest:preDebugAndroidTestBuild UP-TO-DATE
+:NetRequest:preDebugUnitTestBuild UP-TO-DATE
+:NetRequest:preReleaseBuild UP-TO-DATE
+:NetRequest:preReleaseUnitTestBuild UP-TO-DATE
+:NetRequest:prepareComAndroidSupportAnimatedVectorDrawable2601Library
+:NetRequest:prepareComAndroidSupportAppcompatV72601Library
+:NetRequest:prepareComAndroidSupportSupportCompat2601Library
+:NetRequest:prepareComAndroidSupportSupportCoreUi2601Library
+:NetRequest:prepareComAndroidSupportSupportCoreUtils2601Library
+:NetRequest:prepareComAndroidSupportSupportFragment2601Library
+:NetRequest:prepareComAndroidSupportSupportMediaCompat2601Library
+:NetRequest:prepareComAndroidSupportSupportV42601Library
+:NetRequest:prepareComAndroidSupportSupportVectorDrawable2601Library
+:NetRequest:prepareDebugDependencies
+:NetRequest:compileDebugAidl
+:NetRequest:compileDebugNdk UP-TO-DATE
+:NetRequest:compileLint
+:NetRequest:copyDebugLint UP-TO-DATE
+:NetRequest:compileDebugRenderscript
+:NetRequest:generateDebugBuildConfig
+:NetRequest:generateDebugResValues
+:NetRequest:generateDebugResources
+:NetRequest:mergeDebugResources
+:NetRequest:processDebugManifest
+:NetRequest:processDebugResources
+:NetRequest:generateDebugSources
+:NetRequest:incrementalDebugJavaCompilationSafeguard
+:NetRequest:javaPreCompileDebug
+:NetRequest:compileDebugJavaWithJavac
+:NetRequest:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/NetRequest/src/main/java/com/github/thunder413/netrequest/NetRequestManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:NetRequest:extractDebugAnnotations
+:NetRequest:mergeDebugShaders
+:NetRequest:compileDebugShaders
+:NetRequest:generateDebugAssets
+:NetRequest:mergeDebugAssets
+:NetRequest:mergeDebugProguardFiles
+:NetRequest:packageDebugRenderscript UP-TO-DATE
+:NetRequest:packageDebugResources
+:NetRequest:processDebugJavaRes UP-TO-DATE
+:NetRequest:transformResourcesWithMergeJavaResForDebug
+:NetRequest:transformClassesAndResourcesWithSyncLibJarsForDebug
+:NetRequest:mergeDebugJniLibFolders
+:NetRequest:transformNativeLibsWithMergeJniLibsForDebug
+:NetRequest:transformNativeLibsWithStripDebugSymbolForDebug
+:NetRequest:transformNativeLibsWithSyncJniLibsForDebug
+:NetRequest:bundleDebug
+:NetRequest:compileDebugSources
+:NetRequest:assembleDebug
+:NetRequest:checkReleaseManifest
+:NetRequest:prepareReleaseDependencies
+:NetRequest:compileReleaseAidl
+:NetRequest:compileReleaseNdk UP-TO-DATE
+:NetRequest:copyReleaseLint UP-TO-DATE
+:NetRequest:compileReleaseRenderscript
+:NetRequest:generateReleaseBuildConfig
+:NetRequest:generateReleaseResValues
+:NetRequest:generateReleaseResources
+:NetRequest:mergeReleaseResources
+:NetRequest:processReleaseManifest
+:NetRequest:processReleaseResources
+:NetRequest:generateReleaseSources
+:NetRequest:incrementalReleaseJavaCompilationSafeguard
+:NetRequest:javaPreCompileRelease
+:NetRequest:compileReleaseJavaWithJavac
+:NetRequest:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/NetRequest/src/main/java/com/github/thunder413/netrequest/NetRequestManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:NetRequest:extractReleaseAnnotations
+:NetRequest:mergeReleaseShaders
+:NetRequest:compileReleaseShaders
+:NetRequest:generateReleaseAssets
+:NetRequest:mergeReleaseAssets
+:NetRequest:mergeReleaseProguardFiles
+:NetRequest:packageReleaseRenderscript UP-TO-DATE
+:NetRequest:packageReleaseResources
+:NetRequest:processReleaseJavaRes UP-TO-DATE
+:NetRequest:transformResourcesWithMergeJavaResForRelease
+:NetRequest:transformClassesAndResourcesWithSyncLibJarsForRelease
+:NetRequest:mergeReleaseJniLibFolders
+:NetRequest:transformNativeLibsWithMergeJniLibsForRelease
+:NetRequest:transformNativeLibsWithStripDebugSymbolForRelease
+:NetRequest:transformNativeLibsWithSyncJniLibsForRelease
+:NetRequest:bundleRelease
+:NetRequest:compileReleaseSources
+:NetRequest:assembleRelease
+:NetRequest:assemble
+:NetRequest:build
+
+BUILD SUCCESSFUL
+
+Total time: 11.762 secs
+
+2018-09-08 00:30:52,317 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-08 00:30:52,317 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-08 00:31:06,934 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-08 00:31:06,934 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-08 00:31:06,934 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-08 00:31:30,448 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:NetRequest:preBuild UP-TO-DATE
+:NetRequest:preReleaseBuild UP-TO-DATE
+:NetRequest:checkReleaseManifest
+:NetRequest:preDebugAndroidTestBuild UP-TO-DATE
+:NetRequest:preDebugBuild UP-TO-DATE
+:NetRequest:preDebugUnitTestBuild UP-TO-DATE
+:NetRequest:preReleaseUnitTestBuild UP-TO-DATE
+:NetRequest:prepareComAndroidSupportAnimatedVectorDrawable2601Library
+:NetRequest:prepareComAndroidSupportAppcompatV72601Library
+:NetRequest:prepareComAndroidSupportSupportCompat2601Library
+:NetRequest:prepareComAndroidSupportSupportCoreUi2601Library
+:NetRequest:prepareComAndroidSupportSupportCoreUtils2601Library
+:NetRequest:prepareComAndroidSupportSupportFragment2601Library
+:NetRequest:prepareComAndroidSupportSupportMediaCompat2601Library
+:NetRequest:prepareComAndroidSupportSupportV42601Library
+:NetRequest:prepareComAndroidSupportSupportVectorDrawable2601Library
+:NetRequest:prepareReleaseDependencies
+:NetRequest:compileReleaseAidl UP-TO-DATE
+:NetRequest:compileReleaseNdk UP-TO-DATE
+:NetRequest:compileLint UP-TO-DATE
+:NetRequest:copyReleaseLint UP-TO-DATE
+:NetRequest:compileReleaseRenderscript UP-TO-DATE
+:NetRequest:generateReleaseBuildConfig UP-TO-DATE
+:NetRequest:generateReleaseResValues UP-TO-DATE
+:NetRequest:generateReleaseResources UP-TO-DATE
+:NetRequest:mergeReleaseResources UP-TO-DATE
+:NetRequest:processReleaseManifest UP-TO-DATE
+:NetRequest:processReleaseResources UP-TO-DATE
+:NetRequest:generateReleaseSources UP-TO-DATE
+:NetRequest:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:NetRequest:javaPreCompileRelease
+:NetRequest:compileReleaseJavaWithJavac UP-TO-DATE
+:NetRequest:extractReleaseAnnotations UP-TO-DATE
+:NetRequest:mergeReleaseShaders UP-TO-DATE
+:NetRequest:compileReleaseShaders UP-TO-DATE
+:NetRequest:generateReleaseAssets UP-TO-DATE
+:NetRequest:mergeReleaseAssets UP-TO-DATE
+:NetRequest:mergeReleaseProguardFiles UP-TO-DATE
+:NetRequest:packageReleaseRenderscript UP-TO-DATE
+:NetRequest:packageReleaseResources UP-TO-DATE
+:NetRequest:processReleaseJavaRes UP-TO-DATE
+:NetRequest:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:NetRequest:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:NetRequest:mergeReleaseJniLibFolders UP-TO-DATE
+:NetRequest:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:NetRequest:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:NetRequest:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:NetRequest:bundleRelease UP-TO-DATE
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2601Library
+:app:prepareComAndroidSupportAppcompatV72601Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportDesign2601Library
+:app:prepareComAndroidSupportRecyclerviewV72601Library
+:app:prepareComAndroidSupportSupportCompat2601Library
+:app:prepareComAndroidSupportSupportCoreUi2601Library
+:app:prepareComAndroidSupportSupportCoreUtils2601Library
+:app:prepareComAndroidSupportSupportFragment2601Library
+:app:prepareComAndroidSupportSupportMediaCompat2601Library
+:app:prepareComAndroidSupportSupportV42601Library
+:app:prepareComAndroidSupportSupportVectorDrawable2601Library
+:app:prepareComAndroidSupportTransition2601Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 23.169 secs
+
+2018-09-08 00:31:30,578 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341431131-0/src/NetRequest-master/app/build/outputs/apk/app-debug.apk

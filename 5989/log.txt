@@ -1,0 +1,180 @@
+2018-09-02 23:24:09,927 INFO  DownloadService - Downloading "https://github.com/armcha/logger/archive/master.zip", attempt 3
+2018-09-02 23:24:10,997 INFO  DownloadService - Downloaded https://github.com/armcha/logger/archive/master.zip, attempt 3
+2018-09-02 23:24:10,997 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/master.zip": 446 KB
+2018-09-02 23:24:10,997 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 23:24:11,003 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/master.zip: true
+2018-09-02 23:24:11,003 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src'.
+2018-09-02 23:24:11,028 INFO  FullProcessService - Size of directory with sources: 472 KB
+2018-09-02 23:24:11,028 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src]
+2018-09-02 23:24:11,047 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/.git/
+
+2018-09-02 23:24:11,050 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/gradlew
+2018-09-02 23:24:11,055 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/logger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/build.gradle
+2018-09-02 23:24:11,059 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/logger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/settings.gradle
+2018-09-02 23:24:11,059 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 23:24:11,059 INFO  ProjectFixService - Fixing project...
+2018-09-02 23:24:11,068 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/app/local.properties
+2018-09-02 23:24:11,068 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-02 23:24:11,069 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/logger/local.properties
+2018-09-02 23:24:11,069 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/logger/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-02 23:24:11,070 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/local.properties
+2018-09-02 23:24:11,070 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-rc-1-all.zip
+2018-09-02 23:24:11,070 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-02 23:24:11,071 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-02 23:24:11,071 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 23:24:11,071 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 23:24:11,071 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 23:24:30,343 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-02 23:24:30,344 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-02 23:24:30,344 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-02 23:25:11,435 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:logger:preBuild UP-TO-DATE
+:logger:preDebugBuild UP-TO-DATE
+:logger:checkDebugManifest
+:logger:processDebugManifest
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/26.0.0-beta2/appcompat-v7-26.0.0-beta2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/26.0.0-beta2/support-annotations-26.0.0-beta2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/26.0.0-beta2/support-vector-drawable-26.0.0-beta2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/26.0.0-beta2/animated-vector-drawable-26.0.0-beta2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/26.0.0-beta2/support-v4-26.0.0-beta2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/26.0.0-beta2/support-compat-26.0.0-beta2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/26.0.0-beta2/support-core-utils-26.0.0-beta2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/26.0.0-beta2/support-media-compat-26.0.0-beta2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/26.0.0-beta2/support-core-ui-26.0.0-beta2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/26.0.0-beta2/support-fragment-26.0.0-beta2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/26.0.0-beta2/support-fragment-26.0.0-beta2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/26.0.0-beta2/support-media-compat-26.0.0-beta2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/26.0.0-beta2/support-vector-drawable-26.0.0-beta2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/26.0.0-beta2/support-v4-26.0.0-beta2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/26.0.0-beta2/appcompat-v7-26.0.0-beta2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/26.0.0-beta2/animated-vector-drawable-26.0.0-beta2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/26.0.0-beta2/support-core-utils-26.0.0-beta2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/26.0.0-beta2/support-core-ui-26.0.0-beta2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/26.0.0-beta2/support-compat-26.0.0-beta2.aar
+:logger:compileDebugAidl
+:app:compileDebugAidl
+:logger:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:logger:compileDebugRenderscript
+:logger:generateDebugResValues
+:logger:generateDebugResources
+:logger:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:logger:platformAttrExtractor
+:logger:generateDebugBuildConfig
+:logger:javaPreCompileDebug
+:logger:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:logger:mergeDebugShaders
+:logger:compileDebugShaders
+:logger:generateDebugAssets
+:logger:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:logger:compileDebugNdk NO-SOURCE
+:logger:mergeDebugJniLibFolders
+:logger:transformNativeLibsWithMergeJniLibsForDebug
+:logger:transformNativeLibsWithStripDebugSymbolForDebug
+:logger:transformNativeLibsWithIntermediateJniLibsForDebug
+:logger:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:logger:generateDebugSources
+:logger:compileDebugJavaWithJavac
+:logger:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/26.0.0-beta2/support-annotations-26.0.0-beta2.jar
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:logger:preReleaseBuild UP-TO-DATE
+:logger:checkReleaseManifest
+:logger:processReleaseManifest
+:app:preReleaseBuild
+:logger:compileReleaseAidl
+:app:compileReleaseAidl
+:logger:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:logger:compileReleaseRenderscript
+:logger:generateReleaseResValues
+:logger:generateReleaseResources
+:logger:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:logger:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:logger:generateReleaseBuildConfig
+:logger:generateReleaseSources
+:logger:javaPreCompileRelease
+:logger:compileReleaseJavaWithJavac
+:logger:processReleaseJavaRes NO-SOURCE
+:logger:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:logger:mergeReleaseShaders
+:logger:compileReleaseShaders
+:logger:generateReleaseAssets
+:logger:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:logger:compileReleaseNdk NO-SOURCE
+:logger:mergeReleaseJniLibFolders
+:logger:transformNativeLibsWithMergeJniLibsForRelease
+:logger:transformNativeLibsWithStripDebugSymbolForRelease
+:logger:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 40s
+85 actionable tasks: 85 executed
+Exception in thread "Thread-23" java.lang.NoClassDefFoundError: com/android/builder/internal/aapt/v2/AaptV2Jni$TempDirCache$RecursiveDelete
+	at com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache.lambda$getCachedDirectory$0(AaptV2Jni.java:252)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache$RecursiveDelete
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+
+2018-09-02 23:25:11,525 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905449919-0/src/logger-master/app/build/outputs/apk/debug/app-debug.apk

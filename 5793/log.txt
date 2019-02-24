@@ -1,0 +1,167 @@
+2018-09-09 22:28:16,873 INFO  DownloadService - Downloading "https://github.com/KucherenkoIhor/Android-Architecture-Components/archive/master.zip", attempt 3
+2018-09-09 22:29:17,712 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-09 22:29:18,652 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-09 22:29:18,652 INFO  DownloadService - Downloading "https://github.com/KucherenkoIhor/Android-Architecture-Components/archive/master.zip", attempt 3
+2018-09-09 22:30:20,379 DEBUG FullProcessService - Repository https://github.com/KucherenkoIhor/Android-Architecture-Components available: true
+2018-09-09 22:30:20,379 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-09 22:30:20,380 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/KucherenkoIhor/Android-Architecture-Components, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src]
+2018-09-09 22:30:23,137 INFO  SysUtils - 
+2018-09-09 22:30:23,170 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/.git": true
+2018-09-09 22:30:23,173 INFO  FullProcessService - Size of directory with sources: 152 KB
+2018-09-09 22:30:23,173 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src]
+2018-09-09 22:30:23,189 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/.git/
+
+2018-09-09 22:30:23,191 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/gradlew
+2018-09-09 22:30:23,194 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/build.gradle
+2018-09-09 22:30:23,196 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/settings.gradle
+2018-09-09 22:30:23,196 INFO  ProjectBuildService - Remote scripts: none
+2018-09-09 22:30:23,196 INFO  ProjectFixService - Fixing project...
+2018-09-09 22:30:23,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/local.properties
+2018-09-09 22:30:23,203 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-09 22:30:23,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/local.properties
+2018-09-09 22:30:23,204 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-09 22:30:23,204 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-09 22:30:23,205 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-09 22:30:23,205 INFO  ProjectFixService - Project was maybe fixed
+2018-09-09 22:30:23,205 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-09 22:30:23,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-09 22:35:29,696 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-09 22:35:29,698 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-09 22:35:29,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-09 22:36:11,298 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareAndroidArchCoreRuntime100Alpha5Library
+:app:prepareAndroidArchLifecycleExtensions100Alpha5Library
+:app:prepareAndroidArchLifecycleRuntime100Alpha5Library
+:app:prepareAndroidArchPersistenceRoomRuntime100Alpha5Library
+:app:prepareAndroidArchPersistenceRoomRxjava2100Alpha5Library
+:app:prepareAndroidArchPersistenceRoomSupportDb100Alpha5Library
+:app:prepareAndroidArchPersistenceRoomSupportDbImpl100Alpha5Library
+:app:prepareComAndroidSupportAnimatedVectorDrawable2600Beta2Library
+:app:prepareComAndroidSupportAppcompatV72600Beta2Library
+:app:prepareComAndroidSupportCardviewV72600Beta2Library
+:app:prepareComAndroidSupportDesign2600Beta2Library
+:app:prepareComAndroidSupportRecyclerviewV72600Beta2Library
+:app:prepareComAndroidSupportSupportCompat2600Beta2Library
+:app:prepareComAndroidSupportSupportCoreUi2600Beta2Library
+:app:prepareComAndroidSupportSupportCoreUtils2600Beta2Library
+:app:prepareComAndroidSupportSupportFragment2600Beta2Library
+:app:prepareComAndroidSupportSupportMediaCompat2600Beta2Library
+:app:prepareComAndroidSupportSupportV42600Beta2Library
+:app:prepareComAndroidSupportSupportVectorDrawable2600Beta2Library
+:app:prepareComAndroidSupportTransition2600Beta2Library
+:app:prepareComGithubKittinunfFuelFuelAndroid190Library
+:app:prepareIoReactivexRxjava2Rxandroid201Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:kaptGenerateStubsDebugKotlin
+Using kotlin incremental compilation
+:app:kaptDebugKotlin
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.lifecycle.LifecycleProcessor' less than -source '1.8'
+w: 
+
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.persistence.room.RoomProcessor' less than -source '1.8'
+w: 
+
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/build/tmp/kapt3/stubs/debug/com/ik/exploringviewmodel/sources/db/AppDatabase.java:5: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+w: 
+
+w: public abstract class AppDatabase extends android.arch.persistence.room.RoomDatabase {
+w:                 ^
+:app:compileDebugKotlin
+Using kotlin incremental compilation
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/src/main/java/com/ik/exploringviewmodel/sources/repos/ReposRemoteDataSource.kt: (26, 30): Unnecessary safe call on a non-null receiver of type Result<List<Repo>, FuelError>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/src/main/java/com/ik/exploringviewmodel/sources/repos/ReposRemoteDataSource.kt: (26, 56): Unnecessary safe call on a non-null receiver of type Result<List<Repo>, FuelError>
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/build/generated/source/kapt/debug/com/ik/exploringviewmodel/sources/db/dao/ReposDao_Impl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:app:copyDebugKotlinClasses
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:kaptGenerateStubsReleaseKotlin
+Using kotlin incremental compilation
+:app:kaptReleaseKotlin
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.lifecycle.LifecycleProcessor' less than -source '1.8'
+w: 
+
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'android.arch.persistence.room.RoomProcessor' less than -source '1.8'
+w: 
+
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/build/tmp/kapt3/stubs/release/com/ik/exploringviewmodel/sources/db/AppDatabase.java:5: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+w: 
+
+w: public abstract class AppDatabase extends android.arch.persistence.room.RoomDatabase {
+w:                 ^
+:app:compileReleaseKotlin
+Using kotlin incremental compilation
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/src/main/java/com/ik/exploringviewmodel/sources/repos/ReposRemoteDataSource.kt: (26, 30): Unnecessary safe call on a non-null receiver of type Result<List<Repo>, FuelError>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/src/main/java/com/ik/exploringviewmodel/sources/repos/ReposRemoteDataSource.kt: (26, 56): Unnecessary safe call on a non-null receiver of type Result<List<Repo>, FuelError>
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/build/generated/source/kapt/release/com/ik/exploringviewmodel/sources/db/dao/ReposDao_Impl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:app:copyReleaseKotlinClasses
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 40.826 secs
+
+2018-09-09 22:36:11,432 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536506896869-0/src/app/build/outputs/apk/app-debug.apk

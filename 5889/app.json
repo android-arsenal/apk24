@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.philliphsu.numberpadtimepickersample",
+    "label" : "NumberPadTimePicker",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.1",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.WRITE_SETTINGS" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABzlBMVEUAAAAAAAAAAABNTU1eXl5aWlpNTU1RUVFYWFhLS0sAAABUVFRFRUUAAAAAAABDQ0NAQEAAAAA5OTk2NjYAAAAAAAAHBwc2NjY+Pj49PT0zMzMHBwcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaWlpZWVlYWFhXV1dWVlZVVVVUVFRTU1NSUlJRUVFQUFBPT09OTk5NTU1MTExLS0tKSkpJSUlISEhHR0dGRkZFRUVERERDQ0N8fHywsLCQkJBbW1umpqanp6eKioqtra16enqMjIz///+2trbr6+vt7e2vr6+NjY3f39/9/f2SkpKYmJj7+/vk5OTV1dX39/eJiYmOjo709PTb29tzc3P29vb+/v6ZmZnY2NiRkZGEhIRiYmJ2dnZ4eHhCQkJcXFyBgYFmZmZjY2Pz8/N/f3+1tbW5ubl3d3fx8fHm5uZhYWHIyMjv7+/Nzc2UlJSbm5vq6uqioqLPz89gYGD6+vpBQUGdnZ3W1taysrJsbGzKysrMzMxubm5AQEA/Pz8+Pj6enp7T09OxsbFvb2/JyclxcXHS0tL5+flkZGTj4+OTk5OamprHx8d5eXnl5eVdXV3X19eGhoaLi4ufn5+hoaE9PT1PPH5MAAAAJHRSTlMAAQIKkO3tkJmaCfHxDxHx7w2lpAwFJqrz86olBBwsMDEDBwqbwkmuAAADFklEQVRIx92WaVfTQBSGKbhWwX0XEYRCga5JZgtaFB3cUBZRrAsyoKAgKKISRLEtqKi4b/xb7yRpk9Dls8f3S04Pz9Nh3jvTtqzs/4nPV14yPp8Hr1i3vr6hIRBohDQ1NQWDwebmlpZWSCgUDkcg0Q0bKxy+fJPzh2gsFocoiqpqEIQwJoRQytjm8pzg3yL5YgKxha3+nFDp4r2CvYAp6JU5oSrLR2w8Dri1AHYJVY7g8G3HT8SUuJJoP5lAGtJOdZwmpgC8R4jY/BnOeaeqBM5yfi6A8Hl4eYHaC7iFLK9cBKIrqF6CB7+M1W549Oi0iAD7VXuB6ItpV6TQT/BVeFyTguTXCNBPNK4OXOfJGwhJ8aZC6K0k7xvQKc0XolafCgrcHiRIw+TOEKaYiOGRoGAFBIsHQYUekaYi+K8pNEqFELkFPEJMRo4rfjciR4Ab6rEcsjqIWSHBwkG418NHx2Bg97uSD4Afn+APJ7O8cAtxe75TUMsjhNpkSyOEwjj4Y53lC3FbQD1AJBvxtBSeMDUJjxlh8QUE2PJTIJ4R/HyW8+5BpssF2w3dWmCtoMABRWTuxXyYYPby1cJrwXSlo3fOELqeJyhmVBAY1AgHVDdS0D8T6UzaFkSeoMo6EZxM2ScUw+SJAC77/h5BNQPHX1tcetOCEX479W4ZBhDteL9IiwnmdbE2TSY/cD77kTF70xbvFjQriKzIWoP0k6z1s651yVphE6Ko8EUOjrGvUhgThhzcQqqoAHsdXuGjQzoT88lkpxDG8gT/lkgJUUhASB42XXwnBkw2HWrNwBunRSINveYLyAz0T3WoEQagG7J+YaSALyJgM/L2ykuPx4ewLMdwcI9g09lQvMT5DySyAygkECewyE/Z0i/Dy7sFDw476JfCdG4AJQRq3kcRnYEPspAhRGmBWjgIqfDvP6F0KYHSHM1kOenV1UyqhODQ9m00Uqk83nAJ25iL1te0mc12R9ix00sXwoXYtTsn7Nm7b3/alUyBHDh46LDzreivPlJztGRqjlT73d+7tXX+YyXjr6v9Z39j/AV5pZvjQZQixgAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 2386,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.1.1\" package=\"com.philliphsu.numberpadtimepickersample\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.WRITE_SETTINGS\" />\n\t<application android:theme=\"resourceId:0x7f0a00be\" android:label=\"NumberPadTimePicker\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.philliphsu.numberpadtimepickersample.MainActivity\" android:launchMode=\"singleTask\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Edit custom theme\" android:name=\"com.philliphsu.numberpadtimepickersample.EditCustomThemeActivity\" android:parentActivityName=\"com.philliphsu.numberpadtimepickersample.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t\t<activity android:label=\"\" android:name=\"com.philliphsu.numberpadtimepickersample.TimePickerActivity\" android:parentActivityName=\"com.philliphsu.numberpadtimepickersample.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.0.0\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2190604,
+  "crc32" : 1228779320,
+  "sha256" : "dea00dc40a9def813d3810b30a133dcefa8b179457ff80dcef9ea7f3e2b6ae34",
+  "buildTime" : 1536166935000
+}

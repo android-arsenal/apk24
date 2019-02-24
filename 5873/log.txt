@@ -1,0 +1,177 @@
+2018-09-08 00:31:41,910 INFO  DownloadService - Downloading "https://github.com/u1aryz/ColorPickerPreferenceCompat/archive/master.zip", attempt 3
+2018-09-08 00:31:43,921 INFO  DownloadService - Downloaded https://github.com/u1aryz/ColorPickerPreferenceCompat/archive/master.zip, attempt 3
+2018-09-08 00:31:43,921 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/master.zip": 389 KB
+2018-09-08 00:31:43,921 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-08 00:31:43,927 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/master.zip: true
+2018-09-08 00:31:43,927 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src'.
+2018-09-08 00:31:43,953 INFO  FullProcessService - Size of directory with sources: 469 KB
+2018-09-08 00:31:43,954 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src]
+2018-09-08 00:31:43,971 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/.git/
+
+2018-09-08 00:31:43,974 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/gradlew
+2018-09-08 00:31:43,977 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/build.gradle
+2018-09-08 00:31:43,980 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/settings.gradle
+2018-09-08 00:31:43,981 INFO  ProjectBuildService - Remote scripts: none
+2018-09-08 00:31:43,981 INFO  ProjectFixService - Fixing project...
+2018-09-08 00:31:43,990 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/demo/local.properties
+2018-09-08 00:31:43,990 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/demo/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-08 00:31:43,991 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/library/local.properties
+2018-09-08 00:31:43,991 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/library/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-08 00:31:43,992 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/local.properties
+2018-09-08 00:31:43,992 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-milestone-1-all.zip
+2018-09-08 00:31:43,992 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
+2018-09-08 00:31:43,993 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-08 00:31:43,993 INFO  ProjectFixService - Project was maybe fixed
+2018-09-08 00:31:43,993 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-08 00:31:43,993 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-08 00:31:52,430 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-08 00:31:52,430 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-08 00:31:52,430 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-08 00:32:29,452 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':demo' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':demo' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':demo' is deprecated. Use 'testImplementation' instead.
+Configuration 'compile' in project ':library' is deprecated. Use 'implementation' instead.
+:demo:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:demo:preDebugBuild
+:library:compileDebugAidl
+:demo:compileDebugAidl
+:library:packageDebugRenderscript NO-SOURCE
+:demo:compileDebugRenderscript
+:demo:checkDebugManifest
+:demo:generateDebugBuildConfig
+:demo:generateDebugResValues
+:demo:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:demo:mergeDebugResources
+:demo:createDebugCompatibleScreenManifests
+:demo:processDebugManifest
+:demo:splitsDiscoveryTaskDebug
+:library:mergeDebugResources
+:library:splitsDiscoveryTaskDebug
+:library:processDebugResources
+:demo:processDebugResourcesWARN: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v7-25.3.1.aar/92769f93f10fa1a0d05e6eca1fc46512/res/layout/preference_widget_seekbar.xml:27 generated id 'android:id/icon' for external package 'android'
+WARN: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v7-25.3.1.aar/92769f93f10fa1a0d05e6eca1fc46512/res/layout/preference_widget_seekbar.xml:53 generated id 'android:id/summary' for external package 'android'
+WARN: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v7-25.3.1.aar/92769f93f10fa1a0d05e6eca1fc46512/res/layout/preference_widget_seekbar.xml:45 generated id 'android:id/title' for external package 'android'
+
+
+:demo:generateDebugSources
+:library:generateDebugBuildConfig
+:library:generateDebugSources
+:library:javaPreCompileDebug
+:library:processAnalyticsDebug
+:library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/library/src/main/java/com/u1aryz/android/colorpicker/ColorPreference.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:processDebugJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:demo:javaPreCompileDebug
+:demo:processAnalyticsDebug
+:demo:compileDebugJavaWithJavac
+:demo:mergeDebugShaders
+:demo:compileDebugShaders
+:demo:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:demo:mergeDebugAssets
+:demo:transformClassesWithDexBuilderForDebug
+:demo:transformDexArchiveWithDexMergerForDebug
+:demo:compileDebugNdk NO-SOURCE
+:demo:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:demo:transformNativeLibsWithMergeJniLibsForDebug
+:demo:transformNativeLibsWithStripDebugSymbolForDebug
+:demo:processDebugJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForDebug
+:demo:validateSigningDebug
+:demo:packageDebug
+:demo:buildInfoGeneratorDebug
+:demo:compileDebugSources
+:demo:assembleDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:demo:preReleaseBuild
+:library:compileReleaseAidl
+:demo:compileReleaseAidl
+:library:packageReleaseRenderscript NO-SOURCE
+:demo:compileReleaseRenderscript
+:demo:checkReleaseManifest
+:demo:generateReleaseBuildConfig
+:demo:generateReleaseResValues
+:demo:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:demo:mergeReleaseResources
+:demo:createReleaseCompatibleScreenManifests
+:demo:processReleaseManifest
+:demo:splitsDiscoveryTaskRelease
+:library:mergeReleaseResources
+:library:splitsDiscoveryTaskRelease
+:library:processReleaseResources
+:demo:processReleaseResourcesWARN: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v7-25.3.1.aar/92769f93f10fa1a0d05e6eca1fc46512/res/layout/preference_widget_seekbar.xml:27 generated id 'android:id/icon' for external package 'android'
+WARN: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v7-25.3.1.aar/92769f93f10fa1a0d05e6eca1fc46512/res/layout/preference_widget_seekbar.xml:53 generated id 'android:id/summary' for external package 'android'
+WARN: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v7-25.3.1.aar/92769f93f10fa1a0d05e6eca1fc46512/res/layout/preference_widget_seekbar.xml:45 generated id 'android:id/title' for external package 'android'
+
+
+:demo:generateReleaseSources
+:library:generateReleaseBuildConfig
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:processAnalyticsRelease
+:library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/library/src/main/java/com/u1aryz/android/colorpicker/ColorPreference.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:demo:javaPreCompileRelease
+:demo:processAnalyticsRelease
+:demo:compileReleaseJavaWithJavac
+:demo:mergeReleaseShaders
+:demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:demo:mergeReleaseAssets
+:demo:transformClassesWithPreDexForRelease
+:demo:transformDexWithDexForRelease
+:demo:compileReleaseNdk NO-SOURCE
+:demo:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:transformNativeLibsWithMergeJniLibsForRelease
+:demo:transformNativeLibsWithStripDebugSymbolForRelease
+:demo:processReleaseJavaRes NO-SOURCE
+:demo:transformResourcesWithMergeJavaResForRelease
+:demo:packageRelease
+:demo:buildInfoGeneratorRelease
+:demo:compileReleaseSources
+:demo:lintVitalRelease
+:demo:assembleRelease
+:demo:assemble
+:demo:build
+
+BUILD SUCCESSFUL in 36s
+94 actionable tasks: 94 executed
+
+2018-09-08 00:32:29,554 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536341501902-0/src/ColorPickerPreferenceCompat-master/demo/build/outputs/apk/release/demo-release-unsigned.apk

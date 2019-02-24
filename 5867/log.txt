@@ -1,0 +1,164 @@
+2018-09-08 01:25:40,271 INFO  DownloadService - Downloading "https://github.com/mehdok/Fontify/archive/master.zip", attempt 3
+2018-09-08 01:26:41,273 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-08 01:26:42,480 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-08 01:26:42,480 INFO  DownloadService - Downloading "https://github.com/mehdok/Fontify/archive/master.zip", attempt 3
+2018-09-08 01:27:44,423 DEBUG FullProcessService - Repository https://github.com/mehdok/Fontify available: true
+2018-09-08 01:27:44,429 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-08 01:27:44,429 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mehdok/Fontify, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src]
+2018-09-08 01:27:46,781 INFO  SysUtils - 
+2018-09-08 01:27:46,789 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/.git": true
+2018-09-08 01:27:46,792 INFO  FullProcessService - Size of directory with sources: 712 KB
+2018-09-08 01:27:46,792 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src]
+2018-09-08 01:27:46,809 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/.git/
+
+2018-09-08 01:27:46,812 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/gradlew
+2018-09-08 01:27:46,815 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/fontify/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/build.gradle
+2018-09-08 01:27:46,817 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/fontify/build.gradle
+2018-09-08 01:27:46,818 INFO  ProjectBuildService - Remote scripts: none
+2018-09-08 01:27:46,818 INFO  ProjectFixService - Fixing project...
+2018-09-08 01:27:46,824 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/app/local.properties
+2018-09-08 01:27:46,825 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-08 01:27:46,825 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/fontify/local.properties
+2018-09-08 01:27:46,825 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/fontify/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-08 01:27:46,826 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/local.properties
+2018-09-08 01:27:46,826 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-08 01:27:46,826 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-08 01:27:46,827 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-08 01:27:46,827 INFO  ProjectFixService - Project was maybe fixed
+2018-09-08 01:27:46,827 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-08 01:27:46,827 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-08 01:28:02,611 INFO  ProjectTaskService - Detected possible tasks: 74
+2018-09-08 01:28:02,613 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-08 01:28:02,613 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-08 01:28:21,315 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportConstraintConstraintLayout100Alpha9Library
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:fontify:preBuild UP-TO-DATE
+:fontify:preReleaseBuild UP-TO-DATE
+:fontify:checkReleaseManifest
+:fontify:preDebugAndroidTestBuild UP-TO-DATE
+:fontify:preDebugBuild UP-TO-DATE
+:fontify:preDebugUnitTestBuild UP-TO-DATE
+:fontify:preReleaseUnitTestBuild UP-TO-DATE
+:fontify:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:fontify:prepareComAndroidSupportAppcompatV72531Library
+:fontify:prepareComAndroidSupportSupportCompat2531Library
+:fontify:prepareComAndroidSupportSupportCoreUi2531Library
+:fontify:prepareComAndroidSupportSupportCoreUtils2531Library
+:fontify:prepareComAndroidSupportSupportFragment2531Library
+:fontify:prepareComAndroidSupportSupportMediaCompat2531Library
+:fontify:prepareComAndroidSupportSupportV42531Library
+:fontify:prepareComAndroidSupportSupportVectorDrawable2531Library
+:fontify:prepareReleaseDependencies
+:fontify:compileReleaseAidl
+:fontify:compileReleaseNdk UP-TO-DATE
+:fontify:compileLint
+:fontify:copyReleaseLint UP-TO-DATE
+:fontify:compileReleaseRenderscript
+:fontify:generateReleaseBuildConfig
+:fontify:generateReleaseResValues
+:fontify:generateReleaseResources
+:fontify:mergeReleaseResources
+:fontify:processReleaseManifest
+:fontify:processReleaseResources
+:fontify:generateReleaseSources
+:fontify:incrementalReleaseJavaCompilationSafeguard
+:fontify:javaPreCompileRelease
+:fontify:compileReleaseJavaWithJavac
+:fontify:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:fontify:extractReleaseAnnotations
+:fontify:mergeReleaseShaders
+:fontify:compileReleaseShaders
+:fontify:generateReleaseAssets
+:fontify:mergeReleaseAssets
+:fontify:mergeReleaseProguardFiles
+:fontify:packageReleaseRenderscript UP-TO-DATE
+:fontify:packageReleaseResources
+:fontify:processReleaseJavaRes UP-TO-DATE
+:fontify:transformResourcesWithMergeJavaResForRelease
+:fontify:transformClassesAndResourcesWithSyncLibJarsForRelease
+:fontify:mergeReleaseJniLibFolders
+:fontify:transformNativeLibsWithMergeJniLibsForRelease
+:fontify:transformNativeLibsWithStripDebugSymbolForRelease
+:fontify:transformNativeLibsWithSyncJniLibsForRelease
+:fontify:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.334 secs
+
+2018-09-08 01:28:21,393 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536344740263-0/src/app/build/outputs/apk/app-debug.apk

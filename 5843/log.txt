@@ -1,0 +1,170 @@
+2018-09-08 23:51:25,427 INFO  DownloadService - Downloading "https://github.com/whalemare/sheetmenu/archive/master.zip", attempt 3
+2018-09-08 23:51:27,679 INFO  DownloadService - Downloaded https://github.com/whalemare/sheetmenu/archive/master.zip, attempt 3
+2018-09-08 23:51:27,680 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/master.zip": 3 MB
+2018-09-08 23:51:27,680 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-08 23:51:27,686 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/master.zip: true
+2018-09-08 23:51:27,687 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src'.
+2018-09-08 23:51:27,761 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-09-08 23:51:27,761 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src]
+2018-09-08 23:51:27,779 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/.git/
+
+2018-09-08 23:51:27,783 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/gradlew
+2018-09-08 23:51:27,787 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/sheetmenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/build.gradle
+2018-09-08 23:51:27,791 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/sheetmenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/settings.gradle
+2018-09-08 23:51:27,792 INFO  ProjectBuildService - Remote scripts: none
+2018-09-08 23:51:27,792 INFO  ProjectFixService - Fixing project...
+2018-09-08 23:51:27,802 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/app/local.properties
+2018-09-08 23:51:27,803 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-09-08 23:51:27,804 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/sheetmenu/local.properties
+2018-09-08 23:51:27,805 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/sheetmenu/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-09-08 23:51:27,806 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/local.properties
+2018-09-08 23:51:27,806 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-09-08 23:51:27,806 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-09-08 23:51:27,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-09-08 23:51:27,808 INFO  ProjectFixService - Project was maybe fixed
+2018-09-08 23:51:27,808 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-08 23:51:27,808 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-08 23:51:35,129 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-09-08 23:51:35,130 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-08 23:51:35,130 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-08 23:52:12,342 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation' and 'androidTestApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+:app:preBuild UP-TO-DATE
+:sheetmenu:preBuild UP-TO-DATE
+:sheetmenu:preDebugBuild UP-TO-DATE
+:sheetmenu:checkDebugManifest
+:sheetmenu:processDebugManifest
+:app:preDebugBuild
+:sheetmenu:compileDebugAidl
+:app:compileDebugAidl
+:sheetmenu:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:sheetmenu:compileDebugRenderscript
+:sheetmenu:generateDebugResValues
+:sheetmenu:generateDebugResources
+:sheetmenu:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:sheetmenu:platformAttrExtractor
+:sheetmenu:generateDebugBuildConfig
+:sheetmenu:prepareLintJar
+:sheetmenu:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:sheetmenu:mergeDebugShaders
+:sheetmenu:compileDebugShaders
+:sheetmenu:generateDebugAssets
+:sheetmenu:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:sheetmenu:compileDebugNdk NO-SOURCE
+:sheetmenu:mergeDebugJniLibFolders
+:sheetmenu:transformNativeLibsWithMergeJniLibsForDebug
+:sheetmenu:transformNativeLibsWithStripDebugSymbolForDebug
+:sheetmenu:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:sheetmenu:preReleaseBuild UP-TO-DATE
+:sheetmenu:checkReleaseManifest
+:sheetmenu:processReleaseManifest
+:app:preReleaseBuild
+:sheetmenu:compileReleaseAidl
+:app:compileReleaseAidl
+:sheetmenu:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:sheetmenu:compileReleaseRenderscript
+:sheetmenu:generateReleaseResValues
+:sheetmenu:generateReleaseResources
+:sheetmenu:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:sheetmenu:generateReleaseBuildConfig
+:sheetmenu:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:sheetmenu:mergeReleaseShaders
+:sheetmenu:compileReleaseShaders
+:sheetmenu:generateReleaseAssets
+:sheetmenu:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:sheetmenu:compileReleaseNdk NO-SOURCE
+:sheetmenu:mergeReleaseJniLibFolders
+:sheetmenu:transformNativeLibsWithMergeJniLibsForRelease
+:sheetmenu:transformNativeLibsWithStripDebugSymbolForRelease
+:sheetmenu:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:sheetmenu:generateDebugRFile
+:app:processDebugResources
+:sheetmenu:compileDebugKotlin
+:sheetmenu:generateDebugSources
+:sheetmenu:javaPreCompileDebug
+:sheetmenu:compileDebugJavaWithJavac
+:sheetmenu:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:sheetmenu:generateReleaseRFile
+:app:processReleaseResources
+:sheetmenu:compileReleaseKotlin
+:sheetmenu:generateReleaseSources
+:sheetmenu:javaPreCompileRelease
+:sheetmenu:compileReleaseJavaWithJavac
+:sheetmenu:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:transformClassesWithJacocoForRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 36s
+95 actionable tasks: 95 executed
+
+2018-09-08 23:52:12,443 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,167 @@
+2018-09-08 02:06:44,803 INFO  DownloadService - Downloading "https://github.com/kannan-anbu/glazy-viewpager/archive/master.zip", attempt 3
+2018-09-08 02:07:45,745 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-08 02:07:46,773 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-08 02:07:46,773 INFO  DownloadService - Downloading "https://github.com/kannan-anbu/glazy-viewpager/archive/master.zip", attempt 3
+2018-09-08 02:08:48,752 DEBUG FullProcessService - Repository https://github.com/kannan-anbu/glazy-viewpager available: true
+2018-09-08 02:08:48,752 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-08 02:08:48,752 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kannan-anbu/glazy-viewpager, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src]
+2018-09-08 02:08:59,733 INFO  SysUtils - 
+2018-09-08 02:08:59,743 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/.git": true
+2018-09-08 02:08:59,747 INFO  FullProcessService - Size of directory with sources: 12 MB
+2018-09-08 02:08:59,747 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src]
+2018-09-08 02:08:59,762 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/.git/
+
+2018-09-08 02:08:59,765 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/gradlew
+2018-09-08 02:08:59,768 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/build.gradle
+2018-09-08 02:08:59,771 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/settings.gradle
+2018-09-08 02:08:59,772 INFO  ProjectBuildService - Remote scripts: none
+2018-09-08 02:08:59,772 INFO  ProjectFixService - Fixing project...
+2018-09-08 02:08:59,779 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/app/local.properties
+2018-09-08 02:08:59,779 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/app/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2018-09-08 02:08:59,780 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/lib/local.properties
+2018-09-08 02:08:59,780 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/lib/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-08 02:08:59,780 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/local.properties
+2018-09-08 02:08:59,780 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-08 02:08:59,781 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-08 02:08:59,781 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2018-09-08 02:08:59,781 INFO  ProjectFixService - Project was maybe fixed
+2018-09-08 02:08:59,781 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-08 02:08:59,781 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-08 02:09:06,587 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-08 02:09:06,587 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-08 02:09:06,587 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-08 02:09:25,312 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2520Library
+:app:prepareComAndroidSupportAppcompatV72520Library
+:app:prepareComAndroidSupportCardviewV72520Library
+:app:prepareComAndroidSupportPaletteV72520Library
+:app:prepareComAndroidSupportSupportCompat2520Library
+:app:prepareComAndroidSupportSupportCoreUi2520Library
+:app:prepareComAndroidSupportSupportCoreUtils2520Library
+:app:prepareComAndroidSupportSupportFragment2520Library
+:app:prepareComAndroidSupportSupportMediaCompat2520Library
+:app:prepareComAndroidSupportSupportV42520Library
+:app:prepareComAndroidSupportSupportVectorDrawable2520Library
+:lib:preBuild UP-TO-DATE
+:lib:preReleaseBuild UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:preDebugAndroidTestBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:preDebugUnitTestBuild UP-TO-DATE
+:lib:preReleaseUnitTestBuild UP-TO-DATE
+:lib:prepareComAndroidSupportAnimatedVectorDrawable2520Library
+:lib:prepareComAndroidSupportAppcompatV72520Library
+:lib:prepareComAndroidSupportCardviewV72520Library
+:lib:prepareComAndroidSupportPaletteV72520Library
+:lib:prepareComAndroidSupportSupportCompat2520Library
+:lib:prepareComAndroidSupportSupportCoreUi2520Library
+:lib:prepareComAndroidSupportSupportCoreUtils2520Library
+:lib:prepareComAndroidSupportSupportFragment2520Library
+:lib:prepareComAndroidSupportSupportMediaCompat2520Library
+:lib:prepareComAndroidSupportSupportV42520Library
+:lib:prepareComAndroidSupportSupportVectorDrawable2520Library
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl
+:lib:compileReleaseNdk UP-TO-DATE
+:lib:compileLint
+:lib:copyReleaseLint UP-TO-DATE
+:lib:compileReleaseRenderscript
+:lib:generateReleaseBuildConfig
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:mergeReleaseResources
+:lib:processReleaseManifest
+:lib:processReleaseResources
+:lib:generateReleaseSources
+:lib:incrementalReleaseJavaCompilationSafeguard
+:lib:javaPreCompileRelease
+:lib:compileReleaseJavaWithJavac
+:lib:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:lib:extractReleaseAnnotations
+:lib:mergeReleaseShaders
+:lib:compileReleaseShaders
+:lib:generateReleaseAssets
+:lib:mergeReleaseAssets
+:lib:mergeReleaseProguardFiles
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:packageReleaseResources
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:transformResourcesWithMergeJavaResForRelease
+:lib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:lib:mergeReleaseJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForRelease
+:lib:transformNativeLibsWithStripDebugSymbolForRelease
+:lib:transformNativeLibsWithSyncJniLibsForRelease
+:lib:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.424 secs
+
+2018-09-08 02:09:25,391 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347204794-0/src/app/build/outputs/apk/app-debug.apk

@@ -1,0 +1,115 @@
+2018-09-04 22:44:25,396 INFO  DownloadService - Downloading "https://github.com/sallySalem/KotlinMvpEspresso/archive/master.zip", attempt 3
+2018-09-04 22:44:26,598 INFO  DownloadService - Downloaded https://github.com/sallySalem/KotlinMvpEspresso/archive/master.zip, attempt 3
+2018-09-04 22:44:26,598 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/master.zip": 370 KB
+2018-09-04 22:44:26,598 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-04 22:44:26,599 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/master.zip: true
+2018-09-04 22:44:26,599 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src'.
+2018-09-04 22:44:26,626 INFO  FullProcessService - Size of directory with sources: 470 KB
+2018-09-04 22:44:26,627 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src]
+2018-09-04 22:44:26,675 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/.git/
+
+2018-09-04 22:44:26,679 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/gradlew
+2018-09-04 22:44:26,682 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/build.gradle
+2018-09-04 22:44:26,686 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/settings.gradle
+2018-09-04 22:44:26,686 INFO  ProjectBuildService - Remote scripts: none
+2018-09-04 22:44:26,686 INFO  ProjectFixService - Fixing project...
+2018-09-04 22:44:26,696 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/app/local.properties
+2018-09-04 22:44:26,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-09-04 22:44:26,696 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/local.properties
+2018-09-04 22:44:26,697 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-milestone-1-all.zip
+2018-09-04 22:44:26,697 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
+2018-09-04 22:44:26,698 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2018-09-04 22:44:26,698 INFO  ProjectFixService - Project was maybe fixed
+2018-09-04 22:44:26,698 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-04 22:44:26,698 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-04 22:44:35,920 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-04 22:44:35,920 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-04 22:44:35,920 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-04 22:45:29,065 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':app' is deprecated. Use 'androidTestImplementation' instead.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:kaptGenerateStubsDebugKotlin
+Using kotlin incremental compilation
+:app:kaptDebugKotlin
+:app:compileDebugKotlin
+Using kotlin incremental compilation
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:processAnalyticsDebug
+:app:compileDebugJavaWithJavac
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:buildInfoGeneratorDebug
+:app:compileDebugSources
+:app:assembleDebug
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:kaptGenerateStubsReleaseKotlin
+Using kotlin incremental compilation
+:app:kaptReleaseKotlin
+:app:compileReleaseKotlin
+Using kotlin incremental compilation
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:processAnalyticsRelease
+:app:compileReleaseJavaWithJavac
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:buildInfoGeneratorRelease
+:app:compileReleaseSources
+:app:lintVitalReleaseCouldn't find or register Kotlin UAST plugin:org.jetbrains.uast.kotlin.KotlinUastLanguagePlugin
+
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 52s
+58 actionable tasks: 58 executed
+
+2018-09-04 22:45:29,134 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536075865391-0/src/KotlinMvpEspresso-master/app/build/outputs/apk/debug/app-debug.apk

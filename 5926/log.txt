@@ -1,0 +1,160 @@
+2018-09-05 22:48:32,847 INFO  DownloadService - Downloading "https://github.com/karanchuri/PermissionManager/archive/master.zip", attempt 3
+2018-09-05 22:48:37,109 INFO  DownloadService - Downloaded https://github.com/karanchuri/PermissionManager/archive/master.zip, attempt 3
+2018-09-05 22:48:37,109 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/master.zip": 3 MB
+2018-09-05 22:48:37,109 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-05 22:48:37,116 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/master.zip: true
+2018-09-05 22:48:37,116 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src'.
+2018-09-05 22:48:37,165 INFO  FullProcessService - Size of directory with sources: 3 MB
+2018-09-05 22:48:37,165 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src]
+2018-09-05 22:48:37,207 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/.git/
+
+2018-09-05 22:48:37,210 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/gradlew
+2018-09-05 22:48:37,213 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/permission_manager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/build.gradle
+2018-09-05 22:48:37,217 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/permission_manager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/settings.gradle
+2018-09-05 22:48:37,217 INFO  ProjectBuildService - Remote scripts: none
+2018-09-05 22:48:37,217 INFO  ProjectFixService - Fixing project...
+2018-09-05 22:48:37,224 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/app/local.properties
+2018-09-05 22:48:37,225 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-05 22:48:37,225 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/permission_manager/local.properties
+2018-09-05 22:48:37,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/permission_manager/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-05 22:48:37,227 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/local.properties
+2018-09-05 22:48:37,227 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-05 22:48:37,227 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-05 22:48:37,228 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-05 22:48:37,228 INFO  ProjectFixService - Project was maybe fixed
+2018-09-05 22:48:37,228 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-05 22:48:37,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-05 22:48:44,980 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-05 22:48:44,980 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-05 22:48:44,980 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-05 22:49:00,196 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:permission_manager:preBuild UP-TO-DATE
+:permission_manager:preReleaseBuild UP-TO-DATE
+:permission_manager:checkReleaseManifest
+:permission_manager:preDebugAndroidTestBuild UP-TO-DATE
+:permission_manager:preDebugBuild UP-TO-DATE
+:permission_manager:preDebugUnitTestBuild UP-TO-DATE
+:permission_manager:preReleaseUnitTestBuild UP-TO-DATE
+:permission_manager:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:permission_manager:prepareComAndroidSupportAppcompatV72531Library
+:permission_manager:prepareComAndroidSupportSupportCompat2531Library
+:permission_manager:prepareComAndroidSupportSupportCoreUi2531Library
+:permission_manager:prepareComAndroidSupportSupportCoreUtils2531Library
+:permission_manager:prepareComAndroidSupportSupportFragment2531Library
+:permission_manager:prepareComAndroidSupportSupportMediaCompat2531Library
+:permission_manager:prepareComAndroidSupportSupportV42531Library
+:permission_manager:prepareComAndroidSupportSupportVectorDrawable2531Library
+:permission_manager:prepareReleaseDependencies
+:permission_manager:compileReleaseAidl
+:permission_manager:compileReleaseNdk UP-TO-DATE
+:permission_manager:compileLint
+:permission_manager:copyReleaseLint UP-TO-DATE
+:permission_manager:compileReleaseRenderscript
+:permission_manager:generateReleaseBuildConfig
+:permission_manager:generateReleaseResValues
+:permission_manager:generateReleaseResources
+:permission_manager:mergeReleaseResources
+:permission_manager:processReleaseManifest
+:permission_manager:processReleaseResources
+:permission_manager:generateReleaseSources
+:permission_manager:incrementalReleaseJavaCompilationSafeguard
+:permission_manager:javaPreCompileRelease
+:permission_manager:compileReleaseJavaWithJavac
+:permission_manager:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:permission_manager:extractReleaseAnnotations
+:permission_manager:mergeReleaseShaders
+:permission_manager:compileReleaseShaders
+:permission_manager:generateReleaseAssets
+:permission_manager:mergeReleaseAssets
+:permission_manager:mergeReleaseProguardFiles
+:permission_manager:packageReleaseRenderscript UP-TO-DATE
+:permission_manager:packageReleaseResources
+:permission_manager:processReleaseJavaRes UP-TO-DATE
+:permission_manager:transformResourcesWithMergeJavaResForRelease
+:permission_manager:transformClassesAndResourcesWithSyncLibJarsForRelease
+:permission_manager:mergeReleaseJniLibFolders
+:permission_manager:transformNativeLibsWithMergeJniLibsForRelease
+:permission_manager:transformNativeLibsWithStripDebugSymbolForRelease
+:permission_manager:transformNativeLibsWithSyncJniLibsForRelease
+:permission_manager:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 14.879 secs
+
+2018-09-05 22:49:00,282 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536162512844-0/src/PermissionManager-master/app/build/outputs/apk/app-debug.apk

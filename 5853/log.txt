@@ -1,0 +1,164 @@
+2018-09-08 02:18:08,636 INFO  DownloadService - Downloading "https://github.com/amanjeetsingh150/SmartyToast/archive/master.zip", attempt 3
+2018-09-08 02:19:11,007 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-08 02:19:12,304 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-08 02:19:12,304 INFO  DownloadService - Downloading "https://github.com/amanjeetsingh150/SmartyToast/archive/master.zip", attempt 3
+2018-09-08 02:20:14,038 DEBUG FullProcessService - Repository https://github.com/amanjeetsingh150/SmartyToast available: true
+2018-09-08 02:20:14,038 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-08 02:20:14,039 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/amanjeetsingh150/SmartyToast, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src]
+2018-09-08 02:20:15,961 INFO  SysUtils - 
+2018-09-08 02:20:15,970 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/.git": true
+2018-09-08 02:20:15,973 INFO  FullProcessService - Size of directory with sources: 168 KB
+2018-09-08 02:20:15,973 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src]
+2018-09-08 02:20:15,988 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/.git/
+
+2018-09-08 02:20:15,991 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/gradlew
+2018-09-08 02:20:15,994 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/smartytoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/build.gradle
+2018-09-08 02:20:15,997 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/smartytoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/settings.gradle
+2018-09-08 02:20:15,997 INFO  ProjectBuildService - Remote scripts: none
+2018-09-08 02:20:15,997 INFO  ProjectFixService - Fixing project...
+2018-09-08 02:20:16,004 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/app/local.properties
+2018-09-08 02:20:16,004 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2018-09-08 02:20:16,004 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/smartytoast/local.properties
+2018-09-08 02:20:16,005 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/smartytoast/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2018-09-08 02:20:16,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/local.properties
+2018-09-08 02:20:16,005 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-08 02:20:16,006 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-08 02:20:16,006 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2018-09-08 02:20:16,006 INFO  ProjectFixService - Project was maybe fixed
+2018-09-08 02:20:16,006 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-08 02:20:16,006 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-08 02:20:22,404 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-08 02:20:22,404 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-08 02:20:22,404 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-08 02:20:36,822 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2511Library
+:app:prepareComAndroidSupportAppcompatV72511Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportSupportCompat2511Library
+:app:prepareComAndroidSupportSupportCoreUi2511Library
+:app:prepareComAndroidSupportSupportCoreUtils2511Library
+:app:prepareComAndroidSupportSupportFragment2511Library
+:app:prepareComAndroidSupportSupportMediaCompat2511Library
+:app:prepareComAndroidSupportSupportV42511Library
+:app:prepareComAndroidSupportSupportVectorDrawable2511Library
+:smartytoast:preBuild UP-TO-DATE
+:smartytoast:preReleaseBuild UP-TO-DATE
+:smartytoast:checkReleaseManifest
+:smartytoast:preDebugAndroidTestBuild UP-TO-DATE
+:smartytoast:preDebugBuild UP-TO-DATE
+:smartytoast:preDebugUnitTestBuild UP-TO-DATE
+:smartytoast:preReleaseUnitTestBuild UP-TO-DATE
+:smartytoast:prepareComAndroidSupportAnimatedVectorDrawable2511Library
+:smartytoast:prepareComAndroidSupportAppcompatV72511Library
+:smartytoast:prepareComAndroidSupportSupportCompat2511Library
+:smartytoast:prepareComAndroidSupportSupportCoreUi2511Library
+:smartytoast:prepareComAndroidSupportSupportCoreUtils2511Library
+:smartytoast:prepareComAndroidSupportSupportFragment2511Library
+:smartytoast:prepareComAndroidSupportSupportMediaCompat2511Library
+:smartytoast:prepareComAndroidSupportSupportV42511Library
+:smartytoast:prepareComAndroidSupportSupportVectorDrawable2511Library
+:smartytoast:prepareReleaseDependencies
+:smartytoast:compileReleaseAidl
+:smartytoast:compileReleaseNdk UP-TO-DATE
+:smartytoast:compileLint
+:smartytoast:copyReleaseLint UP-TO-DATE
+:smartytoast:compileReleaseRenderscript
+:smartytoast:generateReleaseBuildConfig
+:smartytoast:generateReleaseResValues
+:smartytoast:generateReleaseResources
+:smartytoast:mergeReleaseResources
+:smartytoast:processReleaseManifest
+:smartytoast:processReleaseResources
+:smartytoast:generateReleaseSources
+:smartytoast:incrementalReleaseJavaCompilationSafeguard
+:smartytoast:javaPreCompileRelease
+:smartytoast:compileReleaseJavaWithJavac
+:smartytoast:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:smartytoast:extractReleaseAnnotations
+:smartytoast:mergeReleaseShaders
+:smartytoast:compileReleaseShaders
+:smartytoast:generateReleaseAssets
+:smartytoast:mergeReleaseAssets
+:smartytoast:mergeReleaseProguardFiles
+:smartytoast:packageReleaseRenderscript UP-TO-DATE
+:smartytoast:packageReleaseResources
+:smartytoast:processReleaseJavaRes UP-TO-DATE
+:smartytoast:transformResourcesWithMergeJavaResForRelease
+:smartytoast:transformClassesAndResourcesWithSyncLibJarsForRelease
+:smartytoast:mergeReleaseJniLibFolders
+:smartytoast:transformNativeLibsWithMergeJniLibsForRelease
+:smartytoast:transformNativeLibsWithStripDebugSymbolForRelease
+:smartytoast:transformNativeLibsWithSyncJniLibsForRelease
+:smartytoast:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 14.157 secs
+
+2018-09-08 02:20:36,893 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536347888634-0/src/app/build/outputs/apk/app-debug.apk

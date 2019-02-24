@@ -1,0 +1,170 @@
+2018-09-23 00:33:31,703 INFO  DownloadService - Downloading "https://github.com/ebanx/swipe-button/archive/master.zip", attempt 3
+2018-09-23 00:34:32,384 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-23 00:34:33,362 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-23 00:34:33,362 INFO  DownloadService - Downloading "https://github.com/ebanx/swipe-button/archive/master.zip", attempt 3
+2018-09-23 00:35:34,977 DEBUG FullProcessService - Repository https://github.com/ebanx/swipe-button available: true
+2018-09-23 00:35:34,977 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-23 00:35:34,977 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ebanx/swipe-button, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src]
+2018-09-23 00:35:37,231 INFO  SysUtils - 
+2018-09-23 00:35:37,240 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/.git": true
+2018-09-23 00:35:37,244 INFO  FullProcessService - Size of directory with sources: 235 KB
+2018-09-23 00:35:37,245 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src]
+2018-09-23 00:35:37,266 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/.git/
+
+2018-09-23 00:35:37,270 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/gradlew
+2018-09-23 00:35:37,275 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/swipe-button/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/build.gradle
+2018-09-23 00:35:37,278 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/swipe-button/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/settings.gradle
+2018-09-23 00:35:37,279 INFO  ProjectBuildService - Remote scripts: none
+2018-09-23 00:35:37,279 INFO  ProjectFixService - Fixing project...
+2018-09-23 00:35:37,288 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/app/local.properties
+2018-09-23 00:35:37,288 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-09-23 00:35:37,289 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/swipe-button/local.properties
+2018-09-23 00:35:37,290 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/swipe-button/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-23 00:35:37,291 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/local.properties
+2018-09-23 00:35:37,291 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-23 00:35:37,292 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-23 00:35:37,293 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-09-23 00:35:37,293 INFO  ProjectFixService - Project was maybe fixed
+2018-09-23 00:35:37,293 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-23 00:35:37,293 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-23 00:35:45,264 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-23 00:35:45,265 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-23 00:35:45,265 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-23 00:36:27,778 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':app' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
+Configuration 'compile' in project ':swipe-button' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':swipe-button' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':swipe-button' is deprecated. Use 'testImplementation' instead.
+:app:preBuild UP-TO-DATE
+:swipe-button:preBuild UP-TO-DATE
+:swipe-button:preDebugBuild UP-TO-DATE
+:swipe-button:checkDebugManifest
+:swipe-button:processDebugManifest
+:app:preDebugBuild
+:swipe-button:compileDebugAidl
+:app:compileDebugAidl
+:swipe-button:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:swipe-button:compileDebugRenderscript
+:swipe-button:generateDebugResValues
+:swipe-button:generateDebugResources
+:swipe-button:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:swipe-button:platformAttrExtractor
+:swipe-button:generateDebugBuildConfig
+:swipe-button:prepareLintJar
+:swipe-button:javaPreCompileDebug
+:swipe-button:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:swipe-button:mergeDebugShaders
+:swipe-button:processDebugResources
+:app:processDebugResources
+:swipe-button:generateDebugSources
+:swipe-button:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/swipe-button/src/main/java/com/ebanx/swipebtn/SwipeButton.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:swipe-button:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:swipe-button:compileDebugShaders
+:swipe-button:generateDebugAssets
+:swipe-button:mergeDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:swipe-button:compileDebugNdk NO-SOURCE
+:swipe-button:mergeDebugJniLibFolders
+:swipe-button:transformNativeLibsWithMergeJniLibsForDebug
+:swipe-button:transformNativeLibsWithStripDebugSymbolForDebug
+:swipe-button:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:swipe-button:preReleaseBuild UP-TO-DATE
+:swipe-button:checkReleaseManifest
+:swipe-button:processReleaseManifest
+:app:preReleaseBuild
+:swipe-button:compileReleaseAidl
+:app:compileReleaseAidl
+:swipe-button:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:swipe-button:compileReleaseRenderscript
+:swipe-button:generateReleaseResValues
+:swipe-button:generateReleaseResources
+:swipe-button:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:swipe-button:processReleaseResources
+:app:processReleaseResources
+:swipe-button:generateReleaseBuildConfig
+:swipe-button:generateReleaseSources
+:swipe-button:javaPreCompileRelease
+:swipe-button:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/swipe-button/src/main/java/com/ebanx/swipebtn/SwipeButton.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:swipe-button:processReleaseJavaRes NO-SOURCE
+:swipe-button:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:swipe-button:mergeReleaseShaders
+:swipe-button:compileReleaseShaders
+:swipe-button:generateReleaseAssets
+:swipe-button:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:swipe-button:compileReleaseNdk NO-SOURCE
+:swipe-button:mergeReleaseJniLibFolders
+:swipe-button:transformNativeLibsWithMergeJniLibsForRelease
+:swipe-button:transformNativeLibsWithStripDebugSymbolForRelease
+:swipe-button:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 41s
+90 actionable tasks: 90 executed
+
+2018-09-23 00:36:27,854 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1537637611698-0/src/app/build/outputs/apk/debug/app-debug.apk

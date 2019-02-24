@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.ahamed.sample",
+    "label" : "MultiViewAdapter Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.2.6",
+    "versionCode" : 126,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.SYSTEM_ALERT_WINDOW" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAD90lEQVRo3u2ZTWgcZRjHf/O+s7O7Jvvd2IYGa8uiVYofIH70lHoRlGDxEhQKgV4KgjerniSg1EM9GowgKAYEERFjPHkK9uTdgrK4TZpYTbNf3V33Y+Z9PSS7TZrN7mSz2Z1iHhgWZnae+f+fj3k+Bg7lUP7fYri8bgwIn77n1x2B+fn5B8bHxz8SQlwwDCPa9dO17gWJrG3bc4uLi+9OTEyU3RAQmUzmk0AgcGlfpusN+KZUq9VP4/H4m4DqRCBYLBZvCSHC+XwepdQ2QIZh9IVA434hBNFoFKVUIRQKHQP+3fo/s8W9lhAiDKCUwnEcAP4o5snUazwXG+krgWZYbGCy3BAQrZR9tfInBbvGs9EjHb3Qa/DtsJmdFM2kfmNubYmybaOV4oVrP/FqYpR3Tj+NMAb1cmrDaFuCGAaXTp7mpfAISim01pwNxbj8yJO7gu918nYSsyNDIRi2LI4IEx/gN31IKT1TyEw38XjKF+T7Z85hCsHCahqtdcs86IX196qjVRzEyuVyBiCXy+E4zjbABwm+lR4pJbFYDIChoaE4kHXtgVAoNLDC1ZMQKhQK2LaNufoXKhxGWz7MpVXqyYe3eaRnjU8LXVJK4vF49zkw/N088c/mcPxBHOnH+n2Jwvlz5D643NuurUtDiE5KrWu/Qs1BruWwUiuAIvjz4sBCZk8EAKpjY1CxoeKAYwMO5Sce9YT1XRWyOxdfpzxyFGp10A61YT/Z995y3dQN3AMyEuafmWnKYyPUQxarM1cQJ094wvptk1hr3TzE8WP8/cVVjLV1jDOPeQb8rgQaii3Las4DnHho4+hz7Ashuq8DPp/vLoFBDe0dcq0tgTvFEh+uaFpRuJhQjFoHHzpSSvx+f3cENDCX96G3tEyNR5+PVhj1wKxsunqoh5J27+30DhDeAe/eA9p7lt/DQLO/cDronsnsNO1ciFSbSbwVSkJq2m0c+9XstZzISqVSZnMb5ok6EAgEupvIKpVKc7GFVmitMITZV6tLKZsE9hxCSimUXSVy/SqhG19jOFVKx18he+Z9tBXpS7jsqxIDRK5/TCT1+d0J7eYPiMo6t89+6YmhpuNENnTjmx3ng7d/wSjfuj/2QhvvHt3i7H0yUhbHXttxrpx4HhU46l0PbF1e5R9/G1Sd0M1vMVSd0oMvknnqSt9Hyt3yrWUdyGQyab/fH85ms9i2vfkWtUErDGn1FXhjL1Sr1XKxWOyUmzpgLy8v/5hMJt9orPS8IOl0egGouwmhyuTk5PTs7KyZTCZfllIODxK44zjFVCq1MDU1NQ1U3IQQQBBIABHAx2A/s9aBPLDOPZ+X6ABMbnpIDJiAAjY2aodyKL2X/wDsAsbTBZ9MEAAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 2546,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"126\" android:versionName=\"1.2.6\" package=\"com.ahamed.sample\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"MultiViewAdapter Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.ahamed.sample.SampleActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Simple adapter\" android:name=\"com.ahamed.sample.simple.SimpleAdapterActivity\" />\n\t\t<activity android:label=\"Simple grid\" android:name=\"com.ahamed.sample.grid.GridAdapterActivity\" />\n\t\t<activity android:label=\"Multiple data set\" android:name=\"com.ahamed.sample.multilist.MultiListActivity\" />\n\t\t<activity android:label=\"Data binding\" android:name=\"com.ahamed.sample.data.binding.DataBindingActivity\" />\n\t\t<activity android:label=\"Contextual action mode\" android:name=\"com.ahamed.sample.contextual.action.mode.ContextualActionModeActivity\" />\n\t\t<activity android:label=\"Complex\" android:name=\"com.ahamed.sample.complex.ComplexListActivity\" />\n\t\t<activity android:label=\"Swipe to dismiss\" android:name=\"com.ahamed.sample.swipetodismiss.SwipeToDismissActivity\" />\n\t\t<activity android:label=\"Infinite scroll\" android:name=\"com.ahamed.sample.infinite.scroll.InfiniteScrollActivity\" />\n\t\t<activity android:label=\"Expandable item\" android:name=\"com.ahamed.sample.expandable.item.ExpandableItemActivity\" />\n\t\t<activity android:label=\"Expandable group\" android:name=\"com.ahamed.sample.expandable.group.ExpandableGroupActivity\" />\n\t\t<activity android:label=\"Selection mode\" android:name=\"com.ahamed.sample.selectable.adapter.SelectionModeActivity\" />\n\t\t<activity android:label=\"Drag and drop\" android:name=\"com.ahamed.sample.drag.and.drop.DragAndDropActivity\" />\n\t\t<activity android:label=\"Payload &amp; Diffutil\" android:name=\"com.ahamed.sample.payload.PayloadActivity\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.4.0\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1993027,
+  "crc32" : 3638516737,
+  "sha256" : "95b2c16493bee1360582b0d750bac983463c468e4208a85926fc77835eb33717",
+  "buildTime" : 1537031242000
+}

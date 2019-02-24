@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "in.arjsna.permissionchecker",
+    "label" : "Android Permissions",
+    "icon" : "res/mipmap-mdpi-v4/app_icon.png",
+    "versionName" : "2.2",
+    "versionCode" : 7,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/app_icon.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAALB0lEQVRoQ+1ZCXAUVRr+pnuOTA4gIQcJM4FchFuOBXbVBdTlcmUJh6UgFsupi+AWK7sq4BJAAbkRlRVYEsUQlpUtRMGtXbZgKZaCWNwJJJBkSEIIA+ROmMzR3Vvvdfd098yEDCksyiobKKb79Xvv//7/+4/3tw4/8kv3I5cfPwF43BZsywLyeFvv/VA4BGlh+X+/fQIKNm9eZmhUL8tqD8+/KkCIUs8SBO1a8r33qTRO7wXyV/U+vZcv8Ua8l96SBuU50lI1Bka3x2arXvLNjsz7vggCAWAWrft0u4cX5rUmrFcEtbBUDgFkDvnHMgz6pCTCZDDgfFEpXB4PdDrtdrIuvCBVABQ9iQ8NjG7nZ8vfeh0ArwYRCID5zbWf3OYFoYMv2la1T4QmfwQBCdFRGNgjGf1TuyHEZERYWBicLjfOFxbjTP413Ki6AwWHuD0FEFj7ohnppWvYveKtLgAcbQHouGDNx3XBCC9r22wyoE9yNwztnYrYqE6aqQSArHnyvr2mDqcuXsHZq9fR7HBKshE5VWBEY2roT+6zVi4mi9e3BSBywZqPawLznmhZ1BnPC0izxmNAjySkd+sKPctqBC9sqMZxezmMoWaMi09GakSkZpzjeFwpLcOZ/CJcLimT4rkOcmBvBQDxx9qHAiDSRhSc/I6MCKNCD0hLQofwUI1QNU4HTt69iRN3KlDV0kzHmBAT/T8prCNGdemO4bFWhOoNmnn1jc3IKyhCXn4R7LX1rfpK1srFwQNQ+C6A0enQs7sFg9NT0D0hVkMJD8/jQq0dJ+5W4HyNnTJWHftYCYDMdRPDYniMFaPjk5AS3kkjLNmztPI2pdjFaza4PRy1iGyNoAG8sXqbRCGRKt3iojHzN7/SaO1mcwOO2ctw6t4tNHpc1Dpa1opAGJNRASwHTenVpPBOGEusEpcIM6vXrP9J7kEUVlSBYXQQJP9oFwDC1cTYKMzOGEM3KKi7i/3lhShtqlNHeC8A38zjC0AJnYq8ZpbFiBgrxlvSYAmNoANbv9iPAlsFQkLDSASids1a+cfgKKS2AOfhYImNwtyJY+nCfy+7ikOVxfS3V1jffKAakwH4JCdtQpOizkRLD8xM6UfX3pL9N+SXlEFvNMBgMtPQ+1AAZEpwHAdrbCTmZIgAviovxNcSAAriAcIT8lInlrKNOon7Eo6MZVjSMCulvwRgH/JLy8EwLHQsC6PJhOxVfwrOAvM/+MjrAxRATBTmyBYoL1Qs0ArvRfOIIgYCEEh48u4ESypmpzxB523O3ocCAkAKzzqGwd51fw4egFyj8K0AaM1pFU8WMCzOgtAQM/57p9wbSXwqKTVWTLCkYbZkAQUAcW5xVu6GzOAA/M7PApGYO3Gc6AOEQjeva3xA7Q+yRCTWf/7cZBgYFrNOfYtaZ4vPHElF3hJCpNCjAyBRQPYBXwBqTWq0Ks17MaUvZvUaTIU+WFaIHdcv+Dmuiml0bKLKBzZl78MVSiElvOZuWB6kBd7fqvIBHtaYSMydpFjgoGQBteaJn/aLikOcOQzW8E4Yk5iKDsYQCsDJeXD4ZjEqmhtgb2nGpVo7OFq1ioSTFTDJkoaZEoU2ZeXiiu0m9QESgci7DwVA9gFigcSYKC8AkgMCUWhEfHe8M2i41wUe9GPntfM4UFaouIv0a5I1DTOTxSi0MSsXVyUA5J6A2Ls+SAu8rrEAB2t0JOZNfp4uTACoLSCr0cTqsWLIs3giOv6BIGyNtXjn3DHUu8RKVEl8AqZY0/HbZDEPbNi9F4U3KsHq5SJRh73rg4xCr63a4q1GSRSKj+yA+S+NpwsfqCjCgYprku21AdHIsBTEwJiEgCBKGmqx9Pwx1AUQnkx4ObEnpif1pXPX7tiDkko7GJaRMjGxQDsBhJv0eHvmS3Thf1XZkF16WSOg2omTIjph+4gJAQFkXjiB03cr/TQvvzwnpT8yLD3o7bKtO2CvafDmAfKsHQAE8BwP8B6smj+DLnz6XiU+KjqrEUKkgghjZEIS3h00IiCAz4svIddWoK2hVHeLew7FyLhEOnfBqo1wcgLNxPLVPgA8D7fTiSWzXqb1//XGGiy/dLJVIaal9ceM9EF0z/xqOxo5N34e05VWpCfs5Vh96X8a3quRrh8wEr06RuO+w4E3Vm2B3mgEwxAKiV68d917wYXReSsVHxAEDm6XC7MnjEJaogUujsOM04clC/jkVQEYbU3B84npyL1+CWfuVNBSonfHGExP6Ydr9dXIKrkUcC55+NXTGQhh9bhmK8eaXTnQGyQA0iG6XQB4ngfndmPEoF4Y+9RQkZ8XT6C4STnZ+XRaVLFFPpHJ511RmZpWi2SCtPBIbB78HL07ePQEDh0/RQGQGogaAEBO8BbY7I1CpObxeDxIiOyAhdMy6GKknCDRiAqjTcNeRsiPxSOl0vwIJDzZY3r3PpjavTed/8H2bJRW3QGrN1DqybPbDYCEUrezBUvnTEXHiHDYHc34/bmjbQpPhFEDaE14BjrsHDYOXcxhqGtowKI126A3mqQsLImv0yHnw2XB+cDcFYoFxA4ED4/LhWcG98XYp0Uabbyah7zqKg1dRHooF7EOPRPrdAFpI1e0T8dY8G6fX4j0+fdxHDp+2s+ByVi7AMgNK87jBuklLJ07jTasiBX+cO4/8Ahio0zrzgq11OcBFTbvQYgkv+1DRqOLORwtThcWf7gNDg8PvV4vnqVV3bygAcxZscmvL8TzHDiXC8MH9MYLI5+kshypLEa2LV8tl4ZWBDwbEqJ2AclvFLjz0wbi111TRd86chRHTn4vap8WcdrG4cMD8O4jtg2JM3MuJxZOnYDE+Diq9V3FF3HUfsPHH5RIQyygFkR9EBqfkIrX0gbQcVtFJVZ+mgXWYAJLtC/Hf0k95J0v1y4NzgfmZGotIEYbyRfcLkSYDFj06mSEh4XS51/cKMDhyhKJSloyqQGohZ9sTcfM5H5U+MamZmRu24XaZodf7KchVLLEQwPwjRoUBIlILhdiIkKx8JVJCDWLNf/31VX4rPgC6t1Sv1PSnNyZk3nWyWDCm+mDMSy6K33U7HBg9fZs3LpX6x95VMITHn65dklwFpiduVHjA/LmcjOXgPC4nOgcbsbcF8cjOlJs6N73uPFNZTH+WWVDk8dFn8kAIvRGvNA1BZOs6d7W4r2aWmz8aw6qahuo5il1VLxXfou+8FAA/LOrF4ZIJ48HbrcLeoHHlFG/xM/69fEGDBfP4fS9W8irvgWD2Ywno7viqVgLSMQR6QjkXbyM3Qe+pQWb3mDwJi15F1/hCa49a4K0wKzlG2r8Qodv+SYIIKc1UmY4HQ4kx0djyphnYU0gLXzlUrfXydObVbeR8/V3tCNtMBKHJcI/WPPykTJoC8xYtu4GyzJ+HzgUKlE9eh2bWMPldMLZ3ITeKYkYMWQg+vfqQelAAJDr4pUiHD2VhwuFJWANBqp1cmD3DZeBNE/m8xxXl7PuveRg2usRkxe8/ZeOnWOmqTUZmFLKJyWSJ0i2JtYgSS/MZED/9FSYjEacLShCo6PFq20iOEsaVqTOeQDn1V9y6u/dzTm0cxP5xNSklivQJyZDRHR00siJr7wfEdl5HMOw4X5p1j/ver+NkVzhbmkBASTwYkglMZ3U9VTbDEs7zuoMqw6VMnVl4XmOb2qqq/nu5D/2L21ouGsD4GkLABk3A+gMgIQX0ph5nJ9ZicDkk1e17/cxClzjcdobEjKI8Mqp+gEv/0BDxISk2CIguEB7PC7NPjK8PwF4ZKps50L/BwN6gXyOy0cZAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 4430,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"7\" android:versionName=\"2.2\" package=\"in.arjsna.permissionchecker\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"Android Permissions\" android:icon=\"res/mipmap-mdpi-v4/app_icon.png\" android:name=\"in.arjsna.permissionchecker.PermissionsApp\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-mdpi-v4/app_icon.png\">\n\t\t<activity android:name=\"in.arjsna.permissionchecker.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e00af\" android:label=\"\" android:name=\"pub.devrel.easypermissions.AppSettingsDialogHolderActivity\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3006299,
+  "crc32" : 290582943,
+  "sha256" : "49b2ac833c8ff9ceb3e5626ff5170cd2b0dde50e81b6e493343111d62630e0f0",
+  "buildTime" : 1537637550000
+}

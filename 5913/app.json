@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "me.zhanghai.android.effortlesspermissions.sample",
+    "label" : "EffortlessPermissions Sample",
+    "icon" : "res/mipmap-mdpi-v4/launcher_icon.png",
+    "versionName" : "1.1.0",
+    "versionCode" : 5,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "5",
+    "platformBuildVersionName" : "1.1.0",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/launcher_icon.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1434,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"5\" android:versionName=\"1.1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"me.zhanghai.android.effortlesspermissions.sample\" platformBuildVersionCode=\"5\" platformBuildVersionName=\"1.1.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"EffortlessPermissions Sample\" android:icon=\"res/mipmap-xxxhdpi-v4/launcher_icon.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:label=\"EffortlessPermissions Sample\" android:name=\"me.zhanghai.android.effortlesspermissions.sample.MainActivity\" android:launchMode=\"singleTop\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"About\" android:name=\"me.zhanghai.android.effortlesspermissions.sample.AboutActivity\" android:launchMode=\"singleTop\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0d00a2\" android:label=\"\" android:name=\"pub.devrel.easypermissions.AppSettingsDialogHolderActivity\" android:exported=\"false\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1568741,
+  "crc32" : 370546718,
+  "sha256" : "ccd117a7ebb1c8bf3253861b34490a109254a606287b33b305f400ce04cc77ad",
+  "buildTime" : 1541252570000
+}

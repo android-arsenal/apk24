@@ -1,0 +1,219 @@
+2018-09-02 23:26:47,468 INFO  DownloadService - Downloading "https://github.com/RameshBhupathi/ImagePicker-OLX/archive/master.zip", attempt 3
+2018-09-02 23:26:51,659 INFO  DownloadService - Downloaded https://github.com/RameshBhupathi/ImagePicker-OLX/archive/master.zip, attempt 3
+2018-09-02 23:26:51,659 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/master.zip": 4 MB
+2018-09-02 23:26:51,659 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 23:26:51,666 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/master.zip: true
+2018-09-02 23:26:51,666 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src'.
+2018-09-02 23:26:51,740 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-09-02 23:26:51,740 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src]
+2018-09-02 23:26:51,755 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/.git/
+
+2018-09-02 23:26:51,760 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/gradlew
+2018-09-02 23:26:51,766 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/tedbottompicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/build.gradle
+2018-09-02 23:26:51,771 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/tedbottompicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/settings.gradle
+2018-09-02 23:26:51,771 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 23:26:51,771 INFO  ProjectFixService - Fixing project...
+2018-09-02 23:26:51,783 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/app/local.properties
+2018-09-02 23:26:51,784 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-02 23:26:51,784 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/library/local.properties
+2018-09-02 23:26:51,785 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/library/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=24]
+2018-09-02 23:26:51,785 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/tedbottompicker/local.properties
+2018-09-02 23:26:51,785 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/tedbottompicker/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=24]
+2018-09-02 23:26:51,786 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/local.properties
+2018-09-02 23:26:51,786 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-02 23:26:51,786 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-02 23:26:51,787 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-02 23:26:51,787 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 23:26:51,787 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 23:26:51,787 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 23:27:03,773 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-02 23:27:03,773 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-02 23:27:03,773 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-02 23:27:29,450 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2510Library
+:app:prepareComAndroidSupportAppcompatV72510Library
+:app:prepareComAndroidSupportDesign2510Library
+:app:prepareComAndroidSupportRecyclerviewV72510Library
+:app:prepareComAndroidSupportSupportCompat2510Library
+:app:prepareComAndroidSupportSupportCoreUi2510Library
+:app:prepareComAndroidSupportSupportCoreUtils2510Library
+:app:prepareComAndroidSupportSupportFragment2510Library
+:app:prepareComAndroidSupportSupportMediaCompat2510Library
+:app:prepareComAndroidSupportSupportV42510Library
+:app:prepareComAndroidSupportSupportVectorDrawable2510Library
+:app:prepareComAndroidSupportTransition2510Library
+:app:prepareGun0912TedTedpermission103Library
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportSupportCompat2510Library
+:library:prepareComAndroidSupportSupportCoreUi2510Library
+:library:prepareComAndroidSupportSupportCoreUtils2510Library
+:library:prepareComAndroidSupportSupportFragment2510Library
+:library:prepareComAndroidSupportSupportMediaCompat2510Library
+:library:prepareComAndroidSupportSupportV42510Library
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/library/src/main/api21/com/google/android/cameraview/Camera2.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:library:extractReleaseAnnotations
+Warning: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/library/src/main/java/com/google/android/cameraview/CameraView.java: The typedef annotation com.google.android.cameraview.CameraView.Flash should have @Retention(RetentionPolicy.SOURCE)
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:packageReleaseResources
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleRelease
+:tedbottompicker:preBuild UP-TO-DATE
+:tedbottompicker:preReleaseBuild UP-TO-DATE
+:tedbottompicker:checkReleaseManifest
+:tedbottompicker:preDebugAndroidTestBuild UP-TO-DATE
+:tedbottompicker:preDebugBuild UP-TO-DATE
+:tedbottompicker:preDebugUnitTestBuild UP-TO-DATE
+:tedbottompicker:preReleaseUnitTestBuild UP-TO-DATE
+:tedbottompicker:prepareComAndroidSupportAnimatedVectorDrawable2510Library
+:tedbottompicker:prepareComAndroidSupportAppcompatV72510Library
+:tedbottompicker:prepareComAndroidSupportDesign2510Library
+:tedbottompicker:prepareComAndroidSupportRecyclerviewV72510Library
+:tedbottompicker:prepareComAndroidSupportSupportCompat2510Library
+:tedbottompicker:prepareComAndroidSupportSupportCoreUi2510Library
+:tedbottompicker:prepareComAndroidSupportSupportCoreUtils2510Library
+:tedbottompicker:prepareComAndroidSupportSupportFragment2510Library
+:tedbottompicker:prepareComAndroidSupportSupportMediaCompat2510Library
+:tedbottompicker:prepareComAndroidSupportSupportV42510Library
+:tedbottompicker:prepareComAndroidSupportSupportVectorDrawable2510Library
+:tedbottompicker:prepareComAndroidSupportTransition2510Library
+:tedbottompicker:prepareReleaseDependencies
+:tedbottompicker:compileReleaseAidl
+:tedbottompicker:compileReleaseNdk UP-TO-DATE
+:tedbottompicker:compileLint
+:tedbottompicker:copyReleaseLint UP-TO-DATE
+:tedbottompicker:compileReleaseRenderscript
+:tedbottompicker:generateReleaseBuildConfig
+:tedbottompicker:generateReleaseResValues
+:tedbottompicker:generateReleaseResources
+:tedbottompicker:mergeReleaseResources
+:tedbottompicker:processReleaseManifest
+:tedbottompicker:processReleaseResources
+:tedbottompicker:generateReleaseSources
+:tedbottompicker:incrementalReleaseJavaCompilationSafeguard
+:tedbottompicker:javaPreCompileRelease
+:tedbottompicker:compileReleaseJavaWithJavac
+:tedbottompicker:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:tedbottompicker:extractReleaseAnnotations
+:tedbottompicker:mergeReleaseShaders
+:tedbottompicker:compileReleaseShaders
+:tedbottompicker:generateReleaseAssets
+:tedbottompicker:mergeReleaseAssets
+:tedbottompicker:mergeReleaseProguardFiles
+:tedbottompicker:packageReleaseRenderscript UP-TO-DATE
+:tedbottompicker:packageReleaseResources
+:tedbottompicker:processReleaseJavaRes UP-TO-DATE
+:tedbottompicker:transformResourcesWithMergeJavaResForRelease
+:tedbottompicker:transformClassesAndResourcesWithSyncLibJarsForRelease
+:tedbottompicker:mergeReleaseJniLibFolders
+:tedbottompicker:transformNativeLibsWithMergeJniLibsForRelease
+:tedbottompicker:transformNativeLibsWithStripDebugSymbolForRelease
+:tedbottompicker:transformNativeLibsWithSyncJniLibsForRelease
+:tedbottompicker:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 24.962 secs
+
+2018-09-02 23:27:29,564 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905607460-0/src/ImagePicker-OLX-master/app/build/outputs/apk/app-debug.apk

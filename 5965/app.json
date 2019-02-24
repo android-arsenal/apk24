@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.github.badoualy.datepicker.sample",
+    "label" : "DatePicker Timeline Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2157,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0.0\" package=\"com.github.badoualy.datepicker.sample\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f0900b1\" android:label=\"DatePicker Timeline Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.github.badoualy.datepicker.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1983464,
+  "crc32" : 4054823066,
+  "sha256" : "936a9ad6986b0897e3a2eda87ee7c2e56c0bbdf0531adb5d0183be6062889fc1",
+  "buildTime" : 1535906594000
+}

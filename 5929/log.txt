@@ -1,0 +1,256 @@
+2018-10-09 11:35:18,399 INFO  DownloadService - Downloading "https://github.com/JcMinarro/RoundKornerLayouts/archive/master.zip", attempt 3
+2018-10-09 11:35:26,682 INFO  DownloadService - Downloaded https://github.com/JcMinarro/RoundKornerLayouts/archive/master.zip, attempt 3
+2018-10-09 11:35:26,683 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/master.zip": 842 KB
+2018-10-09 11:35:26,683 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-09 11:35:26,684 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/master.zip: true
+2018-10-09 11:35:26,684 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src'.
+2018-10-09 11:35:26,709 INFO  FullProcessService - Size of directory with sources: 866 KB
+2018-10-09 11:35:26,709 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src]
+2018-10-09 11:35:26,733 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/.git/
+
+2018-10-09 11:35:26,735 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/gradlew
+2018-10-09 11:35:26,738 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/roundkornerlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/build.gradle
+2018-10-09 11:35:26,740 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/roundkornerlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/settings.gradle
+2018-10-09 11:35:26,741 INFO  ProjectBuildService - Remote scripts: none
+2018-10-09 11:35:26,741 INFO  ProjectFixService - Fixing project...
+2018-10-09 11:35:26,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/roundkornerlayout/local.properties
+2018-10-09 11:35:26,754 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/roundkornerlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-09 11:35:26,755 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/roundkornerlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-09 11:35:26,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/sample/local.properties
+2018-10-09 11:35:26,759 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-09 11:35:26,760 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-09 11:35:26,761 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/local.properties
+2018-10-09 11:35:26,761 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-09 11:35:26,762 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-09 11:35:26,764 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-09 11:35:26,765 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-09 11:35:26,765 INFO  ProjectFixService - Project was maybe fixed
+2018-10-09 11:35:26,765 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-09 11:35:26,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/roundkornerlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-09 11:35:35,729 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-10-09 11:35:35,729 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-09 11:35:35,729 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/roundkornerlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-09 11:36:00,064 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:roundkornerlayout:preBuild UP-TO-DATE
+:roundkornerlayout:preDebugBuild UP-TO-DATE
+:roundkornerlayout:compileDebugAidl
+:roundkornerlayout:compileDebugRenderscript
+:roundkornerlayout:checkDebugManifest
+:roundkornerlayout:generateDebugBuildConfig
+:roundkornerlayout:generateDebugResValues
+:roundkornerlayout:generateDebugResources
+:roundkornerlayout:packageDebugResources
+:roundkornerlayout:platformAttrExtractor
+:roundkornerlayout:processDebugManifest
+:roundkornerlayout:prepareLintJar
+:roundkornerlayout:mergeDebugConsumerProguardFiles
+:roundkornerlayout:mergeDebugShaders
+:roundkornerlayout:compileDebugShaders
+:roundkornerlayout:generateDebugAssets
+:roundkornerlayout:packageDebugAssets
+:roundkornerlayout:packageDebugRenderscript NO-SOURCE
+:roundkornerlayout:processDebugJavaRes NO-SOURCE
+:roundkornerlayout:compileDebugNdk NO-SOURCE
+:roundkornerlayout:mergeDebugJniLibFolders
+:roundkornerlayout:transformNativeLibsWithMergeJniLibsForDebug
+:roundkornerlayout:transformNativeLibsWithStripDebugSymbolForDebug
+:roundkornerlayout:transformNativeLibsWithSyncJniLibsForDebug
+:roundkornerlayout:preReleaseBuild UP-TO-DATE
+:roundkornerlayout:compileReleaseAidl
+:roundkornerlayout:compileReleaseRenderscript
+:roundkornerlayout:checkReleaseManifest
+:roundkornerlayout:generateReleaseBuildConfig
+:roundkornerlayout:generateReleaseResValues
+:roundkornerlayout:generateReleaseResources
+:roundkornerlayout:packageReleaseResources
+:roundkornerlayout:processReleaseManifest
+:roundkornerlayout:mergeReleaseConsumerProguardFiles
+:roundkornerlayout:mergeReleaseShaders
+:roundkornerlayout:compileReleaseShaders
+:roundkornerlayout:generateReleaseAssets
+:roundkornerlayout:packageReleaseAssets
+:roundkornerlayout:packageReleaseRenderscript NO-SOURCE
+:roundkornerlayout:processReleaseJavaRes NO-SOURCE
+:roundkornerlayout:compileReleaseNdk NO-SOURCE
+:roundkornerlayout:mergeReleaseJniLibFolders
+:roundkornerlayout:transformNativeLibsWithMergeJniLibsForRelease
+:roundkornerlayout:transformNativeLibsWithStripDebugSymbolForRelease
+:roundkornerlayout:transformNativeLibsWithSyncJniLibsForRelease
+:roundkornerlayout:mergeReleaseResources
+:roundkornerlayout:verifyReleaseResources
+:roundkornerlayout:generateDebugRFile
+:roundkornerlayout:compileDebugKotlin
+:roundkornerlayout:generateDebugSources
+:roundkornerlayout:javaPreCompileDebug
+:roundkornerlayout:compileDebugJavaWithJavac
+:roundkornerlayout:extractDebugAnnotations
+:roundkornerlayout:transformResourcesWithMergeJavaResForDebug
+:roundkornerlayout:transformClassesAndResourcesWithSyncLibJarsForDebug
+:roundkornerlayout:bundleDebug
+:roundkornerlayout:compileDebugSources
+:roundkornerlayout:assembleDebug
+:roundkornerlayout:generateReleaseRFile
+:roundkornerlayout:compileReleaseKotlin
+:roundkornerlayout:generateReleaseSources
+:roundkornerlayout:javaPreCompileRelease
+:roundkornerlayout:compileReleaseJavaWithJavac
+:roundkornerlayout:extractReleaseAnnotations
+:roundkornerlayout:transformResourcesWithMergeJavaResForRelease
+:roundkornerlayout:transformClassesAndResourcesWithSyncLibJarsForRelease
+:roundkornerlayout:bundleRelease
+:roundkornerlayout:compileReleaseSources
+:roundkornerlayout:assembleRelease
+:roundkornerlayout:assemble
+:roundkornerlayout:build
+
+BUILD SUCCESSFUL in 23s
+50 actionable tasks: 50 executed
+
+2018-10-09 11:36:00,121 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-09 11:36:00,121 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-09 11:36:07,231 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-10-09 11:36:07,232 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-09 11:36:07,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-09 11:36:37,679 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:roundkornerlayout:preBuild UP-TO-DATE
+:roundkornerlayout:preDebugBuild UP-TO-DATE
+:roundkornerlayout:compileDebugAidl UP-TO-DATE
+:roundkornerlayout:compileDebugRenderscript UP-TO-DATE
+:roundkornerlayout:checkDebugManifest UP-TO-DATE
+:roundkornerlayout:generateDebugBuildConfig UP-TO-DATE
+:roundkornerlayout:generateDebugResValues UP-TO-DATE
+:roundkornerlayout:generateDebugResources UP-TO-DATE
+:roundkornerlayout:packageDebugResources UP-TO-DATE
+:roundkornerlayout:platformAttrExtractor UP-TO-DATE
+:roundkornerlayout:processDebugManifest UP-TO-DATE
+:roundkornerlayout:generateDebugRFile UP-TO-DATE
+:roundkornerlayout:compileDebugKotlin UP-TO-DATE
+:roundkornerlayout:prepareLintJar UP-TO-DATE
+:roundkornerlayout:generateDebugSources UP-TO-DATE
+:roundkornerlayout:javaPreCompileDebug UP-TO-DATE
+:roundkornerlayout:compileDebugJavaWithJavac UP-TO-DATE
+:roundkornerlayout:processDebugJavaRes NO-SOURCE
+:roundkornerlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:roundkornerlayout:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:compileDebugKotlin
+:sample:prepareLintJar
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:roundkornerlayout:mergeDebugShaders UP-TO-DATE
+:roundkornerlayout:compileDebugShaders UP-TO-DATE
+:roundkornerlayout:generateDebugAssets UP-TO-DATE
+:roundkornerlayout:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:roundkornerlayout:compileDebugNdk NO-SOURCE
+:roundkornerlayout:mergeDebugJniLibFolders UP-TO-DATE
+:roundkornerlayout:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:roundkornerlayout:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:roundkornerlayout:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:roundkornerlayout:preReleaseBuild UP-TO-DATE
+:roundkornerlayout:compileReleaseAidl UP-TO-DATE
+:roundkornerlayout:compileReleaseRenderscript UP-TO-DATE
+:roundkornerlayout:checkReleaseManifest UP-TO-DATE
+:roundkornerlayout:generateReleaseBuildConfig UP-TO-DATE
+:roundkornerlayout:generateReleaseResValues UP-TO-DATE
+:roundkornerlayout:generateReleaseResources UP-TO-DATE
+:roundkornerlayout:packageReleaseResources UP-TO-DATE
+:roundkornerlayout:processReleaseManifest UP-TO-DATE
+:roundkornerlayout:generateReleaseRFile UP-TO-DATE
+:roundkornerlayout:compileReleaseKotlin UP-TO-DATE
+:roundkornerlayout:generateReleaseSources UP-TO-DATE
+:roundkornerlayout:javaPreCompileRelease UP-TO-DATE
+:roundkornerlayout:compileReleaseJavaWithJavac UP-TO-DATE
+:roundkornerlayout:processReleaseJavaRes NO-SOURCE
+:roundkornerlayout:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:roundkornerlayout:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:compileReleaseKotlin
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:roundkornerlayout:mergeReleaseShaders UP-TO-DATE
+:roundkornerlayout:compileReleaseShaders UP-TO-DATE
+:roundkornerlayout:generateReleaseAssets UP-TO-DATE
+:roundkornerlayout:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:roundkornerlayout:compileReleaseNdk NO-SOURCE
+:roundkornerlayout:mergeReleaseJniLibFolders UP-TO-DATE
+:roundkornerlayout:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:roundkornerlayout:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:roundkornerlayout:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 29s
+95 actionable tasks: 59 executed, 36 up-to-date
+
+2018-10-09 11:36:37,803 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539059718395-0/src/RoundKornerLayouts-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

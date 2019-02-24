@@ -1,0 +1,160 @@
+2018-09-09 18:19:45,985 INFO  DownloadService - Downloading "https://github.com/uDevel/widgetlab/archive/master.zip", attempt 3
+2018-09-09 18:19:50,466 INFO  DownloadService - Downloaded https://github.com/uDevel/widgetlab/archive/master.zip, attempt 3
+2018-09-09 18:19:50,466 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/master.zip": 4 MB
+2018-09-09 18:19:50,466 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-09 18:19:50,473 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/master.zip: true
+2018-09-09 18:19:50,473 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src'.
+2018-09-09 18:19:50,570 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-09-09 18:19:50,570 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src]
+2018-09-09 18:19:50,615 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/.git/
+
+2018-09-09 18:19:50,625 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/gradlew
+2018-09-09 18:19:50,634 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/typing-indicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/build.gradle
+2018-09-09 18:19:50,651 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/typing-indicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/settings.gradle
+2018-09-09 18:19:50,652 INFO  ProjectBuildService - Remote scripts: none
+2018-09-09 18:19:50,652 INFO  ProjectFixService - Fixing project...
+2018-09-09 18:19:50,676 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/app/local.properties
+2018-09-09 18:19:50,677 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-09-09 18:19:50,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/typing-indicator/local.properties
+2018-09-09 18:19:50,681 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/typing-indicator/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-09-09 18:19:50,684 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/local.properties
+2018-09-09 18:19:50,688 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-09 18:19:50,690 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-09 18:19:50,692 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-09-09 18:19:50,692 INFO  ProjectFixService - Project was maybe fixed
+2018-09-09 18:19:50,692 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-09 18:19:50,693 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-09 18:20:09,204 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-09 18:20:09,204 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-09 18:20:09,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-09 18:21:00,651 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
+Configuration 'androidTestCompile' in project ':app' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'compile' in project ':typing-indicator' is deprecated. Use 'implementation' instead.
+Configuration 'testCompile' in project ':typing-indicator' is deprecated. Use 'testImplementation' instead.
+:app:preBuild UP-TO-DATE
+:typing-indicator:preBuild UP-TO-DATE
+:typing-indicator:preDebugBuild UP-TO-DATE
+:typing-indicator:checkDebugManifest
+:typing-indicator:processDebugManifest
+:app:preDebugBuild
+:typing-indicator:compileDebugAidl
+:app:compileDebugAidl
+:typing-indicator:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:typing-indicator:compileDebugRenderscript
+:typing-indicator:generateDebugResValues
+:typing-indicator:generateDebugResources
+:typing-indicator:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:typing-indicator:platformAttrExtractor
+:typing-indicator:generateDebugBuildConfig
+:typing-indicator:prepareLintJar
+:typing-indicator:javaPreCompileDebug
+:typing-indicator:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:typing-indicator:mergeDebugShaders
+:typing-indicator:compileDebugShaders
+:typing-indicator:generateDebugAssets
+:typing-indicator:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:typing-indicator:compileDebugNdk NO-SOURCE
+:typing-indicator:mergeDebugJniLibFolders
+:typing-indicator:transformNativeLibsWithMergeJniLibsForDebug
+:typing-indicator:transformNativeLibsWithStripDebugSymbolForDebug
+:typing-indicator:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:typing-indicator:preReleaseBuild UP-TO-DATE
+:typing-indicator:checkReleaseManifest
+:typing-indicator:processReleaseManifest
+:app:preReleaseBuild
+:typing-indicator:compileReleaseAidl
+:app:compileReleaseAidl
+:typing-indicator:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:typing-indicator:compileReleaseRenderscript
+:typing-indicator:generateReleaseResValues
+:typing-indicator:generateReleaseResources
+:typing-indicator:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:typing-indicator:generateReleaseBuildConfig
+:typing-indicator:javaPreCompileRelease
+:typing-indicator:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:typing-indicator:mergeReleaseShaders
+:typing-indicator:compileReleaseShaders
+:typing-indicator:generateReleaseAssets
+:typing-indicator:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:typing-indicator:compileReleaseNdk NO-SOURCE
+:typing-indicator:mergeReleaseJniLibFolders
+:typing-indicator:transformNativeLibsWithMergeJniLibsForRelease
+:typing-indicator:transformNativeLibsWithStripDebugSymbolForRelease
+:typing-indicator:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:typing-indicator:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:typing-indicator:generateDebugSources
+:typing-indicator:compileDebugJavaWithJavac
+:typing-indicator:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:typing-indicator:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:typing-indicator:generateReleaseSources
+:typing-indicator:compileReleaseJavaWithJavac
+:typing-indicator:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 50s
+88 actionable tasks: 88 executed
+
+2018-09-09 18:21:00,792 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536491985971-0/src/widgetlab-master/app/build/outputs/apk/debug/app-debug.apk

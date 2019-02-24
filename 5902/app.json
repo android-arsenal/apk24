@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.uzias.rssreader",
+    "label" : "RSS Reader",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "19",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACTFBMVEUAAAAAAAAAAADMZjP6cEX+bT7+Yi/7ZTezTTP3aTz3Xi4AAAD9Zjb9WiYAAAAAAAD5VyT5VSEAAADYSh/XSRwAAAAAAAAoDQDLRR3tUiLtUR/LRBopDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/bD3/az3/azz/ajz/ajv/aTv/aTr/aTn/aDj/aDf/Zzf/Zzb/Zjb/ZjX/ZTX/ZTT/ZDT/ZDP/ZDL/YzL/YzH/YjD/YjH/YS//YC7/YC3/Xyz/Xiz/Xiv/XSr/XCn/XCj/Wyf/Wib/WiX/WSX/WCT/bD7/imX/glv/dkv/h2H//////v7/+fj/6uP/yLf/m3z/cEL/+/v/1sn/kG7/WCP/5t//k3H/hmD/08b/dEj/fFL/lnX/rJL/yrr/8Ov/9vP/iWP/w7D/+vn/s5v/cUX/vqr//fz/wa7/VyL/glr/5t7/cEP/nn//k3D/fVP/ybf/hV7/0ML/mnr/YjL/uaP/lXP/7Ob/cUT/18v/bkD/yLb/08X/hF7/7+v/fFP/5d3/kW//b0L/gFj/pYn/1cf//Pv/flX/d03/z8D/bT//u6b/jWr/XCr/n4H/+/r/1sr/bT7/+vj/1Mf/kG3/+/n/nH3/v6v/e1H/r5b/tp//mHj/7Of/Xy3/g1z/l3f/lHP/zr7/7un/xrT/9PH/mXr/dEn/0cP/6+X/f1b/uKH/0sT/por/d0z/sZn/ooX/jmv/4Nb/elH/j2z/4df/aDr/m3v/eE3/gFf/Wyj/gVn+WiX+ViLyUyLyUyHyUiCb2lXVAAAAJXRSTlMAAQIKkO3tkAqZmgnx8Q8R8e8NpaQMBSaq8/OqJQQcLDAxAwcKSUQZHAAAAvFJREFUSMfdludX02AUhyluq+LeAoJaEVARhJqmTZM2o4q2DpyoKKigFkTEPUAUFXErLtwD9957/GPe+yZN3pCE40ePv0/39DxP7/vem5w2Ken/icuV3GVcLhPerXuPiZM8Hs/krCnZ2Tk5ublTp03Py8ubkV8ws7CwyDuLYZievXobfHKfAvi8yOv1+RiGZf3+QIDjgkGeF4RQKBwWRUmWFaVvsi64+yHvJABPhP5uXRhA8WZBa0CEyABdSEnwTidShRRDILx2IHsBeJNA8NlziudmOzegBcL75kWjsfkLFi4q+QvBh+cHgWTxkqUM8OqVjRMtowRyXV2ARstXcJYGJoHBeZZGjcRWrgLeUSA8m7+6tGzN2nJNqSjrxJsEliXzhAEF/OvWb1CbVDoLBs7hgKo2biLKZoHm47Tg91M8TKi6RjWcBBXfUru1zkd4XsjfFkOj0uDNQgBTj1fdvmMnWRm/C43YbqMBLQTIaerV8eyp5XCiAjEq9uoNaIEjqU8sYd9+nKhwAOsGCXjSoLMQDDbqazvYhAP1HsJDHdYOZBKCJGzzkaPHWtStNYkwoOM43ZqQeiCLwGMEofUEMcpPwkClU9jitNaAFniNxuftzNlzaJwPwUQvtEF1UeM7CyqOt710Gb/4Cg70KlQtWVZBEFS8/dr1G1xYrMUWN2/BQG9jdSduJ+CX38UbNwRF8R7hFEWR7kPRYRVCJAUPyH0fitIjNB/jxjqgeGIrwMv4VF3CMxjPcxwtDwt4AUUbaxHCJC/J8xZ9Bbd9jUUrzPMN3r/ZRoA9icJbxFraZVl+h9V7WFgdFk0WQSSRSj7E4M3Ex/Mjcp9gAVVYNNoIEkno85dCwBXla3FxdbUH5h/+BvFaBBWXMYhHIpHE80OHFmRZpxO4haeF7zrtjMd/UMJAxaAJbsPHBxnC4CE67YjH40OH6cLwESNH/VTzC/PbJqPHjB1n/Cq6U9PSx3eZ9LRUN/27m5HpntBl3JkZ/+x/jD/fgeMVN9o9UgAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 7205,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.uzias.rssreader\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0900a7\" android:label=\"RSS Reader\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.uzias.rssreader.core.application.RSSReaderApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.uzias.rssreader.feed.presentation.view.FeedActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.4.0\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 4264944,
+  "crc32" : 2520883304,
+  "sha256" : "5dd9185cf104a0cd52f9e6b7f2076933dd71d2c1c72e1ee8ab79abcf94223392",
+  "buildTime" : 1536163676000
+}

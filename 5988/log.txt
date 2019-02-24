@@ -1,0 +1,427 @@
+2018-09-02 23:25:20,516 INFO  DownloadService - Downloading "https://github.com/rahulrj/Rx2Groups/archive/master.zip", attempt 3
+2018-09-02 23:25:22,620 INFO  DownloadService - Downloaded https://github.com/rahulrj/Rx2Groups/archive/master.zip, attempt 3
+2018-09-02 23:25:22,620 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/master.zip": 150 KB
+2018-09-02 23:25:22,621 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 23:25:22,626 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/master.zip: true
+2018-09-02 23:25:22,626 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src'.
+2018-09-02 23:25:22,654 INFO  FullProcessService - Size of directory with sources: 244 KB
+2018-09-02 23:25:22,655 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src]
+2018-09-02 23:25:22,672 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/.git/
+
+2018-09-02 23:25:22,676 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/gradlew
+2018-09-02 23:25:22,680 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups/build.gradle
+2018-09-02 23:25:22,683 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/gradle-maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/build.gradle
+2018-09-02 23:25:22,684 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 23:25:22,684 INFO  ProjectFixService - Fixing project...
+2018-09-02 23:25:22,696 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/local.properties
+2018-09-02 23:25:22,697 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-02 23:25:22,698 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/sample/local.properties
+2018-09-02 23:25:22,698 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-02 23:25:22,699 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/local.properties
+2018-09-02 23:25:22,699 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-09-02 23:25:22,700 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-09-02 23:25:22,701 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-02 23:25:22,702 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups/local.properties
+2018-09-02 23:25:22,703 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-09-02 23:25:22,703 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 23:25:22,703 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 23:25:22,703 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 23:25:53,540 INFO  ProjectTaskService - Detected possible tasks: 74
+2018-09-02 23:25:53,540 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-02 23:25:53,540 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-02 23:26:04,619 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:rxgroups-android:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/ResubscriptionObserver.java:18: error: package rx does not exist
+import rx.Observer;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/ResubscriptionObserver.java:20: error: cannot find symbol
+public interface ResubscriptionObserver<T> extends Observer<T> {
+                                                   ^
+  symbol: class Observer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:26: error: cannot find symbol
+import javax.annotation.Nullable;
+                       ^
+  symbol:   class Nullable
+  location: package javax.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:28: error: package rx does not exist
+import rx.Observable;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:29: error: package rx does not exist
+import rx.Observer;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:30: error: package rx does not exist
+import rx.Subscription;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:31: error: package rx.functions does not exist
+import rx.functions.Action1;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:32: error: package rx.functions does not exist
+import rx.functions.Func1;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:33: error: package rx.subscriptions does not exist
+import rx.subscriptions.CompositeSubscription;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:42: error: cannot find symbol
+  private final CompositeSubscription pendingSubscriptions = new CompositeSubscription();
+                ^
+  symbol:   class CompositeSubscription
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/LifecycleResubscription.java:25: error: cannot find symbol
+import javax.annotation.Nullable;
+                       ^
+  symbol:   class Nullable
+  location: package javax.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/LifecycleResubscription.java:27: error: package rx does not exist
+import rx.Observable;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/LifecycleResubscription.java:28: error: package rx does not exist
+import rx.Observer;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/LifecycleResubscription.java:29: error: package rx.android.schedulers does not exist
+import rx.android.schedulers.AndroidSchedulers;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/LifecycleResubscription.java:30: error: package rx.functions does not exist
+import rx.functions.Func1;
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/LifecycleResubscription.java:31: error: package rx.schedulers does not exist
+import rx.schedulers.Schedulers;
+                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:44: error: cannot find symbol
+  private final ObservableManager observableManager;
+                ^
+  symbol:   class ObservableManager
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:45: error: cannot find symbol
+  private final ObservableGroup group;
+                ^
+  symbol:   class ObservableGroup
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:48: error: cannot find symbol
+  private GroupLifecycleManager(ObservableManager observableManager, ObservableGroup group,
+                                ^
+  symbol:   class ObservableManager
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:48: error: cannot find symbol
+  private GroupLifecycleManager(ObservableManager observableManager, ObservableGroup group,
+                                                                     ^
+  symbol:   class ObservableGroup
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:56: error: cannot find symbol
+  public static GroupLifecycleManager onCreate(ObservableManager observableManager,
+                                               ^
+  symbol:   class ObservableManager
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:62: error: cannot find symbol
+  public static GroupLifecycleManager onCreate(ObservableManager observableManager,
+                                               ^
+  symbol:   class ObservableManager
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:69: error: cannot find symbol
+  public static GroupLifecycleManager onCreate(ObservableManager observableManager,
+                                               ^
+  symbol:   class ObservableManager
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:107: error: cannot find symbol
+  public ObservableGroup group() {
+         ^
+  symbol:   class ObservableGroup
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:114: error: package Observable does not exist
+  public <T> Observable.Transformer<? super T, T> transform(String tag) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:152: error: cannot find symbol
+  public void resubscribe(String tag, Observer<?> observer) {
+                                      ^
+  symbol:   class Observer
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/LifecycleResubscription.java:39: error: cannot find symbol
+  Observable<ObserverInfo> observers(final Object target) {
+  ^
+  symbol:   class Observable
+  location: class LifecycleResubscription
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/LifecycleResubscription.java:60: error: cannot find symbol
+  private Observable<Field> fields(Object target) {
+          ^
+  symbol:   class Observable
+  location: class LifecycleResubscription
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/LifecycleResubscription.java:89: error: cannot find symbol
+  private Observable<ObserverInfo> observerInfoList(final Object target, Field field) {
+          ^
+  symbol:   class Observable
+  location: class LifecycleResubscription
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/LifecycleResubscription.java:136: error: cannot find symbol
+    final Observer<?> observer;
+          ^
+  symbol:   class Observer
+  location: class ObserverInfo
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/LifecycleResubscription.java:138: error: cannot find symbol
+    ObserverInfo(String tag, Observer<?> observer) {
+                             ^
+  symbol:   class Observer
+  location: class ObserverInfo
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:63: error: cannot find symbol
+      @Nullable Bundle savedState, @Nullable Object target) {
+       ^
+  symbol:   class Nullable
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:63: error: cannot find symbol
+      @Nullable Bundle savedState, @Nullable Object target) {
+                                    ^
+  symbol:   class Nullable
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:70: error: cannot find symbol
+      LifecycleResubscription resubscription, @Nullable Bundle savedState,
+                                               ^
+  symbol:   class Nullable
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:71: error: cannot find symbol
+      @Nullable Object target) {
+       ^
+  symbol:   class Nullable
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:177: error: cannot find symbol
+  public void onDestroy(@Nullable Activity activity) {
+                         ^
+  symbol:   class Nullable
+  location: class GroupLifecycleManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/LifecycleResubscription.java:80: error: cannot find symbol
+  private boolean shouldCheckClass(@Nullable Class<?> clazz) {
+                                    ^
+  symbol:   class Nullable
+  location: class LifecycleResubscription
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/AutoResubscribe.java:29: warning - Tag @link: reference not found: rx.Observer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:123: warning - Tag @link: reference not found: ObservableGroup
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:107: warning - Tag @link: reference not found: ObservableGroup
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:123: warning - Tag @link: reference not found: ObservableGroup
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:123: warning - Tag @link: reference not found: Observer#onCompleted()
+javadoc: warning - Class Nullable not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/AutoResubscribe.java:29: warning - Tag @link: reference not found: rx.Observer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/AutoResubscribe.java:29: warning - Tag @link: reference not found: rx.Observer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups-android/src/main/java/com/airbnb/rxgroups/GroupLifecycleManager.java:123: warning - Tag @link: reference not found: ObservableGroup
+
+50 warnings
+:rxgroups-android:androidJavadocsJar
+:rxgroups-android:androidSourcesJar
+:rxgroups-android:preBuild UP-TO-DATE
+:rxgroups-android:preDebugBuild UP-TO-DATE
+:rxgroups-android:checkDebugManifest
+:rxgroups:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/rxgroups/src/main/java/com/airbnb/rxgroups/ObservableGroup.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+:rxgroups:processResources UP-TO-DATE
+:rxgroups:classes
+:rxgroups:jar
+:rxgroups-android:preDebugAndroidTestBuild UP-TO-DATE
+:rxgroups-android:preDebugUnitTestBuild UP-TO-DATE
+:rxgroups-android:preReleaseBuild UP-TO-DATE
+:rxgroups-android:preReleaseUnitTestBuild UP-TO-DATE
+:rxgroups-android:prepareIoReactivexRxandroid121Library
+:rxgroups-android:prepareDebugDependencies
+:rxgroups-android:compileDebugAidl
+:rxgroups-android:compileDebugNdk UP-TO-DATE
+:rxgroups-android:compileLint
+:rxgroups-android:copyDebugLint UP-TO-DATE
+:rxgroups-android:mergeDebugShaders
+:rxgroups-android:compileDebugShaders
+:rxgroups-android:generateDebugAssets
+:rxgroups-android:mergeDebugAssets
+:rxgroups-android:mergeDebugProguardFiles
+:rxgroups-android:packageDebugRenderscript UP-TO-DATE
+:rxgroups-android:compileDebugRenderscript
+:rxgroups-android:generateDebugResValues
+:rxgroups-android:generateDebugResources
+:rxgroups-android:packageDebugResources
+:rxgroups-android:processDebugManifest
+:rxgroups-android:generateDebugBuildConfig
+:rxgroups-android:mergeDebugResources
+:rxgroups-android:processDebugResources
+:rxgroups-android:generateDebugSources
+:rxgroups-android:incrementalDebugJavaCompilationSafeguard
+:rxgroups-android:compileDebugJavaWithJavac
+:rxgroups-android:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:rxgroups-android:processDebugJavaRes UP-TO-DATE
+:rxgroups-android:transformResourcesWithMergeJavaResForDebug
+:rxgroups-android:transformClassesAndResourcesWithSyncLibJarsForDebug
+:rxgroups-android:mergeDebugJniLibFolders
+:rxgroups-android:transformNative_libsWithMergeJniLibsForDebug
+:rxgroups-android:transformNative_libsWithSyncJniLibsForDebug
+:rxgroups-android:bundleDebug
+:rxgroups-android:compileDebugSources
+:rxgroups-android:assembleDebug
+:rxgroups-android:checkReleaseManifest
+:rxgroups-android:prepareReleaseDependencies
+:rxgroups-android:compileReleaseAidl
+:rxgroups-android:compileReleaseNdk UP-TO-DATE
+:rxgroups-android:copyReleaseLint UP-TO-DATE
+:rxgroups-android:mergeReleaseShaders
+:rxgroups-android:compileReleaseShaders
+:rxgroups-android:generateReleaseAssets
+:rxgroups-android:mergeReleaseAssets
+:rxgroups-android:mergeReleaseProguardFiles
+:rxgroups-android:packageReleaseRenderscript UP-TO-DATE
+:rxgroups-android:compileReleaseRenderscript
+:rxgroups-android:generateReleaseResValues
+:rxgroups-android:generateReleaseResources
+:rxgroups-android:packageReleaseResources
+:rxgroups-android:processReleaseManifest
+:rxgroups-android:generateReleaseBuildConfig
+:rxgroups-android:mergeReleaseResources
+:rxgroups-android:processReleaseResources
+:rxgroups-android:generateReleaseSources
+:rxgroups-android:incrementalReleaseJavaCompilationSafeguard
+:rxgroups-android:compileReleaseJavaWithJavac
+:rxgroups-android:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:rxgroups-android:processReleaseJavaRes UP-TO-DATE
+:rxgroups-android:transformResourcesWithMergeJavaResForRelease
+:rxgroups-android:transformClassesAndResourcesWithSyncLibJarsForRelease
+:rxgroups-android:mergeReleaseJniLibFolders
+:rxgroups-android:transformNative_libsWithMergeJniLibsForRelease
+:rxgroups-android:transformNative_libsWithSyncJniLibsForRelease
+:rxgroups-android:bundleRelease
+:rxgroups-android:compileReleaseSources
+:rxgroups-android:assembleRelease
+:rxgroups-android:signArchives SKIPPED
+:rxgroups-android:assemble
+:rxgroups-android:build
+
+BUILD SUCCESSFUL
+
+Total time: 10.493 secs
+
+2018-09-02 23:26:04,649 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 23:26:04,650 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 23:26:11,945 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-09-02 23:26:11,945 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-02 23:26:11,946 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-02 23:26:35,161 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:rxgroups:compileJava UP-TO-DATE
+:rxgroups:processResources UP-TO-DATE
+:rxgroups:classes UP-TO-DATE
+:rxgroups:jar UP-TO-DATE
+:rxgroups-android:preBuild UP-TO-DATE
+:rxgroups-android:preReleaseBuild UP-TO-DATE
+:rxgroups-android:checkReleaseManifest
+:rxgroups-android:preDebugAndroidTestBuild UP-TO-DATE
+:rxgroups-android:preDebugBuild UP-TO-DATE
+:rxgroups-android:preDebugUnitTestBuild UP-TO-DATE
+:rxgroups-android:preReleaseUnitTestBuild UP-TO-DATE
+:rxgroups-android:prepareIoReactivexRxandroid121Library UP-TO-DATE
+:rxgroups-android:prepareReleaseDependencies
+:rxgroups-android:compileReleaseAidl UP-TO-DATE
+:rxgroups-android:compileReleaseNdk UP-TO-DATE
+:rxgroups-android:compileLint UP-TO-DATE
+:rxgroups-android:copyReleaseLint UP-TO-DATE
+:rxgroups-android:mergeReleaseShaders UP-TO-DATE
+:rxgroups-android:compileReleaseShaders UP-TO-DATE
+:rxgroups-android:generateReleaseAssets UP-TO-DATE
+:rxgroups-android:mergeReleaseAssets UP-TO-DATE
+:rxgroups-android:mergeReleaseProguardFiles UP-TO-DATE
+:rxgroups-android:packageReleaseRenderscript UP-TO-DATE
+:rxgroups-android:compileReleaseRenderscript UP-TO-DATE
+:rxgroups-android:generateReleaseResValues UP-TO-DATE
+:rxgroups-android:generateReleaseResources UP-TO-DATE
+:rxgroups-android:packageReleaseResources UP-TO-DATE
+:rxgroups-android:processReleaseManifest UP-TO-DATE
+:rxgroups-android:generateReleaseBuildConfig UP-TO-DATE
+:rxgroups-android:mergeReleaseResources UP-TO-DATE
+:rxgroups-android:processReleaseResources UP-TO-DATE
+:rxgroups-android:generateReleaseSources UP-TO-DATE
+:rxgroups-android:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:rxgroups-android:compileReleaseJavaWithJavac UP-TO-DATE
+:rxgroups-android:processReleaseJavaRes UP-TO-DATE
+:rxgroups-android:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:rxgroups-android:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:rxgroups-android:mergeReleaseJniLibFolders UP-TO-DATE
+:rxgroups-android:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:rxgroups-android:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:rxgroups-android:bundleRelease UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAnimatedVectorDrawable2511Library
+:sample:prepareComAndroidSupportAppcompatV72511Library
+:sample:prepareComAndroidSupportDesign2511Library
+:sample:prepareComAndroidSupportRecyclerviewV72511Library
+:sample:prepareComAndroidSupportSupportCompat2511Library
+:sample:prepareComAndroidSupportSupportCoreUi2511Library
+:sample:prepareComAndroidSupportSupportCoreUtils2511Library
+:sample:prepareComAndroidSupportSupportFragment2511Library
+:sample:prepareComAndroidSupportSupportMediaCompat2511Library
+:sample:prepareComAndroidSupportSupportV42511Library
+:sample:prepareComAndroidSupportSupportVectorDrawable2511Library
+:sample:prepareComAndroidSupportTransition2511Library
+:sample:prepareIoReactivexRxandroid121Library
+:sample:prepareRx2GroupsMasterRxgroupsAndroidUnspecifiedLibrary
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:incrementalDebugJavaCompilationSafeguard
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNative_libsWithMergeJniLibsForDebug
+:sample:transformNative_libsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:incrementalReleaseJavaCompilationSafeguard
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNative_libsWithMergeJniLibsForRelease
+:sample:transformNative_libsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.551 secs
+
+2018-09-02 23:26:35,309 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535905520506-0/src/Rx2Groups-master/sample/build/outputs/apk/sample-debug.apk

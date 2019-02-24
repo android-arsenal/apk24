@@ -1,0 +1,165 @@
+2018-09-02 23:36:40,271 INFO  DownloadService - Downloading "https://github.com/ahmed-adel-said/SimpleNetworkLibrary/archive/master.zip", attempt 3
+2018-09-02 23:36:42,496 INFO  DownloadService - Downloaded https://github.com/ahmed-adel-said/SimpleNetworkLibrary/archive/master.zip, attempt 3
+2018-09-02 23:36:42,496 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/master.zip": 190 KB
+2018-09-02 23:36:42,496 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 23:36:42,502 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/master.zip: true
+2018-09-02 23:36:42,502 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src'.
+2018-09-02 23:36:42,537 INFO  FullProcessService - Size of directory with sources: 230 KB
+2018-09-02 23:36:42,537 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src]
+2018-09-02 23:36:42,555 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/.git/
+
+2018-09-02 23:36:42,559 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/gradlew
+2018-09-02 23:36:42,563 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/simplenetworklibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/build.gradle
+2018-09-02 23:36:42,567 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/simplenetworklibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/settings.gradle
+2018-09-02 23:36:42,567 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 23:36:42,567 INFO  ProjectFixService - Fixing project...
+2018-09-02 23:36:42,576 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/app/local.properties
+2018-09-02 23:36:42,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-02 23:36:42,577 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/simplenetworklibrary/local.properties
+2018-09-02 23:36:42,577 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/simplenetworklibrary/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-02 23:36:42,577 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/local.properties
+2018-09-02 23:36:42,578 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-02 23:36:42,578 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-02 23:36:42,578 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-02 23:36:42,579 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 23:36:42,579 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 23:36:42,579 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 23:36:49,297 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-02 23:36:49,297 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-02 23:36:49,297 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-02 23:37:06,902 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportCardviewV72531Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportDesign2531Library
+:app:prepareComAndroidSupportRecyclerviewV72531Library
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:app:prepareComAndroidSupportTransition2531Library
+:simplenetworklibrary:preBuild UP-TO-DATE
+:simplenetworklibrary:preReleaseBuild UP-TO-DATE
+:simplenetworklibrary:checkReleaseManifest
+:simplenetworklibrary:preDebugAndroidTestBuild UP-TO-DATE
+:simplenetworklibrary:preDebugBuild UP-TO-DATE
+:simplenetworklibrary:preDebugUnitTestBuild UP-TO-DATE
+:simplenetworklibrary:preReleaseUnitTestBuild UP-TO-DATE
+:simplenetworklibrary:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:simplenetworklibrary:prepareComAndroidSupportAppcompatV72531Library
+:simplenetworklibrary:prepareComAndroidSupportSupportCompat2531Library
+:simplenetworklibrary:prepareComAndroidSupportSupportCoreUi2531Library
+:simplenetworklibrary:prepareComAndroidSupportSupportCoreUtils2531Library
+:simplenetworklibrary:prepareComAndroidSupportSupportFragment2531Library
+:simplenetworklibrary:prepareComAndroidSupportSupportMediaCompat2531Library
+:simplenetworklibrary:prepareComAndroidSupportSupportV42531Library
+:simplenetworklibrary:prepareComAndroidSupportSupportVectorDrawable2531Library
+:simplenetworklibrary:prepareReleaseDependencies
+:simplenetworklibrary:compileReleaseAidl
+:simplenetworklibrary:compileReleaseNdk UP-TO-DATE
+:simplenetworklibrary:compileLint
+:simplenetworklibrary:copyReleaseLint UP-TO-DATE
+:simplenetworklibrary:compileReleaseRenderscript
+:simplenetworklibrary:generateReleaseBuildConfig
+:simplenetworklibrary:generateReleaseResValues
+:simplenetworklibrary:generateReleaseResources
+:simplenetworklibrary:mergeReleaseResources
+:simplenetworklibrary:processReleaseManifest
+:simplenetworklibrary:processReleaseResources
+:simplenetworklibrary:generateReleaseSources
+:simplenetworklibrary:incrementalReleaseJavaCompilationSafeguard
+:simplenetworklibrary:javaPreCompileRelease
+:simplenetworklibrary:compileReleaseJavaWithJavac
+:simplenetworklibrary:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:simplenetworklibrary:extractReleaseAnnotations
+:simplenetworklibrary:mergeReleaseShaders
+:simplenetworklibrary:compileReleaseShaders
+:simplenetworklibrary:generateReleaseAssets
+:simplenetworklibrary:mergeReleaseAssets
+:simplenetworklibrary:mergeReleaseProguardFiles
+:simplenetworklibrary:packageReleaseRenderscript UP-TO-DATE
+:simplenetworklibrary:packageReleaseResources
+:simplenetworklibrary:processReleaseJavaRes UP-TO-DATE
+:simplenetworklibrary:transformResourcesWithMergeJavaResForRelease
+:simplenetworklibrary:transformClassesAndResourcesWithSyncLibJarsForRelease
+:simplenetworklibrary:mergeReleaseJniLibFolders
+:simplenetworklibrary:transformNativeLibsWithMergeJniLibsForRelease
+:simplenetworklibrary:transformNativeLibsWithStripDebugSymbolForRelease
+:simplenetworklibrary:transformNativeLibsWithSyncJniLibsForRelease
+:simplenetworklibrary:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.333 secs
+
+2018-09-02 23:37:06,984 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906200267-0/src/SimpleNetworkLibrary-master/app/build/outputs/apk/app-debug.apk

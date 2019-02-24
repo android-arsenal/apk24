@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.jemshit.elitemvpsample",
+    "label" : "EliteMvp Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.0.2",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 4480,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"2.0.2\" package=\"com.jemshit.elitemvpsample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"EliteMvp Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.jemshit.elitemvpsample.SampleApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.jemshit.elitemvpsample.MainActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.jemshit.elitemvpsample.sample_1_basic_presenter.Sample1Activity\" android:screenOrientation=\"portrait\" android:parentActivityName=\"com.jemshit.elitemvpsample.MainActivity\" />\n\t\t<activity android:name=\"com.jemshit.elitemvpsample.sample_2_custom_presenter.Sample2Activity\" android:screenOrientation=\"portrait\" android:parentActivityName=\"com.jemshit.elitemvpsample.MainActivity\" />\n\t\t<activity android:name=\"com.jemshit.elitemvpsample.sample_3_rx1_subscription.Sample3Activity\" android:screenOrientation=\"portrait\" android:parentActivityName=\"com.jemshit.elitemvpsample.MainActivity\" />\n\t\t<activity android:name=\"com.jemshit.elitemvpsample.sample_4_rx2_disposable.Sample4Activity\" android:screenOrientation=\"portrait\" android:parentActivityName=\"com.jemshit.elitemvpsample.MainActivity\" />\n\t\t<activity android:name=\"com.jemshit.elitemvpsample.sample_5_nullview_presenter.Sample5Activity\" android:screenOrientation=\"portrait\" android:parentActivityName=\"com.jemshit.elitemvpsample.MainActivity\" />\n\t\t<activity android:name=\"com.jemshit.elitemvpsample.sample_6_dagger_injection.Sample6Activity\" android:screenOrientation=\"portrait\" android:parentActivityName=\"com.jemshit.elitemvpsample.MainActivity\" />\n\t\t<activity android:name=\"com.jemshit.elitemvpsample.sample_7_nullview_rx1_presenter.Sample7Activity\" android:screenOrientation=\"portrait\" android:parentActivityName=\"com.jemshit.elitemvpsample.MainActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2488749,
+  "crc32" : 522603452,
+  "sha256" : "256ade36518d0622a33cb5b9972e7c89f524357dbe617b19501ce4193180a3e0",
+  "buildTime" : 1536163547000
+}
