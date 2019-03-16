@@ -1,165 +1,173 @@
-2018-10-30 18:26:14,619 INFO  DownloadService - Downloading "https://github.com/StephenVinouze/KontinuousSpeechRecognizer/archive/master.zip", attempt 3
-2018-10-30 18:26:16,873 INFO  DownloadService - Downloaded https://github.com/StephenVinouze/KontinuousSpeechRecognizer/archive/master.zip, attempt 3
-2018-10-30 18:26:16,873 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/master.zip": 196 KB
-2018-10-30 18:26:16,873 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-30 18:26:16,879 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/master.zip: true
-2018-10-30 18:26:16,879 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src'.
-2018-10-30 18:26:16,901 INFO  FullProcessService - Size of directory with sources: 265 KB
-2018-10-30 18:26:16,901 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src]
-2018-10-30 18:26:16,925 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/.git/
+2019-03-16 21:23:40,108 INFO  DownloadService - Downloading "https://github.com/StephenVinouze/KontinuousSpeechRecognizer/archive/master.zip", attempt 3
+2019-03-16 21:23:42,287 INFO  DownloadService - Downloaded https://github.com/StephenVinouze/KontinuousSpeechRecognizer/archive/master.zip, attempt 3
+2019-03-16 21:23:42,288 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/master.zip": 196 KB
+2019-03-16 21:23:42,288 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-16 21:23:42,293 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/master.zip: true
+2019-03-16 21:23:42,293 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src'.
+2019-03-16 21:23:42,319 INFO  FullProcessService - Size of directory with sources: 265 KB
+2019-03-16 21:23:42,319 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src]
+2019-03-16 21:23:42,338 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/.git/
 
-2018-10-30 18:26:16,929 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/gradlew
-2018-10-30 18:26:16,933 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/core/build.gradle
-2018-10-30 18:26:16,937 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/library.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/settings.gradle
-2018-10-30 18:26:16,938 INFO  ProjectBuildService - Remote scripts: none
-2018-10-30 18:26:16,938 INFO  ProjectFixService - Fixing project...
-2018-10-30 18:26:16,952 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/sample/local.properties
-2018-10-30 18:26:16,956 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-30 18:26:16,956 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-30 18:26:16,957 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/local.properties
-2018-10-30 18:26:16,958 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-30 18:26:16,958 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-30 18:26:16,961 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-30 18:26:16,961 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-30 18:26:16,962 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/core/local.properties
-2018-10-30 18:26:16,964 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-10-30 18:26:16,965 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-10-30 18:26:16,965 INFO  ProjectFixService - Project was maybe fixed
-2018-10-30 18:26:16,965 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-30 18:26:16,965 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-30 18:26:28,819 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-10-30 18:26:28,820 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-30 18:26:28,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-30 18:27:46,386 INFO  SysUtils - Configuration on demand is an incubating feature.
-:core:preBuild UP-TO-DATE
-:core:preDebugBuild UP-TO-DATE
-:core:compileDebugAidl
-:core:compileDebugRenderscript
-:core:checkDebugManifest
-:core:generateDebugBuildConfig
-:core:generateDebugResValues
-:core:generateDebugResources
-:core:packageDebugResources
-:core:platformAttrExtractor
-:core:processDebugManifest
-:core:prepareLintJar
-:core:processDebugJavaRes NO-SOURCE
-:sample:preBuild UP-TO-DATE
-:sample:preDebugBuild
-:sample:compileDebugAidl
-:core:packageDebugRenderscript NO-SOURCE
-:sample:compileDebugRenderscript
-:sample:checkDebugManifest
-:sample:generateDebugBuildConfig
-:sample:mainApkListPersistenceDebug
-:sample:generateDebugResValues
-:sample:generateDebugResources
-:sample:mergeDebugResources
-:sample:createDebugCompatibleScreenManifests
-:sample:processDebugManifest
-:sample:splitsDiscoveryTaskDebug
-:sample:prepareLintJar
-:sample:compileDebugNdk NO-SOURCE
-:core:mergeDebugShaders
-:core:compileDebugShaders
-:core:generateDebugAssets
-:core:packageDebugAssets
-:sample:mergeDebugShaders
-:sample:compileDebugShaders
-:sample:generateDebugAssets
-:sample:mergeDebugAssets
-:core:compileDebugNdk NO-SOURCE
-:core:mergeDebugJniLibFolders
-:core:generateDebugRFile
-:core:compileDebugKotlin
-:core:generateDebugSources
-:core:javaPreCompileDebug
-:core:compileDebugJavaWithJavac
-:core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:sample:processDebugResources
-:sample:compileDebugKotlin
-:sample:generateDebugSources
-:sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavac
-:sample:compileDebugSources
-:sample:transformClassesWithDexBuilderForDebug
-:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:sample:transformDexArchiveWithDexMergerForDebug
-:core:transformNativeLibsWithMergeJniLibsForDebug
-:core:transformNativeLibsWithStripDebugSymbolForDebug
-:core:transformNativeLibsWithIntermediateJniLibsForDebug
-:sample:mergeDebugJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForDebug
-:sample:transformNativeLibsWithStripDebugSymbolForDebug
-:sample:processDebugJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForDebug
-:sample:validateSigningDebug
-:sample:packageDebug
-:sample:assembleDebug
-:core:preReleaseBuild UP-TO-DATE
-:core:compileReleaseAidl
-:core:compileReleaseRenderscript
-:core:checkReleaseManifest
-:core:generateReleaseBuildConfig
-:core:generateReleaseResValues
-:core:generateReleaseResources
-:core:packageReleaseResources
-:core:processReleaseManifest
-:core:generateReleaseRFile
-:core:compileReleaseKotlin
-:core:generateReleaseSources
-:core:javaPreCompileRelease
-:core:compileReleaseJavaWithJavac
-:core:processReleaseJavaRes NO-SOURCE
-:core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:sample:preReleaseBuild
-:sample:compileReleaseAidl
-:core:packageReleaseRenderscript NO-SOURCE
-:sample:compileReleaseRenderscript
-:sample:checkReleaseManifest
-:sample:generateReleaseBuildConfig
-:sample:mainApkListPersistenceRelease
-:sample:generateReleaseResValues
-:sample:generateReleaseResources
-:sample:mergeReleaseResources
-:sample:createReleaseCompatibleScreenManifests
-:sample:processReleaseManifest
-:sample:splitsDiscoveryTaskRelease
-:sample:processReleaseResources
-:sample:compileReleaseKotlin
-:sample:generateReleaseSources
-:sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavac
-:sample:compileReleaseNdk NO-SOURCE
-:sample:compileReleaseSources
-:sample:lintVitalRelease
-:core:mergeReleaseShaders
-:core:compileReleaseShaders
-:core:generateReleaseAssets
-:core:packageReleaseAssets
-:sample:mergeReleaseShaders
-:sample:compileReleaseShaders
-:sample:generateReleaseAssets
-:sample:mergeReleaseAssets
-:sample:transformClassesWithDexBuilderForRelease
-:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-:sample:transformDexArchiveWithDexMergerForRelease
-:core:compileReleaseNdk NO-SOURCE
-:core:mergeReleaseJniLibFolders
-:core:transformNativeLibsWithMergeJniLibsForRelease
-:core:transformNativeLibsWithStripDebugSymbolForRelease
-:core:transformNativeLibsWithIntermediateJniLibsForRelease
-:sample:mergeReleaseJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForRelease
-:sample:transformNativeLibsWithStripDebugSymbolForRelease
-:sample:processReleaseJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForRelease
-:sample:packageRelease
-:sample:assembleRelease
-:sample:assemble
-:sample:build
+2019-03-16 21:23:42,342 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/gradlew
+2019-03-16 21:23:42,346 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/core/build.gradle
+2019-03-16 21:23:42,350 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/library.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/settings.gradle
+2019-03-16 21:23:42,350 INFO  ProjectBuildService - Remote scripts: none
+2019-03-16 21:23:42,350 INFO  ProjectFixService - Fixing project...
+2019-03-16 21:23:42,360 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/sample/local.properties
+2019-03-16 21:23:42,362 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-16 21:23:42,362 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-16 21:23:42,363 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/local.properties
+2019-03-16 21:23:42,364 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-16 21:23:42,364 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-16 21:23:42,366 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-16 21:23:42,366 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-16 21:23:42,367 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/core/local.properties
+2019-03-16 21:23:42,369 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-16 21:23:42,369 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-16 21:23:42,370 INFO  ProjectFixService - Project was maybe fixed
+2019-03-16 21:23:42,370 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 21:23:42,370 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 21:23:50,086 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-16 21:23:50,086 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-16 21:23:50,086 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-16 21:24:34,472 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :core:preBuild UP-TO-DATE
+> Task :core:preDebugBuild UP-TO-DATE
+> Task :core:compileDebugAidl NO-SOURCE
+> Task :core:compileDebugRenderscript
+> Task :core:checkDebugManifest
+> Task :core:generateDebugBuildConfig
+> Task :core:generateDebugResValues
+> Task :core:generateDebugResources
+> Task :core:packageDebugResources
+> Task :core:processDebugManifest
+> Task :core:generateDebugRFile
+> Task :core:compileDebugKotlin
+> Task :core:prepareLintJar
+> Task :core:generateDebugSources
+> Task :core:javaPreCompileDebug
+> Task :core:compileDebugJavaWithJavac
+> Task :core:processDebugJavaRes NO-SOURCE
+> Task :core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :core:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :core:mergeDebugShaders
+> Task :core:compileDebugShaders
+> Task :core:generateDebugAssets
+> Task :core:packageDebugAssets
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :core:createFullJarDebug
+> Transform full.jar (project :core) with IdentityTransform
+> Task :sample:mergeExtDexDebug
+> Transform full.jar (project :core) with DexingTransform
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:mergeDexDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :core:compileDebugNdk NO-SOURCE
+> Task :core:mergeDebugJniLibFolders
+> Task :core:transformNativeLibsWithMergeJniLibsForDebug
+> Task :core:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :core:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :core:preReleaseBuild UP-TO-DATE
+> Task :core:compileReleaseAidl NO-SOURCE
+> Task :core:compileReleaseRenderscript
+> Task :core:checkReleaseManifest
+> Task :core:generateReleaseBuildConfig
+> Task :core:generateReleaseResValues
+> Task :core:generateReleaseResources
+> Task :core:packageReleaseResources
+> Task :core:processReleaseManifest
+> Task :core:generateReleaseRFile
+> Task :core:compileReleaseKotlin
+> Task :core:generateReleaseSources
+> Task :core:javaPreCompileRelease
+> Task :core:compileReleaseJavaWithJavac
+> Task :core:processReleaseJavaRes NO-SOURCE
+> Task :core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :core:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
 
-BUILD SUCCESSFUL in 1m 16s
-95 actionable tasks: 95 executed
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/0bd327bb0eaf5b0f6091da726999996b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-2018-10-30 18:27:46,605 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540898774614-0/src/KontinuousSpeechRecognizer-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+> Task :core:createFullJarRelease
+> Transform full.jar (project :core) with IdentityTransform
+> Task :sample:mergeExtDexRelease
+> Transform full.jar (project :core) with DexingTransform
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:mergeDexRelease
+> Task :core:mergeReleaseShaders
+> Task :core:compileReleaseShaders
+> Task :core:generateReleaseAssets
+> Task :core:packageReleaseAssets
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :core:compileReleaseNdk NO-SOURCE
+> Task :core:mergeReleaseJniLibFolders
+> Task :core:transformNativeLibsWithMergeJniLibsForRelease
+> Task :core:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :core:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+BUILD SUCCESSFUL in 43s
+92 actionable tasks: 92 executed
+
+2019-03-16 21:24:34,562 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746220104-0/src/KontinuousSpeechRecognizer-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

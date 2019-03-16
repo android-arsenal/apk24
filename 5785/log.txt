@@ -1,327 +1,929 @@
-2018-10-09 12:12:04,180 INFO  DownloadService - Downloading "https://github.com/DevAhamed/MultiViewAdapter/archive/master.zip", attempt 3
-2018-10-09 12:13:04,775 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-09 12:13:05,944 INFO  GithubDownloadService - Default branch of this repository: v1
-2018-10-09 12:13:05,944 INFO  DownloadService - Downloading "https://github.com/DevAhamed/MultiViewAdapter/archive/v1.zip", attempt 3
-2018-10-09 12:14:07,507 DEBUG FullProcessService - Repository https://github.com/DevAhamed/MultiViewAdapter available: true
-2018-10-09 12:14:07,507 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-09 12:14:07,507 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/DevAhamed/MultiViewAdapter, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src]
-2018-10-09 12:14:21,372 INFO  SysUtils - 
-2018-10-09 12:14:21,385 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/.git": true
-2018-10-09 12:14:21,398 INFO  FullProcessService - Size of directory with sources: 8 MB
-2018-10-09 12:14:21,398 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src]
-2018-10-09 12:14:21,415 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/.git/
+2019-03-16 21:24:43,974 INFO  DownloadService - Downloading "https://github.com/DevAhamed/MultiViewAdapter/archive/master.zip", attempt 3
+2019-03-16 21:24:50,331 INFO  DownloadService - Downloading "https://github.com/DevAhamed/MultiViewAdapter/archive/master.zip", attempt 2
+2019-03-16 21:24:56,347 INFO  DownloadService - Downloading "https://github.com/DevAhamed/MultiViewAdapter/archive/master.zip", attempt 1
+2019-03-16 21:25:56,643 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-16 21:25:58,271 INFO  GithubDownloadService - Default branch of this repository: 1.x
+2019-03-16 21:25:58,271 INFO  DownloadService - Downloading "https://github.com/DevAhamed/MultiViewAdapter/archive/1.x.zip", attempt 3
+2019-03-16 21:26:59,739 DEBUG FullProcessService - Repository https://github.com/DevAhamed/MultiViewAdapter available: true
+2019-03-16 21:26:59,739 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-16 21:26:59,740 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/DevAhamed/MultiViewAdapter, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src]
+2019-03-16 21:27:06,741 INFO  SysUtils - 
+2019-03-16 21:27:06,753 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/.git": true
+2019-03-16 21:27:06,762 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-03-16 21:27:06,763 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src]
+2019-03-16 21:27:06,781 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/.git/
 
-2018-10-09 12:14:21,422 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/gradlew
-2018-10-09 12:14:21,431 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/multi-view-adapter-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/multi-view-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/build.gradle
-2018-10-09 12:14:21,439 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/multi-view-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/multi-view-adapter-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/settings.gradle
-2018-10-09 12:14:21,439 INFO  ProjectBuildService - Remote scripts: none
-2018-10-09 12:14:21,439 INFO  ProjectFixService - Fixing project...
-2018-10-09 12:14:21,459 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/multi-view-adapter-databinding/local.properties
-2018-10-09 12:14:21,463 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/multi-view-adapter-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2018-10-09 12:14:21,463 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/multi-view-adapter-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-09 12:14:21,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/multi-view-adapter/local.properties
-2018-10-09 12:14:21,468 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/multi-view-adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2018-10-09 12:14:21,469 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/multi-view-adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-09 12:14:21,470 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/sample/local.properties
-2018-10-09 12:14:21,473 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2018-10-09 12:14:21,473 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-09 12:14:21,474 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/local.properties
-2018-10-09 12:14:21,475 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-09 12:14:21,476 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-09 12:14:21,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2018-10-09 12:14:21,481 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-09 12:14:21,482 INFO  ProjectFixService - Project was maybe fixed
-2018-10-09 12:14:21,482 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-09 12:14:21,482 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/multi-view-adapter-databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-09 12:14:22,180 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-09 12:14:22,180 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-09 12:14:22,180 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-09 12:14:22,180 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/multi-view-adapter-databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-09 12:14:22,924 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-10-09 12:14:22,924 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+2019-03-16 21:27:06,788 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/gradlew
+2019-03-16 21:27:06,796 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/build.gradle
+2019-03-16 21:27:06,804 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/settings.gradle
+2019-03-16 21:27:06,805 INFO  ProjectBuildService - Remote scripts: none
+2019-03-16 21:27:06,805 INFO  ProjectFixService - Fixing project...
+2019-03-16 21:27:06,822 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter-databinding/local.properties
+2019-03-16 21:27:06,824 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-03-16 21:27:06,825 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-16 21:27:06,826 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/local.properties
+2019-03-16 21:27:06,828 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-03-16 21:27:06,828 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-16 21:27:06,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/sample/local.properties
+2019-03-16 21:27:06,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-03-16 21:27:06,831 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-16 21:27:06,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/local.properties
+2019-03-16 21:27:06,833 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-16 21:27:06,833 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-16 21:27:06,835 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-03-16 21:27:06,836 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-16 21:27:06,836 INFO  ProjectFixService - Project was maybe fixed
+2019-03-16 21:27:06,836 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 21:27:06,837 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter-databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 21:27:19,416 INFO  ProjectTaskService - Detected possible tasks: 90
+2019-03-16 21:27:19,416 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-16 21:27:19,417 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter-databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-16 21:27:38,891 INFO  SysUtils - Configuration on demand is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy NO-SOURCE
+:buildSrc:processResources NO-SOURCE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava NO-SOURCE
+:buildSrc:compileTestGroovy NO-SOURCE
+:buildSrc:processTestResources NO-SOURCE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test NO-SOURCE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+:multi-view-adapter-databinding:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter-databinding/src/main/java/com/ahamed/multiviewadapter/ItemDataBinder.java:19: error: package android.databinding does not exist
+import android.databinding.ViewDataBinding;
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter-databinding/src/main/java/com/ahamed/multiviewadapter/ItemDataBinder.java:30: error: cannot find symbol
+    extends ItemBinder<M, ItemDataBinder.ViewHolder<M, VDB>> {
+            ^
+  symbol: class ItemBinder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter-databinding/src/main/java/com/ahamed/multiviewadapter/BindingViewHolder.java:19: error: package android.databinding does not exist
+import android.databinding.ViewDataBinding;
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter-databinding/src/main/java/com/ahamed/multiviewadapter/BindingViewHolder.java:27: error: cannot find symbol
+abstract class BindingViewHolder<M, VDB extends ViewDataBinding> extends ItemViewHolder<M> {
+                                                                         ^
+  symbol: class ItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter-databinding/src/main/java/com/ahamed/multiviewadapter/BindingViewHolder.java:27: error: cannot find symbol
+abstract class BindingViewHolder<M, VDB extends ViewDataBinding> extends ItemViewHolder<M> {
+                                                ^
+  symbol: class ViewDataBinding
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter-databinding/src/main/java/com/ahamed/multiviewadapter/ItemDataBinder.java:49: error: cannot find symbol
+  protected static class ViewHolder<M, VDB extends ViewDataBinding>
+                                                   ^
+  symbol:   class ViewDataBinding
+  location: class ItemDataBinder<M,VDB>
+  where M,VDB are type-variables:
+    M declared in class ItemDataBinder
+    VDB declared in class ItemDataBinder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter-databinding/src/main/java/com/ahamed/multiviewadapter/ItemDataBinder.java:29: error: cannot find symbol
+public abstract class ItemDataBinder<M, VDB extends ViewDataBinding>
+                                                    ^
+  symbol: class ViewDataBinding
 
-* What went wrong:
-Could not determine java version from '11'.
+7 warnings
+:multi-view-adapter-databinding:androidJavadocsJar
+:multi-view-adapter-databinding:androidSourcesJar
+:multi-view-adapter:preBuild UP-TO-DATE
+:multi-view-adapter:preDebugBuild UP-TO-DATE
+:multi-view-adapter:compileDebugAidl
+:multi-view-adapter-databinding:preBuild UP-TO-DATE
+:multi-view-adapter-databinding:preDebugBuild UP-TO-DATE
+:multi-view-adapter-databinding:compileDebugAidl
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/library/3.2.0/library-3.2.0.pom
+:multi-view-adapter:compileDebugRenderscript
+:multi-view-adapter:checkDebugManifest
+:multi-view-adapter:generateDebugBuildConfig
+:multi-view-adapter:generateDebugResValues
+:multi-view-adapter:generateDebugResources
+:multi-view-adapter:packageDebugResources
+:multi-view-adapter:platformAttrExtractor
+:multi-view-adapter:processDebugManifest
+:multi-view-adapter:prepareLintJar
+:multi-view-adapter:javaPreCompileDebug
+:multi-view-adapter:processDebugJavaRes NO-SOURCE
+:multi-view-adapter:packageDebugRenderscript NO-SOURCE
+:multi-view-adapter-databinding:compileDebugRenderscript
+:multi-view-adapter-databinding:checkDebugManifest
+:multi-view-adapter-databinding:generateDebugBuildConfig
+:multi-view-adapter-databinding:generateDebugResValues
+:multi-view-adapter-databinding:generateDebugResources
+:multi-view-adapter-databinding:packageDebugResources
+:multi-view-adapter-databinding:platformAttrExtractor
+:multi-view-adapter-databinding:processDebugManifest
+:multi-view-adapter-databinding:prepareLintJar
+:multi-view-adapter-databinding:mergeDebugConsumerProguardFiles
+:multi-view-adapter-databinding:mergeDebugShaders
+:multi-view-adapter-databinding:compileDebugShaders
+:multi-view-adapter-databinding:generateDebugAssets
+:multi-view-adapter-databinding:packageDebugAssets
+:multi-view-adapter-databinding:packageDebugRenderscript NO-SOURCE
+:multi-view-adapter-databinding:processDebugJavaRes NO-SOURCE
+:multi-view-adapter-databinding:compileDebugNdk NO-SOURCE
+:multi-view-adapter-databinding:mergeDebugJniLibFolders
+:multi-view-adapter-databinding:transformNativeLibsWithMergeJniLibsForDebug
+:multi-view-adapter-databinding:transformNativeLibsWithStripDebugSymbolForDebug
+:multi-view-adapter-databinding:transformNativeLibsWithSyncJniLibsForDebug
+:multi-view-adapter:preReleaseBuild UP-TO-DATE
+:multi-view-adapter:compileReleaseAidl
+:multi-view-adapter-databinding:preReleaseBuild UP-TO-DATE
+:multi-view-adapter-databinding:compileReleaseAidl
+:multi-view-adapter:compileReleaseRenderscript
+:multi-view-adapter:checkReleaseManifest
+:multi-view-adapter:generateReleaseBuildConfig
+:multi-view-adapter:generateReleaseResValues
+:multi-view-adapter:generateReleaseResources
+:multi-view-adapter:packageReleaseResources
+:multi-view-adapter:processReleaseManifest
+:multi-view-adapter:javaPreCompileRelease
+:multi-view-adapter:processReleaseJavaRes NO-SOURCE
+:multi-view-adapter:packageReleaseRenderscript NO-SOURCE
+:multi-view-adapter-databinding:compileReleaseRenderscript
+:multi-view-adapter-databinding:checkReleaseManifest
+:multi-view-adapter-databinding:generateReleaseBuildConfig
+:multi-view-adapter-databinding:generateReleaseResValues
+:multi-view-adapter-databinding:generateReleaseResources
+:multi-view-adapter-databinding:packageReleaseResources
+:multi-view-adapter-databinding:processReleaseManifest
+:multi-view-adapter-databinding:mergeReleaseConsumerProguardFiles
+:multi-view-adapter-databinding:mergeReleaseShaders
+:multi-view-adapter-databinding:compileReleaseShaders
+:multi-view-adapter-databinding:generateReleaseAssets
+:multi-view-adapter-databinding:packageReleaseAssets
+:multi-view-adapter-databinding:packageReleaseRenderscript NO-SOURCE
+:multi-view-adapter-databinding:processReleaseJavaRes NO-SOURCE
+:multi-view-adapter-databinding:compileReleaseNdk NO-SOURCE
+:multi-view-adapter-databinding:mergeReleaseJniLibFolders
+:multi-view-adapter-databinding:transformNativeLibsWithMergeJniLibsForRelease
+:multi-view-adapter-databinding:transformNativeLibsWithStripDebugSymbolForRelease
+:multi-view-adapter-databinding:transformNativeLibsWithSyncJniLibsForRelease
+:multi-view-adapter-databinding:mergeReleaseResources
+:multi-view-adapter-databinding:verifyReleaseResources
+:multi-view-adapter:generateDebugRFile
+:multi-view-adapter:generateDebugSources
+:multi-view-adapter:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/SimpleDividerDecoration.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/CoreRecyclerAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+:multi-view-adapter:transformClassesWithJacocoForDebug
+:multi-view-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:multi-view-adapter-databinding:javaPreCompileDebug
+:multi-view-adapter:generateReleaseRFile
+:multi-view-adapter:generateReleaseSources
+:multi-view-adapter:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/SimpleDividerDecoration.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/CoreRecyclerAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '11'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:72)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:82)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:42)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+:multi-view-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:multi-view-adapter-databinding:javaPreCompileRelease
+:multi-view-adapter-databinding:generateDebugRFile
+:multi-view-adapter-databinding:generateDebugSources
+:multi-view-adapter-databinding:compileDebugJavaWithJavac
+:multi-view-adapter-databinding:extractDebugAnnotations
+:multi-view-adapter-databinding:transformResourcesWithMergeJavaResForDebug
+:multi-view-adapter-databinding:transformClassesAndResourcesWithSyncLibJarsForDebug
+:multi-view-adapter-databinding:bundleDebug
+:multi-view-adapter-databinding:compileDebugSources
+:multi-view-adapter-databinding:assembleDebug
+:multi-view-adapter-databinding:generateReleaseRFile
+:multi-view-adapter-databinding:generateReleaseSources
+:multi-view-adapter-databinding:compileReleaseJavaWithJavac
+:multi-view-adapter-databinding:extractReleaseAnnotations
+:multi-view-adapter-databinding:transformResourcesWithMergeJavaResForRelease
+:multi-view-adapter-databinding:transformClassesAndResourcesWithSyncLibJarsForRelease
+:multi-view-adapter-databinding:bundleRelease
+:multi-view-adapter-databinding:compileReleaseSources
+:multi-view-adapter-databinding:assembleRelease
+:multi-view-adapter-databinding:assemble
+:multi-view-adapter-databinding:build
 
+BUILD SUCCESSFUL in 18s
+76 actionable tasks: 76 executed
 
-* Get more help at https://help.gradle.org
+2019-03-16 21:27:38,957 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 21:27:38,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 21:27:46,464 INFO  ProjectTaskService - Detected possible tasks: 90
+2019-03-16 21:27:46,464 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-16 21:27:46,464 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-16 21:27:59,189 INFO  SysUtils - Configuration on demand is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy NO-SOURCE
+:buildSrc:processResources NO-SOURCE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava NO-SOURCE
+:buildSrc:compileTestGroovy NO-SOURCE
+:buildSrc:processTestResources NO-SOURCE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test NO-SOURCE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+:multi-view-adapter:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemViewHolder.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.RestrictTo;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemViewHolder.java:20: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemViewHolder.java:24: error: package RecyclerView does not exist
+public class ItemViewHolder<M> extends RecyclerView.ViewHolder
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/listener/ItemActionListener.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.RestrictTo;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/listener/ItemActionListener.java:22: error: cannot find symbol
+@RestrictTo(RestrictTo.Scope.LIBRARY) public interface ItemActionListener {
+ ^
+  symbol: class RestrictTo
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemBinder.java:21: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.GridLayoutManager;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemBinder.java:22: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/ItemDecorator.java:21: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemBinder.java:154: error: cannot find symbol
+  void onDraw(Canvas canvas, RecyclerView parent, View child, int position,
+                             ^
+  symbol:   class RecyclerView
+  location: class ItemBinder<M,VH>
+  where M,VH are type-variables:
+    M extends Object declared in class ItemBinder
+    VH extends ItemViewHolder<M> declared in class ItemBinder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/ItemDecorator.java:102: error: cannot find symbol
+  void onDraw(Canvas canvas, RecyclerView parent, View child, int position,
+                             ^
+  symbol:   class RecyclerView
+  location: interface ItemDecorator
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemBinderTouchCallback.java:19: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemBinderTouchCallback.java:20: error: package android.support.v7.widget.helper does not exist
+import android.support.v7.widget.helper.ItemTouchHelper;
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemBinderTouchCallback.java:22: error: package ItemTouchHelper does not exist
+final class ItemBinderTouchCallback extends ItemTouchHelper.Callback {
+                                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/RecyclerAdapter.java:19: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.GridLayoutManager;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/RecyclerAdapter.java:20: error: package android.support.v7.widget.helper does not exist
+import android.support.v7.widget.helper.ItemTouchHelper;
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/CoreRecyclerAdapter.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.RestrictTo;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/CoreRecyclerAdapter.java:20: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.GridLayoutManager;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/CoreRecyclerAdapter.java:21: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/CoreRecyclerAdapter.java:22: error: package android.support.v7.widget.helper does not exist
+import android.support.v7.widget.helper.ItemTouchHelper;
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/CoreRecyclerAdapter.java:35: error: package RecyclerView does not exist
+class CoreRecyclerAdapter extends RecyclerView.Adapter<ItemViewHolder> {
+                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemBinderTouchCallback.java:39: error: cannot find symbol
+  public int getMovementFlags(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder) {
+                              ^
+  symbol:   class RecyclerView
+  location: class ItemBinderTouchCallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemBinderTouchCallback.java:39: error: package RecyclerView does not exist
+  public int getMovementFlags(RecyclerView recyclerView, RecyclerView.ViewHolder viewHolder) {
+                                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemBinderTouchCallback.java:49: error: cannot find symbol
+  @Override public boolean onMove(RecyclerView recyclerView, RecyclerView.ViewHolder source,
+                                  ^
+  symbol:   class RecyclerView
+  location: class ItemBinderTouchCallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemBinderTouchCallback.java:49: error: package RecyclerView does not exist
+  @Override public boolean onMove(RecyclerView recyclerView, RecyclerView.ViewHolder source,
+                                                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemBinderTouchCallback.java:50: error: package RecyclerView does not exist
+      RecyclerView.ViewHolder target) {
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemBinderTouchCallback.java:58: error: package RecyclerView does not exist
+  @Override public void onSwiped(RecyclerView.ViewHolder viewHolder, int i) {
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/RecyclerAdapter.java:54: error: cannot find symbol
+  public final ItemTouchHelper getItemTouchHelper() {
+               ^
+  symbol:   class ItemTouchHelper
+  location: class RecyclerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/RecyclerAdapter.java:80: error: package GridLayoutManager does not exist
+  public final GridLayoutManager.SpanSizeLookup getSpanSizeLookup() {
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemDecorationManager.java:21: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.GridLayoutManager;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemDecorationManager.java:22: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.LinearLayoutManager;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemDecorationManager.java:23: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemDecorationManager.java:39: error: package RecyclerView does not exist
+class ItemDecorationManager extends RecyclerView.ItemDecoration {
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/BaseDataManager.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/BaseDataManager.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/BaseDataManager.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.RestrictTo;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/BaseDataManager.java:22: error: package android.support.v7.util does not exist
+import android.support.v7.util.ListUpdateCallback;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/BaseDataManager.java:28: error: cannot find symbol
+public abstract class BaseDataManager<M> implements ListUpdateCallback {
+                                                    ^
+  symbol: class ListUpdateCallback
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/InfiniteLoadingHelper.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.LayoutRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/InfiniteLoadingHelper.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.RestrictTo;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/InfiniteLoadingHelper.java:21: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.LinearLayoutManager;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/InfiniteLoadingHelper.java:22: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/InfiniteLoadingHelper.java:23: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.StaggeredGridLayoutManager;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/CoreRecyclerAdapter.java:42: error: package GridLayoutManager does not exist
+  final GridLayoutManager.SpanSizeLookup spanSizeLookup = new GridLayoutManager.SpanSizeLookup() {
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/CoreRecyclerAdapter.java:47: error: cannot find symbol
+  ItemTouchHelper itemTouchHelper;
+  ^
+  symbol:   class ItemTouchHelper
+  location: class CoreRecyclerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemDecorationManager.java:47: error: cannot find symbol
+  @Override public void getItemOffsets(Rect outRect, View view, RecyclerView parent,
+                                                                ^
+  symbol:   class RecyclerView
+  location: class ItemDecorationManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemDecorationManager.java:48: error: package RecyclerView does not exist
+      RecyclerView.State state) {
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemDecorationManager.java:62: error: cannot find symbol
+  @Override public void onDraw(Canvas canvas, RecyclerView parent, RecyclerView.State state) {
+                                              ^
+  symbol:   class RecyclerView
+  location: class ItemDecorationManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemDecorationManager.java:62: error: package RecyclerView does not exist
+  @Override public void onDraw(Canvas canvas, RecyclerView parent, RecyclerView.State state) {
+                                                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemDecorationManager.java:80: error: cannot find symbol
+  private boolean getIsReverseLayout(RecyclerView parent) {
+                                     ^
+  symbol:   class RecyclerView
+  location: class ItemDecorationManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemDecorationManager.java:85: error: cannot find symbol
+  private @PositionType int getPositionType(RecyclerView parent, int adapterPosition,
+                                            ^
+  symbol:   class RecyclerView
+  location: class ItemDecorationManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemDecorationManager.java:95: error: cannot find symbol
+  private @PositionType int getPositionTypeGrid(RecyclerView parent, int adapterPosition) {
+                                                ^
+  symbol:   class RecyclerView
+  location: class ItemDecorationManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemDecorationManager.java:130: error: cannot find symbol
+  private boolean isLastRow(GridLayoutManager gridLayoutManager, int adapterPosition,
+                            ^
+  symbol:   class GridLayoutManager
+  location: class ItemDecorationManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/InfiniteLoadingHelper.java:160: error: package RecyclerView does not exist
+  private static class InfiniteScrollListener extends RecyclerView.OnScrollListener {
+                                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/DataItemManager.java:19: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/InfiniteLoadingHelper.java:100: error: package RecyclerView does not exist
+  public RecyclerView.OnScrollListener getScrollListener() {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/InfiniteLoadingHelper.java:168: error: cannot find symbol
+    @Override public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+                                     ^
+  symbol:   class RecyclerView
+  location: class InfiniteScrollListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/DataListUpdateManager.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/DataListUpdateManager.java:20: error: package android.support.v7.util does not exist
+import android.support.v7.util.DiffUtil;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/PayloadProvider.java:19: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/DiffUtilCallback.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/DiffUtilCallback.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.RestrictTo;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/DiffUtilCallback.java:21: error: package android.support.v7.util does not exist
+import android.support.v7.util.DiffUtil;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/DiffUtilCallback.java:22: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/DiffUtilCallback.java:26: error: package DiffUtil does not exist
+    extends DiffUtil.Callback {
+                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/DiffUtilCallback.java:25: error: cannot find symbol
+@RestrictTo(RestrictTo.Scope.LIBRARY) public abstract class DiffUtilCallback<M>
+ ^
+  symbol: class RestrictTo
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/SimpleDividerDecoration.java:25: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewCompat;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/SimpleDividerDecoration.java:26: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.DividerItemDecoration;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/SimpleDividerDecoration.java:27: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.LinearLayoutManager;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/SimpleDividerDecoration.java:28: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/SimpleDividerDecoration.java:68: error: cannot find symbol
+  @Override public void onDraw(Canvas canvas, RecyclerView parent, View child, int position,
+                                              ^
+  symbol:   class RecyclerView
+  location: class SimpleDividerDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/SimpleDividerDecoration.java:92: error: cannot find symbol
+  private void drawVertical(Canvas canvas, RecyclerView parent, View child) {
+                                           ^
+  symbol:   class RecyclerView
+  location: class SimpleDividerDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/util/SimpleDividerDecoration.java:115: error: cannot find symbol
+  private void drawHorizontal(Canvas canvas, RecyclerView parent, View child) {
+                                             ^
+  symbol:   class RecyclerView
+  location: class SimpleDividerDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/DataListManager.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/DataListManager.java:20: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/annotation/SelectionMode.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.IntDef;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/annotation/SelectionMode.java:41: error: cannot find symbol
+@Retention(RetentionPolicy.SOURCE) @IntDef({
+                                    ^
+  symbol: class IntDef
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/annotation/PositionType.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.IntDef;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/annotation/PositionType.java:20: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.GridLayoutManager;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/annotation/PositionType.java:21: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.LinearLayoutManager;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/annotation/PositionType.java:41: error: cannot find symbol
+@Retention(RetentionPolicy.SOURCE) @IntDef({
+                                    ^
+  symbol: class IntDef
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/annotation/ExpandableMode.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.IntDef;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/annotation/ExpandableMode.java:36: error: cannot find symbol
+@Retention(RetentionPolicy.SOURCE) @IntDef({
+                                    ^
+  symbol: class IntDef
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/DataGroupManager.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/DataGroupManager.java:20: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemViewHolder.java:38: error: cannot find symbol
+  @RestrictTo(RestrictTo.Scope.LIBRARY) @Override public final void onClick(View view) {
+   ^
+  symbol:   class RestrictTo
+  location: class ItemViewHolder<M>
+  where M is a type-variable:
+    M extends Object declared in class ItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/ItemViewHolder.java:43: error: cannot find symbol
+  @RestrictTo(RestrictTo.Scope.LIBRARY) @Override public final boolean onLongClick(View view) {
+   ^
+  symbol:   class RestrictTo
+  location: class ItemViewHolder<M>
+  where M is a type-variable:
+    M extends Object declared in class ItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/CoreRecyclerAdapter.java:91: error: cannot find symbol
+  @RestrictTo(RestrictTo.Scope.LIBRARY) @Override
+   ^
+  symbol:   class RestrictTo
+  location: class CoreRecyclerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/CoreRecyclerAdapter.java:97: error: cannot find symbol
+  @RestrictTo(RestrictTo.Scope.LIBRARY) @Override
+   ^
+  symbol:   class RestrictTo
+  location: class CoreRecyclerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/CoreRecyclerAdapter.java:102: error: cannot find symbol
+  @RestrictTo(RestrictTo.Scope.LIBRARY) @Override
+   ^
+  symbol:   class RestrictTo
+  location: class CoreRecyclerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/CoreRecyclerAdapter.java:130: error: cannot find symbol
+  @RestrictTo(RestrictTo.Scope.LIBRARY) @Override public final int getItemCount() {
+   ^
+  symbol:   class RestrictTo
+  location: class CoreRecyclerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/CoreRecyclerAdapter.java:138: error: cannot find symbol
+  @RestrictTo(RestrictTo.Scope.LIBRARY) @Override
+   ^
+  symbol:   class RestrictTo
+  location: class CoreRecyclerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/BaseDataManager.java:36: error: cannot find symbol
+  @RestrictTo(RestrictTo.Scope.LIBRARY) BaseDataManager(@NonNull RecyclerAdapter adapter) {
+                                                         ^
+  symbol:   class NonNull
+  location: class BaseDataManager<M>
+  where M is a type-variable:
+    M extends Object declared in class BaseDataManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/BaseDataManager.java:36: error: cannot find symbol
+  @RestrictTo(RestrictTo.Scope.LIBRARY) BaseDataManager(@NonNull RecyclerAdapter adapter) {
+   ^
+  symbol:   class RestrictTo
+  location: class BaseDataManager<M>
+  where M is a type-variable:
+    M extends Object declared in class BaseDataManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/BaseDataManager.java:40: error: cannot find symbol
+  @RestrictTo(RestrictTo.Scope.LIBRARY) @Override
+   ^
+  symbol:   class RestrictTo
+  location: class BaseDataManager<M>
+  where M is a type-variable:
+    M extends Object declared in class BaseDataManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/BaseDataManager.java:45: error: cannot find symbol
+  @RestrictTo(RestrictTo.Scope.LIBRARY) @Override
+   ^
+  symbol:   class RestrictTo
+  location: class BaseDataManager<M>
+  where M is a type-variable:
+    M extends Object declared in class BaseDataManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/BaseDataManager.java:50: error: cannot find symbol
+  @RestrictTo(RestrictTo.Scope.LIBRARY) @Override
+   ^
+  symbol:   class RestrictTo
+  location: class BaseDataManager<M>
+  where M is a type-variable:
+    M extends Object declared in class BaseDataManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/BaseDataManager.java:55: error: cannot find symbol
+  @RestrictTo(RestrictTo.Scope.LIBRARY) @Override
+   ^
+  symbol:   class RestrictTo
+  location: class BaseDataManager<M>
+  where M is a type-variable:
+    M extends Object declared in class BaseDataManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/BaseDataManager.java:85: error: cannot find symbol
+  public final void setSelectedItems(@NonNull List<M> selectedItems) {
+                                      ^
+  symbol:   class NonNull
+  location: class BaseDataManager<M>
+  where M is a type-variable:
+    M extends Object declared in class BaseDataManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/BaseDataManager.java:135: error: cannot find symbol
+  @Nullable public final M getSelectedItem() {
+   ^
+  symbol:   class Nullable
+  location: class BaseDataManager<M>
+  where M is a type-variable:
+    M extends Object declared in class BaseDataManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/multi-view-adapter/src/main/java/com/ahamed/multiviewadapter/BaseDataManager.java:150: error: cannot find symbol
+  public final void setSelectedItem(@NonNull M selectedItem) {
+                                     ^
+  symbol:   class NonNull
+  location: class BaseDataManager<M>
+  where M is a type-variable:
+    M extends Object declared in class BaseDataManager
 
-2018-10-09 12:14:22,936 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-09 12:14:22,936 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/multi-view-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-09 12:14:23,778 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-09 12:14:23,778 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-09 12:14:23,778 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-09 12:14:23,779 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/multi-view-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-09 12:14:24,425 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-10-09 12:14:24,426 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+100 warnings
+:multi-view-adapter:androidJavadocsJar
+:multi-view-adapter:androidSourcesJar
+:multi-view-adapter:preBuild UP-TO-DATE
+:multi-view-adapter:preDebugBuild UP-TO-DATE
+:multi-view-adapter:compileDebugAidl UP-TO-DATE
+:multi-view-adapter:compileDebugRenderscript UP-TO-DATE
+:multi-view-adapter:checkDebugManifest UP-TO-DATE
+:multi-view-adapter:generateDebugBuildConfig UP-TO-DATE
+:multi-view-adapter:generateDebugResValues UP-TO-DATE
+:multi-view-adapter:generateDebugResources UP-TO-DATE
+:multi-view-adapter:packageDebugResources UP-TO-DATE
+:multi-view-adapter:platformAttrExtractor UP-TO-DATE
+:multi-view-adapter:processDebugManifest UP-TO-DATE
+:multi-view-adapter:generateDebugRFile UP-TO-DATE
+:multi-view-adapter:prepareLintJar UP-TO-DATE
+:multi-view-adapter:generateDebugSources UP-TO-DATE
+:multi-view-adapter:javaPreCompileDebug UP-TO-DATE
+:multi-view-adapter:compileDebugJavaWithJavac UP-TO-DATE
+:multi-view-adapter:extractDebugAnnotations
+:multi-view-adapter:mergeDebugConsumerProguardFiles
+:multi-view-adapter:mergeDebugShaders
+:multi-view-adapter:compileDebugShaders
+:multi-view-adapter:generateDebugAssets
+:multi-view-adapter:packageDebugAssets
+:multi-view-adapter:packageDebugRenderscript NO-SOURCE
+:multi-view-adapter:transformClassesWithJacocoForDebug UP-TO-DATE
+:multi-view-adapter:processDebugJavaRes NO-SOURCE
+:multi-view-adapter:transformResourcesWithMergeJavaResForDebug
+:multi-view-adapter:transformClassesAndResourcesWithSyncLibJarsForDebug
+:multi-view-adapter:compileDebugNdk NO-SOURCE
+:multi-view-adapter:mergeDebugJniLibFolders
+:multi-view-adapter:transformNativeLibsWithMergeJniLibsForDebug
+:multi-view-adapter:transformNativeLibsWithStripDebugSymbolForDebug
+:multi-view-adapter:transformNativeLibsWithSyncJniLibsForDebug
+:multi-view-adapter:bundleDebug
+:multi-view-adapter:mergeDebugResources
+:multi-view-adapter:compileDebugSources
+:multi-view-adapter:assembleDebug
+:multi-view-adapter:preReleaseBuild UP-TO-DATE
+:multi-view-adapter:compileReleaseAidl UP-TO-DATE
+:multi-view-adapter:compileReleaseRenderscript UP-TO-DATE
+:multi-view-adapter:checkReleaseManifest UP-TO-DATE
+:multi-view-adapter:generateReleaseBuildConfig UP-TO-DATE
+:multi-view-adapter:generateReleaseResValues UP-TO-DATE
+:multi-view-adapter:generateReleaseResources UP-TO-DATE
+:multi-view-adapter:packageReleaseResources UP-TO-DATE
+:multi-view-adapter:processReleaseManifest UP-TO-DATE
+:multi-view-adapter:generateReleaseRFile UP-TO-DATE
+:multi-view-adapter:generateReleaseSources UP-TO-DATE
+:multi-view-adapter:javaPreCompileRelease UP-TO-DATE
+:multi-view-adapter:compileReleaseJavaWithJavac UP-TO-DATE
+:multi-view-adapter:extractReleaseAnnotations
+:multi-view-adapter:mergeReleaseConsumerProguardFiles
+:multi-view-adapter:mergeReleaseShaders
+:multi-view-adapter:compileReleaseShaders
+:multi-view-adapter:generateReleaseAssets
+:multi-view-adapter:packageReleaseAssets
+:multi-view-adapter:packageReleaseRenderscript NO-SOURCE
+:multi-view-adapter:processReleaseJavaRes NO-SOURCE
+:multi-view-adapter:transformResourcesWithMergeJavaResForRelease
+:multi-view-adapter:transformClassesAndResourcesWithSyncLibJarsForRelease
+:multi-view-adapter:compileReleaseNdk NO-SOURCE
+:multi-view-adapter:mergeReleaseJniLibFolders
+:multi-view-adapter:transformNativeLibsWithMergeJniLibsForRelease
+:multi-view-adapter:transformNativeLibsWithStripDebugSymbolForRelease
+:multi-view-adapter:transformNativeLibsWithSyncJniLibsForRelease
+:multi-view-adapter:bundleRelease
+:multi-view-adapter:mergeReleaseResources
+:multi-view-adapter:compileReleaseSources
+:multi-view-adapter:verifyReleaseResources
+:multi-view-adapter:assembleRelease
+:multi-view-adapter:assemble
+:multi-view-adapter:build
 
-* What went wrong:
-Could not determine java version from '11'.
+BUILD SUCCESSFUL in 12s
+53 actionable tasks: 30 executed, 23 up-to-date
 
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+2019-03-16 21:27:59,287 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 21:27:59,288 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 21:28:05,918 INFO  ProjectTaskService - Detected possible tasks: 79
+2019-03-16 21:28:05,918 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-16 21:28:05,918 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-16 21:28:52,725 INFO  SysUtils - Configuration on demand is an incubating feature.
+:buildSrc:compileJava UP-TO-DATE
+:buildSrc:compileGroovy NO-SOURCE
+:buildSrc:processResources NO-SOURCE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestJava NO-SOURCE
+:buildSrc:compileTestGroovy NO-SOURCE
+:buildSrc:processTestResources NO-SOURCE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test NO-SOURCE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+:multi-view-adapter:preBuild UP-TO-DATE
+:multi-view-adapter:preDebugBuild UP-TO-DATE
+:multi-view-adapter:compileDebugAidl UP-TO-DATE
+:multi-view-adapter:compileDebugRenderscript UP-TO-DATE
+:multi-view-adapter:checkDebugManifest UP-TO-DATE
+:multi-view-adapter:generateDebugBuildConfig UP-TO-DATE
+:multi-view-adapter:generateDebugResValues UP-TO-DATE
+:multi-view-adapter:generateDebugResources UP-TO-DATE
+:multi-view-adapter:packageDebugResources UP-TO-DATE
+:multi-view-adapter:platformAttrExtractor UP-TO-DATE
+:multi-view-adapter:processDebugManifest UP-TO-DATE
+:multi-view-adapter:generateDebugRFile UP-TO-DATE
+:multi-view-adapter:prepareLintJar UP-TO-DATE
+:multi-view-adapter:generateDebugSources UP-TO-DATE
+:multi-view-adapter:javaPreCompileDebug UP-TO-DATE
+:multi-view-adapter:compileDebugJavaWithJavac UP-TO-DATE
+:multi-view-adapter:processDebugJavaRes NO-SOURCE
+:multi-view-adapter:transformClassesWithJacocoForDebug UP-TO-DATE
+:multi-view-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:multi-view-adapter-databinding:preBuild UP-TO-DATE
+:multi-view-adapter-databinding:preDebugBuild UP-TO-DATE
+:multi-view-adapter-databinding:compileDebugAidl UP-TO-DATE
+:multi-view-adapter:packageDebugRenderscript NO-SOURCE
+:multi-view-adapter-databinding:compileDebugRenderscript UP-TO-DATE
+:multi-view-adapter-databinding:checkDebugManifest UP-TO-DATE
+:multi-view-adapter-databinding:generateDebugBuildConfig UP-TO-DATE
+:multi-view-adapter-databinding:generateDebugResValues UP-TO-DATE
+:multi-view-adapter-databinding:generateDebugResources UP-TO-DATE
+:multi-view-adapter-databinding:packageDebugResources UP-TO-DATE
+:multi-view-adapter-databinding:platformAttrExtractor UP-TO-DATE
+:multi-view-adapter-databinding:processDebugManifest UP-TO-DATE
+:multi-view-adapter-databinding:generateDebugRFile UP-TO-DATE
+:multi-view-adapter-databinding:prepareLintJar UP-TO-DATE
+:multi-view-adapter-databinding:generateDebugSources UP-TO-DATE
+:multi-view-adapter-databinding:javaPreCompileDebug UP-TO-DATE
+:multi-view-adapter-databinding:compileDebugJavaWithJavac UP-TO-DATE
+:multi-view-adapter-databinding:processDebugJavaRes NO-SOURCE
+:multi-view-adapter-databinding:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+Download https://jcenter.bintray.com/com/github/brianPlummer/tinydancer/0.1.0/tinydancer-0.1.0.pom
+Download https://jcenter.bintray.com/com/github/brianPlummer/tinydancer/0.1.0/tinydancer-0.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/adapters/3.1.4/adapters-3.1.4.aar
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/library/3.1.4/library-3.1.4.aar
+:sample:compileDebugAidl
+:multi-view-adapter-databinding:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:sample:dataBindingGenBaseClassesDebug
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:dataBindingExportBuildInfoDebug
+:sample:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/compiler/3.1.4/compiler-3.1.4.jar
+:sample:transformDataBindingWithDataBindingMergeArtifactsForDebug
+:sample:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '11'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:72)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:82)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:42)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:multi-view-adapter:mergeDebugShaders UP-TO-DATE
+:multi-view-adapter:compileDebugShaders UP-TO-DATE
+:multi-view-adapter:generateDebugAssets UP-TO-DATE
+:multi-view-adapter:packageDebugAssets UP-TO-DATE
+:multi-view-adapter-databinding:mergeDebugShaders UP-TO-DATE
+:multi-view-adapter-databinding:compileDebugShaders UP-TO-DATE
+:multi-view-adapter-databinding:generateDebugAssets UP-TO-DATE
+:multi-view-adapter-databinding:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:multi-view-adapter:compileDebugNdk NO-SOURCE
+:multi-view-adapter:mergeDebugJniLibFolders UP-TO-DATE
+:multi-view-adapter:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:multi-view-adapter:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:multi-view-adapter:transformNativeLibsWithIntermediateJniLibsForDebug
+:multi-view-adapter-databinding:compileDebugNdk NO-SOURCE
+:multi-view-adapter-databinding:mergeDebugJniLibFolders UP-TO-DATE
+:multi-view-adapter-databinding:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:multi-view-adapter-databinding:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:multi-view-adapter-databinding:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:multi-view-adapter:preReleaseBuild UP-TO-DATE
+:multi-view-adapter:compileReleaseAidl UP-TO-DATE
+:multi-view-adapter:compileReleaseRenderscript UP-TO-DATE
+:multi-view-adapter:checkReleaseManifest UP-TO-DATE
+:multi-view-adapter:generateReleaseBuildConfig UP-TO-DATE
+:multi-view-adapter:generateReleaseResValues UP-TO-DATE
+:multi-view-adapter:generateReleaseResources UP-TO-DATE
+:multi-view-adapter:packageReleaseResources UP-TO-DATE
+:multi-view-adapter:processReleaseManifest UP-TO-DATE
+:multi-view-adapter:generateReleaseRFile UP-TO-DATE
+:multi-view-adapter:generateReleaseSources UP-TO-DATE
+:multi-view-adapter:javaPreCompileRelease UP-TO-DATE
+:multi-view-adapter:compileReleaseJavaWithJavac UP-TO-DATE
+:multi-view-adapter:processReleaseJavaRes NO-SOURCE
+:multi-view-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:multi-view-adapter-databinding:preReleaseBuild UP-TO-DATE
+:multi-view-adapter-databinding:compileReleaseAidl UP-TO-DATE
+:multi-view-adapter:packageReleaseRenderscript NO-SOURCE
+:multi-view-adapter-databinding:compileReleaseRenderscript UP-TO-DATE
+:multi-view-adapter-databinding:checkReleaseManifest UP-TO-DATE
+:multi-view-adapter-databinding:generateReleaseBuildConfig UP-TO-DATE
+:multi-view-adapter-databinding:generateReleaseResValues UP-TO-DATE
+:multi-view-adapter-databinding:generateReleaseResources UP-TO-DATE
+:multi-view-adapter-databinding:packageReleaseResources UP-TO-DATE
+:multi-view-adapter-databinding:processReleaseManifest UP-TO-DATE
+:multi-view-adapter-databinding:generateReleaseRFile UP-TO-DATE
+:multi-view-adapter-databinding:generateReleaseSources UP-TO-DATE
+:multi-view-adapter-databinding:javaPreCompileRelease UP-TO-DATE
+:multi-view-adapter-databinding:compileReleaseJavaWithJavac UP-TO-DATE
+:multi-view-adapter-databinding:processReleaseJavaRes NO-SOURCE
+:multi-view-adapter-databinding:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:preReleaseBuild
+Download https://jcenter.bintray.com/com/github/brianPlummer/tinydancer-noop/0.1.0/tinydancer-noop-0.1.0.pom
+Download https://jcenter.bintray.com/com/github/brianPlummer/tinydancer-noop/0.1.0/tinydancer-noop-0.1.0.aar
+:sample:compileReleaseAidl
+:multi-view-adapter-databinding:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+:sample:dataBindingGenBaseClassesRelease
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:dataBindingExportBuildInfoRelease
+:sample:javaPreCompileRelease
+:sample:transformDataBindingWithDataBindingMergeArtifactsForRelease
+:sample:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Download https://jcenter.bintray.com/org/mockito/mockito-android/2.8.47/mockito-android-2.8.47.pom
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.8.47/mockito-core-2.8.47.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.6.14/byte-buddy-android-1.6.14.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-parent/1.6.14/byte-buddy-parent-1.6.14.pom
+Download https://jcenter.bintray.com/org/mockito/mockito-android/2.8.47/mockito-android-2.8.47.jar
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.6.14/byte-buddy-android-1.6.14.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.8.47/mockito-core-2.8.47.jar
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.7.0/byte-buddy-agent-1.7.0.jar
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy/1.7.0/byte-buddy-1.7.0.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.9.0/mockito-core-2.9.0.jar
+:multi-view-adapter:mergeReleaseShaders UP-TO-DATE
+:multi-view-adapter:compileReleaseShaders UP-TO-DATE
+:multi-view-adapter:generateReleaseAssets UP-TO-DATE
+:multi-view-adapter:packageReleaseAssets UP-TO-DATE
+:multi-view-adapter-databinding:mergeReleaseShaders UP-TO-DATE
+:multi-view-adapter-databinding:compileReleaseShaders UP-TO-DATE
+:multi-view-adapter-databinding:generateReleaseAssets UP-TO-DATE
+:multi-view-adapter-databinding:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:multi-view-adapter:compileReleaseNdk NO-SOURCE
+:multi-view-adapter:mergeReleaseJniLibFolders UP-TO-DATE
+:multi-view-adapter:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:multi-view-adapter:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:multi-view-adapter:transformNativeLibsWithIntermediateJniLibsForRelease
+:multi-view-adapter-databinding:compileReleaseNdk NO-SOURCE
+:multi-view-adapter-databinding:mergeReleaseJniLibFolders UP-TO-DATE
+:multi-view-adapter-databinding:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:multi-view-adapter-databinding:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:multi-view-adapter-databinding:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
 
-* Get more help at https://help.gradle.org
+BUILD SUCCESSFUL in 45s
+138 actionable tasks: 67 executed, 71 up-to-date
 
-2018-10-09 12:14:24,434 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-09 12:14:24,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-09 12:14:25,055 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-09 12:14:25,056 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-09 12:14:25,056 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-09 12:14:25,056 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-09 12:14:25,676 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-10-09 12:14:25,676 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Could not determine java version from '11'.
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '11'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:72)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:82)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:42)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-
-
-* Get more help at https://help.gradle.org
-
-2018-10-09 12:14:25,685 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-09 12:14:25,685 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-09 12:14:26,331 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-09 12:14:26,331 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-09 12:14:26,331 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-09 12:14:26,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539061924178-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-09 12:14:26,930 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-10-09 12:14:26,930 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Could not determine java version from '11'.
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '11'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:72)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:82)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:42)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-
-
-* Get more help at https://help.gradle.org
-
-2018-10-09 12:14:26,938 ERROR FullProcessService - Project build has not produced APK file
-2018-10-09 12:14:26,946 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-16 21:28:52,931 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552746283971-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk
