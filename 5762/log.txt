@@ -1,14 +1,11 @@
-2019-03-16 21:41:03,583 INFO  DownloadService - Downloading "https://github.com/Blankj/AndroidUtilCode/archive/master.zip", attempt 3
-2019-03-16 21:42:04,157 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-16 21:42:05,266 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-16 21:42:05,266 INFO  DownloadService - Downloading "https://github.com/Blankj/AndroidUtilCode/archive/master.zip", attempt 3
-2019-03-16 21:43:06,826 DEBUG FullProcessService - Repository https://github.com/Blankj/AndroidUtilCode available: true
-2019-03-16 21:43:06,826 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-16 21:43:06,826 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Blankj/AndroidUtilCode, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552747263580-0/src]
-2019-03-16 21:43:15,816 INFO  SysUtils - 
-2019-03-16 21:43:16,009 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552747263580-0/src/.git": true
-2019-03-16 21:43:16,353 INFO  FullProcessService - Size of directory with sources: 54 MB
-2019-03-16 21:43:16,353 ERROR FullProcessService - Source directory should be less than 50 MB
-2019-03-16 21:43:16,353 ERROR FullProcessService - Project will not be processed
-2019-03-16 21:43:16,353 ERROR FullProcessService - Project build has not produced APK file
-2019-03-16 21:43:16,591 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-17 00:43:11,923 INFO  DownloadService - Downloading "https://github.com/Blankj/AndroidUtilCode/archive/master.zip", attempt 3
+2019-03-17 00:45:30,135 INFO  DownloadService - Downloaded https://github.com/Blankj/AndroidUtilCode/archive/master.zip, attempt 3
+2019-03-17 00:45:30,135 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758191918-0/master.zip": 23 MB
+2019-03-17 00:45:30,136 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-17 00:45:30,163 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758191918-0/master.zip: true
+2019-03-17 00:45:30,163 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758191918-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758191918-0/src'.
+2019-03-17 00:45:33,305 INFO  FullProcessService - Size of directory with sources: 54 MB
+2019-03-17 00:45:33,305 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-03-17 00:45:33,306 ERROR FullProcessService - Project will not be processed
+2019-03-17 00:45:33,306 ERROR FullProcessService - Project build has not produced APK file
+2019-03-17 00:45:33,560 ERROR FullProcessService - Could not find generated or existed APK file
