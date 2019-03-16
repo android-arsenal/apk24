@@ -1,37 +1,37 @@
-2018-11-18 19:07:34,462 INFO  DownloadService - Downloading "https://github.com/zekapp/Android-ProgressViews/archive/master.zip", attempt 3
-2018-11-18 19:07:34,939 INFO  DownloadService - Downloaded https://github.com/zekapp/Android-ProgressViews/archive/master.zip, attempt 3
-2018-11-18 19:07:34,939 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/master.zip": 164 KB
-2018-11-18 19:07:34,939 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-18 19:07:34,941 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/master.zip: true
-2018-11-18 19:07:34,941 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src'.
-2018-11-18 19:07:34,962 INFO  FullProcessService - Size of directory with sources: 185 KB
-2018-11-18 19:07:34,962 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src]
-2018-11-18 19:07:34,980 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/.git/
+2019-03-16 18:49:38,439 INFO  DownloadService - Downloading "https://github.com/zekapp/Android-ProgressViews/archive/master.zip", attempt 3
+2019-03-16 18:49:38,957 INFO  DownloadService - Downloaded https://github.com/zekapp/Android-ProgressViews/archive/master.zip, attempt 3
+2019-03-16 18:49:38,957 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/master.zip": 164 KB
+2019-03-16 18:49:38,957 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-16 18:49:38,963 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/master.zip: true
+2019-03-16 18:49:38,963 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src'.
+2019-03-16 18:49:38,985 INFO  FullProcessService - Size of directory with sources: 185 KB
+2019-03-16 18:49:38,985 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src]
+2019-03-16 18:49:39,007 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/.git/
 
-2018-11-18 19:07:34,984 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/gradlew
-2018-11-18 19:07:34,988 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/progreswheelview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/build.gradle
-2018-11-18 19:07:34,992 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/progreswheelview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/settings.gradle
-2018-11-18 19:07:35,000 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-11-18 19:07:35,780 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-11-18 19:07:35,781 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-11-18 19:07:35,972 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-11-18 19:07:35,972 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-11-18 19:07:35,973 INFO  ProjectFixService - Fixing project...
-2018-11-18 19:07:35,984 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/local.properties
-2018-11-18 19:07:35,984 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-11-18 19:07:35,985 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/progreswheelview/local.properties
-2018-11-18 19:07:35,986 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/progreswheelview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-11-18 19:07:35,987 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/local.properties
-2018-11-18 19:07:35,987 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-11-18 19:07:35,988 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-11-18 19:07:35,989 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2018-11-18 19:07:35,990 INFO  ProjectFixService - Project was maybe fixed
-2018-11-18 19:07:35,990 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-18 19:07:35,990 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-18 19:07:44,693 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-18 19:07:44,693 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-18 19:07:44,693 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-18 19:07:52,138 ERROR SysUtils - Could not process external command
+2019-03-16 18:49:39,011 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/gradlew
+2019-03-16 18:49:39,016 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/progreswheelview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/build.gradle
+2019-03-16 18:49:39,019 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/progreswheelview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/settings.gradle
+2019-03-16 18:49:39,020 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-03-16 18:49:39,807 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-03-16 18:49:39,807 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-03-16 18:49:39,908 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-03-16 18:49:39,909 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-03-16 18:49:39,909 INFO  ProjectFixService - Fixing project...
+2019-03-16 18:49:39,922 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/local.properties
+2019-03-16 18:49:39,922 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-16 18:49:39,923 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/progreswheelview/local.properties
+2019-03-16 18:49:39,923 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/progreswheelview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-16 18:49:39,924 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/local.properties
+2019-03-16 18:49:39,924 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-16 18:49:39,924 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-16 18:49:39,925 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-03-16 18:49:39,925 INFO  ProjectFixService - Project was maybe fixed
+2019-03-16 18:49:39,925 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 18:49:39,926 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 18:49:48,753 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-16 18:49:48,753 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-16 18:49:48,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-16 18:49:55,781 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,22 +44,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-18 19:07:52,138 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-16 18:49:55,781 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -139,11 +138,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 6s
 
-2018-11-18 19:07:52,138 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-11-18 19:07:52,139 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-18 19:08:54,133 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-16 18:49:55,781 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-03-16 18:49:55,781 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 18:51:00,475 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :progreswheelview:preBuild UP-TO-DATE
 :progreswheelview:preDebugBuild UP-TO-DATE
@@ -241,16 +240,14 @@ BUILD FAILED in 7s
 :progreswheelview:compileDebugJavaWithJavac
 :progreswheelview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/src/main/java/com/app/progresswheel/MainActivity.kt: (89, 16): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/src/main/java/com/app/progresswheel/MainActivity.kt: (96, 20): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/src/main/java/com/app/progresswheel/MainActivity.kt: (103, 22): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/src/main/java/com/app/progresswheel/MainActivity.kt: (89, 16): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/src/main/java/com/app/progresswheel/MainActivity.kt: (96, 20): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/src/main/java/com/app/progresswheel/MainActivity.kt: (103, 22): Parameter 'view' is never used
 :app:generateDebugSources
 :app:javaPreCompileDebug
 :app:compileDebugJavaWithJavac
 :app:compileDebugSources
 :app:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-D8: Stripped invalid locals information from 1 method.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:transformNativeLibsWithMergeJniLibsForDebug
@@ -266,9 +263,9 @@ D8: Stripped invalid locals information from 1 method.
 :progreswheelview:compileReleaseJavaWithJavac
 :progreswheelview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/src/main/java/com/app/progresswheel/MainActivity.kt: (89, 16): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/src/main/java/com/app/progresswheel/MainActivity.kt: (96, 20): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/src/main/java/com/app/progresswheel/MainActivity.kt: (103, 22): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/src/main/java/com/app/progresswheel/MainActivity.kt: (89, 16): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/src/main/java/com/app/progresswheel/MainActivity.kt: (96, 20): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/src/main/java/com/app/progresswheel/MainActivity.kt: (103, 22): Parameter 'view' is never used
 :app:generateReleaseSources
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavac
@@ -286,8 +283,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/
 :app:lint
 Ran lint on variant release: 10 issues found
 Ran lint on variant debug: 10 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/build/reports/lint-results.xml
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/build/reports/lint-results.xml
 :app:compileDebugUnitTestKotlin
 :app:javaPreCompileDebugUnitTest
 :app:compileDebugUnitTestJavaWithJavac
@@ -300,7 +297,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :app:check
 :app:build
 
-BUILD SUCCESSFUL in 1m 1s
+BUILD SUCCESSFUL in 1m 3s
 104 actionable tasks: 104 executed
 
-2018-11-18 19:08:54,221 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542542854458-0/src/Android-ProgressViews-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-16 18:51:00,564 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736978436-0/src/Android-ProgressViews-master/app/build/outputs/apk/debug/app-debug.apk

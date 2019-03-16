@@ -1,33 +1,33 @@
-2018-09-02 23:43:36,454 INFO  DownloadService - Downloading "https://github.com/Credntia/CVScanner/archive/master.zip", attempt 3
-2018-09-02 23:43:38,513 INFO  DownloadService - Downloaded https://github.com/Credntia/CVScanner/archive/master.zip, attempt 3
-2018-09-02 23:43:38,513 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/master.zip": 147 KB
-2018-09-02 23:43:38,514 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-02 23:43:38,519 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/master.zip: true
-2018-09-02 23:43:38,519 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src'.
-2018-09-02 23:43:38,551 INFO  FullProcessService - Size of directory with sources: 326 KB
-2018-09-02 23:43:38,552 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src]
-2018-09-02 23:43:38,571 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/.git/
+2019-03-16 18:55:35,428 INFO  DownloadService - Downloading "https://github.com/Credntia/CVScanner/archive/master.zip", attempt 3
+2019-03-16 18:55:35,987 INFO  DownloadService - Downloaded https://github.com/Credntia/CVScanner/archive/master.zip, attempt 3
+2019-03-16 18:55:35,987 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/master.zip": 147 KB
+2019-03-16 18:55:35,987 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-16 18:55:35,993 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/master.zip: true
+2019-03-16 18:55:35,993 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src'.
+2019-03-16 18:55:36,024 INFO  FullProcessService - Size of directory with sources: 326 KB
+2019-03-16 18:55:36,025 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src]
+2019-03-16 18:55:36,042 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/.git/
 
-2018-09-02 23:43:38,576 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-09-02 23:43:38,576 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-09-02 23:43:38,583 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/cvscanner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/build.gradle
-2018-09-02 23:43:38,588 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/cvscanner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/build.gradle
-2018-09-02 23:43:38,588 INFO  ProjectBuildService - Remote scripts: none
-2018-09-02 23:43:38,588 INFO  ProjectFixService - Fixing project...
-2018-09-02 23:43:38,598 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/app/local.properties
-2018-09-02 23:43:38,598 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2018-09-02 23:43:38,599 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/cvscanner/local.properties
-2018-09-02 23:43:38,599 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/cvscanner/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2018-09-02 23:43:38,599 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/local.properties
-2018-09-02 23:43:38,600 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2018-09-02 23:43:38,600 INFO  ProjectFixService - Project was maybe fixed
-2018-09-02 23:43:38,600 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-02 23:43:38,600 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-02 23:43:38,604 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-09-02 23:43:38,604 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-02 23:43:38,604 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-02 23:43:38,605 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-02 23:43:38,608 ERROR SysUtils - Could not process external command
+2019-03-16 18:55:36,046 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-03-16 18:55:36,046 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-03-16 18:55:36,050 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/cvscanner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/build.gradle
+2019-03-16 18:55:36,054 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/cvscanner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/build.gradle
+2019-03-16 18:55:36,055 INFO  ProjectBuildService - Remote scripts: none
+2019-03-16 18:55:36,055 INFO  ProjectFixService - Fixing project...
+2019-03-16 18:55:36,063 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/app/local.properties
+2019-03-16 18:55:36,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-03-16 18:55:36,064 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/cvscanner/local.properties
+2019-03-16 18:55:36,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/cvscanner/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-03-16 18:55:36,065 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/local.properties
+2019-03-16 18:55:36,066 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-03-16 18:55:36,066 INFO  ProjectFixService - Project was maybe fixed
+2019-03-16 18:55:36,066 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 18:55:36,066 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 18:55:36,071 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-03-16 18:55:36,071 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-16 18:55:36,071 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-16 18:55:36,071 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 18:55:36,076 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -44,14 +44,14 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -64,14 +64,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2018-09-02 23:43:38,608 INFO  SysUtils - 
-2018-09-02 23:43:38,613 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-02 23:43:38,613 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/cvscanner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-02 23:43:38,617 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-09-02 23:43:38,617 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-02 23:43:38,617 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-02 23:43:38,617 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/cvscanner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-02 23:43:38,623 ERROR SysUtils - Could not process external command
+2019-03-16 18:55:36,077 INFO  SysUtils - 
+2019-03-16 18:55:36,081 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 18:55:36,081 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/cvscanner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 18:55:36,086 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-03-16 18:55:36,086 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-16 18:55:36,086 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-16 18:55:36,086 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/cvscanner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 18:55:36,091 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -88,14 +88,14 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -108,14 +108,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2018-09-02 23:43:38,623 INFO  SysUtils - 
-2018-09-02 23:43:38,630 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-02 23:43:38,630 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-02 23:43:38,636 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-09-02 23:43:38,636 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-02 23:43:38,636 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-02 23:43:38,637 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535906616451-0/src/CVScanner-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-02 23:43:38,643 ERROR SysUtils - Could not process external command
+2019-03-16 18:55:36,091 INFO  SysUtils - 
+2019-03-16 18:55:36,095 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 18:55:36,096 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 18:55:36,100 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-03-16 18:55:36,100 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-16 18:55:36,100 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-16 18:55:36,100 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552737335426-0/src/CVScanner-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 18:55:36,104 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -132,14 +132,14 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -152,6 +152,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2018-09-02 23:43:38,643 INFO  SysUtils - 
-2018-09-02 23:43:38,649 ERROR FullProcessService - Project build has not produced APK file
-2018-09-02 23:43:38,655 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-16 18:55:36,105 INFO  SysUtils - 
+2019-03-16 18:55:36,109 ERROR FullProcessService - Project build has not produced APK file
+2019-03-16 18:55:36,113 ERROR FullProcessService - Could not find generated or existed APK file
