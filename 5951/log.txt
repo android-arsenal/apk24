@@ -1,33 +1,33 @@
-2018-09-04 22:47:24,586 INFO  DownloadService - Downloading "https://github.com/steelkiwi/IncrementProductView/archive/master.zip", attempt 3
-2018-09-04 22:47:27,024 INFO  DownloadService - Downloaded https://github.com/steelkiwi/IncrementProductView/archive/master.zip, attempt 3
-2018-09-04 22:47:27,025 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/master.zip": 264 KB
-2018-09-04 22:47:27,025 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-04 22:47:27,030 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/master.zip: true
-2018-09-04 22:47:27,030 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src'.
-2018-09-04 22:47:27,051 INFO  FullProcessService - Size of directory with sources: 297 KB
-2018-09-04 22:47:27,051 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src]
-2018-09-04 22:47:27,075 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/.git/
+2019-03-16 19:10:51,332 INFO  DownloadService - Downloading "https://github.com/steelkiwi/IncrementProductView/archive/master.zip", attempt 3
+2019-03-16 19:10:52,566 INFO  DownloadService - Downloaded https://github.com/steelkiwi/IncrementProductView/archive/master.zip, attempt 3
+2019-03-16 19:10:52,566 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/master.zip": 264 KB
+2019-03-16 19:10:52,566 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-16 19:10:52,566 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/master.zip: true
+2019-03-16 19:10:52,566 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src'.
+2019-03-16 19:10:52,588 INFO  FullProcessService - Size of directory with sources: 297 KB
+2019-03-16 19:10:52,588 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src]
+2019-03-16 19:10:52,606 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/.git/
 
-2018-09-04 22:47:27,078 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-09-04 22:47:27,078 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-09-04 22:47:27,081 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/build.gradle
-2018-09-04 22:47:27,084 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/settings.gradle
-2018-09-04 22:47:27,084 INFO  ProjectBuildService - Remote scripts: none
-2018-09-04 22:47:27,084 INFO  ProjectFixService - Fixing project...
-2018-09-04 22:47:27,091 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/app/local.properties
-2018-09-04 22:47:27,091 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
-2018-09-04 22:47:27,092 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/library/local.properties
-2018-09-04 22:47:27,092 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/library/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
-2018-09-04 22:47:27,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/local.properties
-2018-09-04 22:47:27,093 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
-2018-09-04 22:47:27,094 INFO  ProjectFixService - Project was maybe fixed
-2018-09-04 22:47:27,094 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-04 22:47:27,094 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-04 22:47:27,098 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-09-04 22:47:27,098 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-04 22:47:27,098 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-04 22:47:27,098 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-04 22:47:27,103 ERROR SysUtils - Could not process external command
+2019-03-16 19:10:52,609 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-03-16 19:10:52,609 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-03-16 19:10:52,612 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/build.gradle
+2019-03-16 19:10:52,615 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/settings.gradle
+2019-03-16 19:10:52,616 INFO  ProjectBuildService - Remote scripts: none
+2019-03-16 19:10:52,616 INFO  ProjectFixService - Fixing project...
+2019-03-16 19:10:52,623 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/app/local.properties
+2019-03-16 19:10:52,624 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2019-03-16 19:10:52,624 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/library/local.properties
+2019-03-16 19:10:52,625 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/library/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2019-03-16 19:10:52,626 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/local.properties
+2019-03-16 19:10:52,627 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2019-03-16 19:10:52,627 INFO  ProjectFixService - Project was maybe fixed
+2019-03-16 19:10:52,627 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 19:10:52,627 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 19:10:52,632 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-03-16 19:10:52,632 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-16 19:10:52,632 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-16 19:10:52,633 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 19:10:52,638 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -52,7 +52,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -65,14 +65,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2018-09-04 22:47:27,103 INFO  SysUtils - 
-2018-09-04 22:47:27,106 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-04 22:47:27,106 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-04 22:47:27,110 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-09-04 22:47:27,110 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-04 22:47:27,110 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-04 22:47:27,110 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-04 22:47:27,115 ERROR SysUtils - Could not process external command
+2019-03-16 19:10:52,638 INFO  SysUtils - 
+2019-03-16 19:10:52,641 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 19:10:52,641 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 19:10:52,646 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-03-16 19:10:52,646 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-16 19:10:52,646 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-16 19:10:52,646 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 19:10:52,652 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -97,7 +97,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -110,14 +110,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2018-09-04 22:47:27,115 INFO  SysUtils - 
-2018-09-04 22:47:27,117 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-04 22:47:27,118 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-04 22:47:27,122 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-09-04 22:47:27,122 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-04 22:47:27,122 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-04 22:47:27,123 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536076044578-0/src/IncrementProductView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-04 22:47:27,128 ERROR SysUtils - Could not process external command
+2019-03-16 19:10:52,652 INFO  SysUtils - 
+2019-03-16 19:10:52,655 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 19:10:52,655 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 19:10:52,660 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-03-16 19:10:52,660 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-16 19:10:52,660 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-16 19:10:52,660 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738251328-0/src/IncrementProductView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 19:10:52,665 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -142,7 +142,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -155,6 +155,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2018-09-04 22:47:27,128 INFO  SysUtils - 
-2018-09-04 22:47:27,130 ERROR FullProcessService - Project build has not produced APK file
-2018-09-04 22:47:27,133 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-16 19:10:52,665 INFO  SysUtils - 
+2019-03-16 19:10:52,669 ERROR FullProcessService - Project build has not produced APK file
+2019-03-16 19:10:52,672 ERROR FullProcessService - Could not find generated or existed APK file

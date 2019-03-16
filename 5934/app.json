@@ -9,6 +9,10 @@
     "minSdkVersion" : "15",
     "targetSdkVersion" : "25",
     "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "25",
+    "platformBuildVersionName" : "7.1.1",
     "glEsVersion" : null,
     "anyDensity" : false,
     "smallScreens" : false,
@@ -26,9 +30,9 @@
   },
   "dexClasses" : 2172,
   "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.matrixxun.immersivedetail.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0900aa\" android:label=\"ImmersiveDetailSample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"ImmersiveDetailSample\" android:name=\"com.matrixxun.immersivedetail.sample.ImmersiveMainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f090040\" android:label=\"ImmersiveDetailSample\" android:name=\"com.matrixxun.immersivedetail.sample.ImmersiveDetailActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f090040\" android:label=\"ImmersiveDetailSample\" android:name=\"com.matrixxun.immersivedetail.sample.ImmersiveDetailFragmentActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2341926,
-  "crc32" : 2310459124,
-  "sha256" : "789a887ee92723007ed3129b0448ef53102a3a221fda69ba36bab0bc6c58834c",
-  "buildTime" : 1536077859000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.matrixxun.immersivedetail.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0900aa\" android:label=\"ImmersiveDetailSample\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"ImmersiveDetailSample\" android:name=\"com.matrixxun.immersivedetail.sample.ImmersiveMainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f090040\" android:label=\"ImmersiveDetailSample\" android:name=\"com.matrixxun.immersivedetail.sample.ImmersiveDetailActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f090040\" android:label=\"ImmersiveDetailSample\" android:name=\"com.matrixxun.immersivedetail.sample.ImmersiveDetailFragmentActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2262114,
+  "crc32" : 2492176982,
+  "sha256" : "2d6fdc36657b696204afd2c3599f82b126112a714a5b1c11218530d7341a1dab",
+  "buildTime" : 1552738409000
 }

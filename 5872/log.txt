@@ -1,10 +1,10 @@
-2019-01-25 22:50:06,791 INFO  DownloadService - Downloading "https://github.com/saschpe/android-customtabs/archive/master.zip", attempt 3
-2019-01-25 22:50:10,602 INFO  DownloadService - Downloaded https://github.com/saschpe/android-customtabs/archive/master.zip, attempt 3
-2019-01-25 22:50:10,602 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548431406788-0/master.zip": 4 MB
-2019-01-25 22:50:10,602 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-25 22:50:10,603 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548431406788-0/master.zip: false
-2019-01-25 22:50:10,603 INFO  FullProcessService - Archive with sources does not contain any build script
-2019-01-25 22:50:10,603 ERROR FullProcessService - Could not find directory with sources
-2019-01-25 22:50:10,603 ERROR FullProcessService - Project will not be processed
-2019-01-25 22:50:10,603 ERROR FullProcessService - Project build has not produced APK file
-2019-01-25 22:50:10,603 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-16 19:18:04,494 INFO  DownloadService - Downloading "https://github.com/saschpe/android-customtabs/archive/master.zip", attempt 3
+2019-03-16 19:18:10,317 INFO  DownloadService - Downloaded https://github.com/saschpe/android-customtabs/archive/master.zip, attempt 3
+2019-03-16 19:18:10,318 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738684491-0/master.zip": 4 MB
+2019-03-16 19:18:10,318 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-16 19:18:10,320 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738684491-0/master.zip: false
+2019-03-16 19:18:10,320 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-03-16 19:18:10,320 ERROR FullProcessService - Could not find directory with sources
+2019-03-16 19:18:10,320 ERROR FullProcessService - Project will not be processed
+2019-03-16 19:18:10,320 ERROR FullProcessService - Project build has not produced APK file
+2019-03-16 19:18:10,320 ERROR FullProcessService - Could not find generated or existed APK file

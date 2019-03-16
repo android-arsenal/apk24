@@ -1,162 +1,166 @@
-2018-09-08 23:52:56,087 INFO  DownloadService - Downloading "https://github.com/MarcinOrlowski/BetterTextInputLayout/archive/master.zip", attempt 3
-2018-09-08 23:52:56,571 INFO  DownloadService - Downloaded https://github.com/MarcinOrlowski/BetterTextInputLayout/archive/master.zip, attempt 3
-2018-09-08 23:52:56,572 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/master.zip": 89 KB
-2018-09-08 23:52:56,572 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-08 23:52:56,577 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/master.zip: true
-2018-09-08 23:52:56,578 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src'.
-2018-09-08 23:52:56,596 INFO  FullProcessService - Size of directory with sources: 98 KB
-2018-09-08 23:52:56,596 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src]
-2018-09-08 23:52:56,616 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/.git/
+2019-03-16 19:23:17,758 INFO  DownloadService - Downloading "https://github.com/MarcinOrlowski/BetterTextInputLayout/archive/master.zip", attempt 3
+2019-03-16 19:23:20,517 INFO  DownloadService - Downloaded https://github.com/MarcinOrlowski/BetterTextInputLayout/archive/master.zip, attempt 3
+2019-03-16 19:23:20,517 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/master.zip": 89 KB
+2019-03-16 19:23:20,517 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-16 19:23:20,519 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/master.zip: true
+2019-03-16 19:23:20,519 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src'.
+2019-03-16 19:23:20,534 INFO  FullProcessService - Size of directory with sources: 96 KB
+2019-03-16 19:23:20,534 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src]
+2019-03-16 19:23:20,559 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/.git/
 
-2018-09-08 23:52:56,618 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/gradlew
-2018-09-08 23:52:56,621 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/build.gradle
-2018-09-08 23:52:56,623 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/settings.gradle
-2018-09-08 23:52:56,623 INFO  ProjectBuildService - Remote scripts: none
-2018-09-08 23:52:56,623 INFO  ProjectFixService - Fixing project...
-2018-09-08 23:52:56,631 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/app/local.properties
-2018-09-08 23:52:56,631 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-09-08 23:52:56,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/lib/local.properties
-2018-09-08 23:52:56,632 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/lib/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-09-08 23:52:56,633 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/local.properties
-2018-09-08 23:52:56,633 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-milestone-1-all.zip
-2018-09-08 23:52:56,634 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
-2018-09-08 23:52:56,635 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-09-08 23:52:56,635 INFO  ProjectFixService - Project was maybe fixed
-2018-09-08 23:52:56,635 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-08 23:52:56,635 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-08 23:53:04,499 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-09-08 23:53:04,499 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-09-08 23:53:04,500 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-09-08 23:53:29,290 INFO  SysUtils - Configuration on demand is an incubating feature.
-Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
-:app:preBuild UP-TO-DATE
-:lib:preBuild UP-TO-DATE
-:lib:preDebugBuild UP-TO-DATE
-:lib:checkDebugManifest
-:lib:processDebugManifest
-:app:preDebugBuild
-:lib:compileDebugAidl
-:app:compileDebugAidl
-:lib:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:generateDebugResValues
-:app:generateDebugResources
-:lib:compileDebugRenderscript
-:lib:generateDebugResValues
-:lib:generateDebugResources
-:lib:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:lib:mergeDebugResources
-:lib:splitsDiscoveryTaskDebug
-:lib:processDebugResources
-:app:processDebugResources
-:app:generateDebugSources
-:lib:generateDebugBuildConfig
-:lib:generateDebugSources
-:lib:javaPreCompileDebug
-:lib:processAnalyticsDebug
-:lib:compileDebugJavaWithJavac
-:lib:processDebugJavaRes NO-SOURCE
-:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:processAnalyticsDebug
-:app:compileDebugJavaWithJavac
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:lib:mergeDebugShaders
-:lib:compileDebugShaders
-:lib:generateDebugAssets
-:lib:mergeDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:compileDebugNdk NO-SOURCE
-:app:mergeDebugJniLibFolders
-:lib:compileDebugNdk NO-SOURCE
-:lib:mergeDebugJniLibFolders
-:lib:transformNativeLibsWithMergeJniLibsForDebug
-:lib:transformNativeLibsWithStripDebugSymbolForDebug
-:lib:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:buildInfoGeneratorDebug
-:app:compileDebugSources
-:app:assembleDebug
-:lib:preReleaseBuild UP-TO-DATE
-:lib:checkReleaseManifest
-:lib:processReleaseManifest
-:app:preReleaseBuild
-:lib:compileReleaseAidl
-:app:compileReleaseAidl
-:lib:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:lib:compileReleaseRenderscript
-:lib:generateReleaseResValues
-:lib:generateReleaseResources
-:lib:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:lib:mergeReleaseResources
-:lib:splitsDiscoveryTaskRelease
-:lib:processReleaseResources
-:app:processReleaseResources
-:app:generateReleaseSources
-:lib:generateReleaseBuildConfig
-:lib:generateReleaseSources
-:lib:javaPreCompileRelease
-:lib:processAnalyticsRelease
-:lib:compileReleaseJavaWithJavac
-:lib:processReleaseJavaRes NO-SOURCE
-:lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:processAnalyticsRelease
-:app:compileReleaseJavaWithJavac
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:lib:mergeReleaseShaders
-:lib:compileReleaseShaders
-:lib:generateReleaseAssets
-:lib:mergeReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithPreDexForRelease
-:app:transformDexWithDexForRelease
-:app:compileReleaseNdk NO-SOURCE
-:app:mergeReleaseJniLibFolders
-:lib:compileReleaseNdk NO-SOURCE
-:lib:mergeReleaseJniLibFolders
-:lib:transformNativeLibsWithMergeJniLibsForRelease
-:lib:transformNativeLibsWithStripDebugSymbolForRelease
-:lib:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:buildInfoGeneratorRelease
-:app:compileReleaseSources
-:app:lintVitalRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+2019-03-16 19:23:20,561 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/gradlew
+2019-03-16 19:23:20,564 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/build.gradle
+2019-03-16 19:23:20,567 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/settings.gradle
+2019-03-16 19:23:20,567 INFO  ProjectBuildService - Remote scripts: none
+2019-03-16 19:23:20,567 INFO  ProjectFixService - Fixing project...
+2019-03-16 19:23:20,575 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/app/local.properties
+2019-03-16 19:23:20,575 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-16 19:23:20,575 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/lib/local.properties
+2019-03-16 19:23:20,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/lib/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-16 19:23:20,576 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/local.properties
+2019-03-16 19:23:20,577 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
+2019-03-16 19:23:20,577 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
+2019-03-16 19:23:20,578 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-16 19:23:20,578 INFO  ProjectFixService - Project was maybe fixed
+2019-03-16 19:23:20,578 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 19:23:20,578 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 19:23:30,948 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-16 19:23:30,949 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-16 19:23:30,949 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-16 19:24:29,825 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :lib:preBuild UP-TO-DATE
+> Task :lib:preDebugBuild UP-TO-DATE
+> Task :lib:checkDebugManifest
+> Task :lib:processDebugManifest
+> Task :app:preDebugBuild
+> Task :lib:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :lib:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :lib:compileDebugRenderscript
+> Task :lib:generateDebugBuildConfig
+> Task :lib:generateDebugResValues
+> Task :lib:generateDebugResources
+> Task :lib:packageDebugResources
+> Task :lib:generateDebugRFile
+> Task :lib:prepareLintJar
+> Task :lib:generateDebugSources
+> Task :lib:javaPreCompileDebug
+> Task :lib:compileDebugJavaWithJavac
+> Task :lib:processDebugJavaRes NO-SOURCE
+> Task :lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :lib:mergeDebugShaders
+> Task :lib:compileDebugShaders
+> Task :lib:generateDebugAssets
+> Task :lib:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :lib:createFullJarDebug
+> Task :app:mergeExtDexDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :lib:compileDebugNdk NO-SOURCE
+> Task :lib:mergeDebugJniLibFolders
+> Task :lib:transformNativeLibsWithMergeJniLibsForDebug
+> Task :lib:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :lib:preReleaseBuild UP-TO-DATE
+> Task :lib:checkReleaseManifest
+> Task :lib:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :lib:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :lib:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :lib:compileReleaseRenderscript
+> Task :lib:generateReleaseBuildConfig
+> Task :lib:generateReleaseResValues
+> Task :lib:generateReleaseResources
+> Task :lib:packageReleaseResources
+> Task :lib:generateReleaseRFile
+> Task :lib:generateReleaseSources
+> Task :lib:javaPreCompileRelease
+> Task :lib:compileReleaseJavaWithJavac
+> Task :lib:processReleaseJavaRes NO-SOURCE
+> Task :lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
 
-BUILD SUCCESSFUL in 24s
-94 actionable tasks: 94 executed
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7c9df1e02d55680e43f262a51126e45d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-2018-09-08 23:53:29,391 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425576078-0/src/BetterTextInputLayout-master/app/build/outputs/apk/debug/app-debug.apk
+> Task :lib:createFullJarRelease
+> Task :app:mergeExtDexRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :lib:mergeReleaseShaders
+> Task :lib:compileReleaseShaders
+> Task :lib:generateReleaseAssets
+> Task :lib:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :lib:compileReleaseNdk NO-SOURCE
+> Task :lib:mergeReleaseJniLibFolders
+> Task :lib:transformNativeLibsWithMergeJniLibsForRelease
+> Task :lib:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :lib:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 58s
+88 actionable tasks: 88 executed
+
+2019-03-16 19:24:29,907 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738997751-0/src/BetterTextInputLayout-master/app/build/outputs/apk/debug/app-debug.apk

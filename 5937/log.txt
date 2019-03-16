@@ -1,46 +1,46 @@
-2019-01-05 21:22:14,587 INFO  DownloadService - Downloading "https://github.com/YoKeyword/Fragmentation/archive/master.zip", attempt 3
-2019-01-05 21:22:23,753 INFO  DownloadService - Downloaded https://github.com/YoKeyword/Fragmentation/archive/master.zip, attempt 3
-2019-01-05 21:22:23,754 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/master.zip": 13 MB
-2019-01-05 21:22:23,754 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-05 21:22:23,761 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/master.zip: true
-2019-01-05 21:22:23,761 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src'.
-2019-01-05 21:22:23,920 INFO  FullProcessService - Size of directory with sources: 14 MB
-2019-01-05 21:22:23,920 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src]
-2019-01-05 21:22:23,938 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/.git/
+2019-03-16 19:11:57,671 INFO  DownloadService - Downloading "https://github.com/YoKeyword/Fragmentation/archive/master.zip", attempt 3
+2019-03-16 19:12:10,161 INFO  DownloadService - Downloaded https://github.com/YoKeyword/Fragmentation/archive/master.zip, attempt 3
+2019-03-16 19:12:10,162 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/master.zip": 13 MB
+2019-03-16 19:12:10,162 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-16 19:12:10,164 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/master.zip: true
+2019-03-16 19:12:10,164 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src'.
+2019-03-16 19:12:10,346 INFO  FullProcessService - Size of directory with sources: 14 MB
+2019-03-16 19:12:10,346 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src]
+2019-03-16 19:12:10,368 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/.git/
 
-2019-01-05 21:22:23,947 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/gradlew
-2019-01-05 21:22:23,957 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/eventbus_activity_scope/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation_core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation_swipeback/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/build.gradle
-2019-01-05 21:22:23,967 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation_swipeback/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/eventbus_activity_scope/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation_core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation/build.gradle
-2019-01-05 21:22:23,968 INFO  ProjectBuildService - Remote scripts: none
-2019-01-05 21:22:23,968 INFO  ProjectFixService - Fixing project...
-2019-01-05 21:22:23,990 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/demo/local.properties
-2019-01-05 21:22:23,992 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/demo/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
-2019-01-05 21:22:23,992 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/demo/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
-2019-01-05 21:22:23,993 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/eventbus_activity_scope/local.properties
-2019-01-05 21:22:23,995 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/eventbus_activity_scope/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
-2019-01-05 21:22:23,995 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/eventbus_activity_scope/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
-2019-01-05 21:22:23,996 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation/local.properties
-2019-01-05 21:22:23,998 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
-2019-01-05 21:22:23,999 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
-2019-01-05 21:22:24,000 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation_core/local.properties
-2019-01-05 21:22:24,002 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation_core/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
-2019-01-05 21:22:24,002 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation_core/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
-2019-01-05 21:22:24,003 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation_swipeback/local.properties
-2019-01-05 21:22:24,005 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation_swipeback/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
-2019-01-05 21:22:24,006 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation_swipeback/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
-2019-01-05 21:22:24,006 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/local.properties
-2019-01-05 21:22:24,007 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-01-05 21:22:24,007 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-01-05 21:22:24,008 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
-2019-01-05 21:22:24,009 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
-2019-01-05 21:22:24,009 INFO  ProjectFixService - Project was maybe fixed
-2019-01-05 21:22:24,009 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-05 21:22:24,009 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-05 21:22:32,441 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-05 21:22:32,441 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-05 21:22:32,441 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-05 21:22:32,441 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-05 21:22:38,119 ERROR SysUtils - Could not process external command
+2019-03-16 19:12:10,377 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/gradlew
+2019-03-16 19:12:10,388 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/eventbus_activity_scope/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation_core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation_swipeback/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/build.gradle
+2019-03-16 19:12:10,398 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation_swipeback/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/eventbus_activity_scope/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation_core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation/build.gradle
+2019-03-16 19:12:10,399 INFO  ProjectBuildService - Remote scripts: none
+2019-03-16 19:12:10,399 INFO  ProjectFixService - Fixing project...
+2019-03-16 19:12:10,421 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/demo/local.properties
+2019-03-16 19:12:10,423 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/demo/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2019-03-16 19:12:10,423 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/demo/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 19:12:10,424 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/eventbus_activity_scope/local.properties
+2019-03-16 19:12:10,427 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/eventbus_activity_scope/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2019-03-16 19:12:10,427 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/eventbus_activity_scope/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 19:12:10,428 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation/local.properties
+2019-03-16 19:12:10,432 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2019-03-16 19:12:10,432 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 19:12:10,433 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation_core/local.properties
+2019-03-16 19:12:10,436 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation_core/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2019-03-16 19:12:10,436 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation_core/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 19:12:10,437 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation_swipeback/local.properties
+2019-03-16 19:12:10,439 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation_swipeback/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2019-03-16 19:12:10,439 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation_swipeback/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 19:12:10,440 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/local.properties
+2019-03-16 19:12:10,440 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-03-16 19:12:10,441 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-03-16 19:12:10,442 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=<null>]
+2019-03-16 19:12:10,442 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 19:12:10,442 INFO  ProjectFixService - Project was maybe fixed
+2019-03-16 19:12:10,442 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 19:12:10,442 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 19:12:16,683 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-16 19:12:16,683 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-16 19:12:16,684 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-16 19:12:16,684 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 19:12:22,761 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -61,14 +61,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-05 21:22:38,119 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-16 19:12:22,761 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':demo' is deprecated. Use 'implementation' instead.
 Configuration 'testCompile' in project ':demo' is deprecated. Use 'testImplementation' instead.
 
@@ -208,13 +208,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-01-05 21:22:38,131 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-05 21:22:38,132 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/eventbus_activity_scope/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-05 21:22:43,454 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-05 21:22:43,454 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-05 21:22:43,454 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-05 21:22:43,454 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/eventbus_activity_scope/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-05 21:22:48,896 ERROR SysUtils - Could not process external command
+2019-03-16 19:12:22,774 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 19:12:22,774 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/eventbus_activity_scope/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 19:12:28,780 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-16 19:12:28,780 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-16 19:12:28,780 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-16 19:12:28,780 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/eventbus_activity_scope/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 19:12:34,638 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -235,14 +235,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-05 21:22:48,896 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-16 19:12:34,638 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'provided' in project ':eventbus_activity_scope' is deprecated. Use 'compileOnly' instead.
 
 FAILURE: Build failed with an exception.
@@ -381,13 +381,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-01-05 21:22:48,907 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-05 21:22:48,907 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-05 21:22:54,324 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-05 21:22:54,325 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-05 21:22:54,325 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-05 21:22:54,325 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-05 21:22:59,723 ERROR SysUtils - Could not process external command
+2019-03-16 19:12:34,651 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 19:12:34,651 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 19:12:40,379 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-16 19:12:40,379 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-16 19:12:40,379 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-16 19:12:40,379 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 19:12:46,233 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -408,14 +408,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-05 21:22:59,723 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-16 19:12:46,233 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'provided' in project ':fragmentation' is deprecated. Use 'compileOnly' instead.
 Configuration 'compile' in project ':fragmentation' is deprecated. Use 'implementation' instead.
 
@@ -555,13 +555,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-01-05 21:22:59,736 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-05 21:22:59,736 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation_core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-05 21:23:05,095 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-05 21:23:05,095 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-05 21:23:05,095 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-05 21:23:05,095 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation_core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-05 21:23:10,429 ERROR SysUtils - Could not process external command
+2019-03-16 19:12:46,246 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 19:12:46,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation_core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 19:12:52,019 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-16 19:12:52,020 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-16 19:12:52,020 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-16 19:12:52,020 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation_core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 19:12:58,027 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -582,14 +582,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-05 21:23:10,429 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-16 19:12:58,027 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'provided' in project ':fragmentation_core' is deprecated. Use 'compileOnly' instead.
 
 FAILURE: Build failed with an exception.
@@ -728,13 +728,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-01-05 21:23:10,441 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-05 21:23:10,441 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation_swipeback/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-05 21:23:15,750 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-05 21:23:15,750 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-05 21:23:15,750 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-05 21:23:15,750 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/fragmentation_swipeback/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-05 21:23:21,191 ERROR SysUtils - Could not process external command
+2019-03-16 19:12:58,040 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 19:12:58,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation_swipeback/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 19:13:03,932 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-16 19:13:03,933 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-16 19:13:03,933 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-16 19:13:03,933 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/fragmentation_swipeback/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 19:13:09,792 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -755,14 +755,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-05 21:23:21,191 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-16 19:13:09,792 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'provided' in project ':fragmentation_swipeback' is deprecated. Use 'compileOnly' instead.
 
 FAILURE: Build failed with an exception.
@@ -901,13 +901,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-01-05 21:23:21,204 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-05 21:23:21,204 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-05 21:23:26,839 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-05 21:23:26,840 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-05 21:23:26,840 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-05 21:23:26,840 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546698134577-0/src/Fragmentation-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-05 21:23:32,397 ERROR SysUtils - Could not process external command
+2019-03-16 19:13:09,805 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 19:13:09,805 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 19:13:16,058 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-16 19:13:16,058 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-16 19:13:16,058 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-16 19:13:16,058 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738317667-0/src/Fragmentation-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-16 19:13:22,265 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -928,14 +928,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-05 21:23:32,397 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-16 19:13:22,266 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':demo' is deprecated. Use 'implementation' instead.
 Configuration 'testCompile' in project ':demo' is deprecated. Use 'testImplementation' instead.
 
@@ -1075,5 +1075,5 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 5s
 
-2019-01-05 21:23:32,409 ERROR FullProcessService - Project build has not produced APK file
-2019-01-05 21:23:32,419 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-16 19:13:22,279 ERROR FullProcessService - Project build has not produced APK file
+2019-03-16 19:13:22,291 ERROR FullProcessService - Could not find generated or existed APK file

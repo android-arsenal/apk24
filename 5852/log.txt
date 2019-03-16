@@ -1,36 +1,36 @@
-2018-10-27 19:10:49,677 INFO  DownloadService - Downloading "https://github.com/antoxa2584x/PinCodeView/archive/master.zip", attempt 3
-2018-10-27 19:10:50,206 INFO  DownloadService - Downloaded https://github.com/antoxa2584x/PinCodeView/archive/master.zip, attempt 3
-2018-10-27 19:10:50,206 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/master.zip": 283 KB
-2018-10-27 19:10:50,206 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-27 19:10:50,211 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/master.zip: true
-2018-10-27 19:10:50,212 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src'.
-2018-10-27 19:10:50,228 INFO  FullProcessService - Size of directory with sources: 346 KB
-2018-10-27 19:10:50,228 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src]
-2018-10-27 19:10:50,246 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/.git/
+2019-03-16 19:21:56,360 INFO  DownloadService - Downloading "https://github.com/antoxa2584x/PinCodeView/archive/master.zip", attempt 3
+2019-03-16 19:21:58,808 INFO  DownloadService - Downloaded https://github.com/antoxa2584x/PinCodeView/archive/master.zip, attempt 3
+2019-03-16 19:21:58,808 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/master.zip": 283 KB
+2019-03-16 19:21:58,808 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-16 19:21:58,814 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/master.zip: true
+2019-03-16 19:21:58,814 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src'.
+2019-03-16 19:21:58,835 INFO  FullProcessService - Size of directory with sources: 346 KB
+2019-03-16 19:21:58,835 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src]
+2019-03-16 19:21:58,853 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/.git/
 
-2018-10-27 19:10:50,249 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/gradlew
-2018-10-27 19:10:50,252 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/build.gradle
-2018-10-27 19:10:50,255 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/settings.gradle
-2018-10-27 19:10:50,255 INFO  ProjectBuildService - Remote scripts: none
-2018-10-27 19:10:50,255 INFO  ProjectFixService - Fixing project...
-2018-10-27 19:10:50,262 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/app/local.properties
-2018-10-27 19:10:50,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-27 19:10:50,263 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-27 19:10:50,263 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/library/local.properties
-2018-10-27 19:10:50,264 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-27 19:10:50,264 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-10-27 19:10:50,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/local.properties
-2018-10-27 19:10:50,265 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-27 19:10:50,265 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-27 19:10:50,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-27 19:10:50,266 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-10-27 19:10:50,267 INFO  ProjectFixService - Project was maybe fixed
-2018-10-27 19:10:50,267 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 19:10:50,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 19:11:18,861 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-10-27 19:11:18,861 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-27 19:11:18,861 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-27 19:12:14,580 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-16 19:21:58,856 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/gradlew
+2019-03-16 19:21:58,858 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/build.gradle
+2019-03-16 19:21:58,861 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/settings.gradle
+2019-03-16 19:21:58,861 INFO  ProjectBuildService - Remote scripts: none
+2019-03-16 19:21:58,861 INFO  ProjectFixService - Fixing project...
+2019-03-16 19:21:58,869 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/app/local.properties
+2019-03-16 19:21:58,874 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-16 19:21:58,874 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-16 19:21:58,875 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/library/local.properties
+2019-03-16 19:21:58,876 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 19:21:58,876 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 19:21:58,877 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/local.properties
+2019-03-16 19:21:58,877 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-16 19:21:58,877 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-16 19:21:58,878 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-16 19:21:58,878 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-16 19:21:58,879 INFO  ProjectFixService - Project was maybe fixed
+2019-03-16 19:21:58,879 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 19:21:58,879 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 19:22:10,576 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-03-16 19:22:10,576 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-16 19:22:10,577 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-16 19:23:04,070 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -65,17 +65,39 @@
 :app:generateDebugAssets
 :library:mergeDebugShaders
 :library:compileDebugShaders
+:library:generateDebugRFile
+:app:processDebugResources
+:library:compileDebugKotlin
+:library:generateDebugSources
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
 :library:generateDebugAssets
 :library:packageDebugAssets
 :app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
 :app:mergeDebugJniLibFolders
 :library:compileDebugNdk NO-SOURCE
 :library:mergeDebugJniLibFolders
 :library:transformNativeLibsWithMergeJniLibsForDebug
 :library:transformNativeLibsWithStripDebugSymbolForDebug
 :library:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
 :app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
 :app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
 :library:preReleaseBuild UP-TO-DATE
 :library:checkReleaseManifest
 :library:processReleaseManifest
@@ -97,9 +119,22 @@
 :app:createReleaseCompatibleScreenManifests
 :app:processReleaseManifest
 :app:splitsDiscoveryTaskRelease
+:library:generateReleaseRFile
+:app:processReleaseResources
 :library:generateReleaseBuildConfig
+:library:compileReleaseKotlin
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
 :library:processReleaseJavaRes NO-SOURCE
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
 :app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -108,50 +143,15 @@
 :library:generateReleaseAssets
 :library:packageReleaseAssets
 :app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
 :app:mergeReleaseJniLibFolders
 :library:compileReleaseNdk NO-SOURCE
 :library:mergeReleaseJniLibFolders
 :library:transformNativeLibsWithMergeJniLibsForRelease
 :library:transformNativeLibsWithStripDebugSymbolForRelease
 :library:transformNativeLibsWithIntermediateJniLibsForRelease
-:library:generateDebugRFile
-:app:processDebugResources
-:library:compileDebugKotlin
-:library:generateDebugSources
-:library:javaPreCompileDebug
-:library:compileDebugJavaWithJavac
-:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:compileDebugKotlin
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugSources
-:app:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-D8: Stripped invalid locals information from 1 method.
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:transformResourcesWithMergeJavaResForDebug
-:app:packageDebug
-:app:assembleDebug
-:library:generateReleaseRFile
-:app:processReleaseResources
-:library:compileReleaseKotlin
-:library:generateReleaseSources
-:library:javaPreCompileRelease
-:library:compileReleaseJavaWithJavac
-:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:compileReleaseKotlin
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseSources
-:app:lintVitalRelease
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
 :app:processReleaseJavaRes NO-SOURCE
@@ -161,7 +161,7 @@ D8: Stripped invalid locals information from 1 method.
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 54s
+BUILD SUCCESSFUL in 52s
 95 actionable tasks: 95 executed
 
-2018-10-27 19:12:14,696 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540642249674-0/src/PinCodeView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-16 19:23:04,184 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738916356-0/src/PinCodeView-master/app/build/outputs/apk/debug/app-debug.apk

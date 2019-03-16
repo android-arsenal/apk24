@@ -9,6 +9,10 @@
     "minSdkVersion" : "15",
     "targetSdkVersion" : "26",
     "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "26",
+    "platformBuildVersionName" : "8.0.0",
     "glEsVersion" : null,
     "anyDensity" : false,
     "smallScreens" : false,
@@ -26,9 +30,9 @@
   },
   "dexClasses" : 1557,
   "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.timqi.sectorprogressview.example\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"26\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.0.0-alpha1\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"SectorProgressView\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"SectorProgressView\" android:name=\"com.timqi.sectorprogressview.example.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.timqi.sectorprogressview.example.ColorfulRingProgressViewAty\" />\n\t\t<activity android:name=\"com.timqi.sectorprogressview.example.SectorProgressViewAty\" />\n\t</application>\n</manifest>\n",
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.timqi.sectorprogressview.example\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"26\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.0.0-alpha1\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"SectorProgressView\" android:icon=\"res/mipmap-xxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"SectorProgressView\" android:name=\"com.timqi.sectorprogressview.example.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.timqi.sectorprogressview.example.ColorfulRingProgressViewAty\" />\n\t\t<activity android:name=\"com.timqi.sectorprogressview.example.SectorProgressViewAty\" />\n\t</application>\n</manifest>\n",
   "fileSize" : 1332126,
   "crc32" : 274975169,
   "sha256" : "29590c1ec5eb41bb41ae15ea983bf63831708a12de8550fc6558b8d50cf26e13",
-  "buildTime" : 1536163577000
+  "buildTime" : 1552738493000
 }
