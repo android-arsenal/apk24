@@ -1,36 +1,35 @@
-2019-03-16 19:15:51,460 INFO  DownloadService - Downloading "https://github.com/DanielMartinus/Konfetti/archive/master.zip", attempt 3
-2019-03-16 19:15:54,424 INFO  DownloadService - Downloaded https://github.com/DanielMartinus/Konfetti/archive/master.zip, attempt 3
-2019-03-16 19:15:54,425 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/master.zip": 3 MB
-2019-03-16 19:15:54,425 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-16 19:15:54,432 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/master.zip: true
-2019-03-16 19:15:54,432 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src'.
-2019-03-16 19:15:54,495 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-03-16 19:15:54,495 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src]
-2019-03-16 19:15:54,513 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/.git/
+2019-03-17 15:03:17,571 INFO  DownloadService - Downloading "https://github.com/DanielMartinus/Konfetti/archive/master.zip", attempt 3
+2019-03-17 15:03:23,315 INFO  DownloadService - Downloaded https://github.com/DanielMartinus/Konfetti/archive/master.zip, attempt 3
+2019-03-17 15:03:23,315 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/master.zip": 3 MB
+2019-03-17 15:03:23,315 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-17 15:03:23,322 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/master.zip: true
+2019-03-17 15:03:23,323 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src'.
+2019-03-17 15:03:23,386 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-03-17 15:03:23,386 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src]
+2019-03-17 15:03:23,404 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/.git/
 
-2019-03-16 19:15:54,518 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/gradlew
-2019-03-16 19:15:54,524 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/demo-google-play/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/demo-simple-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/konfetti/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/build.gradle
-2019-03-16 19:15:54,530 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/demo-google-play/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/demo-simple-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/konfetti/build.gradle
-2019-03-16 19:15:54,530 INFO  ProjectBuildService - Remote scripts: none
-2019-03-16 19:15:54,530 INFO  ProjectFixService - Fixing project...
-2019-03-16 19:15:54,543 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/demo-google-play/local.properties
-2019-03-16 19:15:54,544 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/demo-google-play/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-16 19:15:54,544 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/demo-simple-java/local.properties
-2019-03-16 19:15:54,545 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/demo-simple-java/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
-2019-03-16 19:15:54,545 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/konfetti/local.properties
-2019-03-16 19:15:54,546 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/konfetti/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-03-16 19:15:54,546 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/local.properties
-2019-03-16 19:15:54,547 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-all.zip
-2019-03-16 19:15:54,547 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.7-bin.zip)
-2019-03-16 19:15:54,548 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-16 19:15:54,548 INFO  ProjectFixService - Project was maybe fixed
-2019-03-16 19:15:54,548 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-16 19:15:54,548 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/demo-google-play/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-16 19:16:04,288 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-03-16 19:16:04,288 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-16 19:16:04,288 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/demo-google-play/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-16 19:17:04,779 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://jcenter.bintray.com/me/bendik/simplerangeview/simplerangeview/0.1.1/simplerangeview-0.1.1.aar
+2019-03-17 15:03:23,409 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/gradlew
+2019-03-17 15:03:23,416 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/demo-google-play/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/demo-simple-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/konfetti/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/build.gradle
+2019-03-17 15:03:23,421 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/demo-google-play/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/demo-simple-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/konfetti/build.gradle
+2019-03-17 15:03:23,422 INFO  ProjectBuildService - Remote scripts: none
+2019-03-17 15:03:23,422 INFO  ProjectFixService - Fixing project...
+2019-03-17 15:03:23,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/demo-google-play/local.properties
+2019-03-17 15:03:23,436 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/demo-google-play/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-17 15:03:23,436 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/demo-simple-java/local.properties
+2019-03-17 15:03:23,437 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/demo-simple-java/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=17,targetSdkVersion=28]
+2019-03-17 15:03:23,438 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/konfetti/local.properties
+2019-03-17 15:03:23,438 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/konfetti/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:03:23,438 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/local.properties
+2019-03-17 15:03:23,439 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.7-all.zip
+2019-03-17 15:03:23,439 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.7-bin.zip)
+2019-03-17 15:03:23,440 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-17 15:03:23,440 INFO  ProjectFixService - Project was maybe fixed
+2019-03-17 15:03:23,440 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 15:03:23,440 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/demo-google-play/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 15:03:30,733 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-17 15:03:30,734 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-17 15:03:30,734 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/demo-google-play/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-17 15:04:13,548 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :demo-google-play:checkDebugClasspath
 > Task :demo-google-play:preBuild UP-TO-DATE
 > Task :konfetti:preBuild UP-TO-DATE
@@ -80,14 +79,6 @@ Download https://jcenter.bintray.com/me/bendik/simplerangeview/simplerangeview/0
 > Task :konfetti:generateDebugAssets
 > Task :konfetti:packageDebugAssets
 > Task :demo-google-play:mergeDebugAssets
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
-D8: Stripped invalid locals information from 1 method.
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar: D8: Methods with invalid locals information:
-  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
-  Attempt to read local this but no local information was associated with the value being read.
 > Task :demo-google-play:transformClassesWithDexBuilderForDebug
 > Task :demo-google-play:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :demo-google-play:transformDexArchiveWithDexMergerForDebug
@@ -142,11 +133,7 @@ D8: Stripped invalid locals information from 1 method.
 > Task :demo-google-play:compileReleaseJavaWithJavac
 > Task :demo-google-play:compileReleaseNdk NO-SOURCE
 > Task :demo-google-play:compileReleaseSources
-
 > Task :demo-google-play:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/243e2cdebc60aa38d7e957cd8e21df6d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/990684fe6e514021eec861fb21554812/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
-
 > Task :demo-google-play:mergeReleaseShaders
 > Task :demo-google-play:compileReleaseShaders
 > Task :demo-google-play:generateReleaseAssets
@@ -174,7 +161,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :demo-google-play:assemble
 > Task :demo-google-play:build
 
-BUILD SUCCESSFUL in 59s
+BUILD SUCCESSFUL in 42s
 94 actionable tasks: 94 executed
 
-2019-03-16 19:17:04,889 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552738551457-0/src/Konfetti-master/demo-google-play/build/outputs/apk/release/demo-google-play-release-unsigned.apk
+2019-03-17 15:04:13,644 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809797562-0/src/Konfetti-master/demo-google-play/build/outputs/apk/release/demo-google-play-release-unsigned.apk
