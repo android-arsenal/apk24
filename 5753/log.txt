@@ -1,36 +1,33 @@
-2019-03-16 21:56:53,077 INFO  DownloadService - Downloading "https://github.com/joielechong/CountryCodePicker/archive/master.zip", attempt 3
-2019-03-16 21:57:53,641 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-16 21:57:54,694 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-16 21:57:54,694 INFO  DownloadService - Downloading "https://github.com/joielechong/CountryCodePicker/archive/master.zip", attempt 3
-2019-03-16 21:58:56,289 DEBUG FullProcessService - Repository https://github.com/joielechong/CountryCodePicker available: true
-2019-03-16 21:58:56,289 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-16 21:58:56,289 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/joielechong/CountryCodePicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src]
-2019-03-16 21:59:03,877 INFO  SysUtils - 
-2019-03-16 21:59:03,888 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/.git": true
-2019-03-16 21:59:03,898 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-03-16 21:59:03,898 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src]
-2019-03-16 21:59:03,915 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/.git/
+2019-03-24 01:22:46,918 INFO  DownloadService - Downloading "https://github.com/joielechong/CountryCodePicker/archive/master.zip", attempt 3
+2019-03-24 01:22:51,037 INFO  DownloadService - Downloaded https://github.com/joielechong/CountryCodePicker/archive/master.zip, attempt 3
+2019-03-24 01:22:51,037 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/master.zip": 2 MB
+2019-03-24 01:22:51,037 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-24 01:22:51,044 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/master.zip: true
+2019-03-24 01:22:51,044 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src'.
+2019-03-24 01:22:51,149 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-03-24 01:22:51,149 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src]
+2019-03-24 01:22:51,171 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/.git/
 
-2019-03-16 21:59:03,923 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/gradlew
-2019-03-16 21:59:03,930 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/countrycodepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/build.gradle
-2019-03-16 21:59:03,937 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/countrycodepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/settings.gradle
-2019-03-16 21:59:03,937 INFO  ProjectBuildService - Remote scripts: none
-2019-03-16 21:59:03,937 INFO  ProjectFixService - Fixing project...
-2019-03-16 21:59:03,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/countrycodepicker/local.properties
-2019-03-16 21:59:03,955 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/countrycodepicker/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-16 21:59:03,955 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/sample/local.properties
-2019-03-16 21:59:03,955 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-16 21:59:03,956 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/local.properties
-2019-03-16 21:59:03,956 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-16 21:59:03,956 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-16 21:59:03,957 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-16 21:59:03,957 INFO  ProjectFixService - Project was maybe fixed
-2019-03-16 21:59:03,957 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-16 21:59:03,957 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/countrycodepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-16 21:59:10,558 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-03-16 21:59:10,559 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-16 21:59:10,559 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/countrycodepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-16 21:59:22,492 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-24 01:22:51,178 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/gradlew
+2019-03-24 01:22:51,186 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/countrycodepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/build.gradle
+2019-03-24 01:22:51,193 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/countrycodepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/settings.gradle
+2019-03-24 01:22:51,193 INFO  ProjectBuildService - Remote scripts: none
+2019-03-24 01:22:51,193 INFO  ProjectFixService - Fixing project...
+2019-03-24 01:22:51,211 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/countrycodepicker/local.properties
+2019-03-24 01:22:51,212 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/countrycodepicker/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-24 01:22:51,212 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/sample/local.properties
+2019-03-24 01:22:51,213 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-24 01:22:51,213 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/local.properties
+2019-03-24 01:22:51,214 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-24 01:22:51,214 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-24 01:22:51,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-24 01:22:51,215 INFO  ProjectFixService - Project was maybe fixed
+2019-03-24 01:22:51,215 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-24 01:22:51,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/countrycodepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-24 01:22:57,206 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-03-24 01:22:57,206 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-24 01:22:57,207 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/countrycodepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-24 01:23:07,659 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :countrycodepicker:preBuild UP-TO-DATE
 > Task :countrycodepicker:preDebugBuild UP-TO-DATE
 > Task :countrycodepicker:compileDebugAidl NO-SOURCE
@@ -47,7 +44,7 @@
 > Task :countrycodepicker:javaPreCompileDebug
 
 > Task :countrycodepicker:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/countrycodepicker/src/main/java/com/rilixtech/CountryCodePicker.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/countrycodepicker/src/main/java/com/rilixtech/CountryCodePicker.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :countrycodepicker:extractDebugAnnotations
@@ -82,7 +79,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :countrycodepicker:javaPreCompileRelease
 
 > Task :countrycodepicker:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/countrycodepicker/src/main/java/com/rilixtech/CountryCodePicker.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/countrycodepicker/src/main/java/com/rilixtech/CountryCodePicker.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :countrycodepicker:extractReleaseAnnotations
@@ -108,353 +105,95 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :countrycodepicker:assemble
 > Task :countrycodepicker:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 10s
 45 actionable tasks: 45 executed
 
-2019-03-16 21:59:22,527 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-16 21:59:22,527 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-16 21:59:28,614 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-16 21:59:28,614 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-16 21:59:28,614 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-16 22:00:07,667 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-03-16 22:00:07,667 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-24 01:23:07,703 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-24 01:23:07,703 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-24 01:23:14,340 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-24 01:23:14,340 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-24 01:23:14,341 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-24 01:23:49,806 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild
-> Task :sample:preDebugBuild FAILED
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
 
-FAILURE: Build failed with an exception.
+> Task :sample:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
-* What went wrong:
-Could not resolve all files for configuration ':sample:debugCompileClasspath'.
-> Could not resolve com.github.joielechong:countrycodepicker:2.3.0.
-  Required by:
-      project :sample
-   > Skipped due to earlier error
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:mergeExtDexDebug
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:mergeDexDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
 
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+> Task :sample:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
-* Exception is:
-org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':sample:debugCompileClasspath'.
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1054)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1700(DefaultConfiguration.java:123)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:1028)
-	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:76)
-	at org.gradle.api.internal.changedetection.state.DefaultFileSystemSnapshotter$FileCollectionVisitorImpl.visitCollection(DefaultFileSystemSnapshotter.java:257)
-	at org.gradle.api.internal.file.AbstractFileCollection.visitRootElements(AbstractFileCollection.java:282)
-	at org.gradle.api.internal.file.CompositeFileCollection.visitRootElements(CompositeFileCollection.java:206)
-	at org.gradle.api.internal.changedetection.state.DefaultFileSystemSnapshotter.snapshot(DefaultFileSystemSnapshotter.java:142)
-	at org.gradle.internal.fingerprint.impl.AbstractFileCollectionFingerprinter.fingerprint(AbstractFileCollectionFingerprinter.java:54)
-	at org.gradle.internal.fingerprint.impl.AbstractPathOnlyFileCollectionFingerprinter.fingerprint(AbstractPathOnlyFileCollectionFingerprinter.java:37)
-	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.fingerprintTaskFiles(CacheBackedTaskHistoryRepository.java:358)
-	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.createExecution(CacheBackedTaskHistoryRepository.java:163)
-	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.access$100(CacheBackedTaskHistoryRepository.java:76)
-	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository$1.getCurrentExecution(CacheBackedTaskHistoryRepository.java:123)
-	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.getStates(DefaultTaskArtifactStateRepository.java:200)
-	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.isUpToDate(DefaultTaskArtifactStateRepository.java:94)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:50)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
-	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
-	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Could not resolve com.github.joielechong:countrycodepicker:2.3.0.
-Required by:
-    project :sample
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:103)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolve(RepositoryChainComponentMetaDataResolver.java:63)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ComponentMetaDataResolverChain.resolve(ComponentResolversChain.java:94)
-	at org.gradle.api.internal.artifacts.ivyservice.clientmodule.ClientModuleResolver.resolve(ClientModuleResolver.java:62)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.ComponentState.resolve(ComponentState.java:208)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.ComponentState.resolve(ComponentState.java:196)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.ComponentState.getMetadata(ComponentState.java:152)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.EdgeState.calculateTargetConfigurations(EdgeState.java:156)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.EdgeState.attachToTargetConfigurations(EdgeState.java:112)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.attachToTargetRevisionsSerially(DependencyGraphBuilder.java:315)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.resolveEdges(DependencyGraphBuilder.java:202)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.traverseGraph(DependencyGraphBuilder.java:155)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:126)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:123)
-	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolveGraph(DefaultConfigurationResolver.java:167)
-	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolveGraph(ShortCircuitEmptyConfigurationResolver.java:89)
-	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolveGraph(ErrorHandlingConfigurationResolver.java:73)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$5.run(DefaultConfiguration.java:533)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:524)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveToStateOrLater(DefaultConfiguration.java:509)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1800(DefaultConfiguration.java:123)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getSelectedArtifacts(DefaultConfiguration.java:1037)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:1025)
-	... 42 more
-Caused by: org.gradle.internal.resolve.ModuleVersionResolveException: Skipped due to earlier error
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveComponentMetaData(ErrorHandlingModuleComponentRepository.java:133)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ComponentMetaDataResolveState.process(ComponentMetaDataResolveState.java:75)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ComponentMetaDataResolveState.resolve(ComponentMetaDataResolveState.java:63)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.findBestMatch(RepositoryChainComponentMetaDataResolver.java:138)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.findBestMatch(RepositoryChainComponentMetaDataResolver.java:119)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:92)
-	... 69 more
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+> Task :sample:lintVitalRelease
+> Task :sample:mergeExtDexRelease
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:mergeDexRelease
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
 
+BUILD SUCCESSFUL in 35s
+51 actionable tasks: 51 executed
 
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 38s
-1 actionable task: 1 executed
-
-2019-03-16 22:00:07,707 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-16 22:00:07,707 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-16 22:00:13,851 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-03-16 22:00:13,851 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-16 22:00:13,851 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552748213074-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-16 22:00:29,139 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-03-16 22:00:29,139 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :countrycodepicker:preBuild UP-TO-DATE
-> Task :countrycodepicker:preDebugBuild UP-TO-DATE
-> Task :countrycodepicker:compileDebugAidl NO-SOURCE
-> Task :countrycodepicker:compileDebugRenderscript UP-TO-DATE
-> Task :countrycodepicker:checkDebugManifest UP-TO-DATE
-> Task :countrycodepicker:generateDebugBuildConfig UP-TO-DATE
-> Task :countrycodepicker:generateDebugResValues UP-TO-DATE
-> Task :countrycodepicker:generateDebugResources UP-TO-DATE
-> Task :countrycodepicker:packageDebugResources UP-TO-DATE
-> Task :countrycodepicker:processDebugManifest UP-TO-DATE
-> Task :countrycodepicker:generateDebugRFile UP-TO-DATE
-> Task :countrycodepicker:prepareLintJar UP-TO-DATE
-> Task :countrycodepicker:generateDebugSources UP-TO-DATE
-> Task :countrycodepicker:javaPreCompileDebug UP-TO-DATE
-> Task :countrycodepicker:compileDebugJavaWithJavac UP-TO-DATE
-> Task :countrycodepicker:extractDebugAnnotations UP-TO-DATE
-> Task :countrycodepicker:mergeDebugConsumerProguardFiles UP-TO-DATE
-> Task :countrycodepicker:mergeDebugShaders UP-TO-DATE
-> Task :countrycodepicker:compileDebugShaders UP-TO-DATE
-> Task :countrycodepicker:generateDebugAssets UP-TO-DATE
-> Task :countrycodepicker:packageDebugAssets UP-TO-DATE
-> Task :countrycodepicker:packageDebugRenderscript NO-SOURCE
-> Task :countrycodepicker:processDebugJavaRes NO-SOURCE
-> Task :countrycodepicker:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
-> Task :countrycodepicker:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-> Task :countrycodepicker:compileDebugNdk NO-SOURCE
-> Task :countrycodepicker:mergeDebugJniLibFolders UP-TO-DATE
-> Task :countrycodepicker:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-> Task :countrycodepicker:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-> Task :countrycodepicker:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
-> Task :countrycodepicker:bundleDebugAar UP-TO-DATE
-> Task :countrycodepicker:compileDebugSources UP-TO-DATE
-> Task :countrycodepicker:assembleDebug UP-TO-DATE
-> Task :countrycodepicker:preReleaseBuild UP-TO-DATE
-> Task :countrycodepicker:compileReleaseAidl NO-SOURCE
-> Task :countrycodepicker:compileReleaseRenderscript UP-TO-DATE
-> Task :countrycodepicker:checkReleaseManifest UP-TO-DATE
-> Task :countrycodepicker:generateReleaseBuildConfig UP-TO-DATE
-> Task :countrycodepicker:generateReleaseResValues UP-TO-DATE
-> Task :countrycodepicker:generateReleaseResources UP-TO-DATE
-> Task :countrycodepicker:packageReleaseResources UP-TO-DATE
-> Task :countrycodepicker:processReleaseManifest UP-TO-DATE
-> Task :countrycodepicker:generateReleaseRFile UP-TO-DATE
-> Task :countrycodepicker:generateReleaseSources UP-TO-DATE
-> Task :countrycodepicker:javaPreCompileRelease UP-TO-DATE
-> Task :countrycodepicker:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :countrycodepicker:extractReleaseAnnotations UP-TO-DATE
-> Task :countrycodepicker:mergeReleaseConsumerProguardFiles UP-TO-DATE
-> Task :countrycodepicker:mergeReleaseShaders UP-TO-DATE
-> Task :countrycodepicker:compileReleaseShaders UP-TO-DATE
-> Task :countrycodepicker:generateReleaseAssets UP-TO-DATE
-> Task :countrycodepicker:packageReleaseAssets UP-TO-DATE
-> Task :countrycodepicker:packageReleaseRenderscript NO-SOURCE
-> Task :countrycodepicker:processReleaseJavaRes NO-SOURCE
-> Task :countrycodepicker:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
-> Task :countrycodepicker:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-> Task :countrycodepicker:compileReleaseNdk NO-SOURCE
-> Task :countrycodepicker:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :countrycodepicker:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-> Task :countrycodepicker:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-> Task :countrycodepicker:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
-> Task :countrycodepicker:bundleReleaseAar UP-TO-DATE
-> Task :countrycodepicker:compileReleaseSources UP-TO-DATE
-> Task :countrycodepicker:mergeReleaseResources UP-TO-DATE
-> Task :countrycodepicker:verifyReleaseResources
-> Task :countrycodepicker:assembleRelease
-> Task :countrycodepicker:assemble
-> Task :countrycodepicker:build
-> Task :sample:preBuild UP-TO-DATE
-> Task :sample:preDebugBuild FAILED
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Could not resolve all files for configuration ':sample:debugCompileClasspath'.
-> Could not find com.github.joielechong:countrycodepicker:2.3.0.
-  Required by:
-      project :sample
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':sample:debugCompileClasspath'.
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1054)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1700(DefaultConfiguration.java:123)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:1028)
-	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:76)
-	at org.gradle.api.internal.changedetection.state.DefaultFileSystemSnapshotter$FileCollectionVisitorImpl.visitCollection(DefaultFileSystemSnapshotter.java:257)
-	at org.gradle.api.internal.file.AbstractFileCollection.visitRootElements(AbstractFileCollection.java:282)
-	at org.gradle.api.internal.file.CompositeFileCollection.visitRootElements(CompositeFileCollection.java:206)
-	at org.gradle.api.internal.changedetection.state.DefaultFileSystemSnapshotter.snapshot(DefaultFileSystemSnapshotter.java:142)
-	at org.gradle.internal.fingerprint.impl.AbstractFileCollectionFingerprinter.fingerprint(AbstractFileCollectionFingerprinter.java:54)
-	at org.gradle.internal.fingerprint.impl.AbstractPathOnlyFileCollectionFingerprinter.fingerprint(AbstractPathOnlyFileCollectionFingerprinter.java:37)
-	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.fingerprintTaskFiles(CacheBackedTaskHistoryRepository.java:358)
-	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.createExecution(CacheBackedTaskHistoryRepository.java:163)
-	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.access$100(CacheBackedTaskHistoryRepository.java:76)
-	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository$1.getCurrentExecution(CacheBackedTaskHistoryRepository.java:123)
-	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.getStates(DefaultTaskArtifactStateRepository.java:200)
-	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.isUpToDate(DefaultTaskArtifactStateRepository.java:94)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:50)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
-	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
-	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not find com.github.joielechong:countrycodepicker:2.3.0.
-Required by:
-    project :sample
-	at org.gradle.internal.resolve.result.DefaultBuildableComponentResolveResult.notFound(DefaultBuildableComponentResolveResult.java:49)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:108)
-	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolve(RepositoryChainComponentMetaDataResolver.java:63)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ComponentMetaDataResolverChain.resolve(ComponentResolversChain.java:94)
-	at org.gradle.api.internal.artifacts.ivyservice.clientmodule.ClientModuleResolver.resolve(ClientModuleResolver.java:62)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.ComponentState.resolve(ComponentState.java:208)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.ComponentState.resolve(ComponentState.java:196)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.ComponentState.getMetadata(ComponentState.java:152)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.EdgeState.calculateTargetConfigurations(EdgeState.java:156)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.EdgeState.attachToTargetConfigurations(EdgeState.java:112)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.attachToTargetRevisionsSerially(DependencyGraphBuilder.java:315)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.resolveEdges(DependencyGraphBuilder.java:202)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.traverseGraph(DependencyGraphBuilder.java:155)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:126)
-	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:123)
-	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolveGraph(DefaultConfigurationResolver.java:167)
-	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolveGraph(ShortCircuitEmptyConfigurationResolver.java:89)
-	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolveGraph(ErrorHandlingConfigurationResolver.java:73)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$5.run(DefaultConfiguration.java:533)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:524)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveToStateOrLater(DefaultConfiguration.java:509)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1800(DefaultConfiguration.java:123)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getSelectedArtifacts(DefaultConfiguration.java:1037)
-	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:1025)
-	... 42 more
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 15s
-46 actionable tasks: 2 executed, 44 up-to-date
-
-2019-03-16 22:00:29,179 ERROR FullProcessService - Project build has not produced APK file
-2019-03-16 22:00:29,212 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-24 01:23:49,952 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365366915-0/src/CountryCodePicker-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
