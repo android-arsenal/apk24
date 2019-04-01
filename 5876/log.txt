@@ -1,34 +1,34 @@
-2019-03-17 15:05:04,483 INFO  DownloadService - Downloading "https://github.com/ahmed-adel-said/PhotoEditorSDK/archive/master.zip", attempt 3
-2019-03-17 15:05:08,838 INFO  DownloadService - Downloaded https://github.com/ahmed-adel-said/PhotoEditorSDK/archive/master.zip, attempt 3
-2019-03-17 15:05:08,838 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/master.zip": 4 MB
-2019-03-17 15:05:08,838 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-17 15:05:08,840 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/master.zip: true
-2019-03-17 15:05:08,840 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src'.
-2019-03-17 15:05:08,918 INFO  FullProcessService - Size of directory with sources: 5 MB
-2019-03-17 15:05:08,918 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src]
-2019-03-17 15:05:08,936 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/.git/
+2019-04-01 12:39:09,909 INFO  DownloadService - Downloading "https://github.com/ahmed-adel-said/PhotoEditorSDK/archive/master.zip", attempt 3
+2019-04-01 12:39:16,138 INFO  DownloadService - Downloaded https://github.com/ahmed-adel-said/PhotoEditorSDK/archive/master.zip, attempt 3
+2019-04-01 12:39:16,138 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/master.zip": 4 MB
+2019-04-01 12:39:16,138 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 12:39:16,140 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/master.zip: true
+2019-04-01 12:39:16,140 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src'.
+2019-04-01 12:39:16,213 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-04-01 12:39:16,213 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src]
+2019-04-01 12:39:16,233 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/.git/
 
-2019-03-17 15:05:08,940 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/gradlew
-2019-03-17 15:05:08,944 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/photoeditorsdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/build.gradle
-2019-03-17 15:05:08,949 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/photoeditorsdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/settings.gradle
-2019-03-17 15:05:08,949 INFO  ProjectBuildService - Remote scripts: none
-2019-03-17 15:05:08,949 INFO  ProjectFixService - Fixing project...
-2019-03-17 15:05:08,959 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/app/local.properties
-2019-03-17 15:05:08,959 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=17,targetSdkVersion=25]
-2019-03-17 15:05:08,960 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/photoeditorsdk/local.properties
-2019-03-17 15:05:08,960 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/photoeditorsdk/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2019-03-17 15:05:08,961 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/local.properties
-2019-03-17 15:05:08,961 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-03-17 15:05:08,961 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-03-17 15:05:08,962 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2019-03-17 15:05:08,962 INFO  ProjectFixService - Project was maybe fixed
-2019-03-17 15:05:08,962 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 15:05:08,963 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 15:05:15,231 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-17 15:05:15,231 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-17 15:05:15,231 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-17 15:05:15,231 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-17 15:05:20,151 ERROR SysUtils - Could not process external command
+2019-04-01 12:39:16,237 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/gradlew
+2019-04-01 12:39:16,242 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/photoeditorsdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/build.gradle
+2019-04-01 12:39:16,247 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/photoeditorsdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/settings.gradle
+2019-04-01 12:39:16,247 INFO  ProjectBuildService - Remote scripts: none
+2019-04-01 12:39:16,247 INFO  ProjectFixService - Fixing project...
+2019-04-01 12:39:16,258 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/app/local.properties
+2019-04-01 12:39:16,258 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=17,targetSdkVersion=25]
+2019-04-01 12:39:16,259 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/photoeditorsdk/local.properties
+2019-04-01 12:39:16,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/photoeditorsdk/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-04-01 12:39:16,260 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/local.properties
+2019-04-01 12:39:16,261 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-04-01 12:39:16,261 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-04-01 12:39:16,262 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-04-01 12:39:16,262 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 12:39:16,262 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:39:16,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:39:29,808 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:39:29,808 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:39:29,808 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:39:29,808 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:39:35,921 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-17 15:05:20,151 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:39:35,921 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -242,15 +242,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.634 secs
+Total time: 5.814 secs
 
-2019-03-17 15:05:20,157 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 15:05:20,157 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/photoeditorsdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 15:05:25,040 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-17 15:05:25,040 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-17 15:05:25,040 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-17 15:05:25,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/photoeditorsdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-17 15:05:29,945 ERROR SysUtils - Could not process external command
+2019-04-01 12:39:35,927 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:39:35,928 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/photoeditorsdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:39:42,383 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:39:42,383 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:39:42,384 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:39:42,384 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/photoeditorsdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:39:48,897 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -278,7 +278,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-17 15:05:29,945 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:39:48,897 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -386,15 +386,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.599 secs
+Total time: 6.208 secs
 
-2019-03-17 15:05:29,950 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 15:05:29,951 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 15:05:34,806 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-17 15:05:34,806 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-17 15:05:34,806 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-17 15:05:34,806 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552809904481-0/src/photo-editor-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-17 15:05:39,649 ERROR SysUtils - Could not process external command
+2019-04-01 12:39:48,903 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 12:39:48,903 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 12:39:55,009 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-01 12:39:55,009 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-01 12:39:55,009 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-01 12:39:55,009 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554097149901-0/src/photo-editor-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-01 12:40:01,088 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -422,7 +422,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-17 15:05:39,649 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-01 12:40:01,088 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -608,7 +608,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.622 secs
+Total time: 5.722 secs
 
-2019-03-17 15:05:39,655 ERROR FullProcessService - Project build has not produced APK file
-2019-03-17 15:05:39,659 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-01 12:40:01,095 ERROR FullProcessService - Project build has not produced APK file
+2019-04-01 12:40:01,102 ERROR FullProcessService - Could not find generated or existed APK file
