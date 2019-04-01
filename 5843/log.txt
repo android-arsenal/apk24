@@ -1,170 +1,167 @@
-2018-09-08 23:51:25,427 INFO  DownloadService - Downloading "https://github.com/whalemare/sheetmenu/archive/master.zip", attempt 3
-2018-09-08 23:51:27,679 INFO  DownloadService - Downloaded https://github.com/whalemare/sheetmenu/archive/master.zip, attempt 3
-2018-09-08 23:51:27,680 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/master.zip": 3 MB
-2018-09-08 23:51:27,680 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-08 23:51:27,686 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/master.zip: true
-2018-09-08 23:51:27,687 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src'.
-2018-09-08 23:51:27,761 INFO  FullProcessService - Size of directory with sources: 5 MB
-2018-09-08 23:51:27,761 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src]
-2018-09-08 23:51:27,779 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/.git/
+2019-04-01 11:30:48,503 INFO  DownloadService - Downloading "https://github.com/whalemare/sheetmenu/archive/master.zip", attempt 3
+2019-04-01 11:30:53,124 INFO  DownloadService - Downloaded https://github.com/whalemare/sheetmenu/archive/master.zip, attempt 3
+2019-04-01 11:30:53,124 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/master.zip": 3 MB
+2019-04-01 11:30:53,124 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 11:30:53,125 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/master.zip: true
+2019-04-01 11:30:53,126 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src'.
+2019-04-01 11:30:53,185 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-04-01 11:30:53,185 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src]
+2019-04-01 11:30:53,215 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/.git/
 
-2018-09-08 23:51:27,783 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/gradlew
-2018-09-08 23:51:27,787 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/sheetmenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/build.gradle
-2018-09-08 23:51:27,791 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/sheetmenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/settings.gradle
-2018-09-08 23:51:27,792 INFO  ProjectBuildService - Remote scripts: none
-2018-09-08 23:51:27,792 INFO  ProjectFixService - Fixing project...
-2018-09-08 23:51:27,802 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/app/local.properties
-2018-09-08 23:51:27,803 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-08 23:51:27,804 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/sheetmenu/local.properties
-2018-09-08 23:51:27,805 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/sheetmenu/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-08 23:51:27,806 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/local.properties
-2018-09-08 23:51:27,806 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-09-08 23:51:27,806 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-09-08 23:51:27,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-09-08 23:51:27,808 INFO  ProjectFixService - Project was maybe fixed
-2018-09-08 23:51:27,808 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-08 23:51:27,808 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-08 23:51:35,129 INFO  ProjectTaskService - Detected possible tasks: 68
-2018-09-08 23:51:35,130 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-09-08 23:51:35,130 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-09-08 23:52:12,342 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation' and 'androidTestApi'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'androidTestApi' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-:app:preBuild UP-TO-DATE
-:sheetmenu:preBuild UP-TO-DATE
-:sheetmenu:preDebugBuild UP-TO-DATE
-:sheetmenu:checkDebugManifest
-:sheetmenu:processDebugManifest
-:app:preDebugBuild
-:sheetmenu:compileDebugAidl
-:app:compileDebugAidl
-:sheetmenu:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:sheetmenu:compileDebugRenderscript
-:sheetmenu:generateDebugResValues
-:sheetmenu:generateDebugResources
-:sheetmenu:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:sheetmenu:platformAttrExtractor
-:sheetmenu:generateDebugBuildConfig
-:sheetmenu:prepareLintJar
-:sheetmenu:processDebugJavaRes NO-SOURCE
-:app:prepareLintJar
-:app:compileDebugNdk NO-SOURCE
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:sheetmenu:mergeDebugShaders
-:sheetmenu:compileDebugShaders
-:sheetmenu:generateDebugAssets
-:sheetmenu:packageDebugAssets
-:app:mergeDebugAssets
-:app:mergeDebugJniLibFolders
-:sheetmenu:compileDebugNdk NO-SOURCE
-:sheetmenu:mergeDebugJniLibFolders
-:sheetmenu:transformNativeLibsWithMergeJniLibsForDebug
-:sheetmenu:transformNativeLibsWithStripDebugSymbolForDebug
-:sheetmenu:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:processDebugJavaRes NO-SOURCE
-:app:validateSigningDebug
-:sheetmenu:preReleaseBuild UP-TO-DATE
-:sheetmenu:checkReleaseManifest
-:sheetmenu:processReleaseManifest
-:app:preReleaseBuild
-:sheetmenu:compileReleaseAidl
-:app:compileReleaseAidl
-:sheetmenu:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:sheetmenu:compileReleaseRenderscript
-:sheetmenu:generateReleaseResValues
-:sheetmenu:generateReleaseResources
-:sheetmenu:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:sheetmenu:generateReleaseBuildConfig
-:sheetmenu:processReleaseJavaRes NO-SOURCE
-:app:compileReleaseNdk NO-SOURCE
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:sheetmenu:mergeReleaseShaders
-:sheetmenu:compileReleaseShaders
-:sheetmenu:generateReleaseAssets
-:sheetmenu:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:mergeReleaseJniLibFolders
-:sheetmenu:compileReleaseNdk NO-SOURCE
-:sheetmenu:mergeReleaseJniLibFolders
-:sheetmenu:transformNativeLibsWithMergeJniLibsForRelease
-:sheetmenu:transformNativeLibsWithStripDebugSymbolForRelease
-:sheetmenu:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:processReleaseJavaRes NO-SOURCE
-:sheetmenu:generateDebugRFile
-:app:processDebugResources
-:sheetmenu:compileDebugKotlin
-:sheetmenu:generateDebugSources
-:sheetmenu:javaPreCompileDebug
-:sheetmenu:compileDebugJavaWithJavac
-:sheetmenu:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:compileDebugKotlin
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugSources
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:transformResourcesWithMergeJavaResForDebug
-:app:packageDebug
-:app:assembleDebug
-:sheetmenu:generateReleaseRFile
-:app:processReleaseResources
-:sheetmenu:compileReleaseKotlin
-:sheetmenu:generateReleaseSources
-:sheetmenu:javaPreCompileRelease
-:sheetmenu:compileReleaseJavaWithJavac
-:sheetmenu:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:compileReleaseKotlin
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseSources
-:app:transformClassesWithJacocoForRelease
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:build
+2019-04-01 11:30:53,218 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/gradlew
+2019-04-01 11:30:53,222 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/sheetmenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/build.gradle
+2019-04-01 11:30:53,225 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/sheetmenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/settings.gradle
+2019-04-01 11:30:53,226 INFO  ProjectBuildService - Remote scripts: none
+2019-04-01 11:30:53,226 INFO  ProjectFixService - Fixing project...
+2019-04-01 11:30:53,238 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/app/local.properties
+2019-04-01 11:30:53,239 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-04-01 11:30:53,239 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/sheetmenu/local.properties
+2019-04-01 11:30:53,240 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/sheetmenu/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-04-01 11:30:53,241 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/local.properties
+2019-04-01 11:30:53,241 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2-all.zip
+2019-04-01 11:30:53,242 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2-bin.zip)
+2019-04-01 11:30:53,243 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-04-01 11:30:53,244 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 11:30:53,244 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 11:30:53,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 11:31:09,817 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-01 11:31:09,817 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-01 11:31:09,817 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-01 11:32:08,503 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :sheetmenu:preBuild UP-TO-DATE
+> Task :sheetmenu:preDebugBuild UP-TO-DATE
+> Task :sheetmenu:checkDebugManifest
+> Task :sheetmenu:processDebugManifest
+> Task :app:preDebugBuild
+> Task :sheetmenu:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :sheetmenu:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :sheetmenu:compileDebugRenderscript
+> Task :sheetmenu:generateDebugResValues
+> Task :sheetmenu:generateDebugResources
+> Task :sheetmenu:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :sheetmenu:generateDebugRFile
+> Task :app:processDebugResources
+> Task :sheetmenu:generateDebugBuildConfig
+> Task :sheetmenu:compileDebugKotlin
+> Task :sheetmenu:prepareLintJar
+> Task :sheetmenu:generateDebugSources
+> Task :sheetmenu:javaPreCompileDebug
+> Task :sheetmenu:compileDebugJavaWithJavac
+> Task :sheetmenu:processDebugJavaRes NO-SOURCE
+> Task :sheetmenu:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :sheetmenu:mergeDebugShaders
+> Task :sheetmenu:compileDebugShaders
+> Task :sheetmenu:generateDebugAssets
+> Task :sheetmenu:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :sheetmenu:createFullJarDebug
+> Task :app:mergeExtDexDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :sheetmenu:compileDebugNdk NO-SOURCE
+> Task :sheetmenu:mergeDebugJniLibFolders
+> Task :sheetmenu:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sheetmenu:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sheetmenu:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :sheetmenu:preReleaseBuild UP-TO-DATE
+> Task :sheetmenu:checkReleaseManifest
+> Task :sheetmenu:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :sheetmenu:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :sheetmenu:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :sheetmenu:compileReleaseRenderscript
+> Task :sheetmenu:generateReleaseResValues
+> Task :sheetmenu:generateReleaseResources
+> Task :sheetmenu:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :sheetmenu:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :sheetmenu:generateReleaseBuildConfig
+> Task :sheetmenu:compileReleaseKotlin
+> Task :sheetmenu:generateReleaseSources
+> Task :sheetmenu:javaPreCompileRelease
+> Task :sheetmenu:compileReleaseJavaWithJavac
+> Task :sheetmenu:processReleaseJavaRes NO-SOURCE
+> Task :sheetmenu:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+> Task :sheetmenu:createFullJarRelease
+> Task :app:mergeExtDexRelease
+> Task :app:jacocoRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :sheetmenu:mergeReleaseShaders
+> Task :sheetmenu:compileReleaseShaders
+> Task :sheetmenu:generateReleaseAssets
+> Task :sheetmenu:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :sheetmenu:compileReleaseNdk NO-SOURCE
+> Task :sheetmenu:mergeReleaseJniLibFolders
+> Task :sheetmenu:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sheetmenu:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sheetmenu:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
 
-BUILD SUCCESSFUL in 36s
-95 actionable tasks: 95 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-2018-09-08 23:52:12,443 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536425485423-0/src/sheetmenu-master/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 57s
+92 actionable tasks: 92 executed
+
+2019-04-01 11:32:08,599 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093048499-0/src/sheetmenu-master/app/build/outputs/apk/debug/app-debug.apk
