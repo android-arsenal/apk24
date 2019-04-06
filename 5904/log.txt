@@ -1,36 +1,36 @@
-2019-04-05 12:42:01,512 INFO  DownloadService - Downloading "https://github.com/timqi/SectorProgressView/archive/master.zip", attempt 3
-2019-04-05 12:42:26,837 INFO  DownloadService - Downloaded https://github.com/timqi/SectorProgressView/archive/master.zip, attempt 3
-2019-04-05 12:42:26,837 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/master.zip": 8 MB
-2019-04-05 12:42:26,837 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 12:42:26,839 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/master.zip: true
-2019-04-05 12:42:26,839 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src'.
-2019-04-05 12:42:26,936 INFO  FullProcessService - Size of directory with sources: 11 MB
-2019-04-05 12:42:26,936 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src]
-2019-04-05 12:42:26,954 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/.git/
+2019-04-06 14:16:37,499 INFO  DownloadService - Downloading "https://github.com/timqi/SectorProgressView/archive/master.zip", attempt 3
+2019-04-06 14:16:43,683 INFO  DownloadService - Downloaded https://github.com/timqi/SectorProgressView/archive/master.zip, attempt 3
+2019-04-06 14:16:43,684 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/master.zip": 8 MB
+2019-04-06 14:16:43,684 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 14:16:43,684 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/master.zip: true
+2019-04-06 14:16:43,684 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src'.
+2019-04-06 14:16:43,787 INFO  FullProcessService - Size of directory with sources: 11 MB
+2019-04-06 14:16:43,787 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src]
+2019-04-06 14:16:43,813 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/.git/
 
-2019-04-05 12:42:26,957 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/gradlew
-2019-04-05 12:42:26,960 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/build.gradle
-2019-04-05 12:42:26,963 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/settings.gradle
-2019-04-05 12:42:26,963 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 12:42:26,963 INFO  ProjectFixService - Fixing project...
-2019-04-05 12:42:26,969 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/example/local.properties
-2019-04-05 12:42:26,969 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/example/build.gradle": [buildToolsVersion=26,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-04-05 12:42:26,969 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/example/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-04-05 12:42:26,970 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/library/local.properties
-2019-04-05 12:42:26,971 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/library/build.gradle": [buildToolsVersion=26,compileSdkVersion=26,minSdkVersion=11,targetSdkVersion=26]
-2019-04-05 12:42:26,971 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/library/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=26,minSdkVersion=11,targetSdkVersion=26]
-2019-04-05 12:42:26,971 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/local.properties
-2019-04-05 12:42:26,972 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-04-05 12:42:26,972 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-04-05 12:42:26,972 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-04-05 12:42:26,972 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 12:42:26,972 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 12:42:26,973 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 12:42:32,628 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-05 12:42:32,629 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-05 12:42:32,629 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-05 12:42:32,629 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 12:42:37,205 ERROR SysUtils - Could not process external command
+2019-04-06 14:16:43,815 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/gradlew
+2019-04-06 14:16:43,819 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/build.gradle
+2019-04-06 14:16:43,821 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/settings.gradle
+2019-04-06 14:16:43,822 INFO  ProjectBuildService - Remote scripts: none
+2019-04-06 14:16:43,822 INFO  ProjectFixService - Fixing project...
+2019-04-06 14:16:43,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/example/local.properties
+2019-04-06 14:16:43,830 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/example/build.gradle": [buildToolsVersion=26,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-04-06 14:16:43,830 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/example/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-04-06 14:16:43,831 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/library/local.properties
+2019-04-06 14:16:43,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/library/build.gradle": [buildToolsVersion=26,compileSdkVersion=26,minSdkVersion=11,targetSdkVersion=26]
+2019-04-06 14:16:43,831 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/library/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=26,minSdkVersion=11,targetSdkVersion=26]
+2019-04-06 14:16:43,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/local.properties
+2019-04-06 14:16:43,832 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-04-06 14:16:43,833 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-04-06 14:16:43,834 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/build.gradle": [buildToolsVersion=17.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-04-06 14:16:43,834 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 14:16:43,834 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 14:16:43,834 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 14:16:49,809 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-06 14:16:49,809 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 14:16:49,809 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 14:16:49,809 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 14:16:54,644 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -57,7 +57,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 12:42:37,205 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 14:16:54,644 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -156,6 +156,6 @@ Caused by: org.gradle.api.GradleException: The SDK Build Tools revision (17.0.0)
 
 BUILD FAILED
 
-Total time: 4.305 secs
+Total time: 4.57 secs
 
-2019-04-05 12:42:37,209 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442921504-0/src/SectorProgressView-master/art/example.apk
+2019-04-06 14:16:54,648 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534997496-0/src/SectorProgressView-master/art/example.apk

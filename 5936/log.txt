@@ -1,37 +1,37 @@
-2019-04-05 12:38:39,829 INFO  DownloadService - Downloading "https://github.com/Tourenathan-G5organisation/SiliCompressor/archive/master.zip", attempt 3
-2019-04-05 12:38:46,778 INFO  DownloadService - Downloaded https://github.com/Tourenathan-G5organisation/SiliCompressor/archive/master.zip, attempt 3
-2019-04-05 12:38:46,778 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/master.zip": 4 MB
-2019-04-05 12:38:46,778 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 12:38:46,779 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/master.zip: true
-2019-04-05 12:38:46,780 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src'.
-2019-04-05 12:38:46,830 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-04-05 12:38:46,830 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src]
-2019-04-05 12:38:46,847 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/.git/
+2019-04-06 14:13:15,978 INFO  DownloadService - Downloading "https://github.com/Tourenathan-G5organisation/SiliCompressor/archive/master.zip", attempt 3
+2019-04-06 14:13:20,163 INFO  DownloadService - Downloaded https://github.com/Tourenathan-G5organisation/SiliCompressor/archive/master.zip, attempt 3
+2019-04-06 14:13:20,163 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/master.zip": 4 MB
+2019-04-06 14:13:20,163 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 14:13:20,165 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/master.zip: true
+2019-04-06 14:13:20,166 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src'.
+2019-04-06 14:13:20,242 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-04-06 14:13:20,242 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src]
+2019-04-06 14:13:20,265 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/.git/
 
-2019-04-05 12:38:46,851 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/gradlew
-2019-04-05 12:38:46,855 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/silicompressor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/build.gradle
-2019-04-05 12:38:46,859 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/silicompressor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/settings.gradle
-2019-04-05 12:38:46,859 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-04-05 12:38:46,952 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-04-05 12:38:46,952 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-04-05 12:38:47,043 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-04-05 12:38:47,044 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-04-05 12:38:47,044 INFO  ProjectFixService - Fixing project...
-2019-04-05 12:38:47,057 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/app/local.properties
-2019-04-05 12:38:47,057 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 12:38:47,057 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/silicompressor/local.properties
-2019-04-05 12:38:47,058 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/silicompressor/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 12:38:47,058 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/local.properties
-2019-04-05 12:38:47,058 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-04-05 12:38:47,059 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-04-05 12:38:47,060 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-04-05 12:38:47,060 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 12:38:47,060 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 12:38:47,060 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 12:38:52,903 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-05 12:38:52,903 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-05 12:38:52,903 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-05 12:38:58,188 ERROR SysUtils - Could not process external command
+2019-04-06 14:13:20,269 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/gradlew
+2019-04-06 14:13:20,274 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/silicompressor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/build.gradle
+2019-04-06 14:13:20,278 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/silicompressor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/settings.gradle
+2019-04-06 14:13:20,278 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-04-06 14:13:20,375 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-04-06 14:13:20,375 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-04-06 14:13:20,471 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-04-06 14:13:20,471 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-04-06 14:13:20,471 INFO  ProjectFixService - Fixing project...
+2019-04-06 14:13:20,484 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/app/local.properties
+2019-04-06 14:13:20,485 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 14:13:20,490 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/silicompressor/local.properties
+2019-04-06 14:13:20,490 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/silicompressor/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 14:13:20,491 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/local.properties
+2019-04-06 14:13:20,492 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-04-06 14:13:20,492 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-04-06 14:13:20,493 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 14:13:20,493 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 14:13:20,493 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 14:13:20,493 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 14:13:28,033 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-06 14:13:28,033 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-06 14:13:28,033 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-06 14:13:34,235 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -58,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 12:38:58,188 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 14:13:34,235 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -140,9 +140,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2019-04-05 12:38:58,188 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-04-05 12:38:58,189 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-05 12:39:40,725 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 14:13:34,235 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-04-06 14:13:34,236 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 14:14:15,313 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :silicompressor:preBuild UP-TO-DATE
 :silicompressor:preDebugBuild UP-TO-DATE
@@ -277,10 +277,10 @@ D8: InnerClass annotations are missing corresponding EnclosingMember annotations
 :app:assembleRelease
 :app:assemble
 :app:lint
-Ran lint on variant release: 17 issues found
 Ran lint on variant debug: 17 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/app/build/reports/lint-results.xml
+Ran lint on variant release: 17 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/app/build/reports/lint-results.xml
 :app:javaPreCompileDebugUnitTest
 :app:compileDebugUnitTestJavaWithJavac
 :app:testDebugUnitTest
@@ -291,7 +291,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :app:check
 :app:build
 
-BUILD SUCCESSFUL in 41s
+BUILD SUCCESSFUL in 40s
 98 actionable tasks: 98 executed
 
-2019-04-05 12:39:40,823 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554442719827-0/src/SiliCompressor-master/app/build/outputs/apk/debug/app-debug.apk
+2019-04-06 14:14:15,407 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554534795974-0/src/SiliCompressor-master/app/build/outputs/apk/debug/app-debug.apk
