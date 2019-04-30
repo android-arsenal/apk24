@@ -1,33 +1,33 @@
-2019-04-06 21:58:28,762 INFO  DownloadService - Downloading "https://github.com/joielechong/CountryCodePicker/archive/master.zip", attempt 3
-2019-04-06 21:58:32,470 INFO  DownloadService - Downloaded https://github.com/joielechong/CountryCodePicker/archive/master.zip, attempt 3
-2019-04-06 21:58:32,471 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/master.zip": 2 MB
-2019-04-06 21:58:32,471 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-06 21:58:32,472 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/master.zip: true
-2019-04-06 21:58:32,472 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src'.
-2019-04-06 21:58:32,579 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-04-06 21:58:32,580 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src]
-2019-04-06 21:58:32,608 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/.git/
+2019-04-30 14:30:10,709 INFO  DownloadService - Downloading "https://github.com/joielechong/CountryCodePicker/archive/master.zip", attempt 3
+2019-04-30 14:31:00,179 INFO  DownloadService - Downloaded https://github.com/joielechong/CountryCodePicker/archive/master.zip, attempt 3
+2019-04-30 14:31:00,179 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/master.zip": 2 MB
+2019-04-30 14:31:00,179 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-30 14:31:00,182 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/master.zip: true
+2019-04-30 14:31:00,182 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src'.
+2019-04-30 14:31:00,290 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-04-30 14:31:00,290 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src]
+2019-04-30 14:31:00,309 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/.git/
 
-2019-04-06 21:58:32,616 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/gradlew
-2019-04-06 21:58:32,624 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/countrycodepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/build.gradle
-2019-04-06 21:58:32,632 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/countrycodepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/settings.gradle
-2019-04-06 21:58:32,633 INFO  ProjectBuildService - Remote scripts: none
-2019-04-06 21:58:32,633 INFO  ProjectFixService - Fixing project...
-2019-04-06 21:58:32,650 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/countrycodepicker/local.properties
-2019-04-06 21:58:32,650 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/countrycodepicker/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-06 21:58:32,651 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/sample/local.properties
-2019-04-06 21:58:32,651 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-06 21:58:32,651 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/local.properties
-2019-04-06 21:58:32,652 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-04-06 21:58:32,652 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-04-06 21:58:32,653 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-06 21:58:32,653 INFO  ProjectFixService - Project was maybe fixed
-2019-04-06 21:58:32,653 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-06 21:58:32,653 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/countrycodepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-06 21:58:40,473 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-04-06 21:58:40,473 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-04-06 21:58:40,473 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/countrycodepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-04-06 21:58:51,554 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-30 14:31:00,317 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/gradlew
+2019-04-30 14:31:00,325 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/countrycodepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/build.gradle
+2019-04-30 14:31:00,333 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/countrycodepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/settings.gradle
+2019-04-30 14:31:00,333 INFO  ProjectBuildService - Remote scripts: none
+2019-04-30 14:31:00,333 INFO  ProjectFixService - Fixing project...
+2019-04-30 14:31:00,349 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/countrycodepicker/local.properties
+2019-04-30 14:31:00,349 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/countrycodepicker/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-30 14:31:00,350 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/sample/local.properties
+2019-04-30 14:31:00,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-30 14:31:00,351 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/local.properties
+2019-04-30 14:31:00,351 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-04-30 14:31:00,351 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-04-30 14:31:00,352 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-30 14:31:00,352 INFO  ProjectFixService - Project was maybe fixed
+2019-04-30 14:31:00,352 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-30 14:31:00,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/countrycodepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-30 14:31:06,509 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-04-30 14:31:06,510 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-30 14:31:06,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/countrycodepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-30 14:31:16,654 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :countrycodepicker:preBuild UP-TO-DATE
 > Task :countrycodepicker:preDebugBuild UP-TO-DATE
 > Task :countrycodepicker:compileDebugAidl NO-SOURCE
@@ -44,7 +44,7 @@
 > Task :countrycodepicker:javaPreCompileDebug
 
 > Task :countrycodepicker:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/countrycodepicker/src/main/java/com/rilixtech/CountryCodePicker.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/countrycodepicker/src/main/java/com/rilixtech/CountryCodePicker.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :countrycodepicker:extractDebugAnnotations
@@ -79,7 +79,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :countrycodepicker:javaPreCompileRelease
 
 > Task :countrycodepicker:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/countrycodepicker/src/main/java/com/rilixtech/CountryCodePicker.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/countrycodepicker/src/main/java/com/rilixtech/CountryCodePicker.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :countrycodepicker:extractReleaseAnnotations
@@ -105,18 +105,36 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :countrycodepicker:assemble
 > Task :countrycodepicker:build
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 9s
 45 actionable tasks: 45 executed
 
-2019-04-06 21:58:51,589 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-06 21:58:51,589 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-06 21:58:57,572 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-04-06 21:58:57,572 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-06 21:58:57,572 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-06 21:59:25,904 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-30 14:31:16,692 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-30 14:31:16,693 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-30 14:31:22,595 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-04-30 14:31:22,595 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-30 14:31:22,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-30 14:31:52,495 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :countrycodepicker:preBuild UP-TO-DATE
+> Task :countrycodepicker:preDebugBuild UP-TO-DATE
+> Task :countrycodepicker:compileDebugAidl NO-SOURCE
+> Task :countrycodepicker:compileDebugRenderscript UP-TO-DATE
+> Task :countrycodepicker:checkDebugManifest UP-TO-DATE
+> Task :countrycodepicker:generateDebugBuildConfig UP-TO-DATE
+> Task :countrycodepicker:generateDebugResValues UP-TO-DATE
+> Task :countrycodepicker:generateDebugResources UP-TO-DATE
+> Task :countrycodepicker:packageDebugResources UP-TO-DATE
+> Task :countrycodepicker:processDebugManifest UP-TO-DATE
+> Task :countrycodepicker:generateDebugRFile UP-TO-DATE
+> Task :countrycodepicker:prepareLintJar UP-TO-DATE
+> Task :countrycodepicker:generateDebugSources UP-TO-DATE
+> Task :countrycodepicker:javaPreCompileDebug UP-TO-DATE
+> Task :countrycodepicker:compileDebugJavaWithJavac UP-TO-DATE
+> Task :countrycodepicker:processDebugJavaRes NO-SOURCE
+> Task :countrycodepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild
 > Task :sample:compileDebugAidl NO-SOURCE
+> Task :countrycodepicker:packageDebugRenderscript NO-SOURCE
 > Task :sample:compileDebugRenderscript
 > Task :sample:checkDebugManifest
 > Task :sample:generateDebugBuildConfig
@@ -137,24 +155,52 @@ Note: Recompile with -Xlint:deprecation for details.
 
 > Task :sample:compileDebugNdk NO-SOURCE
 > Task :sample:compileDebugSources
+> Task :countrycodepicker:mergeDebugShaders UP-TO-DATE
+> Task :countrycodepicker:compileDebugShaders UP-TO-DATE
+> Task :countrycodepicker:generateDebugAssets UP-TO-DATE
+> Task :countrycodepicker:packageDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugShaders
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :countrycodepicker:createFullJarDebug
+> Transform full.jar (project :countrycodepicker) with IdentityTransform
 > Task :sample:mergeExtDexDebug
 > Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:mergeDexDebug
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
+> Task :countrycodepicker:compileDebugNdk NO-SOURCE
+> Task :countrycodepicker:mergeDebugJniLibFolders UP-TO-DATE
+> Task :countrycodepicker:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :countrycodepicker:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :countrycodepicker:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :sample:mergeDebugJniLibFolders
+> Transform full.jar (project :countrycodepicker) with DexingTransform
 > Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:mergeDexDebug
 > Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :sample:transformResourcesWithMergeJavaResForDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
+> Task :countrycodepicker:preReleaseBuild UP-TO-DATE
+> Task :countrycodepicker:compileReleaseAidl NO-SOURCE
+> Task :countrycodepicker:compileReleaseRenderscript UP-TO-DATE
+> Task :countrycodepicker:checkReleaseManifest UP-TO-DATE
+> Task :countrycodepicker:generateReleaseBuildConfig UP-TO-DATE
+> Task :countrycodepicker:generateReleaseResValues UP-TO-DATE
+> Task :countrycodepicker:generateReleaseResources UP-TO-DATE
+> Task :countrycodepicker:packageReleaseResources UP-TO-DATE
+> Task :countrycodepicker:processReleaseManifest UP-TO-DATE
+> Task :countrycodepicker:generateReleaseRFile UP-TO-DATE
+> Task :countrycodepicker:generateReleaseSources UP-TO-DATE
+> Task :countrycodepicker:javaPreCompileRelease UP-TO-DATE
+> Task :countrycodepicker:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :countrycodepicker:processReleaseJavaRes NO-SOURCE
+> Task :countrycodepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 > Task :sample:preReleaseBuild
 > Task :sample:compileReleaseAidl NO-SOURCE
+> Task :countrycodepicker:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript
 > Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
@@ -178,14 +224,26 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :sample:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/68d7a9140d8caff49181fcd9d423d407/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :countrycodepicker:createFullJarRelease
+> Transform full.jar (project :countrycodepicker) with IdentityTransform
 > Task :sample:mergeExtDexRelease
 > Task :sample:transformClassesWithDexBuilderForRelease
-> Task :sample:mergeDexRelease
+> Task :countrycodepicker:mergeReleaseShaders UP-TO-DATE
+> Task :countrycodepicker:compileReleaseShaders UP-TO-DATE
+> Task :countrycodepicker:generateReleaseAssets UP-TO-DATE
+> Task :countrycodepicker:packageReleaseAssets UP-TO-DATE
 > Task :sample:mergeReleaseShaders
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
+> Transform full.jar (project :countrycodepicker) with DexingTransform
 > Task :sample:mergeReleaseAssets
+> Task :sample:mergeDexRelease
 > Task :sample:signingConfigWriterRelease
+> Task :countrycodepicker:compileReleaseNdk NO-SOURCE
+> Task :countrycodepicker:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :countrycodepicker:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :countrycodepicker:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :countrycodepicker:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
 > Task :sample:transformNativeLibsWithMergeJniLibsForRelease
 > Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
@@ -196,7 +254,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 27s
-51 actionable tasks: 51 executed
+BUILD SUCCESSFUL in 29s
+88 actionable tasks: 57 executed, 31 up-to-date
 
-2019-04-06 21:59:26,050 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554562708759-0/src/CountryCodePicker-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-04-30 14:31:52,647 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609410702-0/src/CountryCodePicker-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

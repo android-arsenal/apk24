@@ -1,37 +1,34 @@
-2019-04-18 12:53:51,488 INFO  DownloadService - Downloading "https://github.com/florent37/android-slidr/archive/master.zip", attempt 3
-2019-04-18 12:54:52,386 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 12:54:53,516 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 12:54:53,516 INFO  DownloadService - Downloading "https://github.com/florent37/android-slidr/archive/master.zip", attempt 3
-2019-04-18 12:55:55,607 DEBUG FullProcessService - Repository https://github.com/florent37/android-slidr available: true
-2019-04-18 12:55:55,607 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 12:55:55,608 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/florent37/android-slidr, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src]
-2019-04-18 12:55:57,750 INFO  SysUtils - 
-2019-04-18 12:55:57,791 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/.git": true
-2019-04-18 12:55:57,793 INFO  FullProcessService - Size of directory with sources: 397 KB
-2019-04-18 12:55:57,793 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src]
-2019-04-18 12:55:57,811 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/.git/
+2019-04-30 14:24:34,956 INFO  DownloadService - Downloading "https://github.com/florent37/android-slidr/archive/master.zip", attempt 3
+2019-04-30 14:24:41,706 INFO  DownloadService - Downloaded https://github.com/florent37/android-slidr/archive/master.zip, attempt 3
+2019-04-30 14:24:41,707 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/master.zip": 311 KB
+2019-04-30 14:24:41,707 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-30 14:24:41,707 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/master.zip: true
+2019-04-30 14:24:41,708 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src'.
+2019-04-30 14:24:41,732 INFO  FullProcessService - Size of directory with sources: 397 KB
+2019-04-30 14:24:41,732 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src]
+2019-04-30 14:24:41,752 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/.git/
 
-2019-04-18 12:55:57,814 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradlew
-2019-04-18 12:55:57,817 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/android-slidr/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/build.gradle
-2019-04-18 12:55:57,819 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/android-slidr/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/settings.gradle
-2019-04-18 12:55:57,820 INFO  ProjectBuildService - Remote scripts: none
-2019-04-18 12:55:57,820 INFO  ProjectFixService - Fixing project...
-2019-04-18 12:55:57,828 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/android-slidr/local.properties
-2019-04-18 12:55:57,829 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/android-slidr/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-04-18 12:55:57,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/app/local.properties
-2019-04-18 12:55:57,830 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2019-04-18 12:55:57,830 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/local.properties
-2019-04-18 12:55:57,831 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-04-18 12:55:57,831 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-04-18 12:55:57,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2019-04-18 12:55:57,831 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 12:55:57,832 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 12:55:57,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/android-slidr/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 12:56:06,413 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 12:56:06,413 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 12:56:06,413 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 12:56:06,413 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/android-slidr/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 12:56:12,758 ERROR SysUtils - Could not process external command
+2019-04-30 14:24:41,755 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradlew
+2019-04-30 14:24:41,758 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/android-slidr/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/build.gradle
+2019-04-30 14:24:41,761 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/android-slidr/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/settings.gradle
+2019-04-30 14:24:41,761 INFO  ProjectBuildService - Remote scripts: none
+2019-04-30 14:24:41,761 INFO  ProjectFixService - Fixing project...
+2019-04-30 14:24:41,769 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/android-slidr/local.properties
+2019-04-30 14:24:41,771 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/android-slidr/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-30 14:24:41,771 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/app/local.properties
+2019-04-30 14:24:41,772 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-04-30 14:24:41,772 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/local.properties
+2019-04-30 14:24:41,773 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-04-30 14:24:41,773 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-04-30 14:24:41,774 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-04-30 14:24:41,774 INFO  ProjectFixService - Project was maybe fixed
+2019-04-30 14:24:41,774 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-30 14:24:41,774 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/android-slidr/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-30 14:24:51,573 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-30 14:24:51,573 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-30 14:24:51,573 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-30 14:24:51,573 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/android-slidr/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-30 14:24:57,639 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,7 +41,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 12:56:12,758 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-30 14:24:57,639 INFO  SysUtils - Configuration on demand is an incubating feature.
 File /Users/vbauer/.android/repositories.cfg could not be loaded.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.NullPointerException
@@ -152,7 +150,7 @@ java.lang.NullPointerException
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradle/bintray-android-v1.gradle' line: 12
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradle/bintray-android-v1.gradle' line: 12
 
 * What went wrong:
 A problem occurred evaluating script.
@@ -174,7 +172,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_2nq4he3ij6bnk3ewmyjltifro.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/android-slidr/build.gradle:56)
+	at build_alc20920l9q0w5dhrgisc7uyu.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/android-slidr/build.gradle:56)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -250,7 +248,7 @@ Caused by: java.lang.IllegalStateException: Failed to find target with hash stri
 	at com.android.build.gradle.BaseExtension.getBootClasspath(BaseExtension.java:761)
 	at com.android.build.gradle.LibraryExtension_Decorated.getBootClasspath(Unknown Source)
 	at com.android.build.gradle.LibraryExtension_Decorated$getBootClasspath.call(Unknown Source)
-	at bintray_android_v1_bd27z8umrop2a5sg5382jto8y$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradle/bintray-android-v1.gradle:12)
+	at bintray_android_v1_63qo1qmqg6tdafostnunmu8rz$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradle/bintray-android-v1.gradle:12)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:136)
@@ -262,22 +260,22 @@ Caused by: java.lang.IllegalStateException: Failed to find target with hash stri
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
-	at bintray_android_v1_bd27z8umrop2a5sg5382jto8y.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradle/bintray-android-v1.gradle:10)
+	at bintray_android_v1_63qo1qmqg6tdafostnunmu8rz.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradle/bintray-android-v1.gradle:10)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 79 more
 
 
 BUILD FAILED
 
-Total time: 6.053 secs
+Total time: 5.774 secs
 
-2019-04-18 12:56:12,762 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 12:56:12,762 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 12:56:19,260 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 12:56:19,260 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 12:56:19,260 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 12:56:19,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 12:56:25,664 ERROR SysUtils - Could not process external command
+2019-04-30 14:24:57,644 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-30 14:24:57,644 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-30 14:25:03,697 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-30 14:25:03,697 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-30 14:25:03,697 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-30 14:25:03,697 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-30 14:25:09,640 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -290,7 +288,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -304,7 +303,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 12:56:25,664 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-30 14:25:09,640 INFO  SysUtils - Configuration on demand is an incubating feature.
 File /Users/vbauer/.android/repositories.cfg could not be loaded.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.NullPointerException
@@ -466,7 +465,7 @@ java.lang.NullPointerException
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradle/bintray-android-v1.gradle' line: 12
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradle/bintray-android-v1.gradle' line: 12
 
 * What went wrong:
 A problem occurred evaluating script.
@@ -488,7 +487,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_2nq4he3ij6bnk3ewmyjltifro.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/android-slidr/build.gradle:56)
+	at build_alc20920l9q0w5dhrgisc7uyu.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/android-slidr/build.gradle:56)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -632,7 +631,7 @@ Caused by: java.lang.IllegalStateException: Failed to find target with hash stri
 	at com.android.build.gradle.BaseExtension.getBootClasspath(BaseExtension.java:761)
 	at com.android.build.gradle.LibraryExtension_Decorated.getBootClasspath(Unknown Source)
 	at com.android.build.gradle.LibraryExtension_Decorated$getBootClasspath.call(Unknown Source)
-	at bintray_android_v1_bd27z8umrop2a5sg5382jto8y$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradle/bintray-android-v1.gradle:12)
+	at bintray_android_v1_63qo1qmqg6tdafostnunmu8rz$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradle/bintray-android-v1.gradle:12)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:136)
@@ -644,22 +643,22 @@ Caused by: java.lang.IllegalStateException: Failed to find target with hash stri
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
-	at bintray_android_v1_bd27z8umrop2a5sg5382jto8y.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradle/bintray-android-v1.gradle:10)
+	at bintray_android_v1_63qo1qmqg6tdafostnunmu8rz.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradle/bintray-android-v1.gradle:10)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 147 more
 
 
 BUILD FAILED
 
-Total time: 6.126 secs
+Total time: 5.689 secs
 
-2019-04-18 12:56:25,668 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 12:56:25,668 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 12:56:31,608 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 12:56:31,608 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-04-18 12:56:31,608 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-04-18 12:56:31,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-18 12:56:38,615 ERROR SysUtils - Could not process external command
+2019-04-30 14:25:09,644 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-30 14:25:09,645 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-30 14:25:15,435 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-30 14:25:15,435 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-30 14:25:15,435 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-30 14:25:15,435 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-30 14:25:21,133 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -672,7 +671,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -686,7 +686,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 12:56:38,615 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-30 14:25:21,133 INFO  SysUtils - Configuration on demand is an incubating feature.
 File /Users/vbauer/.android/repositories.cfg could not be loaded.
 Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
 java.lang.NullPointerException
@@ -780,7 +780,7 @@ java.lang.NullPointerException
 FAILURE: Build failed with an exception.
 
 * Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradle/bintray-android-v1.gradle' line: 12
+Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradle/bintray-android-v1.gradle' line: 12
 
 * What went wrong:
 A problem occurred evaluating script.
@@ -802,7 +802,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_2nq4he3ij6bnk3ewmyjltifro.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/android-slidr/build.gradle:56)
+	at build_alc20920l9q0w5dhrgisc7uyu.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/android-slidr/build.gradle:56)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -878,7 +878,7 @@ Caused by: java.lang.IllegalStateException: Failed to find target with hash stri
 	at com.android.build.gradle.BaseExtension.getBootClasspath(BaseExtension.java:761)
 	at com.android.build.gradle.LibraryExtension_Decorated.getBootClasspath(Unknown Source)
 	at com.android.build.gradle.LibraryExtension_Decorated$getBootClasspath.call(Unknown Source)
-	at bintray_android_v1_bd27z8umrop2a5sg5382jto8y$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradle/bintray-android-v1.gradle:12)
+	at bintray_android_v1_63qo1qmqg6tdafostnunmu8rz$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradle/bintray-android-v1.gradle:12)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:136)
@@ -890,14 +890,14 @@ Caused by: java.lang.IllegalStateException: Failed to find target with hash stri
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
-	at bintray_android_v1_bd27z8umrop2a5sg5382jto8y.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566831484-0/src/gradle/bintray-android-v1.gradle:10)
+	at bintray_android_v1_63qo1qmqg6tdafostnunmu8rz.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609074951-0/src/android-slidr-master/gradle/bintray-android-v1.gradle:10)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 79 more
 
 
 BUILD FAILED
 
-Total time: 6.702 secs
+Total time: 5.44 secs
 
-2019-04-18 12:56:38,619 ERROR FullProcessService - Project build has not produced APK file
-2019-04-18 12:56:38,622 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-30 14:25:21,137 ERROR FullProcessService - Project build has not produced APK file
+2019-04-30 14:25:21,141 ERROR FullProcessService - Could not find generated or existed APK file

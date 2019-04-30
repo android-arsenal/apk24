@@ -11,8 +11,8 @@
     "maxSdkVersion" : null,
     "compileSdkVersion" : "28",
     "compileSdkVersionCodename" : "9",
-    "platformBuildVersionCode" : "1",
-    "platformBuildVersionName" : "0.1.1",
+    "platformBuildVersionCode" : "28",
+    "platformBuildVersionName" : "9",
     "glEsVersion" : null,
     "anyDensity" : false,
     "smallScreens" : false,
@@ -30,9 +30,9 @@
   },
   "dexClasses" : 2205,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"0.1.1\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.kc.unsplashdemo\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"0.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"Unsplash Demo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.kc.unsplashdemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"com.squareup.picasso.PicassoProvider\" android:exported=\"false\" android:authorities=\"com.kc.unsplashdemo.com.squareup.picasso\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2172151,
-  "crc32" : 739411500,
-  "sha256" : "dbec0aa638af3f9035274e97271276b4efa4edd867314d5cfd0b4e2fae4282c2",
-  "buildTime" : 1552748021000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"0.1.1\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.kc.unsplashdemo\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"Unsplash Demo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.kc.unsplashdemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"com.squareup.picasso.PicassoProvider\" android:exported=\"false\" android:authorities=\"com.kc.unsplashdemo.com.squareup.picasso\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2165996,
+  "crc32" : 2004175867,
+  "sha256" : "11eb26fa42ce43a0bc31af6d641b37cc83e892bae56a959896b1ca282acdfa85",
+  "buildTime" : 1556609388000
 }

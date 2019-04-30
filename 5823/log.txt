@@ -1,41 +1,38 @@
-2019-04-18 12:40:30,317 INFO  DownloadService - Downloading "https://github.com/harjot-oberai/MaterialShadows/archive/master.zip", attempt 3
-2019-04-18 12:44:35,744 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-04-18 12:44:37,060 INFO  GithubDownloadService - Default branch of this repository: master
-2019-04-18 12:44:37,060 INFO  DownloadService - Downloading "https://github.com/harjot-oberai/MaterialShadows/archive/master.zip", attempt 3
-2019-04-18 12:45:39,335 DEBUG FullProcessService - Repository https://github.com/harjot-oberai/MaterialShadows available: true
-2019-04-18 12:45:39,340 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-04-18 12:45:39,341 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/harjot-oberai/MaterialShadows, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src]
-2019-04-18 12:45:41,618 INFO  SysUtils - 
-2019-04-18 12:45:41,627 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/.git": true
-2019-04-18 12:45:41,632 INFO  FullProcessService - Size of directory with sources: 759 KB
-2019-04-18 12:45:41,632 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src]
-2019-04-18 12:45:41,650 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/.git/
+2019-04-30 14:20:51,378 INFO  DownloadService - Downloading "https://github.com/harjot-oberai/MaterialShadows/archive/master.zip", attempt 3
+2019-04-30 14:20:57,762 INFO  DownloadService - Downloaded https://github.com/harjot-oberai/MaterialShadows/archive/master.zip, attempt 3
+2019-04-30 14:20:57,762 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/master.zip": 722 KB
+2019-04-30 14:20:57,762 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-30 14:20:57,762 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/master.zip: true
+2019-04-30 14:20:57,762 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src'.
+2019-04-30 14:20:57,792 INFO  FullProcessService - Size of directory with sources: 759 KB
+2019-04-30 14:20:57,792 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src]
+2019-04-30 14:20:57,824 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/.git/
 
-2019-04-18 12:45:41,654 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/gradlew
-2019-04-18 12:45:41,658 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/materialshadows/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/build.gradle
-2019-04-18 12:45:41,662 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/materialshadows/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/settings.gradle
-2019-04-18 12:45:41,663 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-04-18 12:45:42,396 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-04-18 12:45:42,396 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-04-18 12:45:42,613 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-04-18 12:45:42,613 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-04-18 12:45:42,613 INFO  ProjectFixService - Fixing project...
-2019-04-18 12:45:42,626 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/app/local.properties
-2019-04-18 12:45:42,626 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
-2019-04-18 12:45:42,627 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/materialshadows/local.properties
-2019-04-18 12:45:42,627 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/materialshadows/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
-2019-04-18 12:45:42,628 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/local.properties
-2019-04-18 12:45:42,628 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-04-18 12:45:42,628 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-04-18 12:45:42,629 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
-2019-04-18 12:45:42,629 INFO  ProjectFixService - Project was maybe fixed
-2019-04-18 12:45:42,629 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 12:45:42,629 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 12:45:48,243 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 12:45:48,243 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-04-18 12:45:48,243 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-04-18 12:45:48,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-04-18 12:45:52,479 ERROR SysUtils - Could not process external command
+2019-04-30 14:20:57,828 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/gradlew
+2019-04-30 14:20:57,833 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/materialshadows/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/build.gradle
+2019-04-30 14:20:57,837 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/materialshadows/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/settings.gradle
+2019-04-30 14:20:57,838 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-04-30 14:20:57,961 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-04-30 14:20:57,961 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-04-30 14:20:58,076 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-04-30 14:20:58,076 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-04-30 14:20:58,076 INFO  ProjectFixService - Fixing project...
+2019-04-30 14:20:58,087 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/app/local.properties
+2019-04-30 14:20:58,088 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2019-04-30 14:20:58,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/materialshadows/local.properties
+2019-04-30 14:20:58,089 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/materialshadows/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2019-04-30 14:20:58,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/local.properties
+2019-04-30 14:20:58,090 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-04-30 14:20:58,091 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-04-30 14:20:58,092 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=21,targetSdkVersion=25]
+2019-04-30 14:20:58,092 INFO  ProjectFixService - Project was maybe fixed
+2019-04-30 14:20:58,092 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-30 14:20:58,092 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-30 14:21:04,505 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-30 14:21:04,505 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-04-30 14:21:04,505 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-04-30 14:21:04,505 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-04-30 14:21:08,735 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -48,7 +45,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -62,12 +60,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 12:45:52,479 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-30 14:21:08,735 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-A problem occurred configuring root project 'src'.
+A problem occurred configuring root project 'MaterialShadows-master'.
 > Could not resolve all files for configuration ':classpath'.
    > Could not find com.android.tools.build:gradle:3.0.0.
      Searched in the following locations:
@@ -80,7 +78,7 @@ A problem occurred configuring root project 'src'.
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'src'.
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'MaterialShadows-master'.
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:65)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
@@ -214,13 +212,13 @@ Required by:
 
 BUILD FAILED in 4s
 
-2019-04-18 12:45:52,483 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 12:45:52,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/materialshadows/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 12:45:56,683 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 12:45:56,683 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-04-18 12:45:56,683 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-04-18 12:45:56,683 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/materialshadows/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-04-18 12:46:01,239 ERROR SysUtils - Could not process external command
+2019-04-30 14:21:08,741 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-30 14:21:08,741 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/materialshadows/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-30 14:21:14,648 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-30 14:21:14,648 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-04-30 14:21:14,648 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-04-30 14:21:14,649 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/materialshadows/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-04-30 14:21:18,568 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -233,7 +231,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -247,12 +246,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 12:46:01,239 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-30 14:21:18,568 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-A problem occurred configuring root project 'src'.
+A problem occurred configuring root project 'MaterialShadows-master'.
 > Could not resolve all files for configuration ':classpath'.
    > Could not find com.android.tools.build:gradle:3.0.0.
      Searched in the following locations:
@@ -265,7 +264,7 @@ A problem occurred configuring root project 'src'.
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'src'.
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'MaterialShadows-master'.
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:65)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
@@ -397,15 +396,15 @@ Required by:
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 3s
 
-2019-04-18 12:46:01,244 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-18 12:46:01,245 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-18 12:46:05,512 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-04-18 12:46:05,512 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-04-18 12:46:05,512 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-04-18 12:46:05,512 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555566030309-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-04-18 12:46:09,782 ERROR SysUtils - Could not process external command
+2019-04-30 14:21:18,572 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-30 14:21:18,573 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-30 14:21:22,485 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-04-30 14:21:22,485 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-04-30 14:21:22,485 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-04-30 14:21:22,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556608851374-0/src/MaterialShadows-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-04-30 14:21:26,480 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -418,7 +417,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -432,12 +432,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-18 12:46:09,782 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-30 14:21:26,481 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-A problem occurred configuring root project 'src'.
+A problem occurred configuring root project 'MaterialShadows-master'.
 > Could not resolve all files for configuration ':classpath'.
    > Could not find com.android.tools.build:gradle:3.0.0.
      Searched in the following locations:
@@ -450,7 +450,7 @@ A problem occurred configuring root project 'src'.
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'src'.
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'MaterialShadows-master'.
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:65)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
@@ -582,7 +582,7 @@ Required by:
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 3s
 
-2019-04-18 12:46:09,789 ERROR FullProcessService - Project build has not produced APK file
-2019-04-18 12:46:09,795 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-30 14:21:26,486 ERROR FullProcessService - Project build has not produced APK file
+2019-04-30 14:21:26,491 ERROR FullProcessService - Could not find generated or existed APK file
