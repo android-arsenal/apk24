@@ -1,45 +1,45 @@
-2019-05-17 11:31:27,269 INFO  DownloadService - Downloading "https://github.com/savvisingh/DateRangePicker/archive/master.zip", attempt 3
-2019-05-17 11:32:27,927 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-05-17 11:32:29,087 INFO  GithubDownloadService - Default branch of this repository: master
-2019-05-17 11:32:29,087 INFO  DownloadService - Downloading "https://github.com/savvisingh/DateRangePicker/archive/master.zip", attempt 3
-2019-05-17 11:33:30,732 DEBUG FullProcessService - Repository https://github.com/savvisingh/DateRangePicker available: true
-2019-05-17 11:33:30,732 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-05-17 11:33:30,732 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/savvisingh/DateRangePicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src]
-2019-05-17 11:33:32,909 INFO  SysUtils - 
-2019-05-17 11:33:32,917 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/.git": true
-2019-05-17 11:33:32,921 INFO  FullProcessService - Size of directory with sources: 458 KB
-2019-05-17 11:33:32,921 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src]
-2019-05-17 11:33:32,938 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/.git/
+2019-05-20 13:08:10,796 INFO  DownloadService - Downloading "https://github.com/savvisingh/DateRangePicker/archive/master.zip", attempt 3
+2019-05-20 13:09:11,654 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-05-20 13:09:12,853 INFO  GithubDownloadService - Default branch of this repository: master
+2019-05-20 13:09:12,853 INFO  DownloadService - Downloading "https://github.com/savvisingh/DateRangePicker/archive/master.zip", attempt 3
+2019-05-20 13:10:15,049 DEBUG FullProcessService - Repository https://github.com/savvisingh/DateRangePicker available: true
+2019-05-20 13:10:15,049 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-05-20 13:10:15,050 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/savvisingh/DateRangePicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src]
+2019-05-20 13:10:17,419 INFO  SysUtils - 
+2019-05-20 13:10:17,427 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/.git": true
+2019-05-20 13:10:17,431 INFO  FullProcessService - Size of directory with sources: 458 KB
+2019-05-20 13:10:17,431 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src]
+2019-05-20 13:10:17,448 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/.git/
 
-2019-05-17 11:33:32,941 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/gradlew
-2019-05-17 11:33:32,945 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/rangedatepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/build.gradle
-2019-05-17 11:33:32,948 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/rangedatepicker/build.gradle
-2019-05-17 11:33:32,949 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2019-05-17 11:33:33,708 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2019-05-17 11:33:33,708 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-05-17 11:33:34,174 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-05-17 11:33:34,174 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-05-17 11:33:34,567 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-05-17 11:33:34,567 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-05-17 11:33:34,567 INFO  ProjectFixService - Fixing project...
-2019-05-17 11:33:34,579 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/app/local.properties
-2019-05-17 11:33:34,580 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-17 11:33:34,581 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-17 11:33:34,582 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/rangedatepicker/local.properties
-2019-05-17 11:33:34,586 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/rangedatepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-17 11:33:34,586 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/rangedatepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-17 11:33:34,587 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/local.properties
-2019-05-17 11:33:34,587 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-17 11:33:34,588 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-17 11:33:34,589 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-17 11:33:34,589 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-05-17 11:33:34,589 INFO  ProjectFixService - Project was maybe fixed
-2019-05-17 11:33:34,589 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-17 11:33:34,590 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-17 11:33:42,582 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-05-17 11:33:42,582 INFO  ProjectTaskService - Excluded tasks (24): lintDebug androidJavadocs javadocJar deviceCheck lint androidSourcesJar testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-17 11:33:42,582 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, javadocJar, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-17 11:33:48,082 ERROR SysUtils - Could not process external command
+2019-05-20 13:10:17,452 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/gradlew
+2019-05-20 13:10:17,455 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/rangedatepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/build.gradle
+2019-05-20 13:10:17,459 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/rangedatepicker/build.gradle
+2019-05-20 13:10:17,459 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-05-20 13:10:18,084 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-05-20 13:10:18,084 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-05-20 13:10:18,479 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-05-20 13:10:18,480 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-05-20 13:10:18,908 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-05-20 13:10:18,909 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-05-20 13:10:18,909 INFO  ProjectFixService - Fixing project...
+2019-05-20 13:10:18,921 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/app/local.properties
+2019-05-20 13:10:18,922 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 13:10:18,922 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 13:10:18,923 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/rangedatepicker/local.properties
+2019-05-20 13:10:18,924 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/rangedatepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 13:10:18,924 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/rangedatepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 13:10:18,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/local.properties
+2019-05-20 13:10:18,925 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-20 13:10:18,926 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-20 13:10:18,927 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 13:10:18,927 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-05-20 13:10:18,928 INFO  ProjectFixService - Project was maybe fixed
+2019-05-20 13:10:18,928 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-20 13:10:18,928 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-20 13:10:26,495 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-05-20 13:10:26,495 INFO  ProjectTaskService - Excluded tasks (24): lintDebug androidJavadocs javadocJar deviceCheck lint androidSourcesJar testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-20 13:10:26,495 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, javadocJar, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-20 13:10:31,963 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -66,7 +66,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-17 11:33:48,082 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-20 13:10:31,963 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -163,9 +163,9 @@ org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in
 
 BUILD FAILED in 5s
 
-2019-05-17 11:33:48,082 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-05-17 11:33:48,082 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-05-17 11:34:23,716 ERROR SysUtils - Could not process external command
+2019-05-20 13:10:31,963 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-05-20 13:10:31,963 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-20 13:11:02,424 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -192,28 +192,28 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-05-17 11:34:23,718 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-20 13:11:02,424 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :rangedatepicker:preBuild UP-TO-DATE
 > Task :rangedatepicker:preDebugBuild UP-TO-DATE
 > Task :rangedatepicker:checkDebugManifest
 > Task :rangedatepicker:processDebugManifest
-> Task :rangedatepicker:packageDebugRenderscript NO-SOURCE
-> Task :app:prepareLintJar
-> Task :rangedatepicker:generateDebugBuildConfig
-> Task :rangedatepicker:generateDebugResValues
-> Task :rangedatepicker:prepareLintJar
-> Task :rangedatepicker:compileDebugAidl NO-SOURCE
 > Task :app:preDebugBuild
+> Task :rangedatepicker:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :rangedatepicker:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :rangedatepicker:compileDebugRenderscript NO-SOURCE
+> Task :rangedatepicker:generateDebugBuildConfig
+> Task :rangedatepicker:generateDebugResValues
 > Task :rangedatepicker:generateDebugResources
 > Task :rangedatepicker:packageDebugResources
 > Task :rangedatepicker:generateDebugRFile
+> Task :rangedatepicker:prepareLintJar
 > Task :rangedatepicker:generateDebugSources
 > Task :rangedatepicker:javaPreCompileDebug
 
@@ -248,6 +248,8 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :rangedatepicker:mergeDebugJniLibFolders
 > Task :rangedatepicker:transformNativeLibsWithMergeJniLibsForDebug
@@ -257,6 +259,8 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :rangedatepicker:preReleaseBuild UP-TO-DATE
 > Task :rangedatepicker:checkReleaseManifest
 > Task :rangedatepicker:processReleaseManifest
@@ -290,10 +294,6 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
 > Task :app:processReleaseResources
-> Task :app:mergeExtDexDebug
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :rangedatepicker:prepareLintJarForPublish
@@ -304,6 +304,8 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :rangedatepicker:createFullJarRelease
 > Task :app:checkReleaseDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -322,15 +324,15 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForRelease
-
-> Task :app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/ec69294ec6e1a2609446e621c07c5f0d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant release: 11 issues found
-Ran lint on variant debug: 11 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/app/build/reports/lint-results.xml
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
 
 > Task :app:lint FAILED
+Ran lint on variant release: 11 issues found
+Ran lint on variant debug: 11 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/app/build/reports/lint-results.xml
 
 FAILURE: Build failed with an exception.
 
@@ -349,7 +351,7 @@ Execution failed for task ':app:lint'.
   
   Errors found:
   
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/app/src/main/res/layout/activity_sample.xml:24: Error: This view is not constrained. It only has designtime positions, so it will jump to (0,0) at runtime unless you add the constraints [MissingConstraints]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/app/src/main/res/layout/activity_sample.xml:24: Error: This view is not constrained. It only has designtime positions, so it will jump to (0,0) at runtime unless you add the constraints [MissingConstraints]
       <Button
        ~~~~~~
   
@@ -406,7 +408,7 @@ android {
 
 Errors found:
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/app/src/main/res/layout/activity_sample.xml:24: Error: This view is not constrained. It only has designtime positions, so it will jump to (0,0) at runtime unless you add the constraints [MissingConstraints]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/app/src/main/res/layout/activity_sample.xml:24: Error: This view is not constrained. It only has designtime positions, so it will jump to (0,0) at runtime unless you add the constraints [MissingConstraints]
     <Button
      ~~~~~~
 
@@ -463,7 +465,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 34s
-88 actionable tasks: 88 executed
+BUILD FAILED in 29s
+91 actionable tasks: 91 executed
 
-2019-05-17 11:34:23,803 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558067487266-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-05-20 13:11:02,520 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558332490794-0/src/app/build/outputs/apk/debug/app-debug.apk
