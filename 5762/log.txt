@@ -1,14 +1,14 @@
-2019-06-02 22:26:34,421 INFO  DownloadService - Downloading "https://github.com/Blankj/AndroidUtilCode/archive/master.zip", attempt 3
-2019-06-02 22:27:35,063 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-06-02 22:27:36,251 INFO  GithubDownloadService - Default branch of this repository: master
-2019-06-02 22:27:36,251 INFO  DownloadService - Downloading "https://github.com/Blankj/AndroidUtilCode/archive/master.zip", attempt 3
-2019-06-02 22:28:37,772 DEBUG FullProcessService - Repository https://github.com/Blankj/AndroidUtilCode available: true
-2019-06-02 22:28:37,772 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-06-02 22:28:37,772 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Blankj/AndroidUtilCode, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489194412-0/src]
-2019-06-02 22:28:47,200 INFO  SysUtils - 
-2019-06-02 22:28:47,339 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489194412-0/src/.git": true
-2019-06-02 22:28:47,575 INFO  FullProcessService - Size of directory with sources: 54 MB
-2019-06-02 22:28:47,575 ERROR FullProcessService - Source directory should be less than 50 MB
-2019-06-02 22:28:47,575 ERROR FullProcessService - Project will not be processed
-2019-06-02 22:28:47,575 ERROR FullProcessService - Project build has not produced APK file
-2019-06-02 22:28:47,745 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-10 14:22:57,261 INFO  DownloadService - Downloading "https://github.com/Blankj/AndroidUtilCode/archive/master.zip", attempt 3
+2019-06-10 14:23:57,870 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-06-10 14:23:58,893 INFO  GithubDownloadService - Default branch of this repository: master
+2019-06-10 14:23:58,894 INFO  DownloadService - Downloading "https://github.com/Blankj/AndroidUtilCode/archive/master.zip", attempt 3
+2019-06-10 14:25:00,415 DEBUG FullProcessService - Repository https://github.com/Blankj/AndroidUtilCode available: true
+2019-06-10 14:25:00,415 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-06-10 14:25:00,416 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Blankj/AndroidUtilCode, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151377257-0/src]
+2019-06-10 14:25:10,676 INFO  SysUtils - 
+2019-06-10 14:25:10,820 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151377257-0/src/.git": true
+2019-06-10 14:25:11,093 INFO  FullProcessService - Size of directory with sources: 54 MB
+2019-06-10 14:25:11,093 ERROR FullProcessService - Source directory should be less than 50 MB
+2019-06-10 14:25:11,093 ERROR FullProcessService - Project will not be processed
+2019-06-10 14:25:11,093 ERROR FullProcessService - Project build has not produced APK file
+2019-06-10 14:25:11,268 ERROR FullProcessService - Could not find generated or existed APK file

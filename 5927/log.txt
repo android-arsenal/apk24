@@ -1,41 +1,44 @@
-2018-12-12 12:10:19,185 INFO  DownloadService - Downloading "https://github.com/PrivacyStreams/PrivacyStreams/archive/master.zip", attempt 3
-2018-12-12 12:11:20,189 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-12 12:11:21,214 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-12 12:11:21,214 INFO  DownloadService - Downloading "https://github.com/PrivacyStreams/PrivacyStreams/archive/master.zip", attempt 3
-2018-12-12 12:12:22,816 DEBUG FullProcessService - Repository https://github.com/PrivacyStreams/PrivacyStreams available: true
-2018-12-12 12:12:22,816 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-12 12:12:22,817 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/PrivacyStreams/PrivacyStreams, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src]
-2018-12-12 12:12:26,844 INFO  SysUtils - 
-2018-12-12 12:12:26,859 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/.git": true
-2018-12-12 12:12:26,876 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-12-12 12:12:26,876 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src]
-2018-12-12 12:12:26,897 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/.git/
+2019-06-10 14:09:07,642 INFO  DownloadService - Downloading "https://github.com/PrivacyStreams/PrivacyStreams/archive/master.zip", attempt 3
+2019-06-10 14:09:10,907 INFO  DownloadService - Downloaded https://github.com/PrivacyStreams/PrivacyStreams/archive/master.zip, attempt 3
+2019-06-10 14:09:10,907 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/master.zip": 988 KB
+2019-06-10 14:09:10,908 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-10 14:09:10,917 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/master.zip: true
+2019-06-10 14:09:10,917 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src'.
+2019-06-10 14:09:11,078 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-06-10 14:09:11,081 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src]
+2019-06-10 14:09:11,105 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/.git/
 
-2018-12-12 12:12:26,909 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/gradlew
-2018-12-12 12:12:26,920 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/privacystreams-android-sdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/privacystreams-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/build.gradle
-2018-12-12 12:12:26,932 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/privacystreams-android-sdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/privacystreams-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/settings.gradle
-2018-12-12 12:12:26,932 INFO  ProjectBuildService - Remote scripts: none
-2018-12-12 12:12:26,932 INFO  ProjectFixService - Fixing project...
-2018-12-12 12:12:26,958 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/privacystreams-android-sdk/local.properties
-2018-12-12 12:12:26,959 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/privacystreams-android-sdk/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-12-12 12:12:26,960 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/privacystreams-app/local.properties
-2018-12-12 12:12:26,960 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/privacystreams-app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-12-12 12:12:26,960 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/test/local.properties
-2018-12-12 12:12:26,961 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/test/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-12-12 12:12:26,961 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/local.properties
-2018-12-12 12:12:26,962 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-12-12 12:12:26,962 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-12-12 12:12:26,963 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-12-12 12:12:26,964 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/local.properties
-2018-12-12 12:12:26,964 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-12-12 12:12:26,964 INFO  ProjectFixService - Project was maybe fixed
-2018-12-12 12:12:26,964 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-12 12:12:26,965 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/privacystreams-android-sdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-12 12:12:58,993 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-12 12:12:58,993 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-12 12:12:58,993 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-12 12:12:58,993 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/privacystreams-android-sdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-12 12:13:07,944 ERROR SysUtils - Could not process external command
+2019-06-10 14:09:11,131 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/gradlew
+2019-06-10 14:09:11,146 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/privacystreams-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/build.gradle
+2019-06-10 14:09:11,160 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/privacystreams-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/settings.gradle
+2019-06-10 14:09:11,163 INFO  ProjectBuildService - Remote scripts: none
+2019-06-10 14:09:11,163 INFO  ProjectFixService - Fixing project...
+2019-06-10 14:09:11,217 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2019-06-10 14:09:11,217 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2019-06-10 14:09:11,219 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 21.1.0 28.0.0 18.1.0 19.1.0 18.1.1
+2019-06-10 14:09:11,221 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 28.0.0-rc1 28.0.0-rc2
+2019-06-10 14:09:11,223 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2019-06-10 14:09:11,224 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
+2019-06-10 14:09:11,225 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/privacystreams-android-sdk/local.properties
+2019-06-10 14:09:11,231 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-06-10 14:09:11,233 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/privacystreams-app/local.properties
+2019-06-10 14:09:11,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/privacystreams-app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-06-10 14:09:11,235 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/test/local.properties
+2019-06-10 14:09:11,235 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/test/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-06-10 14:09:11,236 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/local.properties
+2019-06-10 14:09:11,240 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-06-10 14:09:11,240 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-06-10 14:09:11,242 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-06-10 14:09:11,243 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/local.properties
+2019-06-10 14:09:11,244 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-06-10 14:09:11,245 INFO  ProjectFixService - Project was maybe fixed
+2019-06-10 14:09:11,247 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-10 14:09:11,247 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-10 14:09:19,936 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-10 14:09:19,937 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-10 14:09:19,937 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-10 14:09:19,937 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-10 14:09:25,973 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -63,7 +66,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-12 12:13:07,945 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-10 14:09:25,973 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'androidTestCompile' in project ':privacystreams-android-sdk' is deprecated. Use 'androidTestImplementation' instead.
 Configuration 'testCompile' in project ':privacystreams-android-sdk' is deprecated. Use 'testImplementation' instead.
 Configuration 'compile' in project ':privacystreams-android-sdk' is deprecated. Use 'implementation' instead.
@@ -203,15 +206,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 8s
+BUILD FAILED in 5s
 
-2018-12-12 12:13:07,960 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-12 12:13:07,960 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/privacystreams-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-12 12:13:13,934 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-12 12:13:13,934 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-12 12:13:13,934 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-12 12:13:13,934 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/privacystreams-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-12 12:13:19,867 ERROR SysUtils - Could not process external command
+2019-06-10 14:09:25,991 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-10 14:09:25,992 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/privacystreams-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-10 14:09:33,011 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-10 14:09:33,012 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-10 14:09:33,012 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-10 14:09:33,012 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/privacystreams-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-10 14:09:43,784 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -239,7 +242,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-12 12:13:19,867 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-10 14:09:43,785 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':privacystreams-app' is deprecated. Use 'implementation' instead.
 Configuration 'androidTestCompile' in project ':privacystreams-app' is deprecated. Use 'androidTestImplementation' instead.
 Configuration 'testCompile' in project ':privacystreams-app' is deprecated. Use 'testImplementation' instead.
@@ -379,15 +382,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 10s
 
-2018-12-12 12:13:19,882 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-12 12:13:19,882 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-12 12:13:26,495 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-12 12:13:26,495 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-12 12:13:26,495 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-12 12:13:26,495 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-12 12:13:33,665 ERROR SysUtils - Could not process external command
+2019-06-10 14:09:43,807 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-10 14:09:43,807 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-10 14:09:55,028 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-10 14:09:55,028 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-10 14:09:55,028 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-10 14:09:55,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-10 14:10:05,247 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -415,7 +418,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-12 12:13:33,666 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-10 14:10:05,247 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':test' is deprecated. Use 'implementation' instead.
 Configuration 'androidTestCompile' in project ':test' is deprecated. Use 'androidTestImplementation' instead.
 Configuration 'testCompile' in project ':test' is deprecated. Use 'testImplementation' instead.
@@ -554,15 +557,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 9s
 
-2018-12-12 12:13:33,681 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-12 12:13:33,681 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-12 12:13:42,215 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-12-12 12:13:42,215 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-12-12 12:13:42,215 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-12-12 12:13:42,216 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-12 12:13:49,843 ERROR SysUtils - Could not process external command
+2019-06-10 14:10:05,259 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-10 14:10:05,260 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-10 14:10:20,294 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-06-10 14:10:20,295 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-06-10 14:10:20,295 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-06-10 14:10:20,295 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-10 14:10:34,756 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -590,7 +593,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-12 12:13:49,843 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-10 14:10:34,756 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'androidTestCompile' in project ':privacystreams-android-sdk' is deprecated. Use 'androidTestImplementation' instead.
 Configuration 'testCompile' in project ':privacystreams-android-sdk' is deprecated. Use 'testImplementation' instead.
 Configuration 'compile' in project ':privacystreams-android-sdk' is deprecated. Use 'implementation' instead.
@@ -730,14 +733,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 13s
 
-2018-12-12 12:13:49,859 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-12 12:13:49,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-12 12:13:53,361 INFO  ProjectTaskService - Detected possible tasks: 39
-2018-12-12 12:13:53,361 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2018-12-12 12:13:53,361 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2018-12-12 12:13:57,603 ERROR SysUtils - Could not process external command
+2019-06-10 14:10:34,779 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-10 14:10:34,779 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-10 14:10:40,921 INFO  ProjectTaskService - Detected possible tasks: 39
+2019-06-10 14:10:40,922 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
+2019-06-10 14:10:40,922 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2019-06-10 14:10:47,976 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -765,430 +768,430 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-12 12:13:57,603 INFO  SysUtils - Configuration on demand is an incubating feature.
-:doclet:compileJava/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:3: error: package com.sun.javadoc does not exist
+2019-06-10 14:10:47,977 INFO  SysUtils - Configuration on demand is an incubating feature.
+:doclet:compileJava/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:3: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.AnnotationDesc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:4: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:4: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.AnnotationTypeDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:5: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:5: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.ClassDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:6: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:6: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.MethodDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:7: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:7: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.Parameter;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:8: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:8: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.Tag;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:9: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:9: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.Type;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:24: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:24: error: cannot find symbol
     ClassDoc declaringClassDoc;
     ^
   symbol:   class ClassDoc
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:25: error: cannot find symbol
     MethodDoc methodDoc;
     ^
   symbol:   class MethodDoc
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:32: error: cannot find symbol
     Type returnType;
     ^
   symbol:   class Type
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:33: error: cannot find symbol
     Type inputType;
     ^
   symbol:   class Type
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:34: error: cannot find symbol
     Type outputType;
     ^
   symbol:   class Type
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:36: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:36: error: cannot find symbol
     private PSPipelineDoc(ClassDoc classDoc, MethodDoc methodDoc, AnnotationDesc annotation, int type) {
                           ^
   symbol:   class ClassDoc
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:36: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:36: error: cannot find symbol
     private PSPipelineDoc(ClassDoc classDoc, MethodDoc methodDoc, AnnotationDesc annotation, int type) {
                                              ^
   symbol:   class MethodDoc
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:36: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:36: error: cannot find symbol
     private PSPipelineDoc(ClassDoc classDoc, MethodDoc methodDoc, AnnotationDesc annotation, int type) {
                                                                   ^
   symbol:   class AnnotationDesc
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:89: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:89: error: cannot find symbol
     public static PSPipelineDoc build(ClassDoc classDoc, MethodDoc methodDoc) {
                                       ^
   symbol:   class ClassDoc
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:89: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:89: error: cannot find symbol
     public static PSPipelineDoc build(ClassDoc classDoc, MethodDoc methodDoc) {
                                                          ^
   symbol:   class MethodDoc
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:3: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:3: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.AnnotationDesc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:4: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:4: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.AnnotationTypeDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:5: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:5: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.FieldDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:6: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:6: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.Type;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:14: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:14: error: cannot find symbol
     FieldDoc fieldDoc;
     ^
   symbol:   class FieldDoc
   location: class PSItemFieldDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:3: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:3: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.AnnotationDesc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:4: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:4: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.AnnotationTypeDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:5: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:5: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.ClassDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:6: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:6: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.FieldDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:7: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:7: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.MethodDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:19: error: cannot find symbol
     Type type;
     ^
   symbol:   class Type
   location: class PSItemFieldDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:22: error: cannot find symbol
     private PSItemFieldDoc(PSItemDoc psItemDoc, FieldDoc fieldDoc, AnnotationDesc annotation) {
                                                 ^
   symbol:   class FieldDoc
   location: class PSItemFieldDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:22: error: cannot find symbol
     private PSItemFieldDoc(PSItemDoc psItemDoc, FieldDoc fieldDoc, AnnotationDesc annotation) {
                                                                    ^
   symbol:   class AnnotationDesc
   location: class PSItemFieldDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:36: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:36: error: cannot find symbol
     public static PSItemFieldDoc build(PSItemDoc psItemDoc, FieldDoc fieldDoc) {
                                                             ^
   symbol:   class FieldDoc
   location: class PSItemFieldDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:15: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:15: error: cannot find symbol
     ClassDoc classDoc;
     ^
   symbol:   class ClassDoc
   location: class PSItemDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:3: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:3: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.ClassDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:4: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:4: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.MethodDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:5: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:5: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.Parameter;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:6: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:6: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.Tag;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:7: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:7: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.Type;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:23: error: cannot find symbol
     private PSItemDoc(ClassDoc classDoc) {
                       ^
   symbol:   class ClassDoc
   location: class PSItemDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:44: error: cannot find symbol
     private void getAllFieldDocs(ClassDoc classDoc, List<FieldDoc> fieldDocs) {
                                  ^
   symbol:   class ClassDoc
   location: class PSItemDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:44: error: cannot find symbol
     private void getAllFieldDocs(ClassDoc classDoc, List<FieldDoc> fieldDocs) {
                                                          ^
   symbol:   class FieldDoc
   location: class PSItemDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:53: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:53: error: cannot find symbol
     public static PSItemDoc build(ClassDoc classDoc) {
                                   ^
   symbol:   class ClassDoc
   location: class PSItemDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:60: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:60: error: cannot find symbol
     public static boolean isValidPSItem(ClassDoc classDoc) {
                                         ^
   symbol:   class ClassDoc
   location: class PSItemDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:17: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:17: error: cannot find symbol
     ClassDoc declaringClassDoc;
     ^
   symbol:   class ClassDoc
   location: class PSOperatorDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:18: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:18: error: cannot find symbol
     MethodDoc methodDoc;
     ^
   symbol:   class MethodDoc
   location: class PSOperatorDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:25: error: cannot find symbol
     Type returnType;
     ^
   symbol:   class Type
   location: class PSOperatorDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:27: error: cannot find symbol
     private PSOperatorDoc(ClassDoc classDoc, MethodDoc methodDoc) {
                           ^
   symbol:   class ClassDoc
   location: class PSOperatorDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:27: error: cannot find symbol
     private PSOperatorDoc(ClassDoc classDoc, MethodDoc methodDoc) {
                                              ^
   symbol:   class MethodDoc
   location: class PSOperatorDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:61: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:61: error: cannot find symbol
     public static PSOperatorDoc build(ClassDoc classDoc, MethodDoc methodDoc) {
                                       ^
   symbol:   class ClassDoc
   location: class PSOperatorDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:61: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:61: error: cannot find symbol
     public static PSOperatorDoc build(ClassDoc classDoc, MethodDoc methodDoc) {
                                                          ^
   symbol:   class MethodDoc
   location: class PSOperatorDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:3: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:3: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.ClassDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:4: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:4: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.ParameterizedType;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:5: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:5: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.Type;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:8: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:8: error: cannot find symbol
     public static String getSimpleTypeName(Type type) {
                                            ^
   symbol:   class Type
   location: class Utils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:27: error: cannot find symbol
     public static boolean instanceOf(ClassDoc classDoc, String superClassName) {
                                      ^
   symbol:   class ClassDoc
   location: class Utils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:3: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:3: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.AnnotationDesc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:4: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:4: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.AnnotationTypeDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:5: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:5: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.ClassDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:6: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:6: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.MethodDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:17: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:17: error: cannot find symbol
     ClassDoc classDoc;
     ^
   symbol:   class ClassDoc
   location: class PSOperatorWrapperDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:23: error: cannot find symbol
     private PSOperatorWrapperDoc(ClassDoc classDoc) {
                                  ^
   symbol:   class ClassDoc
   location: class PSOperatorWrapperDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:35: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:35: error: cannot find symbol
     public static PSOperatorWrapperDoc build(ClassDoc classDoc) {
                                              ^
   symbol:   class ClassDoc
   location: class PSOperatorWrapperDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:3: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:3: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.ClassDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:4: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:4: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.DocErrorReporter;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:5: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:5: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.MethodDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:6: error: package com.sun.javadoc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:6: error: package com.sun.javadoc does not exist
 import com.sun.javadoc.RootDoc;
                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:7: error: package com.sun.tools.doclets.formats.html does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:7: error: package com.sun.tools.doclets.formats.html does not exist
 import com.sun.tools.doclets.formats.html.HtmlDoclet;
                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:21: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:21: error: cannot find symbol
 public class PSDoclet extends HtmlDoclet {
                               ^
   symbol: class HtmlDoclet
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:41: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:41: error: cannot find symbol
     private boolean build(RootDoc rootDoc) {
                           ^
   symbol:   class RootDoc
   location: class PSDoclet
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:69: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:69: error: cannot find symbol
     public static boolean start(RootDoc rootDoc) {
                                 ^
   symbol:   class RootDoc
   location: class PSDoclet
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:182: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:182: error: cannot find symbol
     public static boolean validOptions(String options[][], DocErrorReporter reporter) {
                                                            ^
   symbol:   class DocErrorReporter
   location: class PSDoclet
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:40: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:40: error: cannot find symbol
         Tag[] paramTags = methodDoc.tags("param");
         ^
   symbol:   class Tag
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:41: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:41: error: cannot find symbol
         for (Tag paramTag : paramTags) {
              ^
   symbol:   class Tag
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:52: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:52: error: cannot find symbol
         for (Parameter parameter : methodDoc.parameters()) {
              ^
   symbol:   class Parameter
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:68: error: package AnnotationDesc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:68: error: package AnnotationDesc does not exist
             for (AnnotationDesc.ElementValuePair elementValuePair : annotation.elementValues()) {
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:79: error: package AnnotationDesc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:79: error: package AnnotationDesc does not exist
             for (AnnotationDesc.ElementValuePair elementValuePair : annotation.elementValues()) {
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:90: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:90: error: cannot find symbol
         AnnotationDesc[] annotations = methodDoc.annotations();
         ^
   symbol:   class AnnotationDesc
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:91: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:91: error: cannot find symbol
         for (AnnotationDesc annotation : annotations) {
              ^
   symbol:   class AnnotationDesc
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:92: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSPipelineDoc.java:92: error: cannot find symbol
             AnnotationTypeDoc annotationType = annotation.annotationType();
             ^
   symbol:   class AnnotationTypeDoc
   location: class PSPipelineDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:28: error: package AnnotationDesc does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:28: error: package AnnotationDesc does not exist
         for (AnnotationDesc.ElementValuePair elementValuePair : annotation.elementValues()) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:31: error: cannot find symbol
                 this.type = (Type) typeValue;
                              ^
   symbol:   class Type
   location: class PSItemFieldDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:37: error: cannot find symbol
         AnnotationDesc[] annotations = fieldDoc.annotations();
         ^
   symbol:   class AnnotationDesc
   location: class PSItemFieldDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:38: error: cannot find symbol
         for (AnnotationDesc annotation : annotations) {
              ^
   symbol:   class AnnotationDesc
   location: class PSItemFieldDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:39: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemFieldDoc.java:39: error: cannot find symbol
             AnnotationTypeDoc annotationType = annotation.annotationType();
             ^
   symbol:   class AnnotationTypeDoc
   location: class PSItemFieldDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:30: error: cannot find symbol
         List<FieldDoc> allFields = new ArrayList<>();
              ^
   symbol:   class FieldDoc
   location: class PSItemDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:33: error: cannot find symbol
         for (FieldDoc fieldDoc : allFields) {
              ^
   symbol:   class FieldDoc
   location: class PSItemDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:38: error: cannot find symbol
         for (MethodDoc methodDoc : classDoc.methods()) {
              ^
   symbol:   class MethodDoc
   location: class PSItemDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:61: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:61: error: cannot find symbol
         AnnotationDesc[] annotations = classDoc.annotations();
         ^
   symbol:   class AnnotationDesc
   location: class PSItemDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:62: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:62: error: cannot find symbol
         for (AnnotationDesc annotation : annotations) {
              ^
   symbol:   class AnnotationDesc
   location: class PSItemDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:63: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSItemDoc.java:63: error: cannot find symbol
             AnnotationTypeDoc annotationType = annotation.annotationType();
             ^
   symbol:   class AnnotationTypeDoc
   location: class PSItemDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:33: error: cannot find symbol
         Tag[] paramTags = methodDoc.tags("param");
         ^
   symbol:   class Tag
   location: class PSOperatorDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:34: error: cannot find symbol
         for (Tag paramTag : paramTags) {
              ^
   symbol:   class Tag
   location: class PSOperatorDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorDoc.java:49: error: cannot find symbol
         for (Parameter parameter : methodDoc.parameters()) {
              ^
   symbol:   class Parameter
   location: class PSOperatorDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:9: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:9: error: cannot find symbol
         if (type instanceof ParameterizedType) {
                             ^
   symbol:   class ParameterizedType
   location: class Utils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:12: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:12: error: cannot find symbol
             for (Type parameter : ((ParameterizedType) type).typeArguments()) {
                                     ^
   symbol:   class ParameterizedType
   location: class Utils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:12: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/Utils.java:12: error: cannot find symbol
             for (Type parameter : ((ParameterizedType) type).typeArguments()) {
                  ^
   symbol:   class Type
   location: class Utils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:29: error: cannot find symbol
         for (MethodDoc methodDoc : classDoc.methods()) {
              ^
   symbol:   class MethodDoc
   location: class PSOperatorWrapperDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:36: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:36: error: cannot find symbol
         AnnotationDesc[] annotations = classDoc.annotations();
         ^
   symbol:   class AnnotationDesc
   location: class PSOperatorWrapperDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:37: error: cannot find symbol
         for (AnnotationDesc annotation : annotations) {
              ^
   symbol:   class AnnotationDesc
   location: class PSOperatorWrapperDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSOperatorWrapperDoc.java:38: error: cannot find symbol
             AnnotationTypeDoc annotationType = annotation.annotationType();
             ^
   symbol:   class AnnotationTypeDoc
   location: class PSOperatorWrapperDoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544591419182-0/src/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150547590-0/src/PrivacyStreams-master/doclet/src/main/java/io/github/privacystreams/doclet/PSDoclet.java:44: error: cannot find symbol
         ClassDoc[] classes = rootDoc.classes();
         ^
   symbol:   class ClassDoc
@@ -1262,8 +1265,8 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 6s
 1 actionable task: 1 executed
 
-2018-12-12 12:13:57,619 ERROR FullProcessService - Project build has not produced APK file
-2018-12-12 12:13:57,631 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-10 14:10:47,993 ERROR FullProcessService - Project build has not produced APK file
+2019-06-10 14:10:48,013 ERROR FullProcessService - Could not find generated or existed APK file
