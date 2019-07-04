@@ -1,48 +1,48 @@
-2019-06-10 13:46:16,842 INFO  DownloadService - Downloading "https://github.com/YoKeyword/Fragmentation/archive/master.zip", attempt 3
-2019-06-10 13:47:17,401 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-06-10 13:47:18,284 INFO  GithubDownloadService - Default branch of this repository: androidx
-2019-06-10 13:47:18,284 INFO  DownloadService - Downloading "https://github.com/YoKeyword/Fragmentation/archive/androidx.zip", attempt 3
-2019-06-10 13:48:20,064 DEBUG FullProcessService - Repository https://github.com/YoKeyword/Fragmentation available: true
-2019-06-10 13:48:20,065 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-06-10 13:48:20,065 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/YoKeyword/Fragmentation, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src]
-2019-06-10 13:48:27,424 INFO  SysUtils - 
-2019-06-10 13:48:27,435 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/.git": true
-2019-06-10 13:48:27,443 INFO  FullProcessService - Size of directory with sources: 14 MB
-2019-06-10 13:48:27,443 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src]
-2019-06-10 13:48:27,459 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/.git/
+2019-07-05 02:51:50,792 INFO  DownloadService - Downloading "https://github.com/YoKeyword/Fragmentation/archive/master.zip", attempt 3
+2019-07-05 02:52:51,394 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-05 02:52:52,182 INFO  GithubDownloadService - Default branch of this repository: androidx
+2019-07-05 02:52:52,182 INFO  DownloadService - Downloading "https://github.com/YoKeyword/Fragmentation/archive/androidx.zip", attempt 3
+2019-07-05 02:53:53,803 DEBUG FullProcessService - Repository https://github.com/YoKeyword/Fragmentation available: true
+2019-07-05 02:53:53,803 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-05 02:53:53,803 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/YoKeyword/Fragmentation, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src]
+2019-07-05 02:54:10,102 INFO  SysUtils - 
+2019-07-05 02:54:10,113 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/.git": true
+2019-07-05 02:54:10,120 INFO  FullProcessService - Size of directory with sources: 14 MB
+2019-07-05 02:54:10,120 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src]
+2019-07-05 02:54:10,136 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/.git/
 
-2019-06-10 13:48:27,465 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/gradlew
-2019-06-10 13:48:27,472 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/eventbus_activity_scope/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation_core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation_swipeback/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/build.gradle
-2019-06-10 13:48:27,478 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation_swipeback/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/eventbus_activity_scope/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation_core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation/build.gradle
-2019-06-10 13:48:27,478 INFO  ProjectBuildService - Remote scripts: none
-2019-06-10 13:48:27,478 INFO  ProjectFixService - Fixing project...
-2019-06-10 13:48:27,493 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/demo/local.properties
-2019-06-10 13:48:27,494 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-06-10 13:48:27,494 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-10 13:48:27,495 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/eventbus_activity_scope/local.properties
-2019-06-10 13:48:27,498 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/eventbus_activity_scope/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-06-10 13:48:27,498 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/eventbus_activity_scope/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-10 13:48:27,498 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation/local.properties
-2019-06-10 13:48:27,500 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-06-10 13:48:27,500 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-10 13:48:27,501 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation_core/local.properties
-2019-06-10 13:48:27,503 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation_core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-06-10 13:48:27,503 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation_core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-10 13:48:27,504 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation_swipeback/local.properties
-2019-06-10 13:48:27,506 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation_swipeback/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-06-10 13:48:27,506 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation_swipeback/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-10 13:48:27,506 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/local.properties
-2019-06-10 13:48:27,507 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-06-10 13:48:27,507 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-06-10 13:48:27,508 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
-2019-06-10 13:48:27,508 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-06-10 13:48:27,509 INFO  ProjectFixService - Project was maybe fixed
-2019-06-10 13:48:27,509 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-10 13:48:27,509 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-10 13:48:34,763 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-06-10 13:48:34,763 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-10 13:48:34,763 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-10 13:49:12,479 ERROR SysUtils - Could not process external command
+2019-07-05 02:54:10,143 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/gradlew
+2019-07-05 02:54:10,149 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/eventbus_activity_scope/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation_core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation_swipeback/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/build.gradle
+2019-07-05 02:54:10,155 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation_swipeback/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/eventbus_activity_scope/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation_core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation/build.gradle
+2019-07-05 02:54:10,155 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 02:54:10,155 INFO  ProjectFixService - Fixing project...
+2019-07-05 02:54:10,169 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/demo/local.properties
+2019-07-05 02:54:10,171 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-05 02:54:10,171 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-07-05 02:54:10,172 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/eventbus_activity_scope/local.properties
+2019-07-05 02:54:10,173 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/eventbus_activity_scope/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-05 02:54:10,173 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/eventbus_activity_scope/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-07-05 02:54:10,174 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation/local.properties
+2019-07-05 02:54:10,175 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-05 02:54:10,175 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-07-05 02:54:10,176 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation_core/local.properties
+2019-07-05 02:54:10,178 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation_core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-05 02:54:10,178 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation_core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-07-05 02:54:10,178 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation_swipeback/local.properties
+2019-07-05 02:54:10,180 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation_swipeback/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-05 02:54:10,180 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation_swipeback/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-07-05 02:54:10,181 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/local.properties
+2019-07-05 02:54:10,181 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-05 02:54:10,181 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-05 02:54:10,182 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=<null>]
+2019-07-05 02:54:10,182 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=29]
+2019-07-05 02:54:10,183 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 02:54:10,183 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 02:54:10,183 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 02:54:15,476 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-05 02:54:15,477 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 02:54:15,477 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 02:54:45,655 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -69,9 +69,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-06-10 13:49:12,479 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 02:54:45,655 INFO  SysUtils - Configuration on demand is an incubating feature.
 :demo:checkDebugClasspath
-Download https://dl.google.com/dl/android/maven2/androidx/core/core/1.1.0-alpha02/core-1.1.0-alpha02.aar
 :demo:preBuild UP-TO-DATE
 :eventbus_activity_scope:preBuild UP-TO-DATE
 :eventbus_activity_scope:preDebugBuild UP-TO-DATE
@@ -146,13 +145,13 @@ Download https://dl.google.com/dl/android/maven2/androidx/core/core/1.1.0-alpha0
 :fragmentation_core:prepareLintJar
 :fragmentation_core:generateDebugSources
 :fragmentation_core:javaPreCompileDebug
-:fragmentation_core:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation_core/src/main/java/me/yokeyword/fragmentation/debug/DebugHierarchyViewContainer.java uses or overrides a deprecated API.
+:fragmentation_core:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation_core/src/main/java/me/yokeyword/fragmentation/debug/DebugHierarchyViewContainer.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :fragmentation_core:processDebugJavaRes NO-SOURCE
 :fragmentation_core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :fragmentation:javaPreCompileDebug
-:fragmentation:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation/src/main/java/me/yokeyword/fragmentation/SupportFragment.java uses or overrides a deprecated API.
+:fragmentation:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation/src/main/java/me/yokeyword/fragmentation/SupportFragment.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :fragmentation:processDebugJavaRes NO-SOURCE
@@ -161,7 +160,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :fragmentation_swipeback:prepareLintJar
 :fragmentation_swipeback:generateDebugSources
 :fragmentation_swipeback:javaPreCompileDebug
-:fragmentation_swipeback:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation_swipeback/src/main/java/me/yokeyword/fragmentation/SwipeBackLayout.java uses or overrides a deprecated API.
+:fragmentation_swipeback:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation_swipeback/src/main/java/me/yokeyword/fragmentation/SwipeBackLayout.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :fragmentation_swipeback:processDebugJavaRes NO-SOURCE
@@ -290,13 +289,13 @@ Note: Recompile with -Xlint:deprecation for details.
 :fragmentation_core:generateReleaseBuildConfig
 :fragmentation_core:generateReleaseSources
 :fragmentation_core:javaPreCompileRelease
-:fragmentation_core:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation_core/src/main/java/me/yokeyword/fragmentation/debug/DebugHierarchyViewContainer.java uses or overrides a deprecated API.
+:fragmentation_core:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation_core/src/main/java/me/yokeyword/fragmentation/debug/DebugHierarchyViewContainer.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :fragmentation_core:processReleaseJavaRes NO-SOURCE
 :fragmentation_core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :fragmentation:javaPreCompileRelease
-:fragmentation:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation/src/main/java/me/yokeyword/fragmentation/SupportFragment.java uses or overrides a deprecated API.
+:fragmentation:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation/src/main/java/me/yokeyword/fragmentation/SupportFragment.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :fragmentation:processReleaseJavaRes NO-SOURCE
@@ -304,7 +303,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :fragmentation_swipeback:generateReleaseBuildConfig
 :fragmentation_swipeback:generateReleaseSources
 :fragmentation_swipeback:javaPreCompileRelease
-:fragmentation_swipeback:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/fragmentation_swipeback/src/main/java/me/yokeyword/fragmentation/SwipeBackLayout.java uses or overrides a deprecated API.
+:fragmentation_swipeback:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/fragmentation_swipeback/src/main/java/me/yokeyword/fragmentation/SwipeBackLayout.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :fragmentation_swipeback:processReleaseJavaRes NO-SOURCE
@@ -371,7 +370,7 @@ FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':demo:validateSigningRelease'.
-> Keystore file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/demo/fragmentation.jks' not found for signing config 'releaseConfig'.
+> Keystore file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/demo/fragmentation.jks' not found for signing config 'releaseConfig'.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -406,73 +405,10 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':demo:va
 	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
 	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
 	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:59)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:130)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:46)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
-	at org.gradle.initialization.DefaultGradleLauncher$ExecuteTasks.run(DefaultGradleLauncher.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.runTasks(DefaultGradleLauncher.java:210)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:140)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
-	at org.gradle.launcher.Main.doAction(Main.java:36)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.InvalidUserDataException: Keystore file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/demo/fragmentation.jks' not found for signing config 'releaseConfig'.
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.InvalidUserDataException: Keystore file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/demo/fragmentation.jks' not found for signing config 'releaseConfig'.
 	at com.android.build.gradle.internal.tasks.ValidateSigningTask.validate(ValidateSigningTask.kt:71)
 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
@@ -487,12 +423,12 @@ Caused by: org.gradle.api.InvalidUserDataException: Keystore file '/private/var/
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
-	... 93 more
+	... 30 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 37s
+BUILD FAILED in 29s
 195 actionable tasks: 195 executed
 
-2019-06-10 13:49:12,591 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560149176840-0/src/demo/build/outputs/apk/debug/demo-debug.apk
+2019-07-05 02:54:45,751 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562269910784-0/src/demo/build/outputs/apk/debug/demo-debug.apk
