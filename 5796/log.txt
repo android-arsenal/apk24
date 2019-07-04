@@ -1,121 +1,280 @@
-2019-06-10 14:14:16,089 INFO  DownloadService - Downloading "https://github.com/bridgefy/bridgefy-android-samples/archive/master.zip", attempt 3
-2019-06-10 14:14:19,591 INFO  DownloadService - Downloaded https://github.com/bridgefy/bridgefy-android-samples/archive/master.zip, attempt 3
-2019-06-10 14:14:19,591 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/master.zip": 2 MB
-2019-06-10 14:14:19,591 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-06-10 14:14:19,592 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/master.zip: true
-2019-06-10 14:14:19,593 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src'.
-2019-06-10 14:14:19,676 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-06-10 14:14:19,676 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src]
-2019-06-10 14:14:19,706 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/.git/
+2019-07-05 03:24:48,643 INFO  DownloadService - Downloading "https://github.com/bridgefy/bridgefy-android-samples/archive/master.zip", attempt 3
+2019-07-05 03:24:50,429 INFO  DownloadService - Downloaded https://github.com/bridgefy/bridgefy-android-samples/archive/master.zip, attempt 3
+2019-07-05 03:24:50,429 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/master.zip": 2 MB
+2019-07-05 03:24:50,429 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 03:24:50,435 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/master.zip: true
+2019-07-05 03:24:50,436 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src'.
+2019-07-05 03:24:50,510 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-07-05 03:24:50,510 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src]
+2019-07-05 03:24:50,532 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/.git/
 
-2019-06-10 14:14:19,716 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/gradlew
-2019-06-10 14:14:19,726 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/bridgefyfileshare/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/broadcast-alerts/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/chat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/nearby/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/tic-tac-toe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/twitter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/build.gradle
-2019-06-10 14:14:19,734 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/twitter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/bridgefyfileshare/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/tic-tac-toe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/chat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/nearby/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/broadcast-alerts/build.gradle
-2019-06-10 14:14:19,735 INFO  ProjectBuildService - Remote scripts: none
-2019-06-10 14:14:19,736 INFO  ProjectFixService - Fixing project...
-2019-06-10 14:14:19,755 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/bridgefyfileshare/local.properties
-2019-06-10 14:14:19,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/bridgefyfileshare/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-06-10 14:14:19,757 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/broadcast-alerts/local.properties
-2019-06-10 14:14:19,758 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/broadcast-alerts/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-06-10 14:14:19,759 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/chat/local.properties
-2019-06-10 14:14:19,760 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/chat/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-06-10 14:14:19,761 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/nearby/local.properties
-2019-06-10 14:14:19,761 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/nearby/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-06-10 14:14:19,762 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/tic-tac-toe/local.properties
-2019-06-10 14:14:19,763 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/tic-tac-toe/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-06-10 14:14:19,764 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/twitter/local.properties
-2019-06-10 14:14:19,765 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/twitter/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-06-10 14:14:19,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/local.properties
-2019-06-10 14:14:19,766 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-06-10 14:14:19,767 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-06-10 14:14:19,769 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
-2019-06-10 14:14:19,769 INFO  ProjectFixService - Project was maybe fixed
-2019-06-10 14:14:19,770 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-10 14:14:19,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/bridgefyfileshare/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-10 14:14:30,439 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-10 14:14:30,442 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-10 14:14:30,442 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/bridgefyfileshare/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-10 14:15:25,647 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 03:24:50,538 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/gradlew
+2019-07-05 03:24:50,543 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/bridgefyfileshare/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/broadcast-alerts/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/chat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/nearby/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/tic-tac-toe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/twitter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/build.gradle
+2019-07-05 03:24:50,549 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/twitter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/bridgefyfileshare/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/tic-tac-toe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/chat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/nearby/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/broadcast-alerts/build.gradle
+2019-07-05 03:24:50,549 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 03:24:50,549 INFO  ProjectFixService - Fixing project...
+2019-07-05 03:24:50,562 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/bridgefyfileshare/local.properties
+2019-07-05 03:24:50,562 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/bridgefyfileshare/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-07-05 03:24:50,563 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/broadcast-alerts/local.properties
+2019-07-05 03:24:50,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/broadcast-alerts/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-07-05 03:24:50,564 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/chat/local.properties
+2019-07-05 03:24:50,564 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/chat/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-07-05 03:24:50,564 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/nearby/local.properties
+2019-07-05 03:24:50,565 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/nearby/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-07-05 03:24:50,565 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/tic-tac-toe/local.properties
+2019-07-05 03:24:50,565 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/tic-tac-toe/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-07-05 03:24:50,566 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/twitter/local.properties
+2019-07-05 03:24:50,566 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/twitter/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-07-05 03:24:50,567 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/local.properties
+2019-07-05 03:24:50,567 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-07-05 03:24:50,567 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-07-05 03:24:50,568 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=21,targetSdkVersion=27]
+2019-07-05 03:24:50,568 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 03:24:50,568 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 03:24:50,569 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/bridgefyfileshare/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 03:24:56,249 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-05 03:24:56,249 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 03:24:56,250 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/bridgefyfileshare/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 03:25:06,809 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-05 03:25:06,809 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :bridgefyfileshare:preBuild UP-TO-DATE
-> Task :bridgefyfileshare:preDebugBuild
-> Task :bridgefyfileshare:compileDebugAidl NO-SOURCE
-> Task :bridgefyfileshare:compileDebugRenderscript
-> Task :bridgefyfileshare:checkDebugManifest
-> Task :bridgefyfileshare:generateDebugBuildConfig
-> Task :bridgefyfileshare:prepareLintJar
-> Task :bridgefyfileshare:generateDebugSources
-> Task :bridgefyfileshare:javaPreCompileDebug
-> Task :bridgefyfileshare:mainApkListPersistenceDebug
-> Task :bridgefyfileshare:generateDebugResValues
-> Task :bridgefyfileshare:generateDebugResources
-> Task :bridgefyfileshare:mergeDebugResources
-> Task :bridgefyfileshare:createDebugCompatibleScreenManifests
-> Task :bridgefyfileshare:processDebugManifest
-> Task :bridgefyfileshare:processDebugResources
+> Task :bridgefyfileshare:preDebugBuild FAILED
 
-> Task :bridgefyfileshare:compileDebugJavaWithJavac
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not resolve all files for configuration ':bridgefyfileshare:debugCompileClasspath'.
+> Could not find com.bridgefy:android-sdk:1.1.1.1.24.
+  Required by:
+      project :bridgefyfileshare
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':bridgefyfileshare:debugCompileClasspath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1054)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1700(DefaultConfiguration.java:123)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:1028)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:76)
+	at org.gradle.api.internal.changedetection.state.DefaultFileSystemSnapshotter$FileCollectionVisitorImpl.visitCollection(DefaultFileSystemSnapshotter.java:257)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitRootElements(AbstractFileCollection.java:282)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitRootElements(CompositeFileCollection.java:206)
+	at org.gradle.api.internal.changedetection.state.DefaultFileSystemSnapshotter.snapshot(DefaultFileSystemSnapshotter.java:142)
+	at org.gradle.internal.fingerprint.impl.AbstractFileCollectionFingerprinter.fingerprint(AbstractFileCollectionFingerprinter.java:54)
+	at org.gradle.internal.fingerprint.impl.AbstractPathOnlyFileCollectionFingerprinter.fingerprint(AbstractPathOnlyFileCollectionFingerprinter.java:37)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.fingerprintTaskFiles(CacheBackedTaskHistoryRepository.java:358)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.createExecution(CacheBackedTaskHistoryRepository.java:163)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.access$100(CacheBackedTaskHistoryRepository.java:76)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository$1.getCurrentExecution(CacheBackedTaskHistoryRepository.java:123)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.getStates(DefaultTaskArtifactStateRepository.java:200)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.isUpToDate(DefaultTaskArtifactStateRepository.java:94)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:50)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
+	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not find com.bridgefy:android-sdk:1.1.1.1.24.
+Required by:
+    project :bridgefyfileshare
+	at org.gradle.internal.resolve.result.DefaultBuildableComponentResolveResult.notFound(DefaultBuildableComponentResolveResult.java:49)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:108)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolve(RepositoryChainComponentMetaDataResolver.java:63)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ComponentMetaDataResolverChain.resolve(ComponentResolversChain.java:94)
+	at org.gradle.api.internal.artifacts.ivyservice.clientmodule.ClientModuleResolver.resolve(ClientModuleResolver.java:62)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.ComponentState.resolve(ComponentState.java:208)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.ComponentState.resolve(ComponentState.java:196)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.ComponentState.getMetadata(ComponentState.java:152)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.EdgeState.calculateTargetConfigurations(EdgeState.java:156)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.EdgeState.attachToTargetConfigurations(EdgeState.java:112)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.attachToTargetRevisionsSerially(DependencyGraphBuilder.java:315)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.resolveEdges(DependencyGraphBuilder.java:202)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.traverseGraph(DependencyGraphBuilder.java:155)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:126)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:123)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolveGraph(DefaultConfigurationResolver.java:167)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolveGraph(ShortCircuitEmptyConfigurationResolver.java:89)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolveGraph(ErrorHandlingConfigurationResolver.java:73)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$5.run(DefaultConfiguration.java:533)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:524)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveToStateOrLater(DefaultConfiguration.java:509)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1800(DefaultConfiguration.java:123)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getSelectedArtifacts(DefaultConfiguration.java:1037)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:1025)
+	... 42 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 10s
+1 actionable task: 1 executed
+
+2019-07-05 03:25:06,817 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 03:25:06,817 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/broadcast-alerts/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 03:25:12,366 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-07-05 03:25:12,366 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 03:25:12,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/broadcast-alerts/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 03:26:03,067 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :broadcast-alerts
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+
+> Task :broadcast-alerts:preBuild UP-TO-DATE
+> Task :broadcast-alerts:preDebugBuild
+> Task :broadcast-alerts:compileDebugAidl NO-SOURCE
+> Task :broadcast-alerts:compileDebugRenderscript
+> Task :broadcast-alerts:checkDebugManifest
+> Task :broadcast-alerts:generateDebugBuildConfig
+> Task :broadcast-alerts:prepareLintJar
+> Task :broadcast-alerts:generateDebugSources
+> Task :broadcast-alerts:javaPreCompileDebug
+> Task :broadcast-alerts:mainApkListPersistenceDebug
+> Task :broadcast-alerts:generateDebugResValues
+> Task :broadcast-alerts:generateDebugResources
+> Task :broadcast-alerts:mergeDebugResources
+> Task :broadcast-alerts:createDebugCompatibleScreenManifests
+> Task :broadcast-alerts:processDebugManifest
+> Task :broadcast-alerts:processDebugResources
+
+> Task :broadcast-alerts:compileDebugJavaWithJavac
 Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-8.8.1.jar (com.jakewharton:butterknife-compiler:8.8.1).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/broadcast-alerts/src/main/java/com/bridgefy/samples/alerts/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/broadcast-alerts/src/main/java/com/bridgefy/samples/alerts/MainActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 
-> Task :bridgefyfileshare:compileDebugNdk NO-SOURCE
-> Task :bridgefyfileshare:compileDebugSources
-> Task :bridgefyfileshare:mergeDebugShaders
-> Task :bridgefyfileshare:compileDebugShaders
-> Task :bridgefyfileshare:generateDebugAssets
-> Task :bridgefyfileshare:mergeDebugAssets
-> Task :bridgefyfileshare:validateSigningDebug
-> Task :bridgefyfileshare:signingConfigWriterDebug
-> Task :bridgefyfileshare:transformClassesWithDexBuilderForDebug
-> Task :bridgefyfileshare:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :bridgefyfileshare:transformDexArchiveWithDexMergerForDebug
-> Task :bridgefyfileshare:mergeDebugJniLibFolders
-> Task :bridgefyfileshare:transformNativeLibsWithMergeJniLibsForDebug
-> Task :bridgefyfileshare:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :bridgefyfileshare:processDebugJavaRes NO-SOURCE
-> Task :bridgefyfileshare:transformResourcesWithMergeJavaResForDebug
-> Task :bridgefyfileshare:packageDebug
-> Task :bridgefyfileshare:assembleDebug
-> Task :bridgefyfileshare:preReleaseBuild
-> Task :bridgefyfileshare:compileReleaseAidl NO-SOURCE
-> Task :bridgefyfileshare:compileReleaseRenderscript
-> Task :bridgefyfileshare:checkReleaseManifest
-> Task :bridgefyfileshare:generateReleaseBuildConfig
-> Task :bridgefyfileshare:generateReleaseSources
-> Task :bridgefyfileshare:javaPreCompileRelease
-> Task :bridgefyfileshare:mainApkListPersistenceRelease
-> Task :bridgefyfileshare:generateReleaseResValues
-> Task :bridgefyfileshare:generateReleaseResources
-> Task :bridgefyfileshare:mergeReleaseResources
-> Task :bridgefyfileshare:createReleaseCompatibleScreenManifests
-> Task :bridgefyfileshare:processReleaseManifest
-> Task :bridgefyfileshare:processReleaseResources
+> Task :broadcast-alerts:compileDebugNdk NO-SOURCE
+> Task :broadcast-alerts:compileDebugSources
+> Task :broadcast-alerts:mergeDebugShaders
+> Task :broadcast-alerts:compileDebugShaders
+> Task :broadcast-alerts:generateDebugAssets
+> Task :broadcast-alerts:mergeDebugAssets
+> Task :broadcast-alerts:validateSigningDebug
+> Task :broadcast-alerts:signingConfigWriterDebug
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.j256.simplemagic/simplemagic/1.12/bcca47c1b5f6bc4d906f107f2359cc3459f5cbbe/simplemagic-1.12.jar: D8: Type `org.apache.logging.log4j.LogManager` was not found, it is required for default or static interface methods desugaring of `void com.j256.simplemagic.logger.Log4j2Log.<init>(java.lang.String)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.j256.simplemagic/simplemagic/1.12/bcca47c1b5f6bc4d906f107f2359cc3459f5cbbe/simplemagic-1.12.jar: D8: Type `org.apache.log4j.Logger` was not found, it is required for default or static interface methods desugaring of `void com.j256.simplemagic.logger.Log4jLog.<init>(java.lang.String)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.11.1/341edc63fdd8b44e17b2c36abbc9b451d8fd05a5/jackson-databind-2.8.11.1.jar: D8: Type `org.w3c.dom.bootstrap.DOMImplementationRegistry` was not found, it is required for default or static interface methods desugaring of `void com.fasterxml.jackson.databind.ext.DOMSerializer.<init>()`
+> Task :broadcast-alerts:transformClassesWithDexBuilderForDebug
+> Task :broadcast-alerts:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :broadcast-alerts:transformDexArchiveWithDexMergerForDebug
+> Task :broadcast-alerts:mergeDebugJniLibFolders
+> Task :broadcast-alerts:transformNativeLibsWithMergeJniLibsForDebug
+> Task :broadcast-alerts:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :broadcast-alerts:processDebugJavaRes NO-SOURCE
+> Task :broadcast-alerts:transformResourcesWithMergeJavaResForDebug
+> Task :broadcast-alerts:packageDebug
+> Task :broadcast-alerts:assembleDebug
+> Task :broadcast-alerts:preReleaseBuild
+> Task :broadcast-alerts:compileReleaseAidl NO-SOURCE
+> Task :broadcast-alerts:compileReleaseRenderscript
+> Task :broadcast-alerts:checkReleaseManifest
+> Task :broadcast-alerts:generateReleaseBuildConfig
+> Task :broadcast-alerts:generateReleaseSources
+> Task :broadcast-alerts:javaPreCompileRelease
+> Task :broadcast-alerts:mainApkListPersistenceRelease
+> Task :broadcast-alerts:generateReleaseResValues
+> Task :broadcast-alerts:generateReleaseResources
+> Task :broadcast-alerts:mergeReleaseResources
+> Task :broadcast-alerts:createReleaseCompatibleScreenManifests
+> Task :broadcast-alerts:processReleaseManifest
+> Task :broadcast-alerts:processReleaseResources
 
-> Task :bridgefyfileshare:compileReleaseJavaWithJavac
+> Task :broadcast-alerts:compileReleaseJavaWithJavac
 Gradle may disable incremental compilation as the following annotation processors are not incremental: butterknife-compiler-8.8.1.jar (com.jakewharton:butterknife-compiler:8.8.1).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/broadcast-alerts/src/main/java/com/bridgefy/samples/alerts/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/broadcast-alerts/src/main/java/com/bridgefy/samples/alerts/MainActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 
-> Task :bridgefyfileshare:compileReleaseNdk NO-SOURCE
-> Task :bridgefyfileshare:compileReleaseSources
-> Task :bridgefyfileshare:lintVitalRelease
-> Task :bridgefyfileshare:mergeReleaseShaders
-> Task :bridgefyfileshare:compileReleaseShaders
-> Task :bridgefyfileshare:generateReleaseAssets
-> Task :bridgefyfileshare:mergeReleaseAssets
-> Task :bridgefyfileshare:signingConfigWriterRelease
-> Task :bridgefyfileshare:transformClassesWithDexBuilderForRelease
-> Task :bridgefyfileshare:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :bridgefyfileshare:transformDexArchiveWithDexMergerForRelease
-> Task :bridgefyfileshare:mergeReleaseJniLibFolders
-> Task :bridgefyfileshare:transformNativeLibsWithMergeJniLibsForRelease
-> Task :bridgefyfileshare:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :bridgefyfileshare:processReleaseJavaRes NO-SOURCE
-> Task :bridgefyfileshare:transformResourcesWithMergeJavaResForRelease
-> Task :bridgefyfileshare:packageRelease
-> Task :bridgefyfileshare:assembleRelease
-> Task :bridgefyfileshare:assemble
-> Task :bridgefyfileshare:build
+> Task :broadcast-alerts:compileReleaseNdk NO-SOURCE
+> Task :broadcast-alerts:compileReleaseSources
 
-BUILD SUCCESSFUL in 54s
+> Task :broadcast-alerts:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/6f6e7c1d707589502b7376bdac158402/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+
+> Task :broadcast-alerts:mergeReleaseShaders
+> Task :broadcast-alerts:compileReleaseShaders
+> Task :broadcast-alerts:generateReleaseAssets
+> Task :broadcast-alerts:mergeReleaseAssets
+> Task :broadcast-alerts:signingConfigWriterRelease
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.j256.simplemagic/simplemagic/1.12/bcca47c1b5f6bc4d906f107f2359cc3459f5cbbe/simplemagic-1.12.jar: D8: Type `org.apache.logging.log4j.LogManager` was not found, it is required for default or static interface methods desugaring of `void com.j256.simplemagic.logger.Log4j2Log.<init>(java.lang.String)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.j256.simplemagic/simplemagic/1.12/bcca47c1b5f6bc4d906f107f2359cc3459f5cbbe/simplemagic-1.12.jar: D8: Type `org.apache.log4j.Logger` was not found, it is required for default or static interface methods desugaring of `void com.j256.simplemagic.logger.Log4jLog.<init>(java.lang.String)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.11.1/341edc63fdd8b44e17b2c36abbc9b451d8fd05a5/jackson-databind-2.8.11.1.jar: D8: Type `org.w3c.dom.bootstrap.DOMImplementationRegistry` was not found, it is required for default or static interface methods desugaring of `void com.fasterxml.jackson.databind.ext.DOMSerializer.<init>()`
+> Task :broadcast-alerts:transformClassesWithDexBuilderForRelease
+> Task :broadcast-alerts:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :broadcast-alerts:transformDexArchiveWithDexMergerForRelease
+> Task :broadcast-alerts:mergeReleaseJniLibFolders
+> Task :broadcast-alerts:transformNativeLibsWithMergeJniLibsForRelease
+> Task :broadcast-alerts:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :broadcast-alerts:processReleaseJavaRes NO-SOURCE
+> Task :broadcast-alerts:transformResourcesWithMergeJavaResForRelease
+> Task :broadcast-alerts:packageRelease
+> Task :broadcast-alerts:assembleRelease
+> Task :broadcast-alerts:assemble
+> Task :broadcast-alerts:build
+
+BUILD SUCCESSFUL in 50s
 51 actionable tasks: 51 executed
 
-2019-06-10 14:15:25,770 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560150856086-0/src/bridgefy-android-samples-master/bridgefyfileshare/build/outputs/apk/release/bridgefyfileshare-release-unsigned.apk
+2019-07-05 03:26:03,127 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562271888640-0/src/bridgefy-android-samples-master/broadcast-alerts/build/outputs/apk/release/broadcast-alerts-release-unsigned.apk

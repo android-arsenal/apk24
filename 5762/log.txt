@@ -1,14 +1,1596 @@
-2019-06-10 14:22:57,261 INFO  DownloadService - Downloading "https://github.com/Blankj/AndroidUtilCode/archive/master.zip", attempt 3
-2019-06-10 14:23:57,870 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-06-10 14:23:58,893 INFO  GithubDownloadService - Default branch of this repository: master
-2019-06-10 14:23:58,894 INFO  DownloadService - Downloading "https://github.com/Blankj/AndroidUtilCode/archive/master.zip", attempt 3
-2019-06-10 14:25:00,415 DEBUG FullProcessService - Repository https://github.com/Blankj/AndroidUtilCode available: true
-2019-06-10 14:25:00,415 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-06-10 14:25:00,416 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Blankj/AndroidUtilCode, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151377257-0/src]
-2019-06-10 14:25:10,676 INFO  SysUtils - 
-2019-06-10 14:25:10,820 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151377257-0/src/.git": true
-2019-06-10 14:25:11,093 INFO  FullProcessService - Size of directory with sources: 54 MB
-2019-06-10 14:25:11,093 ERROR FullProcessService - Source directory should be less than 50 MB
-2019-06-10 14:25:11,093 ERROR FullProcessService - Project will not be processed
-2019-06-10 14:25:11,093 ERROR FullProcessService - Project build has not produced APK file
-2019-06-10 14:25:11,268 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 03:32:14,769 INFO  DownloadService - Downloading "https://github.com/Blankj/AndroidUtilCode/archive/master.zip", attempt 3
+2019-07-05 03:33:15,312 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-05 03:33:16,215 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-05 03:33:16,216 INFO  DownloadService - Downloading "https://github.com/Blankj/AndroidUtilCode/archive/master.zip", attempt 3
+2019-07-05 03:34:17,741 DEBUG FullProcessService - Repository https://github.com/Blankj/AndroidUtilCode available: true
+2019-07-05 03:34:17,741 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-05 03:34:17,741 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Blankj/AndroidUtilCode, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src]
+2019-07-05 03:34:21,281 INFO  SysUtils - 
+2019-07-05 03:34:21,296 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/.git": true
+2019-07-05 03:34:21,315 INFO  FullProcessService - Size of directory with sources: 9 MB
+2019-07-05 03:34:21,315 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src]
+2019-07-05 03:34:21,332 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/.git/
+
+2019-07-05 03:34:21,342 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/gradlew
+2019-07-05 03:34:21,356 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/bus-gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/pkg/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/lib/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/lib/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/export/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/export/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/build.gradle
+2019-07-05 03:34:21,367 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/pkg/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/bus-gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/export/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/gradle/util/utils.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/gradle/config/configApp.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/gradle/config/config.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/gradle/config/configBuild.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/gradle/config/configLib.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/gradle/upload/pluginPublish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/gradle/upload/bintrayUploadJava.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/gradle/upload/bintrayUploadAndroid.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/lib/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/lib/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/export/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/build.gradle
+2019-07-05 03:34:21,368 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 03:34:21,368 INFO  ProjectFixService - Fixing project...
+2019-07-05 03:34:21,394 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/local.properties
+2019-07-05 03:34:21,394 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-05 03:34:21,395 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-05 03:34:21,403 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,403 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,404 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/buildSrc/local.properties
+2019-07-05 03:34:21,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/buildSrc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,412 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/buildSrc/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,413 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/bus-gradle-plugin/local.properties
+2019-07-05 03:34:21,419 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/bus-gradle-plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,419 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/bus-gradle-plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,420 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/local.properties
+2019-07-05 03:34:21,426 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,426 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,427 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/pkg/local.properties
+2019-07-05 03:34:21,433 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/pkg/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,433 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/pkg/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,433 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/lib/base/local.properties
+2019-07-05 03:34:21,440 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/lib/base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,440 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/lib/base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,456 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/lib/common/local.properties
+2019-07-05 03:34:21,464 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/lib/common/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,464 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/lib/common/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/local.properties
+2019-07-05 03:34:21,472 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,472 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,473 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/export/local.properties
+2019-07-05 03:34:21,480 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/export/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,480 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/export/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/lib/local.properties
+2019-07-05 03:34:21,488 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,488 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,489 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/local.properties
+2019-07-05 03:34:21,497 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,497 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,497 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/local.properties
+2019-07-05 03:34:21,507 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,507 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,508 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/export/local.properties
+2019-07-05 03:34:21,516 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/export/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,516 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/export/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,517 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/lib/local.properties
+2019-07-05 03:34:21,524 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,524 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,525 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/local.properties
+2019-07-05 03:34:21,538 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,538 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 03:34:21,538 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 03:34:21,538 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 03:34:21,538 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 03:35:56,882 INFO  ProjectTaskService - Detected possible tasks: 97
+2019-07-05 03:35:56,882 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 03:35:56,882 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 03:40:30,392 INFO  SysUtils - > Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy UP-TO-DATE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources UP-TO-DATE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:pluginUnderTestMetadata UP-TO-DATE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:validateTaskProperties UP-TO-DATE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ includeDep -> depConfig = [
+│         plugin_gradle              : DepConfig { useLocal = false, path = com.android.tools.build:gradle:3.4.0, isApply = true },
+│         plugin_kotlin              : DepConfig { useLocal = false, path = org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.10, isApply = true },
+│         plugin_maven               : DepConfig { useLocal = false, path = com.github.dcendents:android-maven-gradle-plugin:2.1, isApply = true },
+│         plugin_bintray             : DepConfig { useLocal = false, path = com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4, isApply = true },
+│         plugin_traute              : DepConfig { useLocal = false, path = tech.harmonysoft:traute-gradle:1.1.10, isApply = true },
+│         plugin_bus                 : DepConfig { useLocal = false, path = com.blankj:bus-gradle-plugin:1.8, isApply = true },
+│         buildSrc                   : DepConfig { useLocal = true, path = :buildSrc, isApply = true },
+│         bus_gradle_plugin          : DepConfig { useLocal = true, path = :bus-gradle-plugin, isApply = true },
+│         launcher_app               : DepConfig { useLocal = true, path = :launcher:app, isApply = true },
+│         launcher_pkg               : DepConfig { useLocal = true, path = :launcher:pkg, isApply = true },
+│         lib_base                   : DepConfig { useLocal = true, path = :lib:base, isApply = true },
+│         lib_common                 : DepConfig { useLocal = true, path = :lib:common, isApply = true },
+│         subutil_app                : DepConfig { useLocal = true, path = :subutil:app, isApply = true },
+│         subutil_export             : DepConfig { useLocal = true, path = :subutil:export, isApply = true },
+│         subutil_lib                : DepConfig { useLocal = true, path = :subutil:lib, isApply = true },
+│         subutil_pkg                : DepConfig { useLocal = true, path = :subutil:pkg, isApply = true },
+│         utilcode_app               : DepConfig { useLocal = true, path = :utilcode:app, isApply = true },
+│         utilcode_export            : DepConfig { useLocal = true, path = :utilcode:export, isApply = true },
+│         utilcode_lib               : DepConfig { useLocal = true, path = :utilcode:lib, isApply = true },
+│         utilcode_pkg               : DepConfig { useLocal = true, path = :utilcode:pkg, isApply = true },
+│         support_appcompat_v7       : DepConfig { useLocal = false, path = com.android.support:appcompat-v7:27.1.1, isApply = true },
+│         support_design             : DepConfig { useLocal = false, path = com.android.support:design:27.1.1, isApply = true },
+│         support_multidex           : DepConfig { useLocal = false, path = com.android.support:multidex:1.0.2, isApply = true },
+│         constraint                 : DepConfig { useLocal = false, path = com.android.support.constraint:constraint-layout:1.1.3, isApply = true },
+│         kotlin                     : DepConfig { useLocal = false, path = org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.10, isApply = true },
+│         leakcanary_android         : DepConfig { useLocal = false, path = com.squareup.leakcanary:leakcanary-android:1.6.3, isApply = true },
+│         leakcanary_android_no_op   : DepConfig { useLocal = false, path = com.squareup.leakcanary:leakcanary-android-no-op:1.6.3, isApply = true },
+│         leakcanary_support_fragment: DepConfig { useLocal = false, path = com.squareup.leakcanary:leakcanary-support-fragment:1.6.3, isApply = true },
+│         free_proguard              : DepConfig { useLocal = false, path = com.blankj:free-proguard:1.0.1, isApply = true },
+│         swipe_panel                : DepConfig { useLocal = false, path = com.blankj:swipe-panel:1.1, isApply = true },
+│         gson                       : DepConfig { useLocal = false, path = com.google.code.gson:gson:2.8.2, isApply = true },
+│         glide                      : DepConfig { useLocal = false, path = com.github.bumptech.glide:glide:4.7.1, isApply = true },
+│         retrofit                   : DepConfig { useLocal = false, path = com.squareup.retrofit2:retrofit:2.4.0, isApply = true },
+│         javassist                  : DepConfig { useLocal = false, path = org.javassist:javassist:3.24.0-GA, isApply = true },
+│         commons_io                 : DepConfig { useLocal = false, path = commons-io:commons-io:2.5, isApply = true },
+│         junit                      : DepConfig { useLocal = false, path = junit:junit:4.12, isApply = true },
+│         robolectric                : DepConfig { useLocal = false, path = org.robolectric:robolectric:4.2, isApply = true }
+│ ]
+└────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ settingsEvaluated
+└────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ projectsLoaded
+└────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ dep = [
+│         plugin_gradle              : com.android.tools.build:gradle:3.4.0,
+│         plugin_kotlin              : org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.10,
+│         plugin_maven               : com.github.dcendents:android-maven-gradle-plugin:2.1,
+│         plugin_bintray             : com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4,
+│         plugin_traute              : tech.harmonysoft:traute-gradle:1.1.10,
+│         plugin_bus                 : com.blankj:bus-gradle-plugin:1.8,
+│         buildSrc                   : project ':buildSrc',
+│         bus_gradle_plugin          : project ':bus-gradle-plugin',
+│         launcher_app               : project ':launcher:app',
+│         launcher_pkg               : project ':launcher:pkg',
+│         lib_base                   : project ':lib:base',
+│         lib_common                 : project ':lib:common',
+│         subutil_app                : project ':subutil:app',
+│         subutil_export             : project ':subutil:export',
+│         subutil_lib                : project ':subutil:lib',
+│         subutil_pkg                : project ':subutil:pkg',
+│         utilcode_app               : project ':utilcode:app',
+│         utilcode_export            : project ':utilcode:export',
+│         utilcode_lib               : project ':utilcode:lib',
+│         utilcode_pkg               : project ':utilcode:pkg',
+│         support_appcompat_v7       : com.android.support:appcompat-v7:27.1.1,
+│         support_design             : com.android.support:design:27.1.1,
+│         support_multidex           : com.android.support:multidex:1.0.2,
+│         constraint                 : com.android.support.constraint:constraint-layout:1.1.3,
+│         kotlin                     : org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.10,
+│         leakcanary_android         : com.squareup.leakcanary:leakcanary-android:1.6.3,
+│         leakcanary_android_no_op   : com.squareup.leakcanary:leakcanary-android-no-op:1.6.3,
+│         leakcanary_support_fragment: com.squareup.leakcanary:leakcanary-support-fragment:1.6.3,
+│         free_proguard              : com.blankj:free-proguard:1.0.1,
+│         swipe_panel                : com.blankj:swipe-panel:1.1,
+│         gson                       : com.google.code.gson:gson:2.8.2,
+│         glide                      : com.github.bumptech.glide:glide:4.7.1,
+│         retrofit                   : com.squareup.retrofit2:retrofit:2.4.0,
+│         javassist                  : org.javassist:javassist:3.24.0-GA,
+│         commons_io                 : commons-io:commons-io:2.5,
+│         junit                      : junit:junit:4.12,
+│         robolectric                : org.robolectric:robolectric:4.2
+│ ]
+└────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Configuration on demand is an incubating feature.
+
+> Configure project :launcher:app
+PLUGIN-BUS >>> project(app) apply bus gradle plugin!
+app config sign start...
+app config sign end...
+
+> Configure project :subutil:app
+PLUGIN-BUS >>> project(app) apply bus gradle plugin!
+app config sign start...
+app config sign end...
+
+> Configure project :utilcode:app
+PLUGIN-BUS >>> project(app) apply bus gradle plugin!
+app config sign start...
+app config sign end...
+
+> Configure project :utilcode:lib
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+│ projectsEvaluated
+└────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy
+> Task :buildSrc:pluginDescriptors
+> Task :buildSrc:processResources
+> Task :buildSrc:classes
+> Task :buildSrc:jar
+> Task :buildSrc:assemble
+> Task :buildSrc:build
+> Task :bus-gradle-plugin:compileJava
+> Task :bus-gradle-plugin:compileGroovy
+> Task :bus-gradle-plugin:pluginDescriptors
+> Task :bus-gradle-plugin:processResources
+> Task :bus-gradle-plugin:classes
+> Task :bus-gradle-plugin:jar
+> Task :bus-gradle-plugin:javadocJar
+> Task :bus-gradle-plugin:sourcesJar
+> Task :bus-gradle-plugin:assemble
+> Task :bus-gradle-plugin:build
+> Task :launcher:app:preBuild UP-TO-DATE
+> Task :launcher:pkg:preBuild UP-TO-DATE
+> Task :launcher:pkg:preDebugBuild UP-TO-DATE
+> Task :launcher:pkg:checkDebugManifest
+> Task :launcher:pkg:processDebugManifest
+> Task :lib:base:preBuild UP-TO-DATE
+> Task :lib:base:preDebugBuild UP-TO-DATE
+> Task :lib:base:checkDebugManifest
+> Task :lib:base:processDebugManifest
+> Task :lib:common:preBuild UP-TO-DATE
+> Task :lib:common:preDebugBuild UP-TO-DATE
+> Task :lib:common:checkDebugManifest
+> Task :lib:common:processDebugManifest
+> Task :subutil:export:preBuild UP-TO-DATE
+> Task :subutil:export:preDebugBuild UP-TO-DATE
+> Task :subutil:export:checkDebugManifest
+> Task :subutil:export:processDebugManifest
+> Task :subutil:lib:preBuild UP-TO-DATE
+> Task :subutil:lib:preDebugBuild UP-TO-DATE
+> Task :subutil:lib:checkDebugManifest
+> Task :subutil:lib:processDebugManifest
+> Task :subutil:pkg:preBuild UP-TO-DATE
+> Task :subutil:pkg:preDebugBuild UP-TO-DATE
+> Task :subutil:pkg:checkDebugManifest
+> Task :subutil:pkg:processDebugManifest
+> Task :utilcode:export:preBuild UP-TO-DATE
+> Task :utilcode:export:preDebugBuild UP-TO-DATE
+> Task :utilcode:export:checkDebugManifest
+> Task :utilcode:export:processDebugManifest
+> Task :utilcode:lib:preBuild UP-TO-DATE
+> Task :utilcode:lib:preDebugBuild UP-TO-DATE
+> Task :utilcode:lib:checkDebugManifest
+> Task :utilcode:lib:processDebugManifest
+> Task :utilcode:pkg:preBuild UP-TO-DATE
+> Task :utilcode:pkg:preDebugBuild UP-TO-DATE
+> Task :utilcode:pkg:checkDebugManifest
+> Task :utilcode:pkg:processDebugManifest
+> Task :launcher:app:preDebugBuild
+> Task :utilcode:lib:compileDebugAidl NO-SOURCE
+> Task :subutil:lib:compileDebugAidl NO-SOURCE
+> Task :lib:base:compileDebugAidl NO-SOURCE
+> Task :lib:common:compileDebugAidl NO-SOURCE
+> Task :launcher:pkg:compileDebugAidl NO-SOURCE
+> Task :subutil:export:compileDebugAidl NO-SOURCE
+> Task :subutil:pkg:compileDebugAidl NO-SOURCE
+> Task :utilcode:export:compileDebugAidl NO-SOURCE
+> Task :utilcode:pkg:compileDebugAidl NO-SOURCE
+> Task :launcher:app:compileDebugAidl NO-SOURCE
+> Task :launcher:pkg:packageDebugRenderscript NO-SOURCE
+> Task :lib:base:packageDebugRenderscript NO-SOURCE
+> Task :lib:common:packageDebugRenderscript NO-SOURCE
+> Task :subutil:export:packageDebugRenderscript NO-SOURCE
+> Task :subutil:lib:packageDebugRenderscript NO-SOURCE
+> Task :subutil:pkg:packageDebugRenderscript NO-SOURCE
+> Task :utilcode:export:packageDebugRenderscript NO-SOURCE
+> Task :utilcode:lib:packageDebugRenderscript NO-SOURCE
+> Task :utilcode:pkg:packageDebugRenderscript NO-SOURCE
+> Task :launcher:app:compileDebugRenderscript NO-SOURCE
+> Task :launcher:app:checkDebugManifest
+> Task :launcher:app:generateDebugBuildConfig
+> Task :launcher:app:mainApkListPersistenceDebug
+> Task :launcher:app:generateDebugResValues
+> Task :launcher:app:generateDebugResources
+> Task :launcher:pkg:compileDebugRenderscript NO-SOURCE
+> Task :launcher:pkg:generateDebugResValues
+> Task :launcher:pkg:generateDebugResources
+> Task :launcher:pkg:packageDebugResources
+> Task :lib:base:compileDebugRenderscript NO-SOURCE
+> Task :lib:base:generateDebugResValues
+> Task :lib:base:generateDebugResources
+> Task :lib:base:packageDebugResources
+> Task :lib:common:compileDebugRenderscript NO-SOURCE
+> Task :lib:common:generateDebugResValues
+> Task :lib:common:generateDebugResources
+> Task :lib:common:packageDebugResources
+> Task :subutil:export:compileDebugRenderscript NO-SOURCE
+> Task :subutil:export:generateDebugResValues
+> Task :subutil:export:generateDebugResources
+> Task :subutil:export:packageDebugResources
+> Task :subutil:lib:compileDebugRenderscript NO-SOURCE
+> Task :subutil:lib:generateDebugResValues
+> Task :subutil:lib:generateDebugResources
+> Task :subutil:lib:packageDebugResources
+> Task :subutil:pkg:compileDebugRenderscript NO-SOURCE
+> Task :subutil:pkg:generateDebugResValues
+> Task :subutil:pkg:generateDebugResources
+> Task :subutil:pkg:packageDebugResources
+> Task :utilcode:export:compileDebugRenderscript NO-SOURCE
+> Task :utilcode:export:generateDebugResValues
+> Task :utilcode:export:generateDebugResources
+> Task :utilcode:export:packageDebugResources
+> Task :utilcode:lib:compileDebugRenderscript NO-SOURCE
+> Task :utilcode:lib:generateDebugResValues
+> Task :utilcode:lib:generateDebugResources
+> Task :utilcode:lib:packageDebugResources
+> Task :utilcode:pkg:compileDebugRenderscript NO-SOURCE
+> Task :utilcode:pkg:generateDebugResValues
+> Task :utilcode:pkg:generateDebugResources
+> Task :utilcode:pkg:packageDebugResources
+> Task :launcher:app:mergeDebugResources
+> Task :launcher:app:createDebugCompatibleScreenManifests
+> Task :launcher:app:processDebugManifest
+> Task :subutil:lib:generateDebugRFile
+> Task :utilcode:lib:generateDebugRFile
+> Task :lib:base:generateDebugRFile
+> Task :lib:common:generateDebugRFile
+> Task :launcher:pkg:generateDebugRFile
+> Task :subutil:export:generateDebugRFile
+> Task :subutil:pkg:generateDebugRFile
+> Task :utilcode:export:generateDebugRFile
+> Task :utilcode:pkg:generateDebugRFile
+> Task :launcher:app:processDebugResources
+> Task :launcher:pkg:generateDebugBuildConfig SKIPPED
+> Task :lib:base:generateDebugBuildConfig SKIPPED
+> Task :subutil:lib:generateDebugBuildConfig SKIPPED
+> Task :utilcode:lib:generateDebugBuildConfig SKIPPED
+> Task :utilcode:lib:compileDebugKotlin
+> Task :utilcode:lib:prepareLintJar
+> Task :utilcode:lib:generateDebugSources
+> Task :utilcode:lib:javaPreCompileDebug
+
+> Task :utilcode:lib:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :utilcode:lib:bundleLibCompileDebug
+> Task :subutil:lib:compileDebugKotlin
+> Task :subutil:lib:prepareLintJar
+> Task :subutil:lib:generateDebugSources
+> Task :subutil:lib:javaPreCompileDebug
+
+> Task :subutil:lib:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/lib/src/main/java/com/blankj/subutil/util/CountryUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :subutil:lib:bundleLibCompileDebug
+> Task :lib:base:compileDebugKotlin
+> Task :lib:base:prepareLintJar
+> Task :lib:base:generateDebugSources
+> Task :lib:base:javaPreCompileDebug
+
+> Task :lib:base:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/lib/base/src/main/java/com/blankj/lib/base/rv/RecycleViewDivider.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :lib:base:bundleLibCompileDebug
+> Task :lib:common:generateDebugBuildConfig SKIPPED
+> Task :lib:common:compileDebugKotlin
+> Task :lib:common:prepareLintJar
+> Task :lib:common:generateDebugSources
+> Task :lib:common:javaPreCompileDebug
+
+> Task :lib:common:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/lib/common/src/main/java/com/blankj/lib/common/CommonBackActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :lib:common:bundleLibCompileDebug
+> Task :launcher:pkg:compileDebugKotlin
+> Task :launcher:pkg:prepareLintJar
+> Task :launcher:pkg:generateDebugSources
+> Task :launcher:pkg:javaPreCompileDebug
+> Task :launcher:pkg:compileDebugJavaWithJavac NO-SOURCE
+> Task :launcher:pkg:bundleLibCompileDebug
+> Task :subutil:export:generateDebugBuildConfig SKIPPED
+> Task :subutil:export:compileDebugKotlin
+> Task :subutil:export:prepareLintJar
+> Task :subutil:export:generateDebugSources
+> Task :subutil:export:javaPreCompileDebug
+> Task :subutil:export:compileDebugJavaWithJavac
+> Task :subutil:export:bundleLibCompileDebug
+> Task :subutil:pkg:generateDebugBuildConfig SKIPPED
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/feature/dangerous/DangerousActivity.kt: (71, 71): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (25, 59): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (25, 67): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (26, 63): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (26, 71): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (39, 59): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (39, 67): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (40, 63): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (40, 71): Parameter 'which' is never used, could be renamed to _
+> Task :subutil:pkg:compileDebugKotlin
+> Task :subutil:pkg:prepareLintJar
+> Task :subutil:pkg:generateDebugSources
+> Task :subutil:pkg:javaPreCompileDebug
+> Task :subutil:pkg:compileDebugJavaWithJavac
+> Task :subutil:pkg:bundleLibCompileDebug
+> Task :utilcode:export:generateDebugBuildConfig SKIPPED
+> Task :utilcode:export:compileDebugKotlin NO-SOURCE
+> Task :utilcode:export:prepareLintJar
+> Task :utilcode:export:generateDebugSources
+> Task :utilcode:export:javaPreCompileDebug
+> Task :utilcode:export:compileDebugJavaWithJavac NO-SOURCE
+> Task :utilcode:export:bundleLibCompileDebug
+> Task :utilcode:pkg:generateDebugBuildConfig SKIPPED
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/feature/bar/BarNavActivity.kt: (47, 61): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/feature/bar/BarStatusActivity.kt: (42, 60): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/feature/bar/BarStatusActivity.kt: (47, 59): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/feature/brightness/BrightnessActivity.kt: (88, 58): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/feature/flashlight/FlashlightActivity.kt: (56, 57): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/feature/network/NetworkActivity.kt: (51, 59): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (34, 59): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (34, 67): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (35, 63): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (35, 71): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (46, 59): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (46, 67): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (47, 63): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (47, 71): Parameter 'which' is never used, could be renamed to _
+> Task :utilcode:pkg:compileDebugKotlin
+> Task :utilcode:pkg:prepareLintJar
+> Task :utilcode:pkg:generateDebugSources
+> Task :utilcode:pkg:javaPreCompileDebug
+> Task :utilcode:pkg:compileDebugJavaWithJavac NO-SOURCE
+> Task :utilcode:pkg:bundleLibCompileDebug
+> Task :launcher:app:compileDebugKotlin
+> Task :launcher:app:prepareLintJar
+> Task :launcher:app:generateDebugSources
+> Task :launcher:app:javaPreCompileDebug
+> Task :launcher:app:compileDebugJavaWithJavac
+> Task :launcher:app:compileDebugSources
+> Task :launcher:app:mergeDebugShaders
+> Task :launcher:app:compileDebugShaders
+> Task :launcher:app:generateDebugAssets
+> Task :launcher:pkg:mergeDebugShaders
+> Task :launcher:pkg:compileDebugShaders
+> Task :launcher:pkg:generateDebugAssets
+> Task :launcher:pkg:packageDebugAssets
+> Task :lib:base:mergeDebugShaders
+> Task :lib:base:compileDebugShaders
+> Task :lib:base:generateDebugAssets
+> Task :lib:base:packageDebugAssets
+> Task :lib:common:mergeDebugShaders
+> Task :lib:common:compileDebugShaders
+> Task :lib:common:generateDebugAssets
+> Task :lib:common:packageDebugAssets
+> Task :subutil:export:mergeDebugShaders
+> Task :subutil:export:compileDebugShaders
+> Task :subutil:export:generateDebugAssets
+> Task :subutil:export:packageDebugAssets
+> Task :subutil:lib:mergeDebugShaders
+> Task :subutil:lib:compileDebugShaders
+> Task :subutil:lib:generateDebugAssets
+> Task :subutil:lib:packageDebugAssets
+> Task :subutil:pkg:mergeDebugShaders
+> Task :subutil:pkg:compileDebugShaders
+> Task :subutil:pkg:generateDebugAssets
+> Task :subutil:pkg:packageDebugAssets
+> Task :utilcode:export:mergeDebugShaders
+> Task :utilcode:export:compileDebugShaders
+> Task :utilcode:export:generateDebugAssets
+> Task :utilcode:export:packageDebugAssets
+> Task :utilcode:lib:mergeDebugShaders
+> Task :utilcode:lib:compileDebugShaders
+> Task :utilcode:lib:generateDebugAssets
+> Task :utilcode:lib:packageDebugAssets
+> Task :utilcode:pkg:mergeDebugShaders
+> Task :utilcode:pkg:compileDebugShaders
+> Task :utilcode:pkg:generateDebugAssets
+> Task :utilcode:pkg:packageDebugAssets
+> Task :launcher:app:mergeDebugAssets
+> Task :launcher:app:validateSigningDebug
+> Task :launcher:app:signingConfigWriterDebug
+> Task :launcher:app:checkDebugDuplicateClasses
+> Task :launcher:pkg:bundleLibRuntimeDebug
+> Task :lib:base:bundleLibRuntimeDebug
+> Task :lib:common:bundleLibRuntimeDebug
+> Task :subutil:export:bundleLibRuntimeDebug
+> Task :subutil:lib:bundleLibRuntimeDebug
+> Task :subutil:pkg:bundleLibRuntimeDebug
+> Task :utilcode:export:bundleLibRuntimeDebug
+> Task :utilcode:lib:bundleLibRuntimeDebug
+> Task :utilcode:pkg:bundleLibRuntimeDebug
+
+> Task :launcher:app:transformClassesWithBusTransformForDebug
+PLUGIN-BUS >>> /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+PLUGIN-BUS >>> busTransform started
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-support-fragment:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/0.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-android:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/1.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:multidex:1.0.2 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/2.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-analyzer:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/3.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:design:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/4.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:appcompat-v7:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/5.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-v4:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/6.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-fragment:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/7.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:animated-vector-drawable:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/8.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:recyclerview-v7:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/9.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-core-ui:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/10.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-core-utils:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/11.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-watcher:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/12.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.haha:haha:2.0.4 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/13.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-vector-drawable:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/14.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:transition:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/15.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-media-compat:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/16.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-compat:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/17.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-annotations:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/18.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:livedata-core:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/19.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:viewmodel:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/20.jar]
+PLUGIN-BUS >>> scan jar: org.jetbrains.trove4j:trove4j:20160824 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/21.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:runtime:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/22.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:common:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/23.jar]
+PLUGIN-BUS >>> jump jar: android.arch.core:runtime:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/24.jar]
+PLUGIN-BUS >>> jump jar: android.arch.core:common:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/25.jar]
+PLUGIN-BUS >>> jump jar: com.android.support.constraint:constraint-layout:1.1.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/26.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/27.jar]
+PLUGIN-BUS >>> jump jar: com.blankj:free-proguard:1.0.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/28.jar]
+PLUGIN-BUS >>> jump jar: com.blankj:swipe-panel:1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/29.jar]
+PLUGIN-BUS >>> scan jar: com.google.code.gson:gson:2.8.2 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/30.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:glide:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/31.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.retrofit2:retrofit:2.4.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/32.jar]
+PLUGIN-BUS >>> jump jar: com.android.support.constraint:constraint-layout-solver:1.1.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/33.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/34.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:gifdecoder:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/35.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:disklrucache:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/36.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:annotations:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/37.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.okhttp3:okhttp:3.10.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/38.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/39.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains:annotations:13.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/40.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.okio:okio:1.14.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/41.jar]
+PLUGIN-BUS >>> scan jar: :launcher:pkg [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/42.jar]
+PLUGIN-BUS >>> scan jar: :subutil:pkg [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/43.jar]
+PLUGIN-BUS >>> scan jar: :utilcode:pkg [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/44.jar]
+PLUGIN-BUS >>> scan jar: :lib:common [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/45.jar]
+PLUGIN-BUS >>> scan jar: :lib:base [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/46.jar]
+PLUGIN-BUS >>> scan jar: :subutil:export [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/47.jar]
+PLUGIN-BUS >>> scan jar: :utilcode:export [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/48.jar]
+PLUGIN-BUS >>> bus jar: :utilcode:lib [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/49.jar]
+PLUGIN-BUS >>> scan jar: :subutil:lib [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/50.jar]
+PLUGIN-BUS >>> scan dir: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/51]
+PLUGIN-BUS >>> scan dir: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/tmp/kotlin-classes/debug [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/debug/52]
+PLUGIN-BUS >>> /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/__bus__.json: {
+  "SubUtilActivity#start": "void com.blankj.subutil.pkg.feature.SubUtilActivity.Companion.start(android.content.Context)",
+  "BusActivity#start": "void com.blankj.utilcode.pkg.feature.bus.BusActivity.Companion.start(android.content.Context)",
+  "CoreUtilActivity#start": "void com.blankj.utilcode.pkg.feature.CoreUtilActivity.Companion.start(android.content.Context)"
+}
+PLUGIN-BUS >>> busTransform finished: 1841ms
+
+> Task :launcher:app:transformClassesWithDexBuilderForDebug
+> Task :launcher:app:transformClassesWithMultidexlistForDebug
+> Task :launcher:app:transformDexArchiveWithDexMergerForDebug
+> Task :launcher:app:mergeDebugJniLibFolders
+> Task :launcher:pkg:processDebugJavaRes NO-SOURCE
+> Task :launcher:pkg:bundleLibResDebug
+> Task :launcher:pkg:mergeDebugJniLibFolders
+> Task :launcher:pkg:transformNativeLibsWithMergeJniLibsForDebug
+> Task :launcher:pkg:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :launcher:pkg:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :lib:base:processDebugJavaRes NO-SOURCE
+> Task :lib:base:bundleLibResDebug
+> Task :lib:base:mergeDebugJniLibFolders
+> Task :lib:base:transformNativeLibsWithMergeJniLibsForDebug
+> Task :lib:base:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :lib:base:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :lib:common:processDebugJavaRes NO-SOURCE
+> Task :lib:common:bundleLibResDebug
+> Task :lib:common:mergeDebugJniLibFolders
+> Task :lib:common:transformNativeLibsWithMergeJniLibsForDebug
+> Task :lib:common:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :lib:common:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :subutil:export:processDebugJavaRes NO-SOURCE
+> Task :subutil:export:bundleLibResDebug
+> Task :subutil:export:mergeDebugJniLibFolders
+> Task :subutil:export:transformNativeLibsWithMergeJniLibsForDebug
+> Task :subutil:export:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :subutil:export:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :subutil:lib:processDebugJavaRes NO-SOURCE
+> Task :subutil:lib:bundleLibResDebug
+> Task :subutil:lib:mergeDebugJniLibFolders
+> Task :subutil:lib:transformNativeLibsWithMergeJniLibsForDebug
+> Task :subutil:lib:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :subutil:lib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :subutil:pkg:processDebugJavaRes NO-SOURCE
+> Task :subutil:pkg:bundleLibResDebug
+> Task :subutil:pkg:mergeDebugJniLibFolders
+> Task :subutil:pkg:transformNativeLibsWithMergeJniLibsForDebug
+> Task :subutil:pkg:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :subutil:pkg:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :utilcode:export:processDebugJavaRes NO-SOURCE
+> Task :utilcode:export:bundleLibResDebug
+> Task :utilcode:export:mergeDebugJniLibFolders
+> Task :utilcode:export:transformNativeLibsWithMergeJniLibsForDebug
+> Task :utilcode:export:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :utilcode:export:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :utilcode:lib:processDebugJavaRes NO-SOURCE
+> Task :utilcode:lib:bundleLibResDebug
+> Task :utilcode:lib:mergeDebugJniLibFolders
+> Task :utilcode:lib:transformNativeLibsWithMergeJniLibsForDebug
+> Task :utilcode:lib:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :utilcode:lib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :utilcode:pkg:processDebugJavaRes NO-SOURCE
+> Task :utilcode:pkg:bundleLibResDebug
+> Task :utilcode:pkg:mergeDebugJniLibFolders
+> Task :utilcode:pkg:transformNativeLibsWithMergeJniLibsForDebug
+> Task :utilcode:pkg:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :utilcode:pkg:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :launcher:app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :launcher:app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :launcher:app:processDebugJavaRes NO-SOURCE
+> Task :launcher:app:transformResourcesWithMergeJavaResForDebug
+> Task :launcher:app:packageDebug
+> Task :launcher:app:assembleDebug
+> Task :launcher:app:extractProguardFiles
+> Task :launcher:pkg:preReleaseBuild UP-TO-DATE
+> Task :launcher:pkg:checkReleaseManifest
+> Task :launcher:pkg:processReleaseManifest
+> Task :lib:base:preReleaseBuild UP-TO-DATE
+> Task :lib:base:checkReleaseManifest
+> Task :lib:base:processReleaseManifest
+> Task :lib:common:preReleaseBuild UP-TO-DATE
+> Task :lib:common:checkReleaseManifest
+> Task :lib:common:processReleaseManifest
+> Task :subutil:export:preReleaseBuild UP-TO-DATE
+> Task :subutil:export:checkReleaseManifest
+> Task :subutil:export:processReleaseManifest
+> Task :subutil:lib:preReleaseBuild UP-TO-DATE
+> Task :subutil:lib:checkReleaseManifest
+> Task :subutil:lib:processReleaseManifest
+> Task :subutil:pkg:preReleaseBuild UP-TO-DATE
+> Task :subutil:pkg:checkReleaseManifest
+> Task :subutil:pkg:processReleaseManifest
+> Task :utilcode:export:preReleaseBuild UP-TO-DATE
+> Task :utilcode:export:checkReleaseManifest
+> Task :utilcode:export:processReleaseManifest
+> Task :utilcode:lib:preReleaseBuild UP-TO-DATE
+> Task :utilcode:lib:checkReleaseManifest
+> Task :utilcode:lib:processReleaseManifest
+> Task :utilcode:pkg:preReleaseBuild UP-TO-DATE
+> Task :utilcode:pkg:checkReleaseManifest
+> Task :utilcode:pkg:processReleaseManifest
+> Task :launcher:app:preReleaseBuild
+> Task :utilcode:lib:compileReleaseAidl NO-SOURCE
+> Task :subutil:lib:compileReleaseAidl NO-SOURCE
+> Task :lib:base:compileReleaseAidl NO-SOURCE
+> Task :lib:common:compileReleaseAidl NO-SOURCE
+> Task :launcher:pkg:compileReleaseAidl NO-SOURCE
+> Task :subutil:export:compileReleaseAidl NO-SOURCE
+> Task :subutil:pkg:compileReleaseAidl NO-SOURCE
+> Task :utilcode:export:compileReleaseAidl NO-SOURCE
+> Task :utilcode:pkg:compileReleaseAidl NO-SOURCE
+> Task :launcher:app:compileReleaseAidl NO-SOURCE
+> Task :launcher:pkg:packageReleaseRenderscript NO-SOURCE
+> Task :lib:base:packageReleaseRenderscript NO-SOURCE
+> Task :lib:common:packageReleaseRenderscript NO-SOURCE
+> Task :subutil:export:packageReleaseRenderscript NO-SOURCE
+> Task :subutil:lib:packageReleaseRenderscript NO-SOURCE
+> Task :subutil:pkg:packageReleaseRenderscript NO-SOURCE
+> Task :utilcode:export:packageReleaseRenderscript NO-SOURCE
+> Task :utilcode:lib:packageReleaseRenderscript NO-SOURCE
+> Task :utilcode:pkg:packageReleaseRenderscript NO-SOURCE
+> Task :launcher:app:compileReleaseRenderscript NO-SOURCE
+> Task :launcher:app:checkReleaseManifest
+> Task :launcher:app:generateReleaseBuildConfig
+> Task :launcher:app:mainApkListPersistenceRelease
+> Task :launcher:app:generateReleaseResValues
+> Task :launcher:app:generateReleaseResources
+> Task :launcher:pkg:compileReleaseRenderscript NO-SOURCE
+> Task :launcher:pkg:generateReleaseResValues
+> Task :launcher:pkg:generateReleaseResources
+> Task :launcher:pkg:packageReleaseResources
+> Task :lib:base:compileReleaseRenderscript NO-SOURCE
+> Task :lib:base:generateReleaseResValues
+> Task :lib:base:generateReleaseResources
+> Task :lib:base:packageReleaseResources
+> Task :lib:common:compileReleaseRenderscript NO-SOURCE
+> Task :lib:common:generateReleaseResValues
+> Task :lib:common:generateReleaseResources
+> Task :lib:common:packageReleaseResources
+> Task :subutil:export:compileReleaseRenderscript NO-SOURCE
+> Task :subutil:export:generateReleaseResValues
+> Task :subutil:export:generateReleaseResources
+> Task :subutil:export:packageReleaseResources
+> Task :subutil:lib:compileReleaseRenderscript NO-SOURCE
+> Task :subutil:lib:generateReleaseResValues
+> Task :subutil:lib:generateReleaseResources
+> Task :subutil:lib:packageReleaseResources
+> Task :subutil:pkg:compileReleaseRenderscript NO-SOURCE
+> Task :subutil:pkg:generateReleaseResValues
+> Task :subutil:pkg:generateReleaseResources
+> Task :subutil:pkg:packageReleaseResources
+> Task :utilcode:export:compileReleaseRenderscript NO-SOURCE
+> Task :utilcode:export:generateReleaseResValues
+> Task :utilcode:export:generateReleaseResources
+> Task :utilcode:export:packageReleaseResources
+> Task :utilcode:lib:compileReleaseRenderscript NO-SOURCE
+> Task :utilcode:lib:generateReleaseResValues
+> Task :utilcode:lib:generateReleaseResources
+> Task :utilcode:lib:packageReleaseResources
+> Task :utilcode:pkg:compileReleaseRenderscript NO-SOURCE
+> Task :utilcode:pkg:generateReleaseResValues
+> Task :utilcode:pkg:generateReleaseResources
+> Task :utilcode:pkg:packageReleaseResources
+> Task :launcher:app:mergeReleaseResources
+> Task :launcher:app:createReleaseCompatibleScreenManifests
+> Task :launcher:app:processReleaseManifest
+> Task :subutil:lib:generateReleaseRFile
+> Task :utilcode:lib:generateReleaseRFile
+> Task :lib:base:generateReleaseRFile
+> Task :lib:common:generateReleaseRFile
+> Task :launcher:pkg:generateReleaseRFile
+> Task :subutil:export:generateReleaseRFile
+> Task :subutil:pkg:generateReleaseRFile
+> Task :utilcode:export:generateReleaseRFile
+> Task :utilcode:pkg:generateReleaseRFile
+> Task :launcher:app:processReleaseResources
+> Task :launcher:pkg:generateReleaseBuildConfig SKIPPED
+> Task :lib:base:generateReleaseBuildConfig SKIPPED
+> Task :subutil:lib:generateReleaseBuildConfig SKIPPED
+> Task :utilcode:lib:generateReleaseBuildConfig SKIPPED
+> Task :utilcode:lib:compileReleaseKotlin
+> Task :utilcode:lib:generateReleaseSources
+> Task :utilcode:lib:javaPreCompileRelease
+
+> Task :utilcode:lib:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :utilcode:lib:bundleLibCompileRelease
+> Task :subutil:lib:compileReleaseKotlin
+> Task :subutil:lib:generateReleaseSources
+> Task :subutil:lib:javaPreCompileRelease
+
+> Task :subutil:lib:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/lib/src/main/java/com/blankj/subutil/util/CountryUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :subutil:lib:bundleLibCompileRelease
+> Task :lib:base:compileReleaseKotlin
+> Task :lib:base:generateReleaseSources
+> Task :lib:base:javaPreCompileRelease
+
+> Task :lib:base:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/lib/base/src/main/java/com/blankj/lib/base/rv/RecycleViewDivider.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :lib:base:bundleLibCompileRelease
+> Task :lib:common:generateReleaseBuildConfig SKIPPED
+> Task :lib:common:compileReleaseKotlin
+> Task :lib:common:generateReleaseSources
+> Task :lib:common:javaPreCompileRelease
+
+> Task :lib:common:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/lib/common/src/main/java/com/blankj/lib/common/CommonBackActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :lib:common:bundleLibCompileRelease
+> Task :launcher:pkg:compileReleaseKotlin
+> Task :launcher:pkg:generateReleaseSources
+> Task :launcher:pkg:javaPreCompileRelease
+> Task :launcher:pkg:compileReleaseJavaWithJavac NO-SOURCE
+> Task :launcher:pkg:bundleLibCompileRelease
+> Task :subutil:export:generateReleaseBuildConfig SKIPPED
+> Task :subutil:export:compileReleaseKotlin
+> Task :subutil:export:generateReleaseSources
+> Task :subutil:export:javaPreCompileRelease
+> Task :subutil:export:compileReleaseJavaWithJavac
+> Task :subutil:export:bundleLibCompileRelease
+> Task :subutil:pkg:generateReleaseBuildConfig SKIPPED
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/feature/dangerous/DangerousActivity.kt: (71, 71): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (25, 59): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (25, 67): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (26, 63): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (26, 71): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (39, 59): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (39, 67): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (40, 63): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/pkg/src/main/java/com/blankj/subutil/pkg/helper/DialogHelper.kt: (40, 71): Parameter 'which' is never used, could be renamed to _
+> Task :subutil:pkg:compileReleaseKotlin
+> Task :subutil:pkg:generateReleaseSources
+> Task :subutil:pkg:javaPreCompileRelease
+> Task :subutil:pkg:compileReleaseJavaWithJavac
+> Task :subutil:pkg:bundleLibCompileRelease
+> Task :utilcode:export:generateReleaseBuildConfig SKIPPED
+> Task :utilcode:export:compileReleaseKotlin NO-SOURCE
+> Task :utilcode:export:generateReleaseSources
+> Task :utilcode:export:javaPreCompileRelease
+> Task :utilcode:export:compileReleaseJavaWithJavac NO-SOURCE
+> Task :utilcode:export:bundleLibCompileRelease
+> Task :utilcode:pkg:generateReleaseBuildConfig SKIPPED
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/feature/bar/BarNavActivity.kt: (47, 61): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/feature/bar/BarStatusActivity.kt: (42, 60): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/feature/bar/BarStatusActivity.kt: (47, 59): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/feature/brightness/BrightnessActivity.kt: (88, 58): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/feature/flashlight/FlashlightActivity.kt: (56, 57): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/feature/network/NetworkActivity.kt: (51, 59): Parameter 'buttonView' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (34, 59): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (34, 67): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (35, 63): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (35, 71): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (46, 59): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (46, 67): Parameter 'which' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (47, 63): Parameter 'dialog' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/pkg/src/main/java/com/blankj/utilcode/pkg/helper/DialogHelper.kt: (47, 71): Parameter 'which' is never used, could be renamed to _
+> Task :utilcode:pkg:compileReleaseKotlin
+> Task :utilcode:pkg:generateReleaseSources
+> Task :utilcode:pkg:javaPreCompileRelease
+> Task :utilcode:pkg:compileReleaseJavaWithJavac NO-SOURCE
+> Task :utilcode:pkg:bundleLibCompileRelease
+> Task :launcher:app:compileReleaseKotlin
+> Task :launcher:app:generateReleaseSources
+> Task :launcher:app:javaPreCompileRelease
+> Task :launcher:app:compileReleaseJavaWithJavac
+> Task :launcher:app:compileReleaseSources
+> Task :launcher:pkg:prepareLintJarForPublish
+> Task :lib:base:prepareLintJarForPublish
+> Task :lib:common:prepareLintJarForPublish
+> Task :subutil:export:prepareLintJarForPublish
+> Task :subutil:lib:prepareLintJarForPublish
+> Task :subutil:pkg:prepareLintJarForPublish
+> Task :utilcode:export:prepareLintJarForPublish
+> Task :utilcode:lib:prepareLintJarForPublish
+> Task :utilcode:pkg:prepareLintJarForPublish
+> Task :launcher:app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/288c03b8f54f072e8fc2d724b700b7e6/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+
+> Task :launcher:app:mergeReleaseShaders
+> Task :launcher:app:compileReleaseShaders
+> Task :launcher:app:generateReleaseAssets
+> Task :launcher:pkg:mergeReleaseShaders
+> Task :launcher:pkg:compileReleaseShaders
+> Task :launcher:pkg:generateReleaseAssets
+> Task :launcher:pkg:packageReleaseAssets
+> Task :lib:base:mergeReleaseShaders
+> Task :lib:base:compileReleaseShaders
+> Task :lib:base:generateReleaseAssets
+> Task :lib:base:packageReleaseAssets
+> Task :lib:common:mergeReleaseShaders
+> Task :lib:common:compileReleaseShaders
+> Task :lib:common:generateReleaseAssets
+> Task :lib:common:packageReleaseAssets
+> Task :subutil:export:mergeReleaseShaders
+> Task :subutil:export:compileReleaseShaders
+> Task :subutil:export:generateReleaseAssets
+> Task :subutil:export:packageReleaseAssets
+> Task :subutil:lib:mergeReleaseShaders
+> Task :subutil:lib:compileReleaseShaders
+> Task :subutil:lib:generateReleaseAssets
+> Task :subutil:lib:packageReleaseAssets
+> Task :subutil:pkg:mergeReleaseShaders
+> Task :subutil:pkg:compileReleaseShaders
+> Task :subutil:pkg:generateReleaseAssets
+> Task :subutil:pkg:packageReleaseAssets
+> Task :utilcode:export:mergeReleaseShaders
+> Task :utilcode:export:compileReleaseShaders
+> Task :utilcode:export:generateReleaseAssets
+> Task :utilcode:export:packageReleaseAssets
+> Task :utilcode:lib:mergeReleaseShaders
+> Task :utilcode:lib:compileReleaseShaders
+> Task :utilcode:lib:generateReleaseAssets
+> Task :utilcode:lib:packageReleaseAssets
+> Task :utilcode:pkg:mergeReleaseShaders
+> Task :utilcode:pkg:compileReleaseShaders
+> Task :utilcode:pkg:generateReleaseAssets
+> Task :utilcode:pkg:packageReleaseAssets
+> Task :launcher:app:mergeReleaseAssets
+> Task :launcher:app:validateSigningRelease
+> Task :launcher:app:signingConfigWriterRelease
+> Task :launcher:pkg:bundleLibRuntimeRelease
+> Task :lib:base:bundleLibRuntimeRelease
+> Task :lib:common:bundleLibRuntimeRelease
+> Task :subutil:export:bundleLibRuntimeRelease
+> Task :subutil:lib:bundleLibRuntimeRelease
+> Task :subutil:pkg:bundleLibRuntimeRelease
+> Task :utilcode:export:bundleLibRuntimeRelease
+> Task :utilcode:lib:bundleLibRuntimeRelease
+> Task :utilcode:pkg:bundleLibRuntimeRelease
+
+> Task :launcher:app:transformClassesWithBusTransformForRelease
+PLUGIN-BUS >>> /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+PLUGIN-BUS >>> busTransform started
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-android-no-op:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/0.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:multidex:1.0.2 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/1.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:design:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/2.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:appcompat-v7:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/3.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-v4:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/4.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-fragment:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/5.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:animated-vector-drawable:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/6.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:recyclerview-v7:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/7.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-core-ui:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/8.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-core-utils:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/9.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-vector-drawable:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/10.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:transition:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/11.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-media-compat:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/12.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-compat:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/13.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-annotations:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/14.jar]
+PLUGIN-BUS >>> jump jar: com.android.support.constraint:constraint-layout:1.1.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/15.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/16.jar]
+PLUGIN-BUS >>> jump jar: com.blankj:free-proguard:1.0.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/17.jar]
+PLUGIN-BUS >>> jump jar: com.blankj:swipe-panel:1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/18.jar]
+PLUGIN-BUS >>> scan jar: com.google.code.gson:gson:2.8.2 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/19.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:glide:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/20.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.retrofit2:retrofit:2.4.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/21.jar]
+PLUGIN-BUS >>> jump jar: com.android.support.constraint:constraint-layout-solver:1.1.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/22.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/23.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:gifdecoder:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/24.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:disklrucache:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/25.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:annotations:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/26.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.okhttp3:okhttp:3.10.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/27.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:livedata-core:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/28.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:viewmodel:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/29.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/30.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains:annotations:13.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/31.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.okio:okio:1.14.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/32.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:runtime:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/33.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:common:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/34.jar]
+PLUGIN-BUS >>> jump jar: android.arch.core:runtime:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/35.jar]
+PLUGIN-BUS >>> jump jar: android.arch.core:common:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/36.jar]
+PLUGIN-BUS >>> scan jar: :launcher:pkg [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/37.jar]
+PLUGIN-BUS >>> scan jar: :subutil:pkg [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/38.jar]
+PLUGIN-BUS >>> scan jar: :utilcode:pkg [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/39.jar]
+PLUGIN-BUS >>> scan jar: :lib:common [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/40.jar]
+PLUGIN-BUS >>> scan jar: :lib:base [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/41.jar]
+PLUGIN-BUS >>> scan jar: :subutil:export [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/42.jar]
+PLUGIN-BUS >>> scan jar: :utilcode:export [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/43.jar]
+PLUGIN-BUS >>> bus jar: :utilcode:lib [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/44.jar]
+PLUGIN-BUS >>> scan jar: :subutil:lib [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/45.jar]
+PLUGIN-BUS >>> scan dir: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/46]
+PLUGIN-BUS >>> scan dir: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/tmp/kotlin-classes/release [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/intermediates/transforms/busTransform/release/47]
+PLUGIN-BUS >>> /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/__bus__.json: {
+  "SubUtilActivity#start": "void com.blankj.subutil.pkg.feature.SubUtilActivity.Companion.start(android.content.Context)",
+  "BusActivity#start": "void com.blankj.utilcode.pkg.feature.bus.BusActivity.Companion.start(android.content.Context)",
+  "CoreUtilActivity#start": "void com.blankj.utilcode.pkg.feature.CoreUtilActivity.Companion.start(android.content.Context)"
+}
+PLUGIN-BUS >>> busTransform finished: 1062ms
+
+> Task :launcher:app:processReleaseJavaRes NO-SOURCE
+> Task :launcher:pkg:processReleaseJavaRes NO-SOURCE
+> Task :launcher:pkg:bundleLibResRelease
+> Task :lib:base:processReleaseJavaRes NO-SOURCE
+> Task :lib:base:bundleLibResRelease
+> Task :lib:common:processReleaseJavaRes NO-SOURCE
+> Task :lib:common:bundleLibResRelease
+> Task :subutil:export:processReleaseJavaRes NO-SOURCE
+> Task :subutil:export:bundleLibResRelease
+> Task :subutil:lib:processReleaseJavaRes NO-SOURCE
+> Task :subutil:lib:bundleLibResRelease
+> Task :subutil:pkg:processReleaseJavaRes NO-SOURCE
+> Task :subutil:pkg:bundleLibResRelease
+> Task :utilcode:export:processReleaseJavaRes NO-SOURCE
+> Task :utilcode:export:bundleLibResRelease
+> Task :utilcode:lib:processReleaseJavaRes NO-SOURCE
+> Task :utilcode:lib:bundleLibResRelease
+> Task :utilcode:pkg:processReleaseJavaRes NO-SOURCE
+> Task :utilcode:pkg:bundleLibResRelease
+> Task :launcher:app:transformResourcesWithMergeJavaResForRelease
+> Task :launcher:pkg:mergeReleaseConsumerProguardFiles
+> Task :lib:base:mergeReleaseConsumerProguardFiles
+> Task :lib:common:mergeReleaseConsumerProguardFiles
+> Task :subutil:export:mergeReleaseConsumerProguardFiles
+> Task :subutil:lib:mergeReleaseConsumerProguardFiles
+> Task :subutil:pkg:mergeReleaseConsumerProguardFiles
+> Task :utilcode:export:mergeReleaseConsumerProguardFiles
+> Task :utilcode:lib:mergeReleaseConsumerProguardFiles
+> Task :utilcode:pkg:mergeReleaseConsumerProguardFiles
+
+> Task :launcher:app:transformClassesAndResourcesWithR8ForRelease
+R8 is the new Android code shrinker. If you experience any issues, please file a bug at
+https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
+disable R8 by updating gradle.properties with 'android.enableR8=false'.
+Current version is: 1.4.77 (build b74371231cb896b02f83285efb055b7c00ff64d8 from go/r8bot (luci-r8-ci-archive-0-eqqf)).
+
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/149672a5929507a6fa6e41b19e7da6a7/proguard.txt:230:2-23: D8: Ignoring option: -optimizationpasses
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/149672a5929507a6fa6e41b19e7da6a7/proguard.txt:259:2-16: D8: Ignoring option: -optimizations
+
+> Task :launcher:app:mergeReleaseJniLibFolders
+> Task :launcher:pkg:mergeReleaseJniLibFolders
+> Task :launcher:pkg:transformNativeLibsWithMergeJniLibsForRelease
+> Task :launcher:pkg:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :launcher:pkg:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :lib:base:mergeReleaseJniLibFolders
+> Task :lib:base:transformNativeLibsWithMergeJniLibsForRelease
+> Task :lib:base:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :lib:base:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :lib:common:mergeReleaseJniLibFolders
+> Task :lib:common:transformNativeLibsWithMergeJniLibsForRelease
+> Task :lib:common:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :lib:common:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :subutil:export:mergeReleaseJniLibFolders
+> Task :subutil:export:transformNativeLibsWithMergeJniLibsForRelease
+> Task :subutil:export:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :subutil:export:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :subutil:lib:mergeReleaseJniLibFolders
+> Task :subutil:lib:transformNativeLibsWithMergeJniLibsForRelease
+> Task :subutil:lib:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :subutil:lib:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :subutil:pkg:mergeReleaseJniLibFolders
+> Task :subutil:pkg:transformNativeLibsWithMergeJniLibsForRelease
+> Task :subutil:pkg:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :subutil:pkg:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :utilcode:export:mergeReleaseJniLibFolders
+> Task :utilcode:export:transformNativeLibsWithMergeJniLibsForRelease
+> Task :utilcode:export:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :utilcode:export:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :utilcode:lib:mergeReleaseJniLibFolders
+> Task :utilcode:lib:transformNativeLibsWithMergeJniLibsForRelease
+> Task :utilcode:lib:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :utilcode:lib:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :utilcode:pkg:mergeReleaseJniLibFolders
+> Task :utilcode:pkg:transformNativeLibsWithMergeJniLibsForRelease
+> Task :utilcode:pkg:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :utilcode:pkg:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :launcher:app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :launcher:app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :launcher:app:packageRelease
+> Task :launcher:app:assembleRelease
+> Task :launcher:app:assemble
+> Task :launcher:app:build
+> Task :launcher:pkg:extractDebugAnnotations
+> Task :launcher:pkg:mergeDebugConsumerProguardFiles
+> Task :launcher:pkg:transformResourcesWithMergeJavaResForDebug
+> Task :launcher:pkg:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :launcher:pkg:transformNativeLibsWithSyncJniLibsForDebug
+> Task :launcher:pkg:bundleDebugAar
+> Task :launcher:pkg:compileDebugSources UP-TO-DATE
+> Task :launcher:pkg:assembleDebug
+> Task :launcher:pkg:extractReleaseAnnotations
+> Task :launcher:pkg:transformResourcesWithMergeJavaResForRelease
+> Task :launcher:pkg:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :launcher:pkg:transformNativeLibsWithSyncJniLibsForRelease
+> Task :launcher:pkg:bundleReleaseAar
+> Task :launcher:pkg:compileReleaseSources UP-TO-DATE
+> Task :launcher:pkg:mergeReleaseResources
+> Task :launcher:pkg:verifyReleaseResources
+> Task :launcher:pkg:assembleRelease
+> Task :launcher:pkg:assemble
+> Task :launcher:pkg:build
+> Task :lib:base:extractDebugAnnotations
+> Task :lib:base:mergeDebugConsumerProguardFiles
+> Task :lib:base:transformResourcesWithMergeJavaResForDebug
+> Task :lib:base:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :lib:base:transformNativeLibsWithSyncJniLibsForDebug
+> Task :lib:base:bundleDebugAar
+> Task :lib:base:compileDebugSources
+> Task :lib:base:assembleDebug
+> Task :lib:base:extractReleaseAnnotations
+> Task :lib:base:transformResourcesWithMergeJavaResForRelease
+> Task :lib:base:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :lib:base:transformNativeLibsWithSyncJniLibsForRelease
+> Task :lib:base:bundleReleaseAar
+> Task :lib:base:compileReleaseSources
+> Task :lib:base:mergeReleaseResources
+> Task :lib:base:verifyReleaseResources
+> Task :lib:base:assembleRelease
+> Task :lib:base:assemble
+> Task :lib:base:build
+> Task :lib:common:extractDebugAnnotations
+> Task :lib:common:mergeDebugConsumerProguardFiles
+> Task :lib:common:transformResourcesWithMergeJavaResForDebug
+> Task :lib:common:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :lib:common:transformNativeLibsWithSyncJniLibsForDebug
+> Task :lib:common:bundleDebugAar
+> Task :lib:common:compileDebugSources
+> Task :lib:common:assembleDebug
+> Task :lib:common:extractReleaseAnnotations
+> Task :lib:common:transformResourcesWithMergeJavaResForRelease
+> Task :lib:common:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :lib:common:transformNativeLibsWithSyncJniLibsForRelease
+> Task :lib:common:bundleReleaseAar
+> Task :lib:common:compileReleaseSources
+> Task :lib:common:mergeReleaseResources
+> Task :lib:common:verifyReleaseResources
+> Task :lib:common:assembleRelease
+> Task :lib:common:assemble
+> Task :lib:common:build
+> Task :subutil:app:preBuild UP-TO-DATE
+> Task :subutil:app:preDebugBuild
+> Task :subutil:app:compileDebugAidl NO-SOURCE
+> Task :subutil:app:compileDebugRenderscript NO-SOURCE
+> Task :subutil:app:checkDebugManifest
+> Task :subutil:app:generateDebugBuildConfig
+> Task :subutil:app:mainApkListPersistenceDebug
+> Task :subutil:app:generateDebugResValues
+> Task :subutil:app:generateDebugResources
+> Task :subutil:app:mergeDebugResources
+> Task :subutil:app:createDebugCompatibleScreenManifests
+> Task :subutil:app:processDebugManifest
+> Task :subutil:app:processDebugResources
+> Task :subutil:app:compileDebugKotlin
+> Task :subutil:app:prepareLintJar
+> Task :subutil:app:generateDebugSources
+> Task :subutil:app:javaPreCompileDebug
+> Task :subutil:app:compileDebugJavaWithJavac
+> Task :subutil:app:compileDebugSources
+> Task :subutil:app:mergeDebugShaders
+> Task :subutil:app:compileDebugShaders
+> Task :subutil:app:generateDebugAssets
+> Task :subutil:app:mergeDebugAssets
+> Task :subutil:app:validateSigningDebug
+> Task :subutil:app:signingConfigWriterDebug
+> Task :subutil:app:checkDebugDuplicateClasses
+
+> Task :subutil:app:transformClassesWithBusTransformForDebug
+PLUGIN-BUS >>> /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+PLUGIN-BUS >>> busTransform started
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-support-fragment:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/0.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-android:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/1.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:multidex:1.0.2 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/2.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-analyzer:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/3.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:design:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/4.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:appcompat-v7:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/5.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-v4:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/6.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-fragment:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/7.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:animated-vector-drawable:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/8.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:recyclerview-v7:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/9.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-core-ui:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/10.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-core-utils:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/11.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-watcher:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/12.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.haha:haha:2.0.4 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/13.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-vector-drawable:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/14.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:transition:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/15.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-media-compat:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/16.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-compat:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/17.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-annotations:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/18.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:livedata-core:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/19.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:viewmodel:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/20.jar]
+PLUGIN-BUS >>> scan jar: org.jetbrains.trove4j:trove4j:20160824 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/21.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:runtime:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/22.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:common:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/23.jar]
+PLUGIN-BUS >>> jump jar: android.arch.core:runtime:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/24.jar]
+PLUGIN-BUS >>> jump jar: android.arch.core:common:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/25.jar]
+PLUGIN-BUS >>> jump jar: com.android.support.constraint:constraint-layout:1.1.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/26.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/27.jar]
+PLUGIN-BUS >>> jump jar: com.blankj:free-proguard:1.0.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/28.jar]
+PLUGIN-BUS >>> jump jar: com.blankj:swipe-panel:1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/29.jar]
+PLUGIN-BUS >>> scan jar: com.google.code.gson:gson:2.8.2 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/30.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:glide:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/31.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.retrofit2:retrofit:2.4.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/32.jar]
+PLUGIN-BUS >>> jump jar: com.android.support.constraint:constraint-layout-solver:1.1.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/33.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/34.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:gifdecoder:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/35.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:disklrucache:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/36.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:annotations:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/37.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.okhttp3:okhttp:3.10.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/38.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/39.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains:annotations:13.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/40.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.okio:okio:1.14.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/41.jar]
+PLUGIN-BUS >>> scan jar: :subutil:pkg [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/42.jar]
+PLUGIN-BUS >>> scan jar: :lib:common [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/43.jar]
+PLUGIN-BUS >>> scan jar: :lib:base [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/44.jar]
+PLUGIN-BUS >>> scan jar: :subutil:export [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/45.jar]
+PLUGIN-BUS >>> bus jar: :utilcode:lib [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/46.jar]
+PLUGIN-BUS >>> scan jar: :subutil:lib [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/47.jar]
+PLUGIN-BUS >>> scan dir: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/48]
+PLUGIN-BUS >>> scan dir: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/tmp/kotlin-classes/debug [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/debug/49]
+PLUGIN-BUS >>> /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/__bus__.json: {
+  "SubUtilActivity#start": "void com.blankj.subutil.pkg.feature.SubUtilActivity.Companion.start(android.content.Context)"
+}
+PLUGIN-BUS >>> busTransform finished: 1175ms
+
+> Task :subutil:app:transformClassesWithDexBuilderForDebug
+> Task :subutil:app:transformClassesWithMultidexlistForDebug
+> Task :subutil:app:transformDexArchiveWithDexMergerForDebug
+> Task :subutil:app:mergeDebugJniLibFolders
+> Task :subutil:app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :subutil:app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :subutil:app:processDebugJavaRes NO-SOURCE
+> Task :subutil:app:transformResourcesWithMergeJavaResForDebug
+> Task :subutil:app:packageDebug
+> Task :subutil:app:assembleDebug
+> Task :subutil:app:extractProguardFiles
+> Task :subutil:app:preReleaseBuild
+> Task :subutil:app:compileReleaseAidl NO-SOURCE
+> Task :subutil:app:compileReleaseRenderscript NO-SOURCE
+> Task :subutil:app:checkReleaseManifest
+> Task :subutil:app:generateReleaseBuildConfig
+> Task :subutil:app:mainApkListPersistenceRelease
+> Task :subutil:app:generateReleaseResValues
+> Task :subutil:app:generateReleaseResources
+> Task :subutil:app:mergeReleaseResources
+> Task :subutil:app:createReleaseCompatibleScreenManifests
+> Task :subutil:app:processReleaseManifest
+> Task :subutil:app:processReleaseResources
+> Task :subutil:app:compileReleaseKotlin
+> Task :subutil:app:generateReleaseSources
+> Task :subutil:app:javaPreCompileRelease
+> Task :subutil:app:compileReleaseJavaWithJavac
+> Task :subutil:app:compileReleaseSources
+> Task :subutil:app:lintVitalRelease
+> Task :subutil:app:mergeReleaseShaders
+> Task :subutil:app:compileReleaseShaders
+> Task :subutil:app:generateReleaseAssets
+> Task :subutil:app:mergeReleaseAssets
+> Task :subutil:app:validateSigningRelease
+> Task :subutil:app:signingConfigWriterRelease
+
+> Task :subutil:app:transformClassesWithBusTransformForRelease
+PLUGIN-BUS >>> /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+PLUGIN-BUS >>> busTransform started
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-android-no-op:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/0.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:multidex:1.0.2 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/1.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:design:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/2.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:appcompat-v7:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/3.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-v4:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/4.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-fragment:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/5.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:animated-vector-drawable:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/6.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:recyclerview-v7:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/7.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-core-ui:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/8.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-core-utils:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/9.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-vector-drawable:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/10.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:transition:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/11.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-media-compat:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/12.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-compat:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/13.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-annotations:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/14.jar]
+PLUGIN-BUS >>> jump jar: com.android.support.constraint:constraint-layout:1.1.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/15.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/16.jar]
+PLUGIN-BUS >>> jump jar: com.blankj:free-proguard:1.0.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/17.jar]
+PLUGIN-BUS >>> jump jar: com.blankj:swipe-panel:1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/18.jar]
+PLUGIN-BUS >>> scan jar: com.google.code.gson:gson:2.8.2 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/19.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:glide:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/20.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.retrofit2:retrofit:2.4.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/21.jar]
+PLUGIN-BUS >>> jump jar: com.android.support.constraint:constraint-layout-solver:1.1.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/22.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/23.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:gifdecoder:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/24.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:disklrucache:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/25.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:annotations:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/26.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.okhttp3:okhttp:3.10.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/27.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:livedata-core:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/28.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:viewmodel:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/29.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/30.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains:annotations:13.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/31.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.okio:okio:1.14.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/32.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:runtime:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/33.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:common:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/34.jar]
+PLUGIN-BUS >>> jump jar: android.arch.core:runtime:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/35.jar]
+PLUGIN-BUS >>> jump jar: android.arch.core:common:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/36.jar]
+PLUGIN-BUS >>> scan jar: :subutil:pkg [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/37.jar]
+PLUGIN-BUS >>> scan jar: :lib:common [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/38.jar]
+PLUGIN-BUS >>> scan jar: :lib:base [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/39.jar]
+PLUGIN-BUS >>> scan jar: :subutil:export [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/40.jar]
+PLUGIN-BUS >>> bus jar: :utilcode:lib [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/41.jar]
+PLUGIN-BUS >>> scan jar: :subutil:lib [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/42.jar]
+PLUGIN-BUS >>> scan dir: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/43]
+PLUGIN-BUS >>> scan dir: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/tmp/kotlin-classes/release [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/build/intermediates/transforms/busTransform/release/44]
+PLUGIN-BUS >>> /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/subutil/app/__bus__.json: {
+  "SubUtilActivity#start": "void com.blankj.subutil.pkg.feature.SubUtilActivity.Companion.start(android.content.Context)"
+}
+PLUGIN-BUS >>> busTransform finished: 747ms
+
+> Task :subutil:app:processReleaseJavaRes NO-SOURCE
+> Task :subutil:app:transformResourcesWithMergeJavaResForRelease
+
+> Task :subutil:app:transformClassesAndResourcesWithR8ForRelease
+R8 is the new Android code shrinker. If you experience any issues, please file a bug at
+https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
+disable R8 by updating gradle.properties with 'android.enableR8=false'.
+Current version is: 1.4.77 (build b74371231cb896b02f83285efb055b7c00ff64d8 from go/r8bot (luci-r8-ci-archive-0-eqqf)).
+
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/149672a5929507a6fa6e41b19e7da6a7/proguard.txt:230:2-23: D8: Ignoring option: -optimizationpasses
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/149672a5929507a6fa6e41b19e7da6a7/proguard.txt:259:2-16: D8: Ignoring option: -optimizations
+
+> Task :subutil:app:mergeReleaseJniLibFolders
+> Task :subutil:app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :subutil:app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :subutil:app:packageRelease
+> Task :subutil:app:assembleRelease
+> Task :subutil:app:assemble
+> Task :subutil:app:build
+> Task :subutil:export:extractDebugAnnotations
+> Task :subutil:export:mergeDebugConsumerProguardFiles
+> Task :subutil:export:transformResourcesWithMergeJavaResForDebug
+> Task :subutil:export:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :subutil:export:transformNativeLibsWithSyncJniLibsForDebug
+> Task :subutil:export:bundleDebugAar
+> Task :subutil:export:compileDebugSources
+> Task :subutil:export:assembleDebug
+> Task :subutil:export:extractReleaseAnnotations
+> Task :subutil:export:transformResourcesWithMergeJavaResForRelease
+> Task :subutil:export:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :subutil:export:transformNativeLibsWithSyncJniLibsForRelease
+> Task :subutil:export:bundleReleaseAar
+> Task :subutil:export:compileReleaseSources
+> Task :subutil:export:mergeReleaseResources
+> Task :subutil:export:verifyReleaseResources
+> Task :subutil:export:assembleRelease
+> Task :subutil:export:assemble
+> Task :subutil:export:build
+> Task :subutil:lib:extractDebugAnnotations
+> Task :subutil:lib:mergeDebugConsumerProguardFiles
+> Task :subutil:lib:transformResourcesWithMergeJavaResForDebug
+> Task :subutil:lib:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :subutil:lib:transformNativeLibsWithSyncJniLibsForDebug
+> Task :subutil:lib:bundleDebugAar
+> Task :subutil:lib:compileDebugSources
+> Task :subutil:lib:assembleDebug
+> Task :subutil:lib:extractReleaseAnnotations
+> Task :subutil:lib:transformResourcesWithMergeJavaResForRelease
+> Task :subutil:lib:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :subutil:lib:transformNativeLibsWithSyncJniLibsForRelease
+> Task :subutil:lib:bundleReleaseAar
+> Task :subutil:lib:compileReleaseSources
+> Task :subutil:lib:mergeReleaseResources
+> Task :subutil:lib:verifyReleaseResources
+> Task :subutil:lib:assembleRelease
+> Task :subutil:lib:assemble
+> Task :subutil:lib:build
+> Task :subutil:pkg:extractDebugAnnotations
+> Task :subutil:pkg:mergeDebugConsumerProguardFiles
+> Task :subutil:pkg:transformResourcesWithMergeJavaResForDebug
+> Task :subutil:pkg:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :subutil:pkg:transformNativeLibsWithSyncJniLibsForDebug
+> Task :subutil:pkg:bundleDebugAar
+> Task :subutil:pkg:compileDebugSources
+> Task :subutil:pkg:assembleDebug
+> Task :subutil:pkg:extractReleaseAnnotations
+> Task :subutil:pkg:transformResourcesWithMergeJavaResForRelease
+> Task :subutil:pkg:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :subutil:pkg:transformNativeLibsWithSyncJniLibsForRelease
+> Task :subutil:pkg:bundleReleaseAar
+> Task :subutil:pkg:compileReleaseSources
+> Task :subutil:pkg:mergeReleaseResources
+> Task :subutil:pkg:verifyReleaseResources
+> Task :subutil:pkg:assembleRelease
+> Task :subutil:pkg:assemble
+> Task :subutil:pkg:build
+> Task :utilcode:app:preBuild UP-TO-DATE
+> Task :utilcode:app:preDebugBuild
+> Task :utilcode:app:compileDebugAidl NO-SOURCE
+> Task :utilcode:app:compileDebugRenderscript NO-SOURCE
+> Task :utilcode:app:checkDebugManifest
+> Task :utilcode:app:generateDebugBuildConfig
+> Task :utilcode:app:mainApkListPersistenceDebug
+> Task :utilcode:app:generateDebugResValues
+> Task :utilcode:app:generateDebugResources
+> Task :utilcode:app:mergeDebugResources
+> Task :utilcode:app:createDebugCompatibleScreenManifests
+> Task :utilcode:app:processDebugManifest
+> Task :utilcode:app:processDebugResources
+> Task :utilcode:app:compileDebugKotlin
+> Task :utilcode:app:prepareLintJar
+> Task :utilcode:app:generateDebugSources
+> Task :utilcode:app:javaPreCompileDebug
+> Task :utilcode:app:compileDebugJavaWithJavac
+> Task :utilcode:app:compileDebugSources
+> Task :utilcode:app:mergeDebugShaders
+> Task :utilcode:app:compileDebugShaders
+> Task :utilcode:app:generateDebugAssets
+> Task :utilcode:app:mergeDebugAssets
+> Task :utilcode:app:validateSigningDebug
+> Task :utilcode:app:signingConfigWriterDebug
+> Task :utilcode:app:checkDebugDuplicateClasses
+
+> Task :utilcode:app:transformClassesWithBusTransformForDebug
+PLUGIN-BUS >>> /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+PLUGIN-BUS >>> busTransform started
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-support-fragment:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/0.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-android:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/1.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:multidex:1.0.2 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/2.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-analyzer:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/3.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:design:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/4.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:appcompat-v7:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/5.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-v4:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/6.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-fragment:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/7.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:animated-vector-drawable:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/8.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:recyclerview-v7:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/9.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-core-ui:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/10.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-core-utils:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/11.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-watcher:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/12.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.haha:haha:2.0.4 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/13.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-vector-drawable:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/14.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:transition:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/15.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-media-compat:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/16.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-compat:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/17.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-annotations:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/18.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:livedata-core:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/19.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:viewmodel:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/20.jar]
+PLUGIN-BUS >>> scan jar: org.jetbrains.trove4j:trove4j:20160824 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/21.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:runtime:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/22.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:common:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/23.jar]
+PLUGIN-BUS >>> jump jar: android.arch.core:runtime:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/24.jar]
+PLUGIN-BUS >>> jump jar: android.arch.core:common:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/25.jar]
+PLUGIN-BUS >>> jump jar: com.android.support.constraint:constraint-layout:1.1.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/26.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/27.jar]
+PLUGIN-BUS >>> jump jar: com.blankj:free-proguard:1.0.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/28.jar]
+PLUGIN-BUS >>> jump jar: com.blankj:swipe-panel:1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/29.jar]
+PLUGIN-BUS >>> scan jar: com.google.code.gson:gson:2.8.2 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/30.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:glide:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/31.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.retrofit2:retrofit:2.4.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/32.jar]
+PLUGIN-BUS >>> jump jar: com.android.support.constraint:constraint-layout-solver:1.1.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/33.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/34.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:gifdecoder:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/35.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:disklrucache:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/36.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:annotations:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/37.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.okhttp3:okhttp:3.10.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/38.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/39.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains:annotations:13.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/40.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.okio:okio:1.14.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/41.jar]
+PLUGIN-BUS >>> scan jar: :utilcode:pkg [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/42.jar]
+PLUGIN-BUS >>> scan jar: :lib:common [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/43.jar]
+PLUGIN-BUS >>> scan jar: :lib:base [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/44.jar]
+PLUGIN-BUS >>> scan jar: :utilcode:export [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/45.jar]
+PLUGIN-BUS >>> bus jar: :utilcode:lib [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/46.jar]
+PLUGIN-BUS >>> scan jar: :subutil:lib [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/47.jar]
+PLUGIN-BUS >>> scan dir: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/48]
+PLUGIN-BUS >>> scan dir: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/tmp/kotlin-classes/debug [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/debug/49]
+PLUGIN-BUS >>> /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/__bus__.json: {
+  "BusActivity#start": "void com.blankj.utilcode.pkg.feature.bus.BusActivity.Companion.start(android.content.Context)",
+  "CoreUtilActivity#start": "void com.blankj.utilcode.pkg.feature.CoreUtilActivity.Companion.start(android.content.Context)"
+}
+PLUGIN-BUS >>> busTransform finished: 1105ms
+
+> Task :utilcode:app:transformClassesWithDexBuilderForDebug
+> Task :utilcode:app:transformClassesWithMultidexlistForDebug
+> Task :utilcode:app:transformDexArchiveWithDexMergerForDebug
+> Task :utilcode:app:mergeDebugJniLibFolders
+> Task :utilcode:app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :utilcode:app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :utilcode:app:processDebugJavaRes NO-SOURCE
+> Task :utilcode:app:transformResourcesWithMergeJavaResForDebug
+> Task :utilcode:app:packageDebug
+> Task :utilcode:app:assembleDebug
+> Task :utilcode:app:extractProguardFiles
+> Task :utilcode:app:preReleaseBuild
+> Task :utilcode:app:compileReleaseAidl NO-SOURCE
+> Task :utilcode:app:compileReleaseRenderscript NO-SOURCE
+> Task :utilcode:app:checkReleaseManifest
+> Task :utilcode:app:generateReleaseBuildConfig
+> Task :utilcode:app:mainApkListPersistenceRelease
+> Task :utilcode:app:generateReleaseResValues
+> Task :utilcode:app:generateReleaseResources
+> Task :utilcode:app:mergeReleaseResources
+> Task :utilcode:app:createReleaseCompatibleScreenManifests
+> Task :utilcode:app:processReleaseManifest
+> Task :utilcode:app:processReleaseResources
+> Task :utilcode:app:compileReleaseKotlin
+> Task :utilcode:app:generateReleaseSources
+> Task :utilcode:app:javaPreCompileRelease
+> Task :utilcode:app:compileReleaseJavaWithJavac
+> Task :utilcode:app:compileReleaseSources
+> Task :utilcode:app:lintVitalRelease
+> Task :utilcode:app:mergeReleaseShaders
+> Task :utilcode:app:compileReleaseShaders
+> Task :utilcode:app:generateReleaseAssets
+> Task :utilcode:app:mergeReleaseAssets
+> Task :utilcode:app:validateSigningRelease
+> Task :utilcode:app:signingConfigWriterRelease
+
+> Task :utilcode:app:transformClassesWithBusTransformForRelease
+PLUGIN-BUS >>> /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+PLUGIN-BUS >>> busTransform started
+PLUGIN-BUS >>> jump jar: com.squareup.leakcanary:leakcanary-android-no-op:1.6.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/0.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:multidex:1.0.2 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/1.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:design:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/2.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:appcompat-v7:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/3.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-v4:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/4.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-fragment:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/5.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:animated-vector-drawable:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/6.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:recyclerview-v7:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/7.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-core-ui:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/8.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-core-utils:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/9.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-vector-drawable:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/10.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:transition:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/11.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-media-compat:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/12.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-compat:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/13.jar]
+PLUGIN-BUS >>> jump jar: com.android.support:support-annotations:27.1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/14.jar]
+PLUGIN-BUS >>> jump jar: com.android.support.constraint:constraint-layout:1.1.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/15.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/16.jar]
+PLUGIN-BUS >>> jump jar: com.blankj:free-proguard:1.0.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/17.jar]
+PLUGIN-BUS >>> jump jar: com.blankj:swipe-panel:1.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/18.jar]
+PLUGIN-BUS >>> scan jar: com.google.code.gson:gson:2.8.2 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/19.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:glide:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/20.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.retrofit2:retrofit:2.4.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/21.jar]
+PLUGIN-BUS >>> jump jar: com.android.support.constraint:constraint-layout-solver:1.1.3 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/22.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/23.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:gifdecoder:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/24.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:disklrucache:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/25.jar]
+PLUGIN-BUS >>> scan jar: com.github.bumptech.glide:annotations:4.7.1 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/26.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.okhttp3:okhttp:3.10.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/27.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:livedata-core:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/28.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:viewmodel:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/29.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.10 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/30.jar]
+PLUGIN-BUS >>> jump jar: org.jetbrains:annotations:13.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/31.jar]
+PLUGIN-BUS >>> jump jar: com.squareup.okio:okio:1.14.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/32.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:runtime:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/33.jar]
+PLUGIN-BUS >>> jump jar: android.arch.lifecycle:common:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/34.jar]
+PLUGIN-BUS >>> jump jar: android.arch.core:runtime:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/35.jar]
+PLUGIN-BUS >>> jump jar: android.arch.core:common:1.1.0 [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/36.jar]
+PLUGIN-BUS >>> scan jar: :utilcode:pkg [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/37.jar]
+PLUGIN-BUS >>> scan jar: :lib:common [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/38.jar]
+PLUGIN-BUS >>> scan jar: :lib:base [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/39.jar]
+PLUGIN-BUS >>> scan jar: :utilcode:export [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/40.jar]
+PLUGIN-BUS >>> bus jar: :utilcode:lib [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/41.jar]
+PLUGIN-BUS >>> scan jar: :subutil:lib [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/42.jar]
+PLUGIN-BUS >>> scan dir: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/43]
+PLUGIN-BUS >>> scan dir: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/tmp/kotlin-classes/release [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/build/intermediates/transforms/busTransform/release/44]
+PLUGIN-BUS >>> /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/utilcode/app/__bus__.json: {
+  "BusActivity#start": "void com.blankj.utilcode.pkg.feature.bus.BusActivity.Companion.start(android.content.Context)",
+  "CoreUtilActivity#start": "void com.blankj.utilcode.pkg.feature.CoreUtilActivity.Companion.start(android.content.Context)"
+}
+PLUGIN-BUS >>> busTransform finished: 876ms
+
+> Task :utilcode:app:processReleaseJavaRes NO-SOURCE
+> Task :utilcode:app:transformResourcesWithMergeJavaResForRelease
+
+> Task :utilcode:app:transformClassesAndResourcesWithR8ForRelease
+R8 is the new Android code shrinker. If you experience any issues, please file a bug at
+https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
+disable R8 by updating gradle.properties with 'android.enableR8=false'.
+Current version is: 1.4.77 (build b74371231cb896b02f83285efb055b7c00ff64d8 from go/r8bot (luci-r8-ci-archive-0-eqqf)).
+
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/149672a5929507a6fa6e41b19e7da6a7/proguard.txt:230:2-23: D8: Ignoring option: -optimizationpasses
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/149672a5929507a6fa6e41b19e7da6a7/proguard.txt:259:2-16: D8: Ignoring option: -optimizations
+
+> Task :utilcode:app:mergeReleaseJniLibFolders
+> Task :utilcode:app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :utilcode:app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :utilcode:app:packageRelease
+> Task :utilcode:app:assembleRelease
+> Task :utilcode:app:assemble
+> Task :utilcode:app:build
+> Task :utilcode:export:extractDebugAnnotations
+> Task :utilcode:export:mergeDebugConsumerProguardFiles
+> Task :utilcode:export:transformResourcesWithMergeJavaResForDebug
+> Task :utilcode:export:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :utilcode:export:transformNativeLibsWithSyncJniLibsForDebug
+> Task :utilcode:export:bundleDebugAar
+> Task :utilcode:export:compileDebugSources UP-TO-DATE
+> Task :utilcode:export:assembleDebug
+> Task :utilcode:export:extractReleaseAnnotations
+> Task :utilcode:export:transformResourcesWithMergeJavaResForRelease
+> Task :utilcode:export:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :utilcode:export:transformNativeLibsWithSyncJniLibsForRelease
+> Task :utilcode:export:bundleReleaseAar
+> Task :utilcode:export:compileReleaseSources UP-TO-DATE
+> Task :utilcode:export:mergeReleaseResources
+> Task :utilcode:export:verifyReleaseResources
+> Task :utilcode:export:assembleRelease
+> Task :utilcode:export:assemble
+> Task :utilcode:export:build
+> Task :utilcode:lib:extractDebugAnnotations
+> Task :utilcode:lib:mergeDebugConsumerProguardFiles
+> Task :utilcode:lib:transformResourcesWithMergeJavaResForDebug
+> Task :utilcode:lib:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :utilcode:lib:transformNativeLibsWithSyncJniLibsForDebug
+> Task :utilcode:lib:bundleDebugAar
+> Task :utilcode:lib:compileDebugSources
+> Task :utilcode:lib:assembleDebug
+> Task :utilcode:lib:extractReleaseAnnotations
+> Task :utilcode:lib:transformResourcesWithMergeJavaResForRelease
+> Task :utilcode:lib:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :utilcode:lib:transformNativeLibsWithSyncJniLibsForRelease
+> Task :utilcode:lib:bundleReleaseAar
+> Task :utilcode:lib:compileReleaseSources
+> Task :utilcode:lib:mergeReleaseResources
+> Task :utilcode:lib:verifyReleaseResources
+> Task :utilcode:lib:assembleRelease
+> Task :utilcode:lib:javadocJar
+> Task :utilcode:lib:sourcesJar
+> Task :utilcode:lib:assemble
+> Task :utilcode:lib:build
+> Task :utilcode:pkg:extractDebugAnnotations
+> Task :utilcode:pkg:mergeDebugConsumerProguardFiles
+> Task :utilcode:pkg:transformResourcesWithMergeJavaResForDebug
+> Task :utilcode:pkg:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :utilcode:pkg:transformNativeLibsWithSyncJniLibsForDebug
+> Task :utilcode:pkg:bundleDebugAar
+> Task :utilcode:pkg:compileDebugSources UP-TO-DATE
+> Task :utilcode:pkg:assembleDebug
+> Task :utilcode:pkg:extractReleaseAnnotations
+> Task :utilcode:pkg:transformResourcesWithMergeJavaResForRelease
+> Task :utilcode:pkg:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :utilcode:pkg:transformNativeLibsWithSyncJniLibsForRelease
+> Task :utilcode:pkg:bundleReleaseAar
+> Task :utilcode:pkg:compileReleaseSources UP-TO-DATE
+> Task :utilcode:pkg:mergeReleaseResources
+> Task :utilcode:pkg:verifyReleaseResources
+> Task :utilcode:pkg:assembleRelease
+> Task :utilcode:pkg:assemble
+> Task :utilcode:pkg:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 4m 32s
+635 actionable tasks: 635 executed
+
+2019-07-05 03:40:30,747 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272334760-0/src/launcher/app/build/outputs/apk/debug/app-debug.apk
