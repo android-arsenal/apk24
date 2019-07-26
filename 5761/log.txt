@@ -1,41 +1,41 @@
-2019-07-05 03:41:15,810 INFO  DownloadService - Downloading "https://github.com/afollestad/aesthetic/archive/master.zip", attempt 3
-2019-07-05 03:42:16,341 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-07-05 03:42:17,448 INFO  GithubDownloadService - Default branch of this repository: master
-2019-07-05 03:42:17,448 INFO  DownloadService - Downloading "https://github.com/afollestad/aesthetic/archive/master.zip", attempt 3
-2019-07-05 03:43:18,796 DEBUG FullProcessService - Repository https://github.com/afollestad/aesthetic available: true
-2019-07-05 03:43:18,796 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-07-05 03:43:18,797 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/afollestad/aesthetic, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src]
-2019-07-05 03:43:26,773 INFO  SysUtils - 
-2019-07-05 03:43:26,782 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/.git": true
-2019-07-05 03:43:26,786 INFO  FullProcessService - Size of directory with sources: 9 MB
-2019-07-05 03:43:26,787 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src]
-2019-07-05 03:43:26,801 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/.git/
+2019-07-26 20:57:38,058 INFO  DownloadService - Downloading "https://github.com/afollestad/aesthetic/archive/master.zip", attempt 3
+2019-07-26 20:58:39,819 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-26 20:58:40,832 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-26 20:58:40,832 INFO  DownloadService - Downloading "https://github.com/afollestad/aesthetic/archive/master.zip", attempt 3
+2019-07-26 20:59:43,355 DEBUG FullProcessService - Repository https://github.com/afollestad/aesthetic available: true
+2019-07-26 20:59:43,355 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-26 20:59:43,355 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/afollestad/aesthetic, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src]
+2019-07-26 21:03:21,840 INFO  SysUtils - 
+2019-07-26 21:03:21,849 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/.git": true
+2019-07-26 21:03:21,854 INFO  FullProcessService - Size of directory with sources: 9 MB
+2019-07-26 21:03:21,854 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src]
+2019-07-26 21:03:21,876 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/.git/
 
-2019-07-05 03:43:26,805 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/gradlew
-2019-07-05 03:43:26,809 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/sample-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/sample-materialcomponents/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/build.gradle
-2019-07-05 03:43:26,812 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/sample-materialcomponents/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/sample-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/bintrayconfig.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/versionsPlugin.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/spotless.gradle
-2019-07-05 03:43:26,813 INFO  ProjectBuildService - Remote scripts: none
-2019-07-05 03:43:26,813 INFO  ProjectFixService - Fixing project...
-2019-07-05 03:43:26,821 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/local.properties
-2019-07-05 03:43:26,824 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 03:43:26,824 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 03:43:26,825 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/sample-appcompat/local.properties
-2019-07-05 03:43:26,828 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/sample-appcompat/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 03:43:26,828 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/sample-appcompat/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 03:43:26,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/sample-materialcomponents/local.properties
-2019-07-05 03:43:26,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/sample-materialcomponents/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 03:43:26,831 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/sample-materialcomponents/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 03:43:26,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/local.properties
-2019-07-05 03:43:26,833 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-bin.zip
-2019-07-05 03:43:26,835 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-07-05 03:43:26,836 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-07-05 03:43:26,836 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 03:43:26,836 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 03:43:26,836 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 03:43:44,024 INFO  ProjectTaskService - Detected possible tasks: 88
-2019-07-05 03:43:44,025 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-05 03:43:44,025 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-05 03:44:20,736 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-26 21:03:21,881 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/gradlew
+2019-07-26 21:03:21,885 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/sample-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/sample-materialcomponents/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/build.gradle
+2019-07-26 21:03:21,889 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/sample-materialcomponents/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/sample-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/bintrayconfig.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/versionsPlugin.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/spotless.gradle
+2019-07-26 21:03:21,890 INFO  ProjectBuildService - Remote scripts: none
+2019-07-26 21:03:21,890 INFO  ProjectFixService - Fixing project...
+2019-07-26 21:03:21,900 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/local.properties
+2019-07-26 21:03:21,903 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-26 21:03:21,903 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-26 21:03:21,904 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/sample-appcompat/local.properties
+2019-07-26 21:03:21,907 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/sample-appcompat/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-26 21:03:21,907 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/sample-appcompat/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-26 21:03:21,908 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/sample-materialcomponents/local.properties
+2019-07-26 21:03:21,910 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/sample-materialcomponents/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-26 21:03:21,911 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/sample-materialcomponents/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-26 21:03:21,911 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/local.properties
+2019-07-26 21:03:21,912 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-bin.zip
+2019-07-26 21:03:21,915 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-26 21:03:21,915 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-26 21:03:21,915 INFO  ProjectFixService - Project was maybe fixed
+2019-07-26 21:03:21,915 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-26 21:03:21,916 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-26 21:03:31,392 INFO  ProjectTaskService - Detected possible tasks: 82
+2019-07-26 21:03:31,392 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-26 21:03:31,392 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-26 21:04:08,994 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :library
 WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
@@ -59,38 +59,13 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :library:processDebugManifest
 > Task :library:prepareLintJar
 > Task :library:mergeDebugConsumerProguardFiles
-> Task :library:mergeDebugShaders
-> Task :library:compileDebugShaders
-> Task :library:generateDebugAssets
-> Task :library:packageDebugAssets
-> Task :library:packageDebugRenderscript NO-SOURCE
-> Task :library:prepareLintJarForPublish
-> Task :library:processDebugJavaRes NO-SOURCE
-> Task :library:mergeDebugJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForDebug
-> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :library:transformNativeLibsWithSyncJniLibsForDebug
-> Task :library:preReleaseBuild UP-TO-DATE
-> Task :library:checkReleaseManifest
-> Task :library:generateReleaseBuildConfig
-> Task :library:generateReleaseResValues
-> Task :library:processReleaseManifest
-> Task :library:mergeReleaseConsumerProguardFiles
-> Task :library:mergeReleaseShaders
-> Task :library:compileReleaseShaders
-> Task :library:generateReleaseAssets
-> Task :library:packageReleaseAssets
-> Task :library:packageReleaseRenderscript NO-SOURCE
-> Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:mergeReleaseJniLibFolders
-> Task :library:transformNativeLibsWithMergeJniLibsForRelease
-> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :library:transformNativeLibsWithSyncJniLibsForRelease
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
 > Task :library:generateDebugRFile
+> Task :library:generateDebugSources
+> Task :library:mergeDebugShaders
 
 > Task :library:kaptGenerateStubsDebugKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: com.afollestad.aesthetic
@@ -100,35 +75,49 @@ w: Argument -module-name is passed multiple times. Only the last value will be u
 
 > Task :library:compileDebugKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: com.afollestad.aesthetic
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/internal/InflationInterceptor.kt: (160, 61): Type mismatch: inferred type is AttributeSet? but AttributeSet was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/internal/InflationInterceptor.kt: (162, 55): Type mismatch: inferred type is AttributeSet? but AttributeSet was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/ContextExt.kt: (91, 17): Type mismatch: inferred type is Any? but Any was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/ContextExt.kt: (92, 15): Type mismatch: inferred type is Any? but Any was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (218, 21): Type mismatch: inferred type is Any? but Any was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (220, 12): Type mismatch: inferred type is Any? but Any was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (323, 15): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (324, 15): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/RxExt.kt: (76, 97): Unnecessary non-null assertion (!!) on a non-null receiver of type Observable<R!>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/RxExt.kt: (81, 93): Unnecessary non-null assertion (!!) on a non-null receiver of type Observable<Pair<T1, T2>!>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/RxExt.kt: (89, 73): Unnecessary non-null assertion (!!) on a non-null receiver of type Observable<R!>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (104, 20): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (351, 25): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (428, 32): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (431, 27): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/internal/InflationInterceptor.kt: (160, 61): Type mismatch: inferred type is AttributeSet? but AttributeSet was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/internal/InflationInterceptor.kt: (162, 55): Type mismatch: inferred type is AttributeSet? but AttributeSet was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/ContextExt.kt: (91, 17): Type mismatch: inferred type is Any? but Any was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/ContextExt.kt: (92, 15): Type mismatch: inferred type is Any? but Any was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (218, 21): Type mismatch: inferred type is Any? but Any was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (220, 12): Type mismatch: inferred type is Any? but Any was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (323, 15): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (324, 15): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/RxExt.kt: (76, 97): Unnecessary non-null assertion (!!) on a non-null receiver of type Observable<R!>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/RxExt.kt: (81, 93): Unnecessary non-null assertion (!!) on a non-null receiver of type Observable<Pair<T1, T2>!>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/RxExt.kt: (89, 73): Unnecessary non-null assertion (!!) on a non-null receiver of type Observable<R!>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (104, 20): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (351, 25): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (428, 32): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (431, 27): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
 
-> Task :library:generateDebugSources
 > Task :library:javaPreCompileDebug
 > Task :library:compileDebugJavaWithJavac
 > Task :library:extractDebugAnnotations
+> Task :library:compileDebugShaders
+> Task :library:generateDebugAssets
+> Task :library:packageDebugAssets
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:prepareLintJarForPublish
+> Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:transformResourcesWithMergeJavaResForDebug
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :library:mergeDebugJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForDebug
+> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :library:transformNativeLibsWithSyncJniLibsForDebug
 > Task :library:bundleDebugAar
 > Task :library:compileDebugSources
 > Task :library:assembleDebug
+> Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
 > Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:checkReleaseManifest
+> Task :library:generateReleaseBuildConfig
+> Task :library:generateReleaseResValues
 > Task :library:generateReleaseResources
 > Task :library:packageReleaseResources
+> Task :library:processReleaseManifest
 > Task :library:generateReleaseRFile
 
 > Task :library:kaptGenerateStubsReleaseKotlin
@@ -139,28 +128,39 @@ w: Argument -module-name is passed multiple times. Only the last value will be u
 
 > Task :library:compileReleaseKotlin
 w: Argument -module-name is passed multiple times. Only the last value will be used: com.afollestad.aesthetic
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/internal/InflationInterceptor.kt: (160, 61): Type mismatch: inferred type is AttributeSet? but AttributeSet was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/internal/InflationInterceptor.kt: (162, 55): Type mismatch: inferred type is AttributeSet? but AttributeSet was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/ContextExt.kt: (91, 17): Type mismatch: inferred type is Any? but Any was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/ContextExt.kt: (92, 15): Type mismatch: inferred type is Any? but Any was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (218, 21): Type mismatch: inferred type is Any? but Any was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (220, 12): Type mismatch: inferred type is Any? but Any was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (323, 15): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (324, 15): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/RxExt.kt: (76, 97): Unnecessary non-null assertion (!!) on a non-null receiver of type Observable<R!>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/RxExt.kt: (81, 93): Unnecessary non-null assertion (!!) on a non-null receiver of type Observable<Pair<T1, T2>!>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/RxExt.kt: (89, 73): Unnecessary non-null assertion (!!) on a non-null receiver of type Observable<R!>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (104, 20): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (351, 25): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (428, 32): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (431, 27): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/internal/InflationInterceptor.kt: (160, 61): Type mismatch: inferred type is AttributeSet? but AttributeSet was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/internal/InflationInterceptor.kt: (162, 55): Type mismatch: inferred type is AttributeSet? but AttributeSet was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/ContextExt.kt: (91, 17): Type mismatch: inferred type is Any? but Any was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/ContextExt.kt: (92, 15): Type mismatch: inferred type is Any? but Any was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (218, 21): Type mismatch: inferred type is Any? but Any was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (220, 12): Type mismatch: inferred type is Any? but Any was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (323, 15): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/EdgeGlowUtil.kt: (324, 15): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/RxExt.kt: (76, 97): Unnecessary non-null assertion (!!) on a non-null receiver of type Observable<R!>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/RxExt.kt: (81, 93): Unnecessary non-null assertion (!!) on a non-null receiver of type Observable<Pair<T1, T2>!>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/RxExt.kt: (89, 73): Unnecessary non-null assertion (!!) on a non-null receiver of type Observable<R!>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (104, 20): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (351, 25): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (428, 32): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/library/src/main/java/com/afollestad/aesthetic/utils/TintHelper.kt: (431, 27): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
 
 > Task :library:generateReleaseSources
 > Task :library:javaPreCompileRelease
 > Task :library:compileReleaseJavaWithJavac
 > Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseConsumerProguardFiles
+> Task :library:mergeReleaseShaders
+> Task :library:compileReleaseShaders
+> Task :library:generateReleaseAssets
+> Task :library:packageReleaseAssets
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:transformResourcesWithMergeJavaResForRelease
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForRelease
+> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :library:transformNativeLibsWithSyncJniLibsForRelease
 > Task :library:bundleReleaseAar
 > Task :library:compileReleaseSources
 > Task :library:mergeReleaseResources
@@ -176,4 +176,4 @@ See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 36s
 50 actionable tasks: 50 executed
 
-2019-07-05 03:44:20,778 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562272875805-0/src/sample.apk
+2019-07-26 21:04:09,038 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564149458055-0/src/sample.apk
