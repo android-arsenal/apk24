@@ -1,50 +1,50 @@
-2019-07-26 20:44:04,237 INFO  DownloadService - Downloading "https://github.com/DevAhamed/MultiViewAdapter/archive/master.zip", attempt 3
-2019-07-26 20:44:11,003 INFO  DownloadService - Downloading "https://github.com/DevAhamed/MultiViewAdapter/archive/master.zip", attempt 2
-2019-07-26 20:44:17,193 INFO  DownloadService - Downloading "https://github.com/DevAhamed/MultiViewAdapter/archive/master.zip", attempt 1
-2019-07-26 20:45:17,510 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-07-26 20:45:18,465 INFO  GithubDownloadService - Default branch of this repository: 2.x
-2019-07-26 20:45:18,465 INFO  DownloadService - Downloading "https://github.com/DevAhamed/MultiViewAdapter/archive/2.x.zip", attempt 3
-2019-07-26 20:46:21,634 DEBUG FullProcessService - Repository https://github.com/DevAhamed/MultiViewAdapter available: true
-2019-07-26 20:46:21,634 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-07-26 20:46:21,635 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/DevAhamed/MultiViewAdapter, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src]
-2019-07-26 20:49:41,772 INFO  SysUtils - 
-2019-07-26 20:49:41,783 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/.git": true
-2019-07-26 20:49:41,791 INFO  FullProcessService - Size of directory with sources: 6 MB
-2019-07-26 20:49:41,791 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src]
-2019-07-26 20:49:41,808 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/.git/
+2019-08-12 11:16:11,490 INFO  DownloadService - Downloading "https://github.com/DevAhamed/MultiViewAdapter/archive/master.zip", attempt 3
+2019-08-12 11:16:17,020 INFO  DownloadService - Downloading "https://github.com/DevAhamed/MultiViewAdapter/archive/master.zip", attempt 2
+2019-08-12 11:16:22,996 INFO  DownloadService - Downloading "https://github.com/DevAhamed/MultiViewAdapter/archive/master.zip", attempt 1
+2019-08-12 11:17:23,277 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-12 11:17:24,396 INFO  GithubDownloadService - Default branch of this repository: 2.x
+2019-08-12 11:17:24,396 INFO  DownloadService - Downloading "https://github.com/DevAhamed/MultiViewAdapter/archive/2.x.zip", attempt 3
+2019-08-12 11:18:26,030 DEBUG FullProcessService - Repository https://github.com/DevAhamed/MultiViewAdapter available: true
+2019-08-12 11:18:26,031 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-12 11:18:26,031 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/DevAhamed/MultiViewAdapter, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src]
+2019-08-12 11:18:30,463 INFO  SysUtils - 
+2019-08-12 11:18:30,474 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/.git": true
+2019-08-12 11:18:30,483 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-08-12 11:18:30,483 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src]
+2019-08-12 11:18:30,500 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/.git/
 
-2019-07-26 20:49:41,814 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/gradlew
-2019-07-26 20:49:41,820 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/build.gradle
-2019-07-26 20:49:41,826 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/settings.gradle
-2019-07-26 20:49:41,827 INFO  ProjectBuildService - Remote scripts: none
-2019-07-26 20:49:41,827 INFO  ProjectFixService - Fixing project...
-2019-07-26 20:49:41,843 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/local.properties
-2019-07-26 20:49:41,846 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-26 20:49:41,846 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-26 20:49:41,847 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/local.properties
-2019-07-26 20:49:41,850 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-26 20:49:41,850 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-26 20:49:41,851 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/local.properties
-2019-07-26 20:49:41,855 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-26 20:49:41,855 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-26 20:49:41,856 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/local.properties
-2019-07-26 20:49:41,859 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-26 20:49:41,859 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-26 20:49:41,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/sample/local.properties
-2019-07-26 20:49:41,863 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-26 20:49:41,863 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-26 20:49:41,864 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/local.properties
-2019-07-26 20:49:41,864 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-07-26 20:49:41,864 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-07-26 20:49:41,867 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
-2019-07-26 20:49:41,868 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
-2019-07-26 20:49:41,868 INFO  ProjectFixService - Project was maybe fixed
-2019-07-26 20:49:41,868 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-26 20:49:41,868 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-26 20:49:50,811 INFO  ProjectTaskService - Detected possible tasks: 83
-2019-07-26 20:49:50,811 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-26 20:49:50,811 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-26 20:50:05,255 INFO  SysUtils - > Task :buildSrc:compileJava UP-TO-DATE
+2019-08-12 11:18:30,506 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/gradlew
+2019-08-12 11:18:30,514 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/build.gradle
+2019-08-12 11:18:30,520 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/settings.gradle
+2019-08-12 11:18:30,521 INFO  ProjectBuildService - Remote scripts: none
+2019-08-12 11:18:30,521 INFO  ProjectFixService - Fixing project...
+2019-08-12 11:18:30,538 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/local.properties
+2019-08-12 11:18:30,541 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-12 11:18:30,542 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-12 11:18:30,543 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/local.properties
+2019-08-12 11:18:30,546 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-12 11:18:30,547 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-12 11:18:30,548 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/local.properties
+2019-08-12 11:18:30,552 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-12 11:18:30,552 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-12 11:18:30,553 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/local.properties
+2019-08-12 11:18:30,556 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-12 11:18:30,556 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-12 11:18:30,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/sample/local.properties
+2019-08-12 11:18:30,562 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-12 11:18:30,562 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-12 11:18:30,563 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/local.properties
+2019-08-12 11:18:30,564 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-08-12 11:18:30,564 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-08-12 11:18:30,568 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=21,targetSdkVersion=<null>]
+2019-08-12 11:18:30,568 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=21,targetSdkVersion=29]
+2019-08-12 11:18:30,568 INFO  ProjectFixService - Project was maybe fixed
+2019-08-12 11:18:30,569 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-12 11:18:30,569 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-12 11:18:38,784 INFO  ProjectTaskService - Detected possible tasks: 83
+2019-08-12 11:18:38,785 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-12 11:18:38,785 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-12 11:18:52,379 INFO  SysUtils - > Task :buildSrc:compileJava UP-TO-DATE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:processResources NO-SOURCE
 > Task :buildSrc:classes UP-TO-DATE
@@ -70,31 +70,31 @@ For more information, see https://d.android.com/r/tools/task-configuration-avoid
 To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
 
 > Task :mva-databinding:androidJavadocs
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/src/main/java/mva2/extension/BindingViewHolder.java:19: error: package android.databinding does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/src/main/java/mva2/extension/BindingViewHolder.java:19: error: package android.databinding does not exist
 import android.databinding.ViewDataBinding;
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/src/main/java/mva2/extension/BindingViewHolder.java:20: error: package mva2.adapter does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/src/main/java/mva2/extension/BindingViewHolder.java:20: error: package mva2.adapter does not exist
 import mva2.adapter.ItemViewHolder;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/src/main/java/mva2/extension/BindingViewHolder.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/src/main/java/mva2/extension/BindingViewHolder.java:28: error: cannot find symbol
 abstract class BindingViewHolder<M, VDB extends ViewDataBinding> extends ItemViewHolder<M> {
                                                                          ^
   symbol: class ItemViewHolder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/src/main/java/mva2/extension/BindingViewHolder.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/src/main/java/mva2/extension/BindingViewHolder.java:28: error: cannot find symbol
 abstract class BindingViewHolder<M, VDB extends ViewDataBinding> extends ItemViewHolder<M> {
                                                 ^
   symbol: class ViewDataBinding
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/src/main/java/mva2/extension/DBItemBinder.java:19: error: package android.databinding does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/src/main/java/mva2/extension/DBItemBinder.java:19: error: package android.databinding does not exist
 import android.databinding.ViewDataBinding;
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/src/main/java/mva2/extension/DBItemBinder.java:21: error: package mva2.adapter does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/src/main/java/mva2/extension/DBItemBinder.java:21: error: package mva2.adapter does not exist
 import mva2.adapter.ItemBinder;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/src/main/java/mva2/extension/DBItemBinder.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/src/main/java/mva2/extension/DBItemBinder.java:30: error: cannot find symbol
     extends ItemBinder<M, DBItemBinder.ViewHolder<M, VDB>> {
             ^
   symbol: class ItemBinder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/src/main/java/mva2/extension/DBItemBinder.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/src/main/java/mva2/extension/DBItemBinder.java:49: error: cannot find symbol
   protected static class ViewHolder<M, VDB extends ViewDataBinding>
                                                    ^
   symbol:   class ViewDataBinding
@@ -102,11 +102,11 @@ import mva2.adapter.ItemBinder;
   where M,VDB are type-variables:
     M declared in class DBItemBinder
     VDB declared in class DBItemBinder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/src/main/java/mva2/extension/DBItemBinder.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/src/main/java/mva2/extension/DBItemBinder.java:29: error: cannot find symbol
 public abstract class DBItemBinder<M, VDB extends ViewDataBinding>
                                                   ^
   symbol: class ViewDataBinding
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/databinding/src/main/java/mva2/extension/DBItemBinder.java:41: error: name clash: createViewHolder(VDB) and createViewHolder(ViewGroup) have the same erasure
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/databinding/src/main/java/mva2/extension/DBItemBinder.java:41: error: name clash: createViewHolder(VDB) and createViewHolder(ViewGroup) have the same erasure
   protected ViewHolder<M, VDB> createViewHolder(VDB binding) {
                                ^
   where VDB,M are type-variables:
@@ -232,15 +232,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 13s
 70 actionable tasks: 70 executed
 
-2019-07-26 20:50:05,290 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-26 20:50:05,290 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-26 20:50:12,665 INFO  ProjectTaskService - Detected possible tasks: 83
-2019-07-26 20:50:12,666 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-26 20:50:12,666 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-26 20:50:23,803 INFO  SysUtils - > Task :buildSrc:compileJava UP-TO-DATE
+2019-08-12 11:18:52,411 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-12 11:18:52,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-12 11:18:59,049 INFO  ProjectTaskService - Detected possible tasks: 83
+2019-08-12 11:18:59,049 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-12 11:18:59,049 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-12 11:19:09,610 INFO  SysUtils - > Task :buildSrc:compileJava UP-TO-DATE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:processResources NO-SOURCE
 > Task :buildSrc:classes UP-TO-DATE
@@ -266,149 +266,149 @@ For more information, see https://d.android.com/r/tools/task-configuration-avoid
 To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
 
 > Task :mva-decorator:androidJavadocs
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:5: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:5: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:6: error: package android.support.v7.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:6: error: package android.support.v7.widget does not exist
 import android.support.v7.widget.RecyclerView;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:7: error: package mva2.adapter does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:7: error: package mva2.adapter does not exist
 import mva2.adapter.MultiViewAdapter;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:8: error: package mva2.adapter.decorator does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:8: error: package mva2.adapter.decorator does not exist
 import mva2.adapter.decorator.Decorator;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:10: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:10: error: cannot find symbol
 public class InsetDecoration extends Decorator {
                                      ^
   symbol: class Decorator
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:14: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:14: error: cannot find symbol
   public InsetDecoration(MultiViewAdapter adapter, int insetSpace) {
                          ^
   symbol:   class MultiViewAdapter
   location: class InsetDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:20: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                ^
   symbol:   class RecyclerView
   location: class InsetDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:20: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:20: error: package RecyclerView does not exist
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:25: error: package android.support.v4.view does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:25: error: package android.support.v4.view does not exist
 import android.support.v4.view.ViewCompat;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:28: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:28: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:29: error: package android.support.v7.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:29: error: package android.support.v7.widget does not exist
 import android.support.v7.widget.DividerItemDecoration;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:30: error: package android.support.v7.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:30: error: package android.support.v7.widget does not exist
 import android.support.v7.widget.LinearLayoutManager;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:31: error: package android.support.v7.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:31: error: package android.support.v7.widget does not exist
 import android.support.v7.widget.RecyclerView;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:32: error: package mva2.adapter does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:32: error: package mva2.adapter does not exist
 import mva2.adapter.MultiViewAdapter;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:33: error: package mva2.adapter.decorator does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:33: error: package mva2.adapter.decorator does not exist
 import mva2.adapter.decorator.Decorator;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: error: cannot find symbol
 @SuppressWarnings("WeakerAccess") public class DividerDecoration extends Decorator {
                                                                          ^
   symbol: class Decorator
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:51: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:51: error: cannot find symbol
   public DividerDecoration(MultiViewAdapter adapter, Context context, int orientation) {
                            ^
   symbol:   class MultiViewAdapter
   location: class DividerDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:61: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:61: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                ^
   symbol:   class RecyclerView
   location: class DividerDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:61: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:61: error: package RecyclerView does not exist
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:73: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:73: error: cannot find symbol
   @Override public void onDraw(@NonNull Canvas canvas, @NonNull RecyclerView parent,
                                                                 ^
   symbol:   class RecyclerView
   location: class DividerDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:74: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:74: error: package RecyclerView does not exist
       @NonNull RecyclerView.State state, View child, int adapterPosition) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:97: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:97: error: cannot find symbol
   private void drawHorizontal(Canvas canvas, RecyclerView parent, View child) {
                                              ^
   symbol:   class RecyclerView
   location: class DividerDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:120: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:120: error: cannot find symbol
   private void drawVertical(Canvas canvas, RecyclerView parent, View child) {
                                            ^
   symbol:   class RecyclerView
   location: class DividerDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:19: error: cannot find symbol
   @Override public void getItemOffsets(@NonNull Rect outRect, @NonNull View view,
                                         ^
   symbol:   class NonNull
   location: class InsetDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:19: error: cannot find symbol
   @Override public void getItemOffsets(@NonNull Rect outRect, @NonNull View view,
                                                                ^
   symbol:   class NonNull
   location: class InsetDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:20: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
        ^
   symbol:   class NonNull
   location: class InsetDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/InsetDecoration.java:20: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                                      ^
   symbol:   class NonNull
   location: class InsetDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:60: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:60: error: cannot find symbol
   @Override public void getItemOffsets(@NonNull Rect outRect, @NonNull View view,
                                         ^
   symbol:   class NonNull
   location: class DividerDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:60: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:60: error: cannot find symbol
   @Override public void getItemOffsets(@NonNull Rect outRect, @NonNull View view,
                                                                ^
   symbol:   class NonNull
   location: class DividerDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:61: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:61: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
        ^
   symbol:   class NonNull
   location: class DividerDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:61: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:61: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                                      ^
   symbol:   class NonNull
   location: class DividerDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:73: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:73: error: cannot find symbol
   @Override public void onDraw(@NonNull Canvas canvas, @NonNull RecyclerView parent,
                                 ^
   symbol:   class NonNull
   location: class DividerDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:73: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:73: error: cannot find symbol
   @Override public void onDraw(@NonNull Canvas canvas, @NonNull RecyclerView parent,
                                                         ^
   symbol:   class NonNull
   location: class DividerDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:74: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:74: error: cannot find symbol
       @NonNull RecyclerView.State state, View child, int adapterPosition) {
        ^
   symbol:   class NonNull
   location: class DividerDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: warning - Tag @link: reference not found: RecyclerView.ItemDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: warning - Tag @link: reference not found: LinearLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: warning - Tag @link: reference not found: DividerItemDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: warning - Tag @link: reference not found: RecyclerView.ItemDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: warning - Tag @link: reference not found: LinearLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: warning - Tag @link: reference not found: DividerItemDecoration
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class NonNull not found.
@@ -420,10 +420,10 @@ javadoc: warning - Class NonNull not found.
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class NonNull not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: warning - Tag @link: reference not found: RecyclerView.ItemDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: warning - Tag @link: reference not found: LinearLayoutManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: warning - Tag @link: reference not found: RecyclerView.ItemDecoration
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: warning - Tag @link: reference not found: LinearLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: warning - Tag @link: reference not found: RecyclerView.ItemDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: warning - Tag @link: reference not found: LinearLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: warning - Tag @link: reference not found: RecyclerView.ItemDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java:42: warning - Tag @link: reference not found: LinearLayoutManager
 52 warnings
 
 > Task :mva-decorator:androidJavadocsJar
@@ -463,7 +463,7 @@ javadoc: warning - Class NonNull not found.
 > Task :mva-decorator:javaPreCompileDebug
 
 > Task :mva-decorator:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :mva-decorator:extractDebugAnnotations
@@ -514,7 +514,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :mva-decorator:javaPreCompileRelease
 
 > Task :mva-decorator:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/decorator/src/main/java/mva2/extension/decorator/DividerDecoration.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :mva-decorator:extractReleaseAnnotations
@@ -547,12 +547,12 @@ See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:com
 BUILD SUCCESSFUL in 10s
 70 actionable tasks: 48 executed, 22 up-to-date
 
-2019-07-26 20:50:23,852 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-26 20:50:23,853 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-26 20:50:30,912 INFO  ProjectTaskService - Detected possible tasks: 83
-2019-07-26 20:50:30,912 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-26 20:50:30,912 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-26 20:50:41,777 INFO  SysUtils - > Task :buildSrc:compileJava UP-TO-DATE
+2019-08-12 11:19:09,667 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-12 11:19:09,667 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-12 11:19:16,876 INFO  ProjectTaskService - Detected possible tasks: 83
+2019-08-12 11:19:16,876 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-12 11:19:16,876 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-12 11:19:30,191 INFO  SysUtils - > Task :buildSrc:compileJava UP-TO-DATE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:processResources NO-SOURCE
 > Task :buildSrc:classes UP-TO-DATE
@@ -578,123 +578,123 @@ For more information, see https://d.android.com/r/tools/task-configuration-avoid
 To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
 
 > Task :mva-diffutil-rx:androidJavadocs
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:19: error: package android.support.v7.util does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:19: error: package android.support.v7.util does not exist
 import android.support.v7.util.DiffUtil;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:20: error: package android.support.v7.util does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:20: error: package android.support.v7.util does not exist
 import android.support.v7.util.ListUpdateCallback;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:21: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:21: error: package io.reactivex does not exist
 import io.reactivex.Flowable;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:22: error: package io.reactivex.android.schedulers does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:22: error: package io.reactivex.android.schedulers does not exist
 import io.reactivex.android.schedulers.AndroidSchedulers;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:23: error: package io.reactivex.disposables does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:23: error: package io.reactivex.disposables does not exist
 import io.reactivex.disposables.Disposable;
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:24: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:24: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.Consumer;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:25: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:25: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.Function;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:26: error: package io.reactivex.processors does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:26: error: package io.reactivex.processors does not exist
 import io.reactivex.processors.PublishProcessor;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:27: error: package io.reactivex.schedulers does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:27: error: package io.reactivex.schedulers does not exist
 import io.reactivex.schedulers.Schedulers;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:29: error: package mva2.adapter.internal does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:29: error: package mva2.adapter.internal does not exist
 import mva2.adapter.internal.DiffUtilCallback;
                             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:30: error: package mva2.adapter.util does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:30: error: package mva2.adapter.util does not exist
 import mva2.adapter.util.MvaDiffUtil;
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:31: error: package mva2.adapter.util does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:31: error: package mva2.adapter.util does not exist
 import mva2.adapter.util.PayloadProvider;
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:33: error: cannot find symbol
 public class RxDiffUtil<M> implements MvaDiffUtil<M> {
                                       ^
   symbol: class MvaDiffUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:35: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:35: error: cannot find symbol
   private final PayloadProvider<M> payloadProvider;
                 ^
   symbol:   class PayloadProvider
   location: class RxDiffUtil<M>
   where M is a type-variable:
     M extends Object declared in class RxDiffUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:36: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:36: error: cannot find symbol
   private final PublishProcessor<DiffRequest<M>> pp = PublishProcessor.create();
                 ^
   symbol:   class PublishProcessor
   location: class RxDiffUtil<M>
   where M is a type-variable:
     M extends Object declared in class RxDiffUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:37: error: cannot find symbol
   private final Flowable<DiffRequest<M>> out = pp.onBackpressureBuffer();
                 ^
   symbol:   class Flowable
   location: class RxDiffUtil<M>
   where M is a type-variable:
     M extends Object declared in class RxDiffUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:38: error: cannot find symbol
   private Disposable disposable;
           ^
   symbol:   class Disposable
   location: class RxDiffUtil<M>
   where M is a type-variable:
     M extends Object declared in class RxDiffUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:40: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:40: error: cannot find symbol
   public RxDiffUtil(PayloadProvider<M> payloadProvider) {
                     ^
   symbol:   class PayloadProvider
   location: class RxDiffUtil<M>
   where M is a type-variable:
     M extends Object declared in class RxDiffUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:45: error: cannot find symbol
   public Disposable getDisposable() {
          ^
   symbol:   class Disposable
   location: class RxDiffUtil<M>
   where M is a type-variable:
     M extends Object declared in class RxDiffUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:50: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:50: error: cannot find symbol
   public void calculateDiff(final ListUpdateCallback listUpdateCallback, final List<M> oldList,
                                   ^
   symbol:   class ListUpdateCallback
   location: class RxDiffUtil<M>
   where M is a type-variable:
     M extends Object declared in class RxDiffUtil
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:89: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:89: error: cannot find symbol
     private final ListUpdateCallback listUpdateCallback;
                   ^
   symbol:   class ListUpdateCallback
   location: class DiffRequest<M>
   where M is a type-variable:
     M extends Object declared in class DiffRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:93: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:93: error: cannot find symbol
     private DiffRequest(ListUpdateCallback listUpdateCallback, List<M> oldList, List<M> newList) {
                         ^
   symbol:   class ListUpdateCallback
   location: class DiffRequest<M>
   where M is a type-variable:
     M extends Object declared in class DiffRequest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:102: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:102: error: cannot find symbol
     private final ListUpdateCallback listUpdateCallback;
                   ^
   symbol:   class ListUpdateCallback
   location: class DiffResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:103: error: package DiffUtil does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:103: error: package DiffUtil does not exist
     private final DiffUtil.DiffResult diffResult;
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:105: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:105: error: cannot find symbol
     private DiffResult(ListUpdateCallback listUpdateCallback, DiffUtil.DiffResult diffResult) {
                        ^
   symbol:   class ListUpdateCallback
   location: class DiffResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:105: error: package DiffUtil does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/extensions/diffutil-rx/src/main/java/mva2/extension/diffutil/rx/RxDiffUtil.java:105: error: package DiffUtil does not exist
     private DiffResult(ListUpdateCallback listUpdateCallback, DiffUtil.DiffResult diffResult) {
                                                                       ^
 26 warnings
@@ -809,15 +809,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 13s
 70 actionable tasks: 48 executed, 22 up-to-date
 
-2019-07-26 20:50:41,846 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-26 20:50:41,846 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-26 20:50:49,988 INFO  ProjectTaskService - Detected possible tasks: 98
-2019-07-26 20:50:49,988 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-26 20:50:49,988 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-26 20:51:03,920 INFO  SysUtils - > Task :buildSrc:compileJava UP-TO-DATE
+2019-08-12 11:19:30,253 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-12 11:19:30,254 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-12 11:19:38,620 INFO  ProjectTaskService - Detected possible tasks: 98
+2019-08-12 11:19:38,621 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-12 11:19:38,621 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-12 11:19:51,667 INFO  SysUtils - > Task :buildSrc:compileJava UP-TO-DATE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:processResources NO-SOURCE
 > Task :buildSrc:classes UP-TO-DATE
@@ -843,359 +843,359 @@ For more information, see https://d.android.com/r/tools/task-configuration-avoid
 To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
 
 > Task :multi-view-adapter:androidJavadocs
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemViewHolder.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemViewHolder.java:19: error: cannot find symbol
 import android.support.v7.widget.RecyclerView;
                                 ^
   symbol:   class RecyclerView
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemViewHolder.java:26: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemViewHolder.java:26: error: package RecyclerView does not exist
 public class ItemViewHolder<M> extends RecyclerView.ViewHolder {
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:21: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:21: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:22: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:22: error: package android.support.annotation does not exist
 import android.support.annotation.RestrictTo;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:23: error: cannot find symbol
 import android.support.v7.widget.GridLayoutManager;
                                 ^
   symbol:   class GridLayoutManager
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:24: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:24: error: cannot find symbol
 import android.support.v7.widget.RecyclerView;
                                 ^
   symbol:   class RecyclerView
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:26: error: package android.support.v7.widget.helper does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:26: error: package android.support.v7.widget.helper does not exist
 import android.support.v7.widget.helper.ItemTouchHelper;
                                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:66: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:66: error: package RecyclerView does not exist
 public class MultiViewAdapter extends RecyclerView.Adapter<ItemViewHolder> {
                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:21: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:21: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:22: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:22: error: package android.support.annotation does not exist
 import android.support.annotation.RestrictTo;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:23: error: cannot find symbol
 import android.support.v7.widget.RecyclerView;
                                 ^
   symbol:   class RecyclerView
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:24: error: package android.support.v7.widget.RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:24: error: package android.support.v7.widget.RecyclerView does not exist
 import android.support.v7.widget.RecyclerView.LayoutManager;
                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:21: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:21: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:22: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:22: error: package android.support.annotation does not exist
 import android.support.annotation.RestrictTo;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:23: error: package android.support.v7.util does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:23: error: package android.support.v7.util does not exist
 import android.support.v7.util.ListUpdateCallback;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:24: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:24: error: cannot find symbol
 import android.support.v7.widget.LinearLayoutManager;
                                 ^
   symbol:   class LinearLayoutManager
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:25: error: cannot find symbol
 import android.support.v7.widget.RecyclerView;
                                 ^
   symbol:   class RecyclerView
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:26: error: package android.support.v7.widget.RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:26: error: package android.support.v7.widget.RecyclerView does not exist
 import android.support.v7.widget.RecyclerView.LayoutManager;
                                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:36: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:36: error: cannot find symbol
 import static android.support.v7.widget.RecyclerView.VERTICAL;
                                        ^
   symbol:   class RecyclerView
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:36: error: static import only from classes and interfaces
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:36: error: static import only from classes and interfaces
 import static android.support.v7.widget.RecyclerView.VERTICAL;
 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:60: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:60: error: cannot find symbol
 public abstract class Section implements ListUpdateCallback {
                                          ^
   symbol: class ListUpdateCallback
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:21: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:21: error: package android.support.annotation does not exist
 import android.support.annotation.LayoutRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:22: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:22: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:23: error: cannot find symbol
 import android.support.v7.widget.GridLayoutManager;
                                 ^
   symbol:   class GridLayoutManager
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:24: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:24: error: cannot find symbol
 import android.support.v7.widget.RecyclerView;
                                 ^
   symbol:   class RecyclerView
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:21: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:21: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:22: error: cannot find symbol
 import android.support.v7.widget.RecyclerView;
                                 ^
   symbol:   class RecyclerView
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:32: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:32: error: package RecyclerView does not exist
 public class DecorationDelegate extends RecyclerView.ItemDecoration {
                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:74: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:74: error: cannot find symbol
   private ItemTouchHelper itemTouchHelper;
           ^
   symbol:   class ItemTouchHelper
   location: class MultiViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/android/support/v7/widget/SpanSizeLookup.java:30: error: package GridLayoutManager does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/android/support/v7/widget/SpanSizeLookup.java:30: error: package GridLayoutManager does not exist
 public class SpanSizeLookup extends GridLayoutManager.SpanSizeLookup {
                                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:183: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:183: error: package RecyclerView does not exist
   public RecyclerView.ItemDecoration getItemDecoration() {
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:193: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:193: error: cannot find symbol
   public ItemTouchHelper getItemTouchHelper() {
          ^
   symbol:   class ItemTouchHelper
   location: class MultiViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:220: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:220: error: cannot find symbol
   public @PositionType int getPositionType(RecyclerView parent, int adapterPosition) {
                                            ^
   symbol:   class RecyclerView
   location: class MultiViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:252: error: package GridLayoutManager does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:252: error: package GridLayoutManager does not exist
   public GridLayoutManager.SpanSizeLookup getSpanSizeLookup() {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/util/InfiniteLoadingHelper.java:19: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/util/InfiniteLoadingHelper.java:19: error: package android.support.annotation does not exist
 import android.support.annotation.LayoutRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/util/InfiniteLoadingHelper.java:20: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/util/InfiniteLoadingHelper.java:20: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/util/InfiniteLoadingHelper.java:21: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/util/InfiniteLoadingHelper.java:21: error: package android.support.annotation does not exist
 import android.support.annotation.RestrictTo;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/util/InfiniteLoadingHelper.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/util/InfiniteLoadingHelper.java:22: error: cannot find symbol
 import android.support.v7.widget.LinearLayoutManager;
                                 ^
   symbol:   class LinearLayoutManager
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/util/InfiniteLoadingHelper.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/util/InfiniteLoadingHelper.java:23: error: cannot find symbol
 import android.support.v7.widget.RecyclerView;
                                 ^
   symbol:   class RecyclerView
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/util/InfiniteLoadingHelper.java:24: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/util/InfiniteLoadingHelper.java:24: error: cannot find symbol
 import android.support.v7.widget.StaggeredGridLayoutManager;
                                 ^
   symbol:   class StaggeredGridLayoutManager
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:402: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:402: error: cannot find symbol
   public final void drawDecoration(@NonNull Canvas canvas, @NonNull RecyclerView parent,
                                                                     ^
   symbol:   class RecyclerView
   location: class MultiViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:403: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:403: error: package RecyclerView does not exist
       @NonNull RecyclerView.State state, View child, int adapterPosition) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:409: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:409: error: cannot find symbol
   public final void drawDecorationOver(@NonNull Canvas canvas, @NonNull RecyclerView parent,
                                                                         ^
   symbol:   class RecyclerView
   location: class MultiViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:410: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:410: error: package RecyclerView does not exist
       @NonNull RecyclerView.State state, View child, int adapterPosition) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:417: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:417: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                ^
   symbol:   class RecyclerView
   location: class MultiViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:417: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:417: error: package RecyclerView does not exist
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:539: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:539: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                ^
   symbol:   class RecyclerView
   location: class MultiViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:539: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:539: error: package RecyclerView does not exist
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:544: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:544: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                ^
   symbol:   class RecyclerView
   location: class MultiViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:544: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:544: error: package RecyclerView does not exist
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:549: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:549: error: cannot find symbol
   private void drawItemDecoration(@NonNull Canvas canvas, @NonNull RecyclerView parent,
                                                                    ^
   symbol:   class RecyclerView
   location: class MultiViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:550: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:550: error: package RecyclerView does not exist
       @NonNull RecyclerView.State state, View child, int adapterPosition) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:555: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:555: error: cannot find symbol
   private void drawItemDecorationOver(@NonNull Canvas canvas, @NonNull RecyclerView parent,
                                                                        ^
   symbol:   class RecyclerView
   location: class MultiViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:556: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:556: error: package RecyclerView does not exist
       @NonNull RecyclerView.State state, View child, int adapterPosition) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:561: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:561: error: cannot find symbol
   private void drawSectionDecoration(@NonNull Canvas canvas, @NonNull RecyclerView parent,
                                                                       ^
   symbol:   class RecyclerView
   location: class MultiViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:562: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:562: error: package RecyclerView does not exist
       @NonNull RecyclerView.State state, View child, int adapterPosition) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:567: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:567: error: cannot find symbol
   private void drawSectionDecorationOver(@NonNull Canvas canvas, @NonNull RecyclerView parent,
                                                                           ^
   symbol:   class RecyclerView
   location: class MultiViewAdapter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:568: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/MultiViewAdapter.java:568: error: package RecyclerView does not exist
       @NonNull RecyclerView.State state, View child, int adapterPosition) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:167: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:167: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, View child,
                ^
   symbol:   class RecyclerView
   location: class NestedSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:167: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:167: error: package RecyclerView does not exist
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, View child,
                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:174: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:174: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, View child,
                ^
   symbol:   class RecyclerView
   location: class NestedSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:174: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:174: error: package RecyclerView does not exist
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, View child,
                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:181: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:181: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                ^
   symbol:   class RecyclerView
   location: class NestedSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:181: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:181: error: package RecyclerView does not exist
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:284: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:284: error: cannot find symbol
       LayoutManager layoutManager) {
       ^
   symbol:   class LayoutManager
   location: class NestedSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:413: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:413: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, View child,
                ^
   symbol:   class RecyclerView
   location: class NestedSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:413: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:413: error: package RecyclerView does not exist
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, View child,
                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:426: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:426: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, View child,
                ^
   symbol:   class RecyclerView
   location: class NestedSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:426: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:426: error: package RecyclerView does not exist
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, View child,
                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:439: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:439: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                ^
   symbol:   class RecyclerView
   location: class NestedSection
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:439: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/NestedSection.java:439: error: package RecyclerView does not exist
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/Decorator.java:21: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/Decorator.java:21: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/Decorator.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/Decorator.java:22: error: cannot find symbol
 import android.support.v7.widget.GridLayoutManager;
                                 ^
   symbol:   class GridLayoutManager
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/Decorator.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/Decorator.java:23: error: cannot find symbol
 import android.support.v7.widget.LinearLayoutManager;
                                 ^
   symbol:   class LinearLayoutManager
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/Decorator.java:24: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/Decorator.java:24: error: cannot find symbol
 import android.support.v7.widget.RecyclerView;
                                 ^
   symbol:   class RecyclerView
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/PositionType.java:19: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/PositionType.java:19: error: package android.support.annotation does not exist
 import android.support.annotation.IntDef;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/PositionType.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/PositionType.java:20: error: cannot find symbol
 import android.support.v7.widget.GridLayoutManager;
                                 ^
   symbol:   class GridLayoutManager
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/PositionType.java:21: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/PositionType.java:21: error: cannot find symbol
 import android.support.v7.widget.RecyclerView;
                                 ^
   symbol:   class RecyclerView
   location: package android.support.v7.widget
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/PositionType.java:59: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/decorator/PositionType.java:59: error: cannot find symbol
 @Retention(RetentionPolicy.SOURCE) @IntDef({
                                     ^
   symbol: class IntDef
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:306: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:306: error: cannot find symbol
   void drawDecoration(int itemPosition, @NonNull Canvas canvas, @NonNull RecyclerView parent,
                                                                          ^
   symbol:   class RecyclerView
   location: class Section
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:307: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:307: error: package RecyclerView does not exist
       @NonNull RecyclerView.State state, View child, int adapterPosition) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:315: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:315: error: cannot find symbol
   void drawDecorationOver(int itemPosition, @NonNull Canvas canvas, @NonNull RecyclerView parent,
                                                                              ^
   symbol:   class RecyclerView
   location: class Section
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:316: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:316: error: package RecyclerView does not exist
       @NonNull RecyclerView.State state, View child, int adapterPosition) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:325: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:325: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                ^
   symbol:   class RecyclerView
   location: class Section
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:325: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:325: error: package RecyclerView does not exist
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state, int adapterPosition) {
                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:333: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:333: error: cannot find symbol
   boolean isReverseLayout(LayoutManager layoutManager) {
                           ^
   symbol:   class LayoutManager
   location: class Section
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:338: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:338: error: cannot find symbol
   boolean isVertical(LayoutManager layoutManager) {
                      ^
   symbol:   class LayoutManager
   location: class Section
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:393: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/Section.java:393: error: cannot find symbol
   abstract int getPositionType(int itemPosition, int adapterPosition, LayoutManager layoutManager);
                                                                       ^
   symbol:   class LayoutManager
   location: class Section
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:216: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:216: error: cannot find symbol
   void drawItemDecoration(@NonNull Canvas canvas, @NonNull RecyclerView parent,
                                                            ^
   symbol:   class RecyclerView
@@ -1203,10 +1203,10 @@ import android.support.v7.widget.RecyclerView;
   where M,VH are type-variables:
     M extends Object declared in class ItemBinder
     VH extends ItemViewHolder<M> declared in class ItemBinder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:217: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:217: error: package RecyclerView does not exist
       @NonNull RecyclerView.State state, View child, int adapterPosition) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:223: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:223: error: cannot find symbol
   void drawItemDecorationOver(@NonNull Canvas canvas, @NonNull RecyclerView parent,
                                                                ^
   symbol:   class RecyclerView
@@ -1214,10 +1214,10 @@ import android.support.v7.widget.RecyclerView;
   where M,VH are type-variables:
     M extends Object declared in class ItemBinder
     VH extends ItemViewHolder<M> declared in class ItemBinder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:224: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:224: error: package RecyclerView does not exist
       @NonNull RecyclerView.State state, View child, int adapterPosition) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:230: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:230: error: cannot find symbol
   void getItemOffsets(@NonNull Rect outRect, @NonNull View view, @NonNull RecyclerView parent,
                                                                           ^
   symbol:   class RecyclerView
@@ -1225,31 +1225,31 @@ import android.support.v7.widget.RecyclerView;
   where M,VH are type-variables:
     M extends Object declared in class ItemBinder
     VH extends ItemViewHolder<M> declared in class ItemBinder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:231: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/ItemBinder.java:231: error: package RecyclerView does not exist
       @NonNull RecyclerView.State state, int adapterPosition) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:40: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:40: error: cannot find symbol
   @Override public void onDraw(@NonNull Canvas canvas, @NonNull RecyclerView parent,
                                                                 ^
   symbol:   class RecyclerView
   location: class DecorationDelegate
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:41: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:41: error: package RecyclerView does not exist
       @NonNull RecyclerView.State state) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:53: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:53: error: cannot find symbol
   @Override public void onDrawOver(@NonNull Canvas canvas, @NonNull RecyclerView parent,
                                                                     ^
   symbol:   class RecyclerView
   location: class DecorationDelegate
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:54: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:54: error: package RecyclerView does not exist
       @NonNull RecyclerView.State state) {
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:59: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:59: error: cannot find symbol
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state) {
                ^
   symbol:   class RecyclerView
   location: class DecorationDelegate
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:59: error: package RecyclerView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/multi-view-adapter/src/main/java/mva2/adapter/internal/DecorationDelegate.java:59: error: package RecyclerView does not exist
       @NonNull RecyclerView parent, @NonNull RecyclerView.State state) {
                                                          ^
 100 warnings
@@ -1331,15 +1331,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 13s
+BUILD SUCCESSFUL in 12s
 50 actionable tasks: 30 executed, 20 up-to-date
 
-2019-07-26 20:51:04,014 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-26 20:51:04,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-26 20:51:10,161 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-26 20:51:10,162 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-26 20:51:10,162 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-26 20:51:41,890 INFO  SysUtils - > Task :buildSrc:compileJava UP-TO-DATE
+2019-08-12 11:19:51,751 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-12 11:19:51,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-12 11:19:57,995 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-12 11:19:57,995 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-12 11:19:57,995 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-12 11:20:40,099 INFO  SysUtils - > Task :buildSrc:compileJava UP-TO-DATE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:processResources NO-SOURCE
 > Task :buildSrc:classes UP-TO-DATE
@@ -1438,9 +1438,9 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 
 > Task :sample:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
 > Task :sample:compileDebugNdk NO-SOURCE
-Note: Recompile with -Xlint:deprecation for details.
 > Task :sample:compileDebugSources
 > Task :multi-view-adapter:mergeDebugShaders UP-TO-DATE
 > Task :multi-view-adapter:compileDebugShaders UP-TO-DATE
@@ -1460,6 +1460,9 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :sample:mergeDebugAssets
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.core.runtime.ModifiedSystemClassRuntime$1` is correct. Desugaring will assume that this interface has no default method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Type `java.lang.management.ManagementFactory` was not found, it is required for default or static interface methods desugaring of `void org.jacoco.agent.rt.internal_8ff85ea.JmxRegistration.<init>(org.jacoco.agent.rt.IAgent)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.7.9/a6ac9cca89d889222a40dab9dd5039bfd22a4cff/org.jacoco.agent-0.7.9-runtime.jar: D8: Interface `java.lang.instrument.ClassFileTransformer` not found. It's needed to make sure desugaring of `org.jacoco.agent.rt.internal_8ff85ea.CoverageTransformer` is correct. Desugaring will assume that this interface has no default method.
 > Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :sample:transformDexArchiveWithDexMergerForDebug
@@ -1554,7 +1557,10 @@ Note: Recompile with -Xlint:deprecation for details.
 
 > Task :sample:compileReleaseNdk NO-SOURCE
 > Task :sample:compileReleaseSources
+
 > Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/fc5930db70b84a060c089c31d462c196/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :multi-view-adapter:mergeReleaseShaders UP-TO-DATE
 > Task :multi-view-adapter:compileReleaseShaders UP-TO-DATE
 > Task :multi-view-adapter:generateReleaseAssets UP-TO-DATE
@@ -1604,7 +1610,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 31s
+BUILD SUCCESSFUL in 41s
 157 actionable tasks: 61 executed, 96 up-to-date
 
-2019-07-26 20:51:42,039 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564148644235-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-08-12 11:20:40,243 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583371486-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

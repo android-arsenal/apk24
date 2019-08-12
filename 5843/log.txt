@@ -1,33 +1,40 @@
-2019-07-20 15:00:21,160 INFO  DownloadService - Downloading "https://github.com/whalemare/sheetmenu/archive/master.zip", attempt 3
-2019-07-20 15:00:23,002 INFO  DownloadService - Downloaded https://github.com/whalemare/sheetmenu/archive/master.zip, attempt 3
-2019-07-20 15:00:23,003 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/master.zip": 3 MB
-2019-07-20 15:00:23,003 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-20 15:00:23,004 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/master.zip: true
-2019-07-20 15:00:23,004 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src'.
-2019-07-20 15:00:23,054 INFO  FullProcessService - Size of directory with sources: 5 MB
-2019-07-20 15:00:23,054 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src]
-2019-07-20 15:00:23,071 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/.git/
+2019-08-12 11:13:56,731 INFO  DownloadService - Downloading "https://github.com/whalemare/sheetmenu/archive/master.zip", attempt 3
+2019-08-12 11:14:00,509 INFO  DownloadService - Downloaded https://github.com/whalemare/sheetmenu/archive/master.zip, attempt 3
+2019-08-12 11:14:00,509 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/master.zip": 3 MB
+2019-08-12 11:14:00,509 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-12 11:14:00,516 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/master.zip: true
+2019-08-12 11:14:00,516 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src'.
+2019-08-12 11:14:00,574 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-08-12 11:14:00,574 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src]
+2019-08-12 11:14:00,590 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/.git/
 
-2019-07-20 15:00:23,073 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/gradlew
-2019-07-20 15:00:23,076 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/sheetmenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/build.gradle
-2019-07-20 15:00:23,079 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/sheetmenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/settings.gradle
-2019-07-20 15:00:23,082 INFO  ProjectBuildService - Remote scripts: none
-2019-07-20 15:00:23,083 INFO  ProjectFixService - Fixing project...
-2019-07-20 15:00:23,090 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/app/local.properties
-2019-07-20 15:00:23,090 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-20 15:00:23,090 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/sheetmenu/local.properties
-2019-07-20 15:00:23,091 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/sheetmenu/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-20 15:00:23,091 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/local.properties
-2019-07-20 15:00:23,092 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2-all.zip
-2019-07-20 15:00:23,092 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2-bin.zip)
-2019-07-20 15:00:23,093 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-07-20 15:00:23,093 INFO  ProjectFixService - Project was maybe fixed
-2019-07-20 15:00:23,093 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-20 15:00:23,094 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-20 15:00:31,095 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-07-20 15:00:31,095 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-20 15:00:31,095 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-20 15:01:13,464 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-12 11:14:00,594 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/gradlew
+2019-08-12 11:14:00,597 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/sheetmenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/build.gradle
+2019-08-12 11:14:00,599 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/sheetmenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/settings.gradle
+2019-08-12 11:14:00,600 INFO  ProjectBuildService - Remote scripts: none
+2019-08-12 11:14:00,600 INFO  ProjectFixService - Fixing project...
+2019-08-12 11:14:00,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/app/local.properties
+2019-08-12 11:14:00,609 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-08-12 11:14:00,609 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/sheetmenu/local.properties
+2019-08-12 11:14:00,610 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/sheetmenu/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-08-12 11:14:00,610 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/local.properties
+2019-08-12 11:14:00,611 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2-all.zip
+2019-08-12 11:14:00,611 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2-bin.zip)
+2019-08-12 11:14:00,612 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-08-12 11:14:00,612 INFO  ProjectFixService - Project was maybe fixed
+2019-08-12 11:14:00,612 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-12 11:14:00,612 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-12 11:14:11,246 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-12 11:14:11,246 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-12 11:14:11,247 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-12 11:14:58,626 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Configure project :sheetmenu
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
 > Task :app:preBuild UP-TO-DATE
 > Task :sheetmenu:preBuild UP-TO-DATE
 > Task :sheetmenu:preDebugBuild UP-TO-DATE
@@ -37,13 +44,13 @@
 > Task :sheetmenu:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :sheetmenu:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :sheetmenu:compileDebugRenderscript
+> Task :sheetmenu:compileDebugRenderscript NO-SOURCE
 > Task :sheetmenu:generateDebugResValues
 > Task :sheetmenu:generateDebugResources
 > Task :sheetmenu:packageDebugResources
@@ -58,14 +65,16 @@
 > Task :sheetmenu:generateDebugSources
 > Task :sheetmenu:javaPreCompileDebug
 > Task :sheetmenu:compileDebugJavaWithJavac
-> Task :sheetmenu:processDebugJavaRes NO-SOURCE
-> Task :sheetmenu:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :sheetmenu:bundleLibCompileDebug
+
 > Task :app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/app/src/main/java/ru/whalemare/bottomsheet/MainActivityKotlin.kt: (22, 106): Parameter 'menuItem' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/app/src/main/java/ru/whalemare/bottomsheet/MainActivityKotlin.kt: (23, 99): Parameter 'index' is never used, could be renamed to _
+
 > Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugNdk NO-SOURCE
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -75,14 +84,17 @@
 > Task :sheetmenu:generateDebugAssets
 > Task :sheetmenu:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :sheetmenu:processDebugJavaRes NO-SOURCE
+> Task :sheetmenu:bundleLibResDebug
+> Task :sheetmenu:bundleLibRuntimeDebug
 > Task :sheetmenu:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
 > Task :app:mergeExtDexDebug
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:mergeDexDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :sheetmenu:compileDebugNdk NO-SOURCE
 > Task :sheetmenu:mergeDebugJniLibFolders
 > Task :sheetmenu:transformNativeLibsWithMergeJniLibsForDebug
 > Task :sheetmenu:transformNativeLibsWithStripDebugSymbolForDebug
@@ -100,13 +112,13 @@
 > Task :sheetmenu:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :sheetmenu:packageReleaseRenderscript NO-SOURCE
-> Task :app:compileReleaseRenderscript
+> Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :sheetmenu:compileReleaseRenderscript
+> Task :sheetmenu:compileReleaseRenderscript NO-SOURCE
 > Task :sheetmenu:generateReleaseResValues
 > Task :sheetmenu:generateReleaseResources
 > Task :sheetmenu:packageReleaseResources
@@ -120,15 +132,21 @@
 > Task :sheetmenu:generateReleaseSources
 > Task :sheetmenu:javaPreCompileRelease
 > Task :sheetmenu:compileReleaseJavaWithJavac
-> Task :sheetmenu:processReleaseJavaRes NO-SOURCE
-> Task :sheetmenu:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sheetmenu:bundleLibCompileRelease
+
 > Task :app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/app/src/main/java/ru/whalemare/bottomsheet/MainActivityKotlin.kt: (22, 106): Parameter 'menuItem' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/app/src/main/java/ru/whalemare/bottomsheet/MainActivityKotlin.kt: (23, 99): Parameter 'index' is never used, could be renamed to _
+
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
+> Task :sheetmenu:processReleaseJavaRes NO-SOURCE
+> Task :sheetmenu:bundleLibResRelease
+> Task :sheetmenu:bundleLibRuntimeRelease
 > Task :sheetmenu:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:mergeExtDexRelease
 > Task :app:jacocoRelease
 > Task :app:transformClassesWithDexBuilderForRelease
@@ -143,7 +161,6 @@
 > Task :app:mergeReleaseAssets
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :sheetmenu:compileReleaseNdk NO-SOURCE
 > Task :sheetmenu:mergeReleaseJniLibFolders
 > Task :sheetmenu:transformNativeLibsWithMergeJniLibsForRelease
 > Task :sheetmenu:transformNativeLibsWithStripDebugSymbolForRelease
@@ -161,7 +178,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 41s
-92 actionable tasks: 92 executed
+BUILD SUCCESSFUL in 46s
+94 actionable tasks: 94 executed
 
-2019-07-20 15:01:13,547 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563609621158-0/src/sheetmenu-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-12 11:14:58,699 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565583236728-0/src/sheetmenu-master/app/build/outputs/apk/debug/app-debug.apk
