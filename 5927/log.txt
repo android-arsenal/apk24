@@ -1,38 +1,38 @@
-2019-07-29 10:22:08,144 INFO  DownloadService - Downloading "https://github.com/PrivacyStreams/PrivacyStreams/archive/master.zip", attempt 3
-2019-07-29 10:22:11,348 INFO  DownloadService - Downloaded https://github.com/PrivacyStreams/PrivacyStreams/archive/master.zip, attempt 3
-2019-07-29 10:22:11,349 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/master.zip": 989 KB
-2019-07-29 10:22:11,349 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-29 10:22:11,352 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/master.zip: true
-2019-07-29 10:22:11,352 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src'.
-2019-07-29 10:22:11,463 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-07-29 10:22:11,463 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src]
-2019-07-29 10:22:11,484 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/.git/
+2019-08-13 15:23:48,064 INFO  DownloadService - Downloading "https://github.com/PrivacyStreams/PrivacyStreams/archive/master.zip", attempt 3
+2019-08-13 15:23:51,773 INFO  DownloadService - Downloaded https://github.com/PrivacyStreams/PrivacyStreams/archive/master.zip, attempt 3
+2019-08-13 15:23:51,773 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/master.zip": 989 KB
+2019-08-13 15:23:51,773 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-13 15:23:51,774 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/master.zip: true
+2019-08-13 15:23:51,775 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src'.
+2019-08-13 15:23:51,884 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-08-13 15:23:51,884 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src]
+2019-08-13 15:23:51,903 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/.git/
 
-2019-07-29 10:22:11,492 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/gradlew
-2019-07-29 10:22:11,502 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/privacystreams-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/doclet/build.gradle
-2019-07-29 10:22:11,512 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/privacystreams-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/doclet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/settings.gradle
-2019-07-29 10:22:11,513 INFO  ProjectBuildService - Remote scripts: none
-2019-07-29 10:22:11,513 INFO  ProjectFixService - Fixing project...
-2019-07-29 10:22:11,533 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/privacystreams-android-sdk/local.properties
-2019-07-29 10:22:11,533 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-29 10:22:11,533 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/privacystreams-app/local.properties
-2019-07-29 10:22:11,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/privacystreams-app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-29 10:22:11,534 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/test/local.properties
-2019-07-29 10:22:11,535 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/test/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-29 10:22:11,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/local.properties
-2019-07-29 10:22:11,535 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-07-29 10:22:11,536 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-07-29 10:22:11,536 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-29 10:22:11,537 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/doclet/local.properties
-2019-07-29 10:22:11,537 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/doclet/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-29 10:22:11,538 INFO  ProjectFixService - Project was maybe fixed
-2019-07-29 10:22:11,538 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 10:22:11,538 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 10:22:17,265 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-29 10:22:17,265 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-29 10:22:17,265 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-29 10:22:17,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-29 10:22:19,487 ERROR SysUtils - Could not process external command
+2019-08-13 15:23:51,915 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/gradlew
+2019-08-13 15:23:51,924 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/privacystreams-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/doclet/build.gradle
+2019-08-13 15:23:51,933 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/privacystreams-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/doclet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/settings.gradle
+2019-08-13 15:23:51,933 INFO  ProjectBuildService - Remote scripts: none
+2019-08-13 15:23:51,933 INFO  ProjectFixService - Fixing project...
+2019-08-13 15:23:51,953 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/privacystreams-android-sdk/local.properties
+2019-08-13 15:23:51,953 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-08-13 15:23:51,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/privacystreams-app/local.properties
+2019-08-13 15:23:51,954 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/privacystreams-app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-08-13 15:23:51,954 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/test/local.properties
+2019-08-13 15:23:51,955 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/test/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-08-13 15:23:51,955 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/local.properties
+2019-08-13 15:23:51,955 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-08-13 15:23:51,955 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-08-13 15:23:51,956 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-08-13 15:23:51,957 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/doclet/local.properties
+2019-08-13 15:23:51,957 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/doclet/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-08-13 15:23:51,957 INFO  ProjectFixService - Project was maybe fixed
+2019-08-13 15:23:51,957 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 15:23:51,957 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 15:24:10,952 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-13 15:24:10,952 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-13 15:24:10,952 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-13 15:24:10,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/privacystreams-android-sdk/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-13 15:24:13,136 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-29 10:22:19,487 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 15:24:13,136 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -212,13 +212,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-07-29 10:22:19,499 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 10:22:19,499 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/privacystreams-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 10:22:21,731 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-29 10:22:21,731 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-29 10:22:21,731 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-29 10:22:21,731 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/privacystreams-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-29 10:22:24,599 ERROR SysUtils - Could not process external command
+2019-08-13 15:24:13,147 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 15:24:13,147 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/privacystreams-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 15:24:15,323 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-13 15:24:15,323 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-13 15:24:15,323 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-13 15:24:15,324 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/privacystreams-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-13 15:24:17,479 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -246,7 +246,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-29 10:22:24,599 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 15:24:17,479 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -398,13 +398,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-07-29 10:22:24,608 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 10:22:24,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 10:22:27,322 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-29 10:22:27,322 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-29 10:22:27,322 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-29 10:22:27,322 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-29 10:22:29,572 ERROR SysUtils - Could not process external command
+2019-08-13 15:24:17,488 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 15:24:17,488 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 15:24:19,590 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-13 15:24:19,590 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-13 15:24:19,590 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-13 15:24:19,590 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-13 15:24:21,802 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -432,7 +432,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-29 10:22:29,572 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 15:24:21,802 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -584,13 +584,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-07-29 10:22:29,582 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 10:22:29,582 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 10:22:31,878 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-29 10:22:31,878 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-29 10:22:31,878 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-29 10:22:31,878 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-29 10:22:34,249 ERROR SysUtils - Could not process external command
+2019-08-13 15:24:21,814 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 15:24:21,814 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 15:24:23,970 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-13 15:24:23,971 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-13 15:24:23,971 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-13 15:24:23,971 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-13 15:24:26,125 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -618,7 +618,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-29 10:22:34,249 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 15:24:26,125 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -770,13 +770,13 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-07-29 10:22:34,260 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-29 10:22:34,260 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/doclet/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-29 10:22:36,488 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-29 10:22:36,488 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-07-29 10:22:36,488 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-07-29 10:22:36,488 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564370528140-0/src/PrivacyStreams-master/doclet/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-29 10:22:39,363 ERROR SysUtils - Could not process external command
+2019-08-13 15:24:26,137 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-13 15:24:26,137 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/doclet/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-13 15:24:28,324 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-08-13 15:24:28,324 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-08-13 15:24:28,324 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-08-13 15:24:28,324 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565684628056-0/src/PrivacyStreams-master/doclet/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-13 15:24:30,501 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -804,7 +804,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-29 10:22:39,364 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-13 15:24:30,501 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -956,5 +956,5 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-07-29 10:22:39,375 ERROR FullProcessService - Project build has not produced APK file
-2019-07-29 10:22:39,386 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-13 15:24:30,513 ERROR FullProcessService - Project build has not produced APK file
+2019-08-13 15:24:30,522 ERROR FullProcessService - Could not find generated or existed APK file
