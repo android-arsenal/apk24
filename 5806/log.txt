@@ -1,33 +1,33 @@
-2019-03-16 21:17:21,527 INFO  DownloadService - Downloading "https://github.com/Hamadakram/Sneaker/archive/master.zip", attempt 3
-2019-03-16 21:17:27,024 INFO  DownloadService - Downloaded https://github.com/Hamadakram/Sneaker/archive/master.zip, attempt 3
-2019-03-16 21:17:27,025 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/master.zip": 429 KB
-2019-03-16 21:17:27,025 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-16 21:17:27,030 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/master.zip: true
-2019-03-16 21:17:27,030 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src'.
-2019-03-16 21:17:27,058 INFO  FullProcessService - Size of directory with sources: 564 KB
-2019-03-16 21:17:27,058 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src]
-2019-03-16 21:17:27,080 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/.git/
+2019-10-01 12:42:59,810 INFO  DownloadService - Downloading "https://github.com/Hamadakram/Sneaker/archive/master.zip", attempt 3
+2019-10-01 12:43:02,445 INFO  DownloadService - Downloaded https://github.com/Hamadakram/Sneaker/archive/master.zip, attempt 3
+2019-10-01 12:43:02,445 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/master.zip": 429 KB
+2019-10-01 12:43:02,445 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-01 12:43:02,450 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/master.zip: true
+2019-10-01 12:43:02,451 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src'.
+2019-10-01 12:43:02,476 INFO  FullProcessService - Size of directory with sources: 564 KB
+2019-10-01 12:43:02,476 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src]
+2019-10-01 12:43:02,500 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/.git/
 
-2019-03-16 21:17:27,084 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/gradlew
-2019-03-16 21:17:27,087 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/sneaker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/build.gradle
-2019-03-16 21:17:27,091 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/sneaker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/settings.gradle
-2019-03-16 21:17:27,091 INFO  ProjectBuildService - Remote scripts: none
-2019-03-16 21:17:27,091 INFO  ProjectFixService - Fixing project...
-2019-03-16 21:17:27,099 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/app/local.properties
-2019-03-16 21:17:27,100 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-16 21:17:27,100 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/sneaker/local.properties
-2019-03-16 21:17:27,101 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/sneaker/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-16 21:17:27,101 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/local.properties
-2019-03-16 21:17:27,102 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-16 21:17:27,102 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-16 21:17:27,103 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
-2019-03-16 21:17:27,103 INFO  ProjectFixService - Project was maybe fixed
-2019-03-16 21:17:27,103 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-16 21:17:27,104 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-16 21:17:34,787 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-16 21:17:34,787 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-16 21:17:34,787 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-16 21:18:22,181 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-01 12:43:02,502 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/gradlew
+2019-10-01 12:43:02,505 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/sneaker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/build.gradle
+2019-10-01 12:43:02,507 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/sneaker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/settings.gradle
+2019-10-01 12:43:02,507 INFO  ProjectBuildService - Remote scripts: none
+2019-10-01 12:43:02,507 INFO  ProjectFixService - Fixing project...
+2019-10-01 12:43:02,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/app/local.properties
+2019-10-01 12:43:02,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-01 12:43:02,514 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/sneaker/local.properties
+2019-10-01 12:43:02,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/sneaker/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-10-01 12:43:02,515 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/local.properties
+2019-10-01 12:43:02,515 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-10-01 12:43:02,516 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-10-01 12:43:02,517 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-10-01 12:43:02,517 INFO  ProjectFixService - Project was maybe fixed
+2019-10-01 12:43:02,517 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-01 12:43:02,517 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-01 12:43:10,817 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-01 12:43:10,817 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-01 12:43:10,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-01 12:43:51,395 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
@@ -104,7 +104,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 46s
+BUILD SUCCESSFUL in 39s
 53 actionable tasks: 53 executed
 
-2019-03-16 21:18:22,260 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552745841524-0/src/Sneaker-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-01 12:43:51,457 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908579806-0/src/Sneaker-master/app/build/outputs/apk/debug/app-debug.apk

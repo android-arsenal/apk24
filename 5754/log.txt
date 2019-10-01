@@ -1,71 +1,47 @@
-2019-08-10 20:25:50,250 INFO  DownloadService - Downloading "https://github.com/hypertrack/hypertrack-live-android/archive/master.zip", attempt 3
-2019-08-10 20:25:54,345 INFO  DownloadService - Downloaded https://github.com/hypertrack/hypertrack-live-android/archive/master.zip, attempt 3
-2019-08-10 20:25:54,345 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/master.zip": 1 MB
-2019-08-10 20:25:54,345 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-10 20:25:54,346 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/master.zip: true
-2019-08-10 20:25:54,346 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src'.
-2019-08-10 20:25:54,392 INFO  FullProcessService - Size of directory with sources: 2 MB
-2019-08-10 20:25:54,392 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src]
-2019-08-10 20:25:54,413 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/.git/
+2019-10-01 12:45:43,079 INFO  DownloadService - Downloading "https://github.com/hypertrack/hypertrack-live-android/archive/master.zip", attempt 3
+2019-10-01 12:45:46,214 INFO  DownloadService - Downloaded https://github.com/hypertrack/hypertrack-live-android/archive/master.zip, attempt 3
+2019-10-01 12:45:46,215 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/master.zip": 1 MB
+2019-10-01 12:45:46,215 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-01 12:45:46,221 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/master.zip: true
+2019-10-01 12:45:46,221 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src'.
+2019-10-01 12:45:46,262 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-10-01 12:45:46,262 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src]
+2019-10-01 12:45:46,280 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/.git/
 
-2019-08-10 20:25:54,416 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/gradlew
-2019-08-10 20:25:54,420 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/build.gradle
-2019-08-10 20:25:54,423 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/settings.gradle
-2019-08-10 20:25:54,424 INFO  ProjectBuildService - Remote scripts: none
-2019-08-10 20:25:54,424 INFO  ProjectFixService - Fixing project...
-2019-08-10 20:25:54,431 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/app/local.properties
-2019-08-10 20:25:54,432 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=28]
-2019-08-10 20:25:54,432 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/local.properties
-2019-08-10 20:25:54,433 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-10 20:25:54,433 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-10 20:25:54,434 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=28]
-2019-08-10 20:25:54,434 INFO  ProjectFixService - Project was maybe fixed
-2019-08-10 20:25:54,434 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-10 20:25:54,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-10 20:26:03,594 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-08-10 20:26:03,595 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-10 20:26:03,595 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-10 20:27:29,651 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2019-08-10 20:27:29,651 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-01 12:45:46,283 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/gradlew
+2019-10-01 12:45:46,287 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/build.gradle
+2019-10-01 12:45:46,290 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/settings.gradle
+2019-10-01 12:45:46,290 INFO  ProjectBuildService - Remote scripts: none
+2019-10-01 12:45:46,290 INFO  ProjectFixService - Fixing project...
+2019-10-01 12:45:46,298 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/app/local.properties
+2019-10-01 12:45:46,298 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/app/build.gradle": [buildToolsVersion=29.0.2,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-01 12:45:46,299 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-01 12:45:46,299 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/local.properties
+2019-10-01 12:45:46,300 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-10-01 12:45:46,300 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-10-01 12:45:46,301 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=29,minSdkVersion=19,targetSdkVersion=29]
+2019-10-01 12:45:46,301 INFO  ProjectFixService - Project was maybe fixed
+2019-10-01 12:45:46,301 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-01 12:45:46,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-01 12:45:57,105 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-10-01 12:45:57,105 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-01 12:45:57,106 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-01 12:47:10,991 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
-Live SDK version is 3.0.6
-rootProject.properties is [parent:null, classLoaderScope:org.gradle.api.internal.initialization.DefaultClassLoaderScope@4a336377, buildDir:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/build, configurations:[], plugins:[org.gradle.buildinit.plugins.BuildInitPlugin@65af05b2, org.gradle.buildinit.plugins.WrapperPlugin@11ad095c, org.gradle.api.plugins.HelpTasksPlugin@2c2a903f], scriptHandlerFactory:org.gradle.api.internal.initialization.DefaultScriptHandlerFactory@7d537616, objects:org.gradle.api.internal.model.DefaultObjectFactory@604c7e9b, logger:org.gradle.internal.logging.slf4j.OutputEventListenerBackedLogger@19d27c27, deferredProjectConfiguration:org.gradle.api.internal.project.DeferredProjectConfiguration@6181bc4a, rootDir:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master, project:root project 'live-app-android-master', projectRegistry:org.gradle.api.internal.project.DefaultProjectRegistry@70485aa, android.useAndroidX:true, path::, org.gradle.daemon.performance.enable-monitoring:false, normalization:org.gradle.normalization.internal.DefaultInputNormalizationHandler_Decorated@4bf8b77, repositories:[org.gradle.api.internal.artifacts.repositories.DefaultMavenArtifactRepository_Decorated@e06ec83, org.gradle.api.internal.artifacts.repositories.DefaultMavenArtifactRepository_Decorated@628962e5], childProjects:[app:project ':app'], SDK:, scriptPluginFactory:org.gradle.configuration.ScriptPluginFactorySelector@410382cb, state:project state 'EXECUTED', resourceLoader:org.gradle.internal.resource.transfer.DefaultUriTextResourceLoader@399f5daf, org.gradle.configureondemand:true, serviceRegistryFactory:org.gradle.internal.service.scopes.ProjectScopeServices$4@c4cceb, tasks:[task ':buildEnvironment', task ':clean', task ':components', task ':dependencies', task ':dependencyInsight', task ':dependentComponents', task ':help', task ':init', task ':model', task ':projects', task ':properties', task ':tasks', task ':wrapper'], group:, artifacts:org.gradle.api.internal.artifacts.dsl.DefaultArtifactHandler_Decorated@3e39f08c, ext:org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension@16e07bae, projectDir:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master, INTERNAL__CHECKED_MINIMUM_PLUGIN_VERSIONS:true, dependencyLocking:org.gradle.internal.locking.DefaultDependencyLockingHandler_Decorated@598778cc, configurationTargetIdentifier:org.gradle.configuration.ConfigurationTargetIdentifier$1@3386ed8, projectEvaluationBroadcaster:ProjectEvaluationListener broadcast, projectPath::, module:org.gradle.api.internal.artifacts.ProjectBackedModule@1f71194d, inheritedScope:org.gradle.api.internal.ExtensibleDynamicObject$InheritedDynamicObject@727453a3, org.gradle.daemon:false, version:3.0.6, script:false, keystorePath:/home/denis/Android/hypertrack.jks, dependencies:org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler_Decorated@67dc6b48, fileResolver:org.gradle.api.internal.file.BaseDirFileResolver@57f2e67, extensions:org.gradle.api.internal.plugins.DefaultConvention@4571cebe, modelRegistry:org.gradle.model.internal.registry.DefaultModelRegistry@154864f8, project.upload.user:vbauer, projectEvaluator:org.gradle.configuration.project.LifecycleProjectEvaluator@11cadb32, projectConfigurator:org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator@6d3ad37a, name:live-app-android-master, logging:org.gradle.internal.logging.services.DefaultLoggingManager@26f5e45d, configurationActions:org.gradle.configuration.project.DefaultProjectConfigurationActionContainer@704c3bdf, buildscript:org.gradle.api.internal.initialization.DefaultScriptHandler@37986daf, isSnapshot:false, status:release, processOperations:org.gradle.api.internal.file.DefaultFileOperations@c82d925, subprojects:[project ':app'], components:[], asDynamicObject:DynamicObject for root project 'live-app-android-master', displayName:root project 'live-app-android-master', identityPath::, parentIdentifier:null, description:null, JU:, antBuilderFactory:org.gradle.api.internal.project.DefaultAntBuilderFactory@55c03e4, buildPath::, project.upload.host:braavos.market.yandex.net, fileOperations:org.gradle.api.internal.file.DefaultFileOperations@c82d925, pluginManager:org.gradle.api.internal.plugins.DefaultPluginManager_Decorated@14df5253, standardOutputCapture:org.gradle.internal.logging.services.DefaultLoggingManager@26f5e45d, NOTE:, defaultTasks:[], modelSchemaStore:org.gradle.model.internal.manage.schema.extract.DefaultModelSchemaStore@605eb072, class:class org.gradle.api.internal.project.DefaultProject_Decorated, buildScriptSource:org.gradle.groovy.scripts.TextResourceScriptSource@7a0f06ad, convention:org.gradle.api.internal.plugins.DefaultConvention@4571cebe, allprojects:[root project 'live-app-android-master', project ':app'], SNAPSHOT:, baseClassLoaderScope:org.gradle.api.internal.initialization.DefaultClassLoaderScope@1fa9692b, ant:org.gradle.api.internal.project.DefaultAntBuilder@710afd47, resources:org.gradle.api.internal.resources.DefaultResourceHandler@64420e34, services:ProjectScopeServices, clean:task ':clean', _internalAndroidGradlePluginDependencyCheckerRegistered:true, android.enableJetifier:true, gradle:build 'live-app-android-master', layout:org.gradle.api.internal.file.DefaultProjectLayout@667a467f, buildFile:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/build.gradle, depth:0, mutationState:project :, listenerBuildOperationDecorator:org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator@324e8baa, rootProject:root project 'live-app-android-master', properties:(this Map), providers:org.gradle.api.internal.provider.DefaultProviderFactory@1488a861]
+Live SDK version is 3.10.1
+rootProject.properties is [parent:null, classLoaderScope:org.gradle.api.internal.initialization.DefaultClassLoaderScope@208f7165, buildDir:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/build, configurations:[], plugins:[org.gradle.buildinit.plugins.BuildInitPlugin@a0d875d, org.gradle.buildinit.plugins.WrapperPlugin@693f2c89, org.gradle.api.plugins.HelpTasksPlugin@50b4364], scriptHandlerFactory:org.gradle.api.internal.initialization.DefaultScriptHandlerFactory@5e541ef9, objects:org.gradle.api.internal.model.DefaultObjectFactory@38054d01, logger:org.gradle.internal.logging.slf4j.OutputEventListenerBackedLogger@28ce75ec, deferredProjectConfiguration:org.gradle.api.internal.project.DeferredProjectConfiguration@778113f2, rootDir:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master, project:root project 'live-app-android-master', projectRegistry:org.gradle.api.internal.project.DefaultProjectRegistry@9dc782d, android.useAndroidX:true, path::, org.gradle.daemon.performance.enable-monitoring:false, normalization:org.gradle.normalization.internal.DefaultInputNormalizationHandler_Decorated@1ba35152, repositories:[org.gradle.api.internal.artifacts.repositories.DefaultMavenArtifactRepository_Decorated@401926df, org.gradle.api.internal.artifacts.repositories.DefaultMavenArtifactRepository_Decorated@3ff8a3ad], childProjects:[app:project ':app'], SDK:, scriptPluginFactory:org.gradle.configuration.ScriptPluginFactorySelector@550fa96f, state:project state 'EXECUTED', resourceLoader:org.gradle.internal.resource.transfer.DefaultUriTextResourceLoader@54275b5d, org.gradle.configureondemand:true, serviceRegistryFactory:org.gradle.internal.service.scopes.ProjectScopeServices$4@5d01b0d8, tasks:[task ':buildEnvironment', task ':clean', task ':components', task ':dependencies', task ':dependencyInsight', task ':dependentComponents', task ':help', task ':init', task ':model', task ':projects', task ':properties', task ':tasks', task ':wrapper'], group:, artifacts:org.gradle.api.internal.artifacts.dsl.DefaultArtifactHandler_Decorated@1fa9692b, ext:org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension@710afd47, projectDir:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master, INTERNAL__CHECKED_MINIMUM_PLUGIN_VERSIONS:true, dependencyLocking:org.gradle.internal.locking.DefaultDependencyLockingHandler_Decorated@64420e34, configurationTargetIdentifier:org.gradle.configuration.ConfigurationTargetIdentifier$1@667a467f, projectEvaluationBroadcaster:ProjectEvaluationListener broadcast, projectPath::, module:org.gradle.api.internal.artifacts.ProjectBackedModule@6da4feeb, inheritedScope:org.gradle.api.internal.ExtensibleDynamicObject$InheritedDynamicObject@324e8baa, org.gradle.daemon:false, version:3.10.1, script:false, dependencies:org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler_Decorated@1488a861, fileResolver:org.gradle.api.internal.file.BaseDirFileResolver@604f376a, extensions:org.gradle.api.internal.plugins.DefaultConvention@5432dca2, modelRegistry:org.gradle.model.internal.registry.DefaultModelRegistry@12670e55, project.upload.user:vbauer, projectEvaluator:org.gradle.configuration.project.LifecycleProjectEvaluator@43fd77d8, projectConfigurator:org.gradle.api.internal.project.BuildOperationCrossProjectConfigurator@5a90fcaa, name:live-app-android-master, logging:org.gradle.internal.logging.services.DefaultLoggingManager@1805ec96, configurationActions:org.gradle.configuration.project.DefaultProjectConfigurationActionContainer@32ba5c65, buildscript:org.gradle.api.internal.initialization.DefaultScriptHandler@1ad1be5d, status:release, processOperations:org.gradle.api.internal.file.DefaultFileOperations@47797401, subprojects:[project ':app'], components:[], asDynamicObject:DynamicObject for root project 'live-app-android-master', displayName:root project 'live-app-android-master', identityPath::, parentIdentifier:null, description:null, JU:, antBuilderFactory:org.gradle.api.internal.project.DefaultAntBuilderFactory@702f4124, buildPath::, project.upload.host:braavos.market.yandex.net, fileOperations:org.gradle.api.internal.file.DefaultFileOperations@47797401, pluginManager:org.gradle.api.internal.plugins.DefaultPluginManager_Decorated@10166230, standardOutputCapture:org.gradle.internal.logging.services.DefaultLoggingManager@1805ec96, NOTE:, defaultTasks:[], modelSchemaStore:org.gradle.model.internal.manage.schema.extract.DefaultModelSchemaStore@7221539, class:class org.gradle.api.internal.project.DefaultProject_Decorated, buildScriptSource:org.gradle.groovy.scripts.TextResourceScriptSource@b77b0a0, convention:org.gradle.api.internal.plugins.DefaultConvention@5432dca2, allprojects:[root project 'live-app-android-master', project ':app'], baseClassLoaderScope:org.gradle.api.internal.initialization.DefaultClassLoaderScope@15be68b, ant:org.gradle.api.internal.project.DefaultAntBuilder@22ff1372, resources:org.gradle.api.internal.resources.DefaultResourceHandler@356341c9, services:ProjectScopeServices, clean:task ':clean', _internalAndroidGradlePluginDependencyCheckerRegistered:true, android.enableJetifier:true, gradle:build 'live-app-android-master', layout:org.gradle.api.internal.file.DefaultProjectLayout@3a70575, buildFile:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/build.gradle, depth:0, mutationState:project :, listenerBuildOperationDecorator:org.gradle.configuration.internal.DefaultListenerBuildOperationDecorator@5d96d434, rootProject:root project 'live-app-android-master', properties:(this Map), providers:org.gradle.api.internal.provider.DefaultProviderFactory@7283877]
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.2.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
 
 > Task :app:preBuild UP-TO-DATE
 > Task :app:prepareLintJar
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:checkDebugManifest
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -136,107 +112,28 @@ Current version is: 1.4.94 (build 390954928f0db9c3b888a367f7f128ce3bbfb160 from 
 
 D8: Missing class: com.amazonaws.mobileconnectors.cognitoauth.handlers.AuthHandler
 
-D8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
-  <init>();
-}` uses extends but actually matches implements.
-
 > Task :app:crashlyticsStoreDeobsRelease
 > Task :app:crashlyticsUploadDeobsRelease
-> Task :app:validateSigningRelease FAILED
+> Task :app:signingConfigWriterRelease
 
-FAILURE: Build failed with an exception.
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/d0c2f03913483a88ce34a5c9321a5b56/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Removed unused resources: Binary resource data reduced from 2415KB to 2371KB: Removed 1%
 
-* What went wrong:
-Execution failed for task ':app:validateSigningRelease'.
-> Keystore file '/home/denis/Android/hypertrack-prod.jks' not found for signing config 'release'.
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:validateSigningRelease'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:95)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:91)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:57)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:119)
-	at org.gradle.api.internal.tasks.execution.ResolvePreviousStateExecuter.execute(ResolvePreviousStateExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:93)
-	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:45)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:94)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:56)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:55)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:67)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
-	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
-	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: org.gradle.api.InvalidUserDataException: Keystore file '/home/denis/Android/hypertrack-prod.jks' not found for signing config 'release'.
-	at com.android.build.gradle.internal.tasks.ValidateSigningTask.validate(ValidateSigningTask.kt:77)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:704)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:671)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$2.run(ExecuteActionsTaskExecuter.java:284)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
-	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:273)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:258)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:67)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:145)
-	at org.gradle.internal.execution.impl.steps.ExecuteStep.execute(ExecuteStep.java:49)
-	at org.gradle.internal.execution.impl.steps.CancelExecutionStep.execute(CancelExecutionStep.java:34)
-	at org.gradle.internal.execution.impl.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:69)
-	at org.gradle.internal.execution.impl.steps.TimeoutStep.execute(TimeoutStep.java:49)
-	at org.gradle.internal.execution.impl.steps.CatchExceptionStep.execute(CatchExceptionStep.java:33)
-	at org.gradle.internal.execution.impl.steps.CreateOutputsStep.execute(CreateOutputsStep.java:50)
-	at org.gradle.internal.execution.impl.steps.SnapshotOutputStep.execute(SnapshotOutputStep.java:43)
-	at org.gradle.internal.execution.impl.steps.SnapshotOutputStep.execute(SnapshotOutputStep.java:29)
-	at org.gradle.internal.execution.impl.steps.CacheStep.executeWithoutCache(CacheStep.java:134)
-	at org.gradle.internal.execution.impl.steps.CacheStep.lambda$execute$3(CacheStep.java:83)
-	at org.gradle.internal.execution.impl.steps.CacheStep.execute(CacheStep.java:82)
-	at org.gradle.internal.execution.impl.steps.CacheStep.execute(CacheStep.java:36)
-	at org.gradle.internal.execution.impl.steps.PrepareCachingStep.execute(PrepareCachingStep.java:33)
-	at org.gradle.internal.execution.impl.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:38)
-	at org.gradle.internal.execution.impl.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:23)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:52)
-	at org.gradle.internal.execution.impl.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:36)
-	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:34)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:91)
-	... 32 more
-
-
-* Get more help at https://help.gradle.org
+> Task :app:transformClassesAndDexWithShrinkResForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 1m 25s
-48 actionable tasks: 48 executed
+BUILD SUCCESSFUL in 1m 13s
+54 actionable tasks: 54 executed
 
-2019-08-10 20:27:29,788 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565443550245-0/src/live-app-android-master/app/build/outputs/apk/debug/app-debug.apk
+2019-10-01 12:47:11,084 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908743076-0/src/live-app-android-master/app/build/outputs/apk/debug/app-debug.apk
