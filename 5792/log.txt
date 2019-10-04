@@ -1,33 +1,33 @@
-2019-10-01 12:44:03,779 INFO  DownloadService - Downloading "https://github.com/AzureAD/microsoft-authentication-library-for-android/archive/master.zip", attempt 3
-2019-10-01 12:44:05,974 INFO  DownloadService - Downloaded https://github.com/AzureAD/microsoft-authentication-library-for-android/archive/master.zip, attempt 3
-2019-10-01 12:44:05,975 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/master.zip": 364 KB
-2019-10-01 12:44:05,975 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-01 12:44:05,977 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/master.zip: true
-2019-10-01 12:44:05,977 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src'.
-2019-10-01 12:44:06,020 INFO  FullProcessService - Size of directory with sources: 862 KB
-2019-10-01 12:44:06,020 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src]
-2019-10-01 12:44:06,053 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/.git/
+2019-10-04 14:58:31,254 INFO  DownloadService - Downloading "https://github.com/AzureAD/microsoft-authentication-library-for-android/archive/master.zip", attempt 3
+2019-10-04 14:58:33,641 INFO  DownloadService - Downloaded https://github.com/AzureAD/microsoft-authentication-library-for-android/archive/master.zip, attempt 3
+2019-10-04 14:58:33,642 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/master.zip": 364 KB
+2019-10-04 14:58:33,642 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-04 14:58:33,643 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/master.zip: true
+2019-10-04 14:58:33,643 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src'.
+2019-10-04 14:58:33,704 INFO  FullProcessService - Size of directory with sources: 862 KB
+2019-10-04 14:58:33,704 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src]
+2019-10-04 14:58:33,727 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/.git/
 
-2019-10-01 12:44:06,057 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/gradlew
-2019-10-01 12:44:06,062 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/msal/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/testapps/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/build.gradle
-2019-10-01 12:44:06,065 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/testapps/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/msal/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/msal/versioning/version_tasks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/gradle/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/settings.gradle
-2019-10-01 12:44:06,066 INFO  ProjectBuildService - Remote scripts: none
-2019-10-01 12:44:06,066 INFO  ProjectFixService - Fixing project...
-2019-10-01 12:44:06,078 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/msal/local.properties
-2019-10-01 12:44:06,081 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/msal/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
-2019-10-01 12:44:06,082 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/testapps/testapp/local.properties
-2019-10-01 12:44:06,085 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/testapps/testapp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
-2019-10-01 12:44:06,088 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/local.properties
-2019-10-01 12:44:06,089 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-10-01 12:44:06,089 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-10-01 12:44:06,092 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
-2019-10-01 12:44:06,092 INFO  ProjectFixService - Project was maybe fixed
-2019-10-01 12:44:06,092 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-01 12:44:06,093 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/msal/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-01 12:44:14,223 INFO  ProjectTaskService - Detected possible tasks: 109
-2019-10-01 12:44:14,223 INFO  ProjectTaskService - Excluded tasks (9): pmd deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
-2019-10-01 12:44:14,223 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/msal/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
-2019-10-01 12:44:21,042 ERROR SysUtils - Could not process external command
+2019-10-04 14:58:33,733 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/gradlew
+2019-10-04 14:58:33,739 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/msal/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/testapps/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/build.gradle
+2019-10-04 14:58:33,744 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/testapps/testapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/msal/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/msal/versioning/version_tasks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/gradle/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/settings.gradle
+2019-10-04 14:58:33,745 INFO  ProjectBuildService - Remote scripts: none
+2019-10-04 14:58:33,745 INFO  ProjectFixService - Fixing project...
+2019-10-04 14:58:33,762 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/msal/local.properties
+2019-10-04 14:58:33,767 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/msal/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2019-10-04 14:58:33,768 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/testapps/testapp/local.properties
+2019-10-04 14:58:33,773 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/testapps/testapp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2019-10-04 14:58:33,774 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/local.properties
+2019-10-04 14:58:33,774 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-10-04 14:58:33,774 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-10-04 14:58:33,779 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=27]
+2019-10-04 14:58:33,779 INFO  ProjectFixService - Project was maybe fixed
+2019-10-04 14:58:33,779 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-04 14:58:33,779 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/msal/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-04 14:58:43,444 INFO  ProjectTaskService - Detected possible tasks: 109
+2019-10-04 14:58:43,444 INFO  ProjectTaskService - Excluded tasks (9): pmd deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2019-10-04 14:58:43,444 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/msal/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2019-10-04 14:58:50,276 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +55,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-01 12:44:21,042 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-04 14:58:50,276 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :msal
 publishNonDefault is deprecated and has no effect anymore. All variants are now published.
@@ -63,8 +63,8 @@ publishNonDefault is deprecated and has no effect anymore. All variants are now 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Could not determine the dependencies of task ':msal:mergeLocalReleaseResources'.
-> Could not resolve all task dependencies for configuration ':msal:localReleaseRuntimeClasspath'.
+Could not determine the dependencies of task ':msal:compileLocalReleaseAidl'.
+> Could not resolve all task dependencies for configuration ':msal:localReleaseCompileClasspath'.
    > Could not resolve project :common.
      Required by:
          project :msal
@@ -74,7 +74,7 @@ Could not determine the dependencies of task ':msal:mergeLocalReleaseResources'.
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.internal.tasks.TaskDependencyResolveException: Could not determine the dependencies of task ':msal:mergeLocalReleaseResources'.
+org.gradle.api.internal.tasks.TaskDependencyResolveException: Could not determine the dependencies of task ':msal:compileLocalReleaseAidl'.
 	at org.gradle.api.internal.tasks.CachingTaskDependencyResolveContext.getDependencies(CachingTaskDependencyResolveContext.java:66)
 	at org.gradle.execution.taskgraph.TaskDependencyResolver.resolveDependenciesFor(TaskDependencyResolver.java:46)
 	at org.gradle.execution.taskgraph.LocalTaskInfo.getDependencies(LocalTaskInfo.java:89)
@@ -155,7 +155,7 @@ org.gradle.api.internal.tasks.TaskDependencyResolveException: Could not determin
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all task dependencies for configuration ':msal:localReleaseRuntimeClasspath'.
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all task dependencies for configuration ':msal:localReleaseCompileClasspath'.
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1054)
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1700(DefaultConfiguration.java:123)
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationTaskDependency.visitDependencies(DefaultConfiguration.java:1539)
@@ -196,12 +196,12 @@ See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:com
 
 BUILD FAILED in 6s
 
-2019-10-01 12:44:21,047 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-01 12:44:21,047 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/testapps/testapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-01 12:44:27,024 INFO  ProjectTaskService - Detected possible tasks: 90
-2019-10-01 12:44:27,024 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
-2019-10-01 12:44:27,024 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/testapps/testapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
-2019-10-01 12:44:33,866 ERROR SysUtils - Could not process external command
+2019-10-04 14:58:50,283 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-04 14:58:50,284 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/testapps/testapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-04 14:58:55,917 INFO  ProjectTaskService - Detected possible tasks: 90
+2019-10-04 14:58:55,917 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2019-10-04 14:58:55,917 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/testapps/testapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2019-10-04 14:59:02,885 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -229,7 +229,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-01 12:44:33,866 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-04 14:59:02,886 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :msal
 publishNonDefault is deprecated and has no effect anymore. All variants are now published.
@@ -237,8 +237,8 @@ publishNonDefault is deprecated and has no effect anymore. All variants are now 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Could not determine the dependencies of task ':testapps:testapp:compileLocalReleaseJavaWithJavac'.
-> Could not resolve all task dependencies for configuration ':testapps:testapp:localReleaseCompileClasspath'.
+Could not determine the dependencies of task ':testapps:testapp:preLocalReleaseBuild'.
+> Could not resolve all task dependencies for configuration ':testapps:testapp:localReleaseRuntimeClasspath'.
    > Could not resolve project :common.
      Required by:
          project :testapps:testapp > project :msal
@@ -248,7 +248,7 @@ Could not determine the dependencies of task ':testapps:testapp:compileLocalRele
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.internal.tasks.TaskDependencyResolveException: Could not determine the dependencies of task ':testapps:testapp:compileLocalReleaseJavaWithJavac'.
+org.gradle.api.internal.tasks.TaskDependencyResolveException: Could not determine the dependencies of task ':testapps:testapp:preLocalReleaseBuild'.
 	at org.gradle.api.internal.tasks.CachingTaskDependencyResolveContext.getDependencies(CachingTaskDependencyResolveContext.java:66)
 	at org.gradle.execution.taskgraph.TaskDependencyResolver.resolveDependenciesFor(TaskDependencyResolver.java:46)
 	at org.gradle.execution.taskgraph.LocalTaskInfo.getDependencies(LocalTaskInfo.java:89)
@@ -329,7 +329,7 @@ org.gradle.api.internal.tasks.TaskDependencyResolveException: Could not determin
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all task dependencies for configuration ':testapps:testapp:localReleaseCompileClasspath'.
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all task dependencies for configuration ':testapps:testapp:localReleaseRuntimeClasspath'.
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1054)
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1700(DefaultConfiguration.java:123)
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationTaskDependency.visitDependencies(DefaultConfiguration.java:1539)
@@ -364,18 +364,18 @@ Caused by: org.gradle.internal.component.NoMatchingConfigurationSelectionExcepti
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
-
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-10-01 12:44:33,872 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-01 12:44:33,873 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-01 12:44:41,141 INFO  ProjectTaskService - Detected possible tasks: 122
-2019-10-01 12:44:41,141 INFO  ProjectTaskService - Excluded tasks (9): pmd deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
-2019-10-01 12:44:41,141 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569908643774-0/src/microsoft-authentication-library-for-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
-2019-10-01 12:44:48,226 ERROR SysUtils - Could not process external command
+BUILD FAILED in 6s
+
+2019-10-04 14:59:02,892 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-04 14:59:02,893 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-04 14:59:10,747 INFO  ProjectTaskService - Detected possible tasks: 122
+2019-10-04 14:59:10,748 INFO  ProjectTaskService - Excluded tasks (9): pmd deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2019-10-04 14:59:10,748 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175911250-0/src/microsoft-authentication-library-for-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2019-10-04 14:59:18,286 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -403,7 +403,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-10-01 12:44:48,226 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-04 14:59:18,286 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :msal
 publishNonDefault is deprecated and has no effect anymore. All variants are now published.
@@ -411,8 +411,8 @@ publishNonDefault is deprecated and has no effect anymore. All variants are now 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Could not determine the dependencies of task ':msal:mergeLocalReleaseResources'.
-> Could not resolve all task dependencies for configuration ':msal:localReleaseRuntimeClasspath'.
+Could not determine the dependencies of task ':msal:compileLocalReleaseAidl'.
+> Could not resolve all task dependencies for configuration ':msal:localReleaseCompileClasspath'.
    > Could not resolve project :common.
      Required by:
          project :msal
@@ -422,7 +422,7 @@ Could not determine the dependencies of task ':msal:mergeLocalReleaseResources'.
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.internal.tasks.TaskDependencyResolveException: Could not determine the dependencies of task ':msal:mergeLocalReleaseResources'.
+org.gradle.api.internal.tasks.TaskDependencyResolveException: Could not determine the dependencies of task ':msal:compileLocalReleaseAidl'.
 	at org.gradle.api.internal.tasks.CachingTaskDependencyResolveContext.getDependencies(CachingTaskDependencyResolveContext.java:66)
 	at org.gradle.execution.taskgraph.TaskDependencyResolver.resolveDependenciesFor(TaskDependencyResolver.java:46)
 	at org.gradle.execution.taskgraph.LocalTaskInfo.getDependencies(LocalTaskInfo.java:89)
@@ -503,7 +503,7 @@ org.gradle.api.internal.tasks.TaskDependencyResolveException: Could not determin
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all task dependencies for configuration ':msal:localReleaseRuntimeClasspath'.
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all task dependencies for configuration ':msal:localReleaseCompileClasspath'.
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1054)
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1700(DefaultConfiguration.java:123)
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationTaskDependency.visitDependencies(DefaultConfiguration.java:1539)
@@ -542,7 +542,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 6s
+BUILD FAILED in 7s
 
-2019-10-01 12:44:48,233 ERROR FullProcessService - Project build has not produced APK file
-2019-10-01 12:44:48,238 ERROR FullProcessService - Could not find generated or existed APK file
+2019-10-04 14:59:18,292 ERROR FullProcessService - Project build has not produced APK file
+2019-10-04 14:59:18,297 ERROR FullProcessService - Could not find generated or existed APK file
