@@ -1,10 +1,21 @@
-2019-01-25 22:44:57,867 INFO  DownloadService - Downloading "https://github.com/tunjos/RxJava2-RxMarbles-Samples/archive/master.zip", attempt 3
-2019-01-25 22:45:00,069 INFO  DownloadService - Downloaded https://github.com/tunjos/RxJava2-RxMarbles-Samples/archive/master.zip, attempt 3
-2019-01-25 22:45:00,069 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548431097864-0/master.zip": 3 MB
-2019-01-25 22:45:00,069 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-25 22:45:00,076 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548431097864-0/master.zip: false
-2019-01-25 22:45:00,076 INFO  FullProcessService - Archive with sources does not contain any build script
-2019-01-25 22:45:00,076 ERROR FullProcessService - Could not find directory with sources
-2019-01-25 22:45:00,076 ERROR FullProcessService - Project will not be processed
-2019-01-25 22:45:00,076 ERROR FullProcessService - Project build has not produced APK file
-2019-01-25 22:45:00,077 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-06 21:55:38,300 INFO  DownloadService - Downloading "https://github.com/tunjos/RxJava2-RxMarbles-Samples/archive/master.zip", attempt 3
+2020-01-06 21:56:38,881 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-01-06 21:56:40,322 INFO  GithubDownloadService - Default branch of this repository: master
+2020-01-06 21:56:40,322 INFO  DownloadService - Downloading "https://github.com/tunjos/RxJava2-RxMarbles-Samples/archive/master.zip", attempt 3
+2020-01-06 21:57:41,682 DEBUG FullProcessService - Repository https://github.com/tunjos/RxJava2-RxMarbles-Samples available: true
+2020-01-06 21:57:41,682 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-01-06 21:57:41,682 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/tunjos/RxJava2-RxMarbles-Samples, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578322538297-0/src]
+2020-01-06 21:57:48,309 INFO  SysUtils - 
+2020-01-06 21:57:48,339 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578322538297-0/src/.git": true
+2020-01-06 21:57:48,341 INFO  FullProcessService - Size of directory with sources: 3 MB
+2020-01-06 21:57:48,341 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578322538297-0/src]
+2020-01-06 21:57:48,357 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578322538297-0/src/.git/
+
+2020-01-06 21:57:48,359 INFO  ProjectBuildService - Gradle wrapper(s): none
+2020-01-06 21:57:48,359 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2020-01-06 21:57:48,362 INFO  ProjectBuildService - Build script(s): none
+2020-01-06 21:57:48,364 INFO  ProjectBuildService - All script(s): none
+2020-01-06 21:57:48,364 INFO  ProjectBuildService - Remote scripts: none
+2020-01-06 21:57:48,364 ERROR FullProcessService - Project is not correct Gradle project
+2020-01-06 21:57:48,364 ERROR FullProcessService - Project build has not produced APK file
+2020-01-06 21:57:48,366 ERROR FullProcessService - Could not find generated or existed APK file
