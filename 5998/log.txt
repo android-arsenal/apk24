@@ -1,39 +1,36 @@
-2020-01-06 21:14:52,222 INFO  DownloadService - Downloading "https://github.com/menny/GradleVersion/archive/master.zip", attempt 3
-2020-01-06 21:15:12,198 INFO  VirusProcessorServiceImpl - Queued project 6000 to scan viruses
-2020-01-06 21:15:52,902 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-01-06 21:15:54,183 INFO  GithubDownloadService - Default branch of this repository: master
-2020-01-06 21:15:54,183 INFO  DownloadService - Downloading "https://github.com/menny/GradleVersion/archive/master.zip", attempt 3
-2020-01-06 21:16:55,808 DEBUG FullProcessService - Repository https://github.com/menny/GradleVersion available: true
-2020-01-06 21:16:55,808 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-01-06 21:16:55,808 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/menny/GradleVersion, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src]
-2020-01-06 21:16:57,812 INFO  SysUtils - 
-2020-01-06 21:16:57,832 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/.git": true
-2020-01-06 21:16:57,833 INFO  FullProcessService - Size of directory with sources: 114 KB
-2020-01-06 21:16:57,833 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src]
-2020-01-06 21:16:57,849 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/.git/
+2020-03-30 01:35:23,283 INFO  DownloadService - Downloading "https://github.com/menny/GradleVersion/archive/master.zip", attempt 3
+2020-03-30 01:35:23,904 INFO  DownloadService - Downloaded https://github.com/menny/GradleVersion/archive/master.zip, attempt 3
+2020-03-30 01:35:23,905 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/master.zip": 80 KB
+2020-03-30 01:35:23,905 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-30 01:35:23,910 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/master.zip: true
+2020-03-30 01:35:23,910 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src'.
+2020-03-30 01:35:23,924 INFO  FullProcessService - Size of directory with sources: 114 KB
+2020-03-30 01:35:23,924 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src]
+2020-03-30 01:35:23,948 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/.git/
 
-2020-01-06 21:16:57,851 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradlew
-2020-01-06 21:16:57,853 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/lib/build.gradle
-2020-01-06 21:16:57,854 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradle/maven-publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/settings.gradle
-2020-01-06 21:16:57,854 INFO  ProjectBuildService - Remote scripts: none
-2020-01-06 21:16:57,854 INFO  ProjectFixService - Fixing project...
-2020-01-06 21:16:57,858 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/local.properties
-2020-01-06 21:16:57,858 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.2-bin.zip
-2020-01-06 21:16:57,860 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-06 21:16:57,860 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-06 21:16:57,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradle-plugin/local.properties
-2020-01-06 21:16:57,862 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradle-plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-06 21:16:57,862 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradle-plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-06 21:16:57,863 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/lib/local.properties
-2020-01-06 21:16:57,864 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-01-06 21:16:57,864 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-01-06 21:16:57,864 INFO  ProjectFixService - Project was maybe fixed
-2020-01-06 21:16:57,864 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 21:16:57,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 21:17:04,741 INFO  ProjectTaskService - Detected possible tasks: 69
-2020-01-06 21:17:04,741 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2020-01-06 21:17:04,741 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2020-01-06 21:17:18,029 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.2/userguide/gradle_daemon.html.
+2020-03-30 01:35:23,950 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradlew
+2020-03-30 01:35:23,953 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/lib/build.gradle
+2020-03-30 01:35:23,955 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradle-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradle/maven-publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/settings.gradle
+2020-03-30 01:35:23,955 INFO  ProjectBuildService - Remote scripts: none
+2020-03-30 01:35:23,955 INFO  ProjectFixService - Fixing project...
+2020-03-30 01:35:23,961 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/local.properties
+2020-03-30 01:35:23,961 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.2-bin.zip
+2020-03-30 01:35:23,963 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-30 01:35:23,963 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-30 01:35:23,964 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradle-plugin/local.properties
+2020-03-30 01:35:23,966 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradle-plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-30 01:35:23,966 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradle-plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-30 01:35:23,967 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/lib/local.properties
+2020-03-30 01:35:23,969 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-30 01:35:23,969 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-30 01:35:23,970 INFO  ProjectFixService - Project was maybe fixed
+2020-03-30 01:35:23,970 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 01:35:23,970 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 01:35:31,483 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-03-30 01:35:31,484 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2020-03-30 01:35:31,484 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2020-03-30 01:35:43,267 INFO  VirusProcessorServiceImpl - Queued project 6000 to scan viruses
+2020-03-30 01:35:53,096 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.2/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -58,15 +55,15 @@ Version 0.2.1
 > Task :lib:assemble
 > Task :lib:build
 
-BUILD SUCCESSFUL in 12s
+BUILD SUCCESSFUL in 21s
 8 actionable tasks: 8 executed
 
-2020-01-06 21:17:18,036 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 21:17:18,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradle-plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 21:17:23,264 INFO  ProjectTaskService - Detected possible tasks: 68
-2020-01-06 21:17:23,264 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2020-01-06 21:17:23,265 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradle-plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2020-01-06 21:17:29,294 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.2/userguide/gradle_daemon.html.
+2020-03-30 01:35:53,109 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 01:35:53,109 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradle-plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 01:35:58,487 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-03-30 01:35:58,488 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2020-03-30 01:35:58,488 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradle-plugin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2020-03-30 01:36:04,551 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.2/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -92,12 +89,12 @@ Version 0.2.1
 BUILD SUCCESSFUL in 5s
 8 actionable tasks: 8 up-to-date
 
-2020-01-06 21:17:29,301 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 21:17:29,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 21:17:34,350 INFO  ProjectTaskService - Detected possible tasks: 54
-2020-01-06 21:17:34,350 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2020-01-06 21:17:34,350 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320092220-0/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2020-01-06 21:17:40,050 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.2/userguide/gradle_daemon.html.
+2020-03-30 01:36:04,560 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 01:36:04,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 01:36:09,903 INFO  ProjectTaskService - Detected possible tasks: 54
+2020-03-30 01:36:09,903 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2020-03-30 01:36:09,903 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585506923280-0/src/GradleVersion-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2020-03-30 01:36:15,876 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.2/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -116,5 +113,5 @@ Version 0.2.1
 BUILD SUCCESSFUL in 5s
 3 actionable tasks: 3 up-to-date
 
-2020-01-06 21:17:40,057 ERROR FullProcessService - Project build has not produced APK file
-2020-01-06 21:17:40,063 ERROR FullProcessService - Could not find generated or existed APK file
+2020-03-30 01:36:15,885 ERROR FullProcessService - Project build has not produced APK file
+2020-03-30 01:36:15,893 ERROR FullProcessService - Could not find generated or existed APK file
