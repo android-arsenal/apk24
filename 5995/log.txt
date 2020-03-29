@@ -1,37 +1,34 @@
-2020-01-06 21:21:11,281 INFO  DownloadService - Downloading "https://github.com/aliumujib/Orin/archive/master.zip", attempt 3
-2020-01-06 21:22:57,421 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-01-06 21:22:59,917 INFO  GithubDownloadService - Default branch of this repository: master
-2020-01-06 21:22:59,917 INFO  DownloadService - Downloading "https://github.com/aliumujib/Orin/archive/master.zip", attempt 3
-2020-01-06 21:24:01,542 DEBUG FullProcessService - Repository https://github.com/aliumujib/Orin available: true
-2020-01-06 21:24:01,542 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2020-01-06 21:24:01,542 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/aliumujib/Orin, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src]
-2020-01-06 21:25:03,983 INFO  SysUtils - 
-2020-01-06 21:25:03,996 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/.git": true
-2020-01-06 21:25:04,008 INFO  FullProcessService - Size of directory with sources: 16 MB
-2020-01-06 21:25:04,008 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src]
-2020-01-06 21:25:04,024 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/.git/
+2020-03-30 02:00:30,728 INFO  DownloadService - Downloading "https://github.com/aliumujib/Orin/archive/master.zip", attempt 3
+2020-03-30 02:00:34,970 INFO  DownloadService - Downloaded https://github.com/aliumujib/Orin/archive/master.zip, attempt 3
+2020-03-30 02:00:34,970 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/master.zip": 13 MB
+2020-03-30 02:00:34,970 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-30 02:00:34,973 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/master.zip: true
+2020-03-30 02:00:34,973 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src'.
+2020-03-30 02:00:35,209 INFO  FullProcessService - Size of directory with sources: 16 MB
+2020-03-30 02:00:35,209 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src]
+2020-03-30 02:00:35,228 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/.git/
 
-2020-01-06 21:25:04,033 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/gradlew
-2020-01-06 21:25:04,042 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/rcsections/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/build.gradle
-2020-01-06 21:25:04,050 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/rcsections/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/settings.gradle
-2020-01-06 21:25:04,050 INFO  ProjectBuildService - Remote scripts: none
-2020-01-06 21:25:04,050 INFO  ProjectFixService - Fixing project...
-2020-01-06 21:25:04,067 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/app/local.properties
-2020-01-06 21:25:04,068 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2020-01-06 21:25:04,068 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/rcsections/local.properties
-2020-01-06 21:25:04,068 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/rcsections/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=21]
-2020-01-06 21:25:04,068 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/local.properties
-2020-01-06 21:25:04,069 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-all.zip
-2020-01-06 21:25:04,069 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
-2020-01-06 21:25:04,069 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2020-01-06 21:25:04,069 INFO  ProjectFixService - Project was maybe fixed
-2020-01-06 21:25:04,070 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-06 21:25:04,070 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-06 21:25:27,550 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-06 21:25:27,550 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-06 21:25:27,550 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-06 21:25:27,550 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-06 21:25:32,481 ERROR SysUtils - Could not process external command
+2020-03-30 02:00:35,242 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/gradlew
+2020-03-30 02:00:35,256 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/rcsections/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/build.gradle
+2020-03-30 02:00:35,270 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/rcsections/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/settings.gradle
+2020-03-30 02:00:35,271 INFO  ProjectBuildService - Remote scripts: none
+2020-03-30 02:00:35,271 INFO  ProjectFixService - Fixing project...
+2020-03-30 02:00:35,300 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/app/local.properties
+2020-03-30 02:00:35,300 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2020-03-30 02:00:35,301 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/rcsections/local.properties
+2020-03-30 02:00:35,301 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/rcsections/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=21]
+2020-03-30 02:00:35,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/local.properties
+2020-03-30 02:00:35,303 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-all.zip
+2020-03-30 02:00:35,303 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
+2020-03-30 02:00:35,304 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2020-03-30 02:00:35,304 INFO  ProjectFixService - Project was maybe fixed
+2020-03-30 02:00:35,304 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 02:00:35,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 02:00:57,023 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-03-30 02:00:57,023 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-03-30 02:00:57,023 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-03-30 02:00:57,023 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-03-30 02:01:02,437 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,21 +41,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-06 21:25:32,481 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-30 02:01:02,437 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -197,11 +195,11 @@ Searched in the following locations:
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy21.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 80 more
 
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2020-01-06 21:25:32,493 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578320471278-0/src/apk/app-debug.apk
+2020-03-30 02:01:02,455 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585508430724-0/src/Orin-master/apk/app-debug.apk
