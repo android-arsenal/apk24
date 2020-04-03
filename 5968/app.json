@@ -5,6 +5,14 @@
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
     "versionName" : "1.0",
     "versionCode" : 1,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "16",
     "targetSdkVersion" : "25",
@@ -26,7 +34,9 @@
       "name" : "android.hardware.camera.autofocus",
       "required" : false
     } ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -40,5 +50,5 @@
   "fileSize" : 15736200,
   "crc32" : 2255047,
   "sha256" : "84a16094b046818e23ad00e9bb65586505acf71f72080464aed6aab5213545a2",
-  "buildTime" : 1552737161000
+  "buildTime" : 1585929021000
 }

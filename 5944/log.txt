@@ -1,9 +1,351 @@
-2020-01-07 10:30:04,081 INFO  DownloadService - Downloading "https://github.com/Shahroz16/material-searchview/archive/master.zip", attempt 3
-2020-01-07 10:30:04,081 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2020-01-07 10:30:04,083 INFO  GithubDownloadService - Default branch of this repository: null
-2020-01-07 10:30:04,085 ERROR GithubDownloadService - Could not detect default branch for Github repository
-2020-01-07 10:30:04,085 DEBUG FullProcessService - Repository https://github.com/Shahroz16/material-searchview available: false
-2020-01-07 10:30:04,086 ERROR FullProcessService - Could not find directory with sources
-2020-01-07 10:30:04,086 ERROR FullProcessService - Project will not be processed
-2020-01-07 10:30:04,086 ERROR FullProcessService - Project build has not produced APK file
-2020-01-07 10:30:04,086 ERROR FullProcessService - Could not find generated or existed APK file
+2020-04-03 22:54:59,759 INFO  DownloadService - Downloading "https://github.com/Shahroz16/material-searchview/archive/master.zip", attempt 3
+2020-04-03 22:55:00,792 INFO  DownloadService - Downloaded https://github.com/Shahroz16/material-searchview/archive/master.zip, attempt 3
+2020-04-03 22:55:00,793 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/master.zip": 126 KB
+2020-04-03 22:55:00,793 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-04-03 22:55:00,798 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/master.zip: true
+2020-04-03 22:55:00,798 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src'.
+2020-04-03 22:55:00,840 INFO  FullProcessService - Size of directory with sources: 150 KB
+2020-04-03 22:55:00,840 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src]
+2020-04-03 22:55:00,861 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/.git/
+
+2020-04-03 22:55:00,865 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/gradlew
+2020-04-03 22:55:00,869 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/build.gradle
+2020-04-03 22:55:00,873 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/settings.gradle
+2020-04-03 22:55:00,873 INFO  ProjectBuildService - Remote scripts: none
+2020-04-03 22:55:00,873 INFO  ProjectFixService - Fixing project...
+2020-04-03 22:55:00,883 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/app/local.properties
+2020-04-03 22:55:00,883 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2020-04-03 22:55:00,884 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/library/local.properties
+2020-04-03 22:55:00,884 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2020-04-03 22:55:00,885 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/local.properties
+2020-04-03 22:55:00,885 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2020-04-03 22:55:00,885 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2020-04-03 22:55:00,886 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2020-04-03 22:55:00,886 INFO  ProjectFixService - Project was maybe fixed
+2020-04-03 22:55:00,886 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-03 22:55:00,887 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-03 22:55:20,816 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-04-03 22:55:20,816 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-03 22:55:20,817 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-03 23:00:21,217 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 143 (Exit value: 143)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:42)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:114)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-04-03 23:00:21,217 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:checkReleaseManifest
+:library:preDebugAndroidTestBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:preDebugUnitTestBuild UP-TO-DATE
+:library:preReleaseUnitTestBuild UP-TO-DATE
+:library:prepareComAndroidSupportAppcompatV72311Library
+:library:prepareComAndroidSupportCardviewV72311Library
+:library:prepareComAndroidSupportDesign2311Library
+:library:prepareComAndroidSupportRecyclerviewV72311Library
+:library:prepareComAndroidSupportSupportV42311Library
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseAssets UP-TO-DATE
+:library:mergeReleaseAssets
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:mergeReleaseResourcesjava.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+Thread(png-cruncher_4) has a null payload
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_5) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_3) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_1) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_2) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_6) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_7) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_11) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_9) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_10) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_8) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_15) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_14) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_12) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+Thread(png-cruncher_13) has a null payload
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_19) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_17) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_20) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_16) has a null payload
+java.io.IOException: Cannot run program "/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/aapt": error=86, Bad CPU type in executable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.android.builder.png.AaptProcess$Builder.start(AaptProcess.java:163)
+	at com.android.builder.png.QueuedCruncher$1.creation(QueuedCruncher.java:106)
+	at com.android.builder.tasks.WorkQueue.run(WorkQueue.java:203)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: error=86, Bad CPU type in executable
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 4 more
+Thread(png-cruncher_18) has a null payload
+
+2020-04-03 23:00:21,261 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-03 23:00:21,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-03 23:00:26,403 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-04-03 23:00:26,404 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-04-03 23:00:26,404 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-04-03 23:00:26,404 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585929299756-0/src/material-searchview-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
